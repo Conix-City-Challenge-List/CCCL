@@ -102,10 +102,10 @@ export default {
                         Level must be beaten legitametly with no hacks (FPS bypass is allowed, up to 480 fps)
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        Record acheived must be levels that are listed on the site - please check the level ID before you submit a record
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio does not count
+                        Completion must have clicks clearly audible in the video. (Mobile players are exempt from this rule but they should have taps preferably.)
                     </p>
                     <p>
                         The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt.
@@ -115,9 +115,6 @@ export default {
                     </p>
                     <p>
                         Do not use secret routes or bug routes.
-                    </p>
-                    <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
                     </p>
                 </div>
             </div>
