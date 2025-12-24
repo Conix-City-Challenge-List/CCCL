@@ -83,6 +83,10 @@ export default {
             <div class="meta-container">
                 <div class="meta">
                     <div class="errors" v-show="errors.length > 0">
+                     </div>
+                    <div class="og">
+                        <p class="type-label-md">Website layout made by <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a></p>
+                    </div>
                         <p class="error" v-for="error of errors">{{ error }}</p>  
                     <template v-if="editors">
                         <h3>List Editors</h3>
