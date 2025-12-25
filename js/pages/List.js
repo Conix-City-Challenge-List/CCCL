@@ -99,17 +99,17 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Level must be beaten legitametly with no hacks (FPS bypass is allowed, up to 480 fps)
+                        Level must be beaten legitametly with no hacks (FPS bypass is allowed, up to 480 fps).
                     </p>
                     <p>
                     
                     Level MUST be less than 30 seconds long. No longer. If It is longer than 30 seconds it will not be accepted on the list.
                     </p>
                     <p>
-                        Records acheived must be levels that are listed on the site - please check the level ID before you submit a record
+                        Records acheived must be levels that are listed on the site - please check the level ID before you submit a record.
                     </p>
                     <p>
-                        Completion must have clicks clearly audible in the video. (Mobile players are exempt from this rule but they should referably have taps.)
+                        Completion must have clicks clearly audible in the video. (Mobile players are exempt from this rule but they should preferably have taps.)
                     </p>
                     <p>
                         The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt.
