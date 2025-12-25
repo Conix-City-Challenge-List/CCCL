@@ -8,12 +8,15 @@
     "percentToQualify": 100,
     "password": "Not Copyable",
     "records": [
-       { 
+        { 
             "user": "lucasokc",
             "link": "https://www.youtube.com/watch?v=JxOx7Rop7qk",
             "percent": 100,
             "hz":240
-
+           
+         },
+          {
+             
            "user": "K1tty",
             "link": "https://www.youtube.com/watch?v=mrZismuswYs",
             "percent": 100,
