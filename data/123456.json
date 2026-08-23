@@ -1,0 +1,14 @@
+{
+  "id": "123456",
+  "name": "Duckly Goat",
+  "creators": [
+    "Duckly"
+  ],
+  "verifier": "Duckly",
+  "song": "Creo",
+  "link": "https://www.youtube.com/@zDuckly",
+  "enjoyment": 10,
+  "difficulty": 10,
+  "difficultyName": "Silent",
+  "records": []
+}
