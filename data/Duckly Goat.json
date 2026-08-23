@@ -1,0 +1,14 @@
+{
+  "id": "123456",
+  "name": "Duckly Goat",
+  "creators": [
+    "Duckly"
+  ],
+  "verifier": "Duckly",
+  "song": "Sonic Blaster",
+  "link": "https://youtu.be/H3_4iy8Sy1w",
+  "enjoyment": 10,
+  "difficulty": 10,
+  "difficultyName": "Silent",
+  "records": []
+}
