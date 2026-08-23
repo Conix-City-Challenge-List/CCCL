@@ -1,27 +1,4 @@
 [		
-		{
-		"name": "Masterful Series Pack",
-		"difficulty": 7,
-		"levels": [
-			"Masterful 4ercision",
-			"Masterful 3ercision",
-			"Masterful 2ercision"
-		]
-			},
-		{
-		"name": "Thinking Space Pack",
-		"difficulty": 7,
-		"levels": [
-			"Thinking Space VIII",
-			"Thinking space VII",
-			"Thinking Space VI"
-		]
-			},
-	{
-		"name": "Mythical Pack",
-		"difficulty": 5
-		
-	},
 	{
 		"name": "Hard Pack",
 		"difficulty": 3
@@ -29,6 +6,10 @@
 	{
 		"name": "Insane Pack",
 		"difficulty": 4
+	},
+	{
+		"name": "Mythical Pack",
+		"difficulty": 5
 	},
 	{
 		"name": "Extreme Pack",
