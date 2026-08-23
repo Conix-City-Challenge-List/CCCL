@@ -1,17 +1,22 @@
 {
-	"id": 130496328,
-	"name": "Thinking Space VIII",
-	"creators": [
-		"cookie"
-	],
-	"verifier": "cookie",
-	"verification": "https://youtu.be/FnhWHeg_Jus?si=6mHSny3ePQzdU1Qt",
-	"percentToQualify": 100,
-	"song": "Maeloux - Nuke Powder",
-	"enjoyment": 5,
-	"difficulty": 10,
-	"records": [
-
-		
-	]
+  "id": 130496328,
+  "name": "Thinking Space VIII",
+  "creators": [
+    "cookie"
+  ],
+  "verifier": "cookie",
+  "verification": "https://youtu.be/FnhWHeg_Jus?si=6mHSny3ePQzdU1Qt",
+  "percentToQualify": 100,
+  "song": "Maeloux - Nuke Powder",
+  "enjoyment": 5,
+  "difficulty": 10,
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://www.youtube.com/",
+      "percent": 100,
+      "hz": 144,
+      "enjoyment": 10
+    }
+  ]
 }
