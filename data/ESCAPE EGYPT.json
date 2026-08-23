@@ -1,17 +1,22 @@
 {
-	"id": 130135797,
-	"name": "ESCAPE EGYPT",
-	"creators": [
-		"LCold"
-	],
-	"verifier": "LCold",
-	"verification": "https://youtu.be/H1-6eN5vrAI",
-	"percentToQualify": 100,
-	"song": "Solar Wind - Jumper",
-	"enjoyment": 10,
-	"difficulty": 10,
-	"records": [
-
-		
-	]
+  "id": 130135797,
+  "name": "ESCAPE EGYPT",
+  "creators": [
+    "LCold"
+  ],
+  "verifier": "LCold",
+  "verification": "https://youtu.be/H1-6eN5vrAI",
+  "percentToQualify": 100,
+  "song": "Solar Wind - Jumper",
+  "enjoyment": 10,
+  "difficulty": 10,
+  "records": [
+    {
+      "user": "cookie",
+      "link": "https://youtu.be/H3_4iy8Sy1w",
+      "percent": 100,
+      "hz": 100,
+      "enjoyment": 10
+    }
+  ]
 }
