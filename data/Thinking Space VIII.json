@@ -24,6 +24,13 @@
       "percent": 100,
       "hz": 120,
       "enjoyment": 10
+    },
+    {
+      "user": "zDuckly",
+      "link": "youtube.com",
+      "percent": 100,
+      "hz": 144,
+      "enjoyment": 10
     }
   ]
 }
