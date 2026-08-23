@@ -1,0 +1,14 @@
+{
+  "id": 12345,
+  "name": "Duckly Challenge 2",
+  "creators": [
+    "Duckly"
+  ],
+  "verifier": "Duckly",
+  "verification": "youtube.com",
+  "percentToQualify": 100,
+  "song": "Sonic Blaster",
+  "difficulty": 10,
+  "enjoyment": 10,
+  "records": []
+}
