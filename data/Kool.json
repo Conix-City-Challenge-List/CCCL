@@ -10,5 +10,13 @@
   "song": "NH22-Isolation",
   "difficulty": 2,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "SkepticalTG",
+      "link": "https://youtu.be/HtISTzZAVlI",
+      "percent": 100,
+      "hz": 144,
+      "enjoyment": 1
+    }
+  ]
 }
