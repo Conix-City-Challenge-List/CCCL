@@ -2,6 +2,7 @@ export default {
     template: `
         <h3>Record Submission Requirements</h3>
         <div class="right-text">
+        
             <p>
                 1. You must have achieved the record without using hacks (including hacks that change the physics of the game, ie. physics bypass via MegaHack. Note that Click Between Frames is allowed but Physics Bypass is banned.).
             </p>
