@@ -73,32 +73,32 @@ export function score(rank, difficulty, percent, minPercent, list) {
             case 1: // If the value of difficulty is 1, do the following:
 
                 /* Easy Tier */
-                minScore = 7.1;
-                maxScore = 13;
+                minScore = 10;
+                maxScore = 30;
                 break;
             case 2: // etc.
 
                 /* Medium Tier */
-                minScore = 13.1;
+                minScore = 35;
                 maxScore = 75;
                 break;
             case 3:
 
                 /* Hard Tier */
                 minScore = 90;
-                maxScore = 110;
+                maxScore = 130;
                 break;
             case 4:
 
                 /* Insane Tier */
-                minScore = 130;
-                maxScore = 190;
+                minScore = 135;
+                maxScore = 200;
                 break;
             case 5:
 
                 /* Mythical Tier */
-                minScore = 87.1;
-                maxScore = scoreDivider;
+                minScore = 210;
+                maxScore = 280;
                 break;
             default: // If none of the other cases are met, resort to this:
 
