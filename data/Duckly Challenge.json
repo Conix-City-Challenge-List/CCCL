@@ -10,5 +10,13 @@
   "song": "At The Speed of Light",
   "difficulty": 1,
   "enjoyment": 10,
-  "records": []
+  "records": [
+    {
+      "user": "SkepticalTG",
+      "link": "https://youtu.be/KasYKezXa9E",
+      "percent": 100,
+      "hz": 144,
+      "enjoyment": 5
+    }
+  ]
 }
