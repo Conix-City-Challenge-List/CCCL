@@ -19,7 +19,7 @@ export default {
                 5. The recording must have a previous attempt and death animation shown before the completion, unless the completion is on the first attempt.
             </p>
              <p>
-                6. Max CPS Limit of 12 CPS.
+                6. Challenges cannot be entirely spam based, (e.g alternation challenges or extremely high CPS spam). Spam Sections in challenges are allowed thought with a MAX of 15 CPS.
             </p>
             <p>
                 7. The recording must also show the player hit the endwall and the endscreen must be shown or the completion will be invalidated.
