@@ -10,5 +10,13 @@
   "song": "Teminite - Break Free",
   "difficulty": 8,
   "enjoyment": 6,
-  "records": []
+  "records": [
+    {
+      "user": "BlueMaster256",
+      "link": "https://youtu.be/0XZV8Ieouh4",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 7
+    }
+  ]
 }
