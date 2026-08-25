@@ -10,5 +10,13 @@
   "song": "The Living Tombstone - I Cant Fix You",
   "difficulty": 4,
   "enjoyment": 10,
-  "records": []
+  "records": [
+    {
+      "user": "imbetter17365",
+      "link": "https://youtu.be/CI8l4ukMUK0",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 9
+    }
+  ]
 }
