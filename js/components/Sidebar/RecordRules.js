@@ -18,17 +18,20 @@ export default {
             <p>
                 5. The recording must have a previous attempt and death animation shown before the completion, unless the completion is on the first attempt.
             </p>
-            <p>
-                6. The recording must also show the player hit the endwall and the endscreen must be shown or the completion will be invalidated.
+             <p>
+                6. Max CPS Limit of 12 CPS.
             </p>
             <p>
-                7. Challenges that are just copied parts of an existing level are not allowed and won't be accepted. You can take inspiration from other levels but a straight up copied part is not allowed.
+                7. The recording must also show the player hit the endwall and the endscreen must be shown or the completion will be invalidated.
             </p>
             <p>
-                8. Do not use secret routes, skips, or bug routes!
+                8. Challenges that are just copied parts of an existing level are not allowed and won't be accepted. You can take inspiration from other levels but a straight up copied part is not allowed.
             </p>
             <p>
-                9. Cheat Indicator is required for all completions via MegaHack, Geode, or iCreate Pro. If you do not have Cheat Indicator on, your record will likely be invalidated (this is not 100% required for mobile as of yet due to mobile limitations).
+                9. Do not use secret routes, skips, or bug routes!
+            </p>
+            <p>
+                10. Cheat Indicator is required for all completions via MegaHack, Geode, or iCreate Pro. If you do not have Cheat Indicator on, your record will likely be invalidated (this is not 100% required for mobile as of yet due to mobile limitations).
             </p>
         </div>
     `
