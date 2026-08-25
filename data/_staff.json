@@ -15,7 +15,7 @@
         "link": "https://www.youtube.com/@gddinesla"
     },
        {
-        "role": "helper",
+        "role": "admin",
         "name": "Shiver",
         "link": "https://www.youtube.com/channel/UCgheYORDhkw4hxBSn8HLuRg"     
     },
@@ -24,5 +24,15 @@
         "role": "helper",
         "name": "fede",
         "link": "https://www.youtube.com/@ffedee_e"  
+    }
+   {
+        "role": "helper",
+        "name": "vipexx",
+        "link": "https://www.youtube.com/@vipexx_1"  
+    },
+   {
+        "role": "helper",
+        "name": "Garri",
+        "link": "https://www.youtube.com/@Garri_YT"  
     }
   ] 
