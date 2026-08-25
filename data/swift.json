@@ -10,5 +10,13 @@
   "song": "-stalker-",
   "difficulty": 1,
   "enjoyment": 0,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/hydWGedb5cY",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 2
+    }
+  ]
 }
