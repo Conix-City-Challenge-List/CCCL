@@ -10,5 +10,13 @@
   "song": "the beast i worship",
   "difficulty": 1,
   "enjoyment": 4,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/7a1sThsTsVA",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 0
+    }
+  ]
 }
