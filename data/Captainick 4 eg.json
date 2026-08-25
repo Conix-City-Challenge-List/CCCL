@@ -10,5 +10,13 @@
   "song": "Nostalgia.",
   "difficulty": 2,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/YraSxpg2ctU",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
+    }
+  ]
 }
