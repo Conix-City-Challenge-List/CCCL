@@ -10,5 +10,13 @@
   "song": "Arctic Monkey - 505",
   "difficulty": 6,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "SkepticalTG",
+      "link": "https://youtu.be/2wDem4vRyzM",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
+    }
+  ]
 }
