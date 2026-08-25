@@ -10,5 +10,13 @@
   "song": "dimension - hyperdemented",
   "difficulty": 6,
   "enjoyment": 2,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/r4_1VGgE6T8",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
+    }
+  ]
 }
