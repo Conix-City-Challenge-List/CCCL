@@ -10,5 +10,13 @@
   "song": "Pimp Slap",
   "difficulty": 5,
   "enjoyment": 0,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/DfZnxClnKog",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 1
+    }
+  ]
 }
