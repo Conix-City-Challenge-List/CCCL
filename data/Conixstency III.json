@@ -10,5 +10,13 @@
   "song": "Andy - Skrillex",
   "difficulty": 8,
   "enjoyment": 6.7,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/gUdm8Kqf_A8",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 0
+    }
+  ]
 }
