@@ -10,5 +10,13 @@
   "song": "fog by hypercuberecords",
   "difficulty": 7,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "SkepticalTG",
+      "link": "https://youtu.be/yaWEsI2tY2Y",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
+    }
+  ]
 }
