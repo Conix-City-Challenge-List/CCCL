@@ -10,5 +10,13 @@
   "song": "Creo - Flow",
   "difficulty": 10,
   "enjoyment": 4,
-  "records": []
+  "records": [
+    {
+      "user": "BlueMaster256",
+      "link": "https://www.youtube.com/watch?v=HRQKrCJnMoU",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 6
+    }
+  ]
 }
