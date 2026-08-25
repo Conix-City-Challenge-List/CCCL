@@ -11,5 +11,13 @@
   "song": "620959",
   "difficulty": 8,
   "enjoyment": 3,
-  "records": []
+  "records": [
+    {
+      "user": "BlueMaster256",
+      "link": "https://www.youtube.com/watch?v=F3OGO3zOGMk",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 1
+    }
+  ]
 }
