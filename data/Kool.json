@@ -38,6 +38,13 @@
       "percent": 100,
       "hz": 360,
       "enjoyment": 5
+    },
+    {
+      "user": "BlueMaster256",
+      "link": "https://www.youtube.com/watch?v=K_rEBwwwiow",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 6
     }
   ]
 }
