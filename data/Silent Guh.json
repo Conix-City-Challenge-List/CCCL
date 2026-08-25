@@ -10,5 +10,13 @@
   "song": "490203",
   "difficulty": 6,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "SkepticalTG",
+      "link": "https://www.youtube.com/watch?v=MzjAsGuHzrY",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
+    }
+  ]
 }
