@@ -10,5 +10,13 @@
   "song": "F-777 - Sonic Blaster",
   "difficulty": 2,
   "enjoyment": 5,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/KwBU01iTKBE",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
+    }
+  ]
 }
