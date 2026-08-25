@@ -10,5 +10,13 @@
   "song": "solar wind by jumper",
   "difficulty": 2,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "aykay",
+      "link": "https://youtu.be/W6KHNWW1oTI?si=IAyjoT0b5FH7V5eq",
+      "percent": 100,
+      "hz": 144,
+      "enjoyment": 8
+    }
+  ]
 }
