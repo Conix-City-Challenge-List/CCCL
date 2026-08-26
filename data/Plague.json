@@ -10,5 +10,13 @@
   "song": "Death Moon",
   "difficulty": 5,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://medal.tv/games/geometry-dash/clips/noM4qtOnqQ27Xy_vu?invite=cr-MSw3cnUsNDkxOTczMDE2",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 7
+    }
+  ]
 }
