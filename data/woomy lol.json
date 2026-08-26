@@ -192,6 +192,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 10
+    },
+    {
+      "user": "jeenyus",
+      "link": "https://youtu.be/0NGblJWl4GQ?is=h2vjh7lucWEMDOhx",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 0.01
     }
   ]
 }
