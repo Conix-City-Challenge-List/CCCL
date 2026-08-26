@@ -3,7 +3,7 @@ export default {
         <h3>Difficulty Rankings</h3>
         <div class="right-text">
             <p>
-                Legendary Packs = Packs with levels from the supreme tier and above (200 points)
+                Legendary Packs = Packs with levels from the supreme tier and above (500 points)
             </p>
             <p>
                 Extreme Packs = Packs with levels from the extreme tier (250 points)
