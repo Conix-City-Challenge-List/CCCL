@@ -10,5 +10,13 @@
   "song": "482872",
   "difficulty": 3,
   "enjoyment": 6,
-  "records": []
+  "records": [
+    {
+      "user": "uDaririn",
+      "link": "https://youtu.be/Zaimd-cm08I",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 1
+    }
+  ]
 }
