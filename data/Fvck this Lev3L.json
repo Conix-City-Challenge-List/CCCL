@@ -10,5 +10,13 @@
   "song": "Flow - Creo",
   "difficulty": 4,
   "enjoyment": 0,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/Luyyu61FcdY",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
+    }
+  ]
 }
