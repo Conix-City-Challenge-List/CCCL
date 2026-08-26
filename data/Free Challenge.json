@@ -94,6 +94,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 3.5
+    },
+    {
+      "user": "Brian_Cheese",
+      "link": "https://www.twitch.tv/brian_cheese/clip/ShakingDeadFerretWTRuck-xibqdZD-CEWpTKme?range=7d",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 3
     }
   ]
 }
