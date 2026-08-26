@@ -10,5 +10,14 @@
   "song": "~NK~ Figures",
   "difficulty": 10,
   "enjoyment": 1,
-  "records": []
+  "records": [
+
+        {
+      "user": "conix",
+      "link": "https://drive.google.com/file/d/1US8PNsi-E5WzsBdgl5qom005MLJLSh4P/view?usp=sharing",
+      "percent": 100,
+      "hz": 960,
+      "enjoyment": 8
+    }
+  ]
 }
