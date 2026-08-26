@@ -10,5 +10,13 @@
   "song": "~NK~ 'TruthOrDare featJrounds' ",
   "difficulty": 5,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "kulerkas",
+      "link": "https://youtu.be/xqdCdbbJjgk",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 8
+    }
+  ]
 }
