@@ -38,6 +38,13 @@
       "percent": 100,
       "hz": 360,
       "enjoyment": 5.5
+    },
+    {
+      "user": "kulerkas",
+      "link": "https://youtu.be/hxngSbB8DkA",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 10
     }
   ]
 }
