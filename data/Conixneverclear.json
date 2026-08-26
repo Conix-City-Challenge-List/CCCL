@@ -10,5 +10,13 @@
   "song": "-Final Battle-",
   "difficulty": 4,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "K1tty",
+      "link": "https://www.youtube.com/watch?v=8hTGZUIxguk",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 5.5
+    }
+  ]
 }
