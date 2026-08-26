@@ -10,5 +10,13 @@
   "song": "cYsmix - Eden",
   "difficulty": 2,
   "enjoyment": 1,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/mLGHpEMpOWA",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
+    }
+  ]
 }
