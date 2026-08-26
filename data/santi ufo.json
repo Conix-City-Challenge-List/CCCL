@@ -10,5 +10,13 @@
   "song": "Creo - Idolize",
   "difficulty": 1,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "uDaririn",
+      "link": "https://youtu.be/qqhcKA4Hdws?si=tmjGTH7hoavYFcE7",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 8
+    }
+  ]
 }
