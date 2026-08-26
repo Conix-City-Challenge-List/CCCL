@@ -11,13 +11,19 @@
   "difficulty": 10,
   "enjoyment": 1,
   "records": [
-
-        {
+    {
       "user": "conix",
       "link": "https://drive.google.com/file/d/1US8PNsi-E5WzsBdgl5qom005MLJLSh4P/view?usp=sharing",
       "percent": 100,
       "hz": 960,
       "enjoyment": 8
+    },
+    {
+      "user": "Brian_Cheese",
+      "link": "https://www.twitch.tv/brian_cheese/clip/VictoriousOilyWoodcockSpicyBoy-Gj6a2t8Nu12WmyO2?range=30d",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 0
     }
   ]
 }
