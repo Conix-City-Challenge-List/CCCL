@@ -10,5 +10,13 @@
   "song": "Helblinde - Solace of Oblivion",
   "difficulty": 10,
   "enjoyment": 0,
-  "records": []
+  "records": [
+    {
+      "user": "Brian_Cheese",
+      "link": "https://www.twitch.tv/brian_cheese/clip/SmilingOddWatercressTBTacoLeft-S5msIzvJU2arLJaV?range=30d",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
+    }
+  ]
 }
