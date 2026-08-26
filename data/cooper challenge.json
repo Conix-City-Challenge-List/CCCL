@@ -10,5 +10,13 @@
   "song": "danque - boomkitty",
   "difficulty": 8,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "Reflex geo",
+      "link": "https://youtu.be/F_bWofy3Jkc",
+      "percent": 100,
+      "hz": 300,
+      "enjoyment": 8
+    }
+  ]
 }
