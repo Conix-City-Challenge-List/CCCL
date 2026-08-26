@@ -18,12 +18,19 @@
       "hz": 240,
       "enjoyment": 0
     },
-      {
+    {
       "user": "conix",
       "link": "https://drive.google.com/file/d/1PaFrP10RG38bRQX1jHgehXryfiaxPjAb/view?usp=sharing",
       "percent": 100,
       "hz": 240,
       "enjoyment": 4
+    },
+    {
+      "user": "Brian_Cheese",
+      "link": "https://drive.google.com/file/d/1ksD1tJmx4iNijjdHJRT-5I71ze_wD7ad/view?usp=sharing",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
     }
   ]
 }
