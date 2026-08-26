@@ -33,6 +33,9 @@ export default {
             <p>
                 10. Cheat Indicator is required for all completions via MegaHack, Geode, or iCreate Pro. If you do not have Cheat Indicator on, your record will likely be invalidated (this is not 100% required for mobile as of yet due to mobile limitations).
             </p>
+            <p>
+                11. To submit a new challenge you MUST be at least level 10 on the discord sever. You can still submit records of levels if you are not level 10.
+            </p>
         </div>
     `
 }
