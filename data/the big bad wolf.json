@@ -10,5 +10,13 @@
   "song": "stereo madness",
   "difficulty": 1,
   "enjoyment": 10,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/9iySQSkpLH0",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
+    }
+  ]
 }
