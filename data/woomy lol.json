@@ -234,6 +234,13 @@
       "percent": 100,
       "hz": 300,
       "enjoyment": 10
+    },
+    {
+      "user": "pseudodragon",
+      "link": "https://www.youtube.com/watch?v=fAcD5DhGT6M",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
     }
   ]
 }
