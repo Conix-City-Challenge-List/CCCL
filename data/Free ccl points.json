@@ -10,5 +10,13 @@
   "song": "Xo (Eden cover and remake)",
   "difficulty": 3,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/k0FIbs-C6Hw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6.7
+    }
+  ]
 }
