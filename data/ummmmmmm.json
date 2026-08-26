@@ -10,5 +10,13 @@
   "song": "Creo - Endless",
   "difficulty": 5,
   "enjoyment": 7.5,
-  "records": []
+  "records": [
+    {
+      "user": "okbro129_",
+      "link": "https://youtu.be/KY-Eyxk-5OA?si=IUQAX2sz_0RoiBO7",
+      "percent": 100,
+      "hz": 144,
+      "enjoyment": 8
+    }
+  ]
 }
