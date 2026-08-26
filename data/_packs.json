@@ -19,5 +19,13 @@
 		"name": "Legendary Pack",
 		"difficulty": 7
 	}
+	{
+		"name": "Confused? Pack",
+		"difficulty": 4
+		"levels": [
+			"uhhhhhhh",
+			"ummmmmmm",
+			"uhhhmmmm"
+	},
 			
 ]
