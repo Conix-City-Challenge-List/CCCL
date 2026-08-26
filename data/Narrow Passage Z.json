@@ -10,5 +10,13 @@
   "song": "1330418",
   "difficulty": 3,
   "enjoyment": 5,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://medal.tv/games/geometry-dash/clips/noBdrnk1yFc_PoT0u?invite=cr-MSxKZnAsNjczOTMwMDUw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
+    }
+  ]
 }
