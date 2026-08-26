@@ -164,6 +164,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 8
+    },
+    {
+      "user": "Brian_Cheese",
+      "link": "https://www.twitch.tv/brian_cheese/clip/BoringVainBorkAMPTropPunch-OrtOjGA-rY0BqdO1?range=7d",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
     }
   ]
 }
