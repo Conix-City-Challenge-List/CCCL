@@ -31,6 +31,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 2
+    },
+    {
+      "user": "Brian_Cheese",
+      "link": "https://www.twitch.tv/brian_cheese/clip/TenaciousDignifiedTrollKappa-HytZFo7isZ3UaTHd?range=30d",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
     }
   ]
 }
