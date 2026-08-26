@@ -10,5 +10,13 @@
   "song": "creo - drift",
   "difficulty": 6,
   "enjoyment": 3,
-  "records": []
+  "records": [
+    {
+      "user": "BlueGamer",
+      "link": "https://youtu.be/f49heENZfH8",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 5
+    }
+  ]
 }
