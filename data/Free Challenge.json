@@ -10,5 +10,13 @@
   "song": "-stalker-",
   "difficulty": 2,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "BadPiggieGMD",
+      "link": "https://medal.tv/games/geometry-dash/clips/noBGsjBli7cX3TQk9?invite=cr-MSx3V2UsNjQ0MzMzOTcz",
+      "percent": 100,
+      "hz": 160,
+      "enjoyment": 5
+    }
+  ]
 }
