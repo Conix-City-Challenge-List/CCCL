@@ -115,6 +115,13 @@
       "percent": 100,
       "hz": 350,
       "enjoyment": 2
+    },
+    {
+      "user": "Brian_Cheese",
+      "link": "https://www.twitch.tv/brian_cheese/clip/MuddyBrightPonyEagleEye-S1TJnHp1_WI5d8xG?range=7d",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
     }
   ]
 }
