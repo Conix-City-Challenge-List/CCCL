@@ -45,6 +45,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 1
+    },
+    {
+      "user": "TrainWave",
+      "link": "https://youtu.be/DUYRXjbNVnw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 10
     }
   ]
 }
