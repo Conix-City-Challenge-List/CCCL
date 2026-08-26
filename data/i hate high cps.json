@@ -45,6 +45,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 1
+    },
+    {
+      "user": "noxinal",
+      "link": "https://www.youtube.com/watch?v=sHUSiHvguBo&list=PLBgCTy4LlMiw&index=7",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 5
     }
   ]
 }
