@@ -10,5 +10,13 @@
   "song": "F-777 - Sonic Blaster",
   "difficulty": 5,
   "enjoyment": 6.5,
-  "records": []
+  "records": [
+    {
+      "user": "BlueGamer",
+      "link": "https://youtu.be/44ndx_PvF8o",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 5
+    }
+  ]
 }
