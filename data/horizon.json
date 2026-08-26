@@ -18,12 +18,19 @@
       "hz": 240,
       "enjoyment": 4
     },
-     {
+    {
       "user": "vipexx",
       "link": "",
       "percent": 100,
       "hz": 360,
       "enjoyment": 9
+    },
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/LpC90ntx2oU",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 2
     }
   ]
 }
