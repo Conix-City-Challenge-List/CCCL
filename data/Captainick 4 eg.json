@@ -136,6 +136,13 @@
       "percent": 100,
       "hz": 200,
       "enjoyment": 5
+    },
+    {
+      "user": "bocchi",
+      "link": "https://youtu.be/HnDPocVACms?si=17a3aGgZK6VOcuic",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 7
     }
   ]
 }
