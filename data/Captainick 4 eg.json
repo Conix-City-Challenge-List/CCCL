@@ -87,13 +87,20 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 5
-     },
-        {
+    },
+    {
       "user": "conix",
       "link": "https://drive.google.com/file/d/1TPobef0cq1046uM9PEsiYWdY-9OE-Cgs/view",
       "percent": 100,
       "hz": 960,
       "enjoyment": 5
+    },
+    {
+      "user": "BlueGamer",
+      "link": "https://youtu.be/l_DntEDvUns",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 6
     }
   ]
 }
