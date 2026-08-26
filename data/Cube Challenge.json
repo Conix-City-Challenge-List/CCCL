@@ -10,5 +10,13 @@
   "song": "Wander of Thought - F-777",
   "difficulty": 10,
   "enjoyment": 5,
-  "records": []
+  "records": [
+    {
+      "user": "Brian_Cheese",
+      "link": "https://drive.google.com/file/d/1XyLNxBeTVKzrfiquepMoTD1qPmmFo1IG/view?usp=sharing",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
+    }
+  ]
 }
