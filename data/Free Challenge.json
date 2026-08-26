@@ -150,6 +150,13 @@
       "percent": 100,
       "hz": 480,
       "enjoyment": 9
+    },
+    {
+      "user": "SkepticalTG",
+      "link": "https://www.youtube.com/live/vsvbIADI9IA?si=X4YShg-irY6Pap7N&t=232",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
     }
   ]
 }
