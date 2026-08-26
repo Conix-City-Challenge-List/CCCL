@@ -11,5 +11,13 @@
   "song": "Clubstep",
   "difficulty": 8,
   "enjoyment": 6,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/OMUVb5hQA6U",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 2
+    }
+  ]
 }
