@@ -10,5 +10,13 @@
   "song": "Death Factory",
   "difficulty": 5,
   "enjoyment": 2,
-  "records": []
+  "records": [
+    {
+      "user": "BlueGamer",
+      "link": "https://youtu.be/jC_2A4LC4a0",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 6
+    }
+  ]
 }
