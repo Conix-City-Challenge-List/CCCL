@@ -36,6 +36,9 @@ export default {
             <p>
                 11. To submit a new challenge you MUST be at least level 10 on the discord sever. You can still submit records of levels if you are not level 10.
             </p>
+            <p>
+                12. Challenges must have some effort put into them. If a challenge lacks enough effort it will get denied.
+            </p>
         </div>
     `
 }
