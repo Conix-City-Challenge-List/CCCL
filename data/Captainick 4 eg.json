@@ -143,6 +143,13 @@
       "percent": 100,
       "hz": 480,
       "enjoyment": 7
+    },
+    {
+      "user": "rogi",
+      "link": "https://youtu.be/obCbzJW8qO8",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
     }
   ]
 }
