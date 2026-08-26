@@ -80,6 +80,13 @@
       "percent": 100,
       "hz": 120,
       "enjoyment": 8
+    },
+    {
+      "user": "Duckly",
+      "link": "https://youtu.be/uLNorM0-Zas",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 6
     }
   ]
 }
