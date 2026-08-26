@@ -10,5 +10,13 @@
   "song": "Creo - Rock Thing",
   "difficulty": 7,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "Brian_Cheese",
+      "link": "https://drive.google.com/file/d/10v1nqiqBc6AZQ9j3Wvn3w9YsKy3YZi-k/view?usp=sharing",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
+    }
+  ]
 }
