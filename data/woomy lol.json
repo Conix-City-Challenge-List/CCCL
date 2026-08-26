@@ -263,12 +263,19 @@
       "hz": 720,
       "enjoyment": 6
     },
-        {
+    {
       "user": "conix",
       "link": "https://drive.google.com/file/d/1TPobef0cq1046uM9PEsiYWdY-9OE-Cgs/view",
       "percent": 100,
       "hz": 960,
       "enjoyment": 8
+    },
+    {
+      "user": "Samotiis",
+      "link": "https://drive.google.com/drive/folders/1pK00wakihvgvvSIMmLtziquU_KiiesEB?usp=sharing",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 10
     }
   ]
 }
