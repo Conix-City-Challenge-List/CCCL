@@ -11,5 +11,13 @@
   "song": "Helvetican - Bufu",
   "difficulty": 7,
   "enjoyment": 6,
-  "records": []
+  "records": [
+    {
+      "user": "kulerkas",
+      "link": "https://youtu.be/8he-D6AJ2TU",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 0.67
+    }
+  ]
 }
