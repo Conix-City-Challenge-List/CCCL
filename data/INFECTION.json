@@ -10,5 +10,13 @@
   "song": "DMDOKURO - 1nf3+@+!0N",
   "difficulty": 10,
   "enjoyment": 10,
-  "records": []
+  "records": [
+    {
+      "user": "Brian_Cheese",
+      "link": "https://drive.google.com/file/d/1kB7bx88EREGdTX6mCMTOl_79qQT4hgBB/view?usp=sharing",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 10
+    }
+  ]
 }
