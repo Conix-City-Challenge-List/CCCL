@@ -10,5 +10,13 @@
   "song": "Stalker-Waterflame",
   "difficulty": 4,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/f0_nkEKCrNU",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
+    }
+  ]
 }
