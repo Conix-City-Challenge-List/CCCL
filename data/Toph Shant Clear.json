@@ -10,5 +10,13 @@
   "song": "+HEAVEN",
   "difficulty": 8,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "Brian_Cheese",
+      "link": "https://drive.google.com/file/d/17uXJejfwZTJv53_2Tx8HbyV5iUvst61c/view?usp=sharing",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 1
+    }
+  ]
 }
