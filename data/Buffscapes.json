@@ -10,5 +10,13 @@
   "song": "Creo - Slow Down",
   "difficulty": 10,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "NickelPackage",
+      "link": "https://youtu.be/p0zW5xonBAs?si=c-KXOql0Hu22ZiVa",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
+    }
+  ]
 }
