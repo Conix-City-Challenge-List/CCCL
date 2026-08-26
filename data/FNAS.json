@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/5OmLP0PdTww",
   "percentToQualify": 100,
   "song": "The Living Tombstone - I Cant Fix You",
-  "difficulty": 4,
+  "difficulty": 5,
   "enjoyment": 10,
   "records": [
     {
@@ -31,8 +31,8 @@
       "percent": 100,
       "hz": 120,
       "enjoyment": 5
-     },
-        {
+    },
+    {
       "user": "conix",
       "link": "https://drive.google.com/file/d/1TPobef0cq1046uM9PEsiYWdY-9OE-Cgs/view",
       "percent": 100,
