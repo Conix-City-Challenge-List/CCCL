@@ -199,6 +199,13 @@
       "percent": 100,
       "hz": 960,
       "enjoyment": 1
+    },
+    {
+      "user": "shade",
+      "link": "https://www.youtube.com/watch?v=J3lBxQ4SHnU",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
     }
   ]
 }
