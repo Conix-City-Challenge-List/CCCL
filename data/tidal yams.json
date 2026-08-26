@@ -10,5 +10,13 @@
   "song": "shiawase vip - dion timmer",
   "difficulty": 7,
   "enjoyment": 10,
-  "records": []
+  "records": [
+    {
+      "user": "Brian_Cheese",
+      "link": "https://drive.google.com/file/d/1pOffBwS-9NMt93_-rOpZmoHzk-wkEW5s/view?usp=sharing",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
+    }
+  ]
 }
