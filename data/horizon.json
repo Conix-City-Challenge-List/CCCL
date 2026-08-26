@@ -10,5 +10,13 @@
   "song": "Vierre Cloud - Gravity",
   "difficulty": 10,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "NickelPackage",
+      "link": "https://youtu.be/XZTUhJsPI8Y?si=3jeObbCU6HNep1Xg",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 4
+    }
+  ]
 }
