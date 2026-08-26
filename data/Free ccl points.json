@@ -38,6 +38,13 @@
       "percent": 100,
       "hz": 720,
       "enjoyment": 5
+    },
+    {
+      "user": "Brian_Cheese",
+      "link": "https://www.twitch.tv/brian_cheese/clip/CrypticPleasantGoatCorgiDerp-0mM5z6hw2ObAHs69?range=7d",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
     }
   ]
 }
