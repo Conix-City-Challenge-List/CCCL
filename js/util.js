@@ -44,9 +44,9 @@ export function rgbaBind(color, decrease) {
 // this is used to request a video's thumbnail from youtube's servers
 // and embed a youtube video onto the site (verifications)
 export function getYoutubeIdFromUrl(url) {
-    // For more info, visit https://stackoverflow.com/questions/3452546/how-do-i-get-the-youtube-video-id-from-a-url.
+    // For more info, visit https://stackoverflow.com/questions/3452546/how-do-i-get-the-youtube-video-id-from-a-url
     return url.match(
-        /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/,
+        /.*(?:youtu\.be\/|v\/|u\/\w\/|embed\/|shorts\/|watch\?v=)([^#\&\?]*).*/,
     )?.[1] ?? '';
 }
 
