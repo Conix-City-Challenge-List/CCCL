@@ -10,5 +10,13 @@
   "song": "360804",
   "difficulty": 2,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "uDaririn",
+      "link": "https://youtu.be/9xTUHzPXGhs",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 7
+    }
+  ]
 }
