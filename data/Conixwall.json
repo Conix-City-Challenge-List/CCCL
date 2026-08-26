@@ -10,5 +10,13 @@
   "song": "Flamewall",
   "difficulty": 3,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "Shiver",
+      "link": "https://youtu.be/MvdbWjom61g",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 3
+    }
+  ]
 }
