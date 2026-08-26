@@ -10,5 +10,13 @@
   "song": "Snowing in Las Vegas",
   "difficulty": 9,
   "enjoyment": 5,
-  "records": []
+  "records": [
+    {
+      "user": "Brian_Cheese",
+      "link": "https://drive.google.com/file/d/12fC3FTheg4GU_4u282V24eWUH6NCFVz_/view?usp=sharing",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 1
+    }
+  ]
 }
