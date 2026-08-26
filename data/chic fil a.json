@@ -10,5 +10,13 @@
   "song": "Clove - Waterflame",
   "difficulty": 9,
   "enjoyment": 5,
-  "records": []
+  "records": [
+    {
+      "user": "kulerkas",
+      "link": "https://youtu.be/dgabZBZu3mU",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 9
+    }
+  ]
 }
