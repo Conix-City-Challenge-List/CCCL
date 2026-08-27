@@ -584,6 +584,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 4
+    },
+    {
+      "user": "GamingCon",
+      "link": "https://youtu.be/kJIbC4skrKA",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 10
     }
   ]
 }
