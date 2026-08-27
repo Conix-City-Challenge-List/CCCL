@@ -173,21 +173,23 @@ export function packScore(pack) {
 
         // For help figuring out how this switch statement works, look at the comments on
         // the switch statement in the score function above.
+        //
+        // NOTE: This scale (1 = Easy ... 10 = Silent) matches the list's current tier
+        // numbering, which has grown since this file was first written — it used to run
+        // 0 (Beginner) through 7 (Legendary) and had no cases for Supreme, Ethereal, or
+        // Silent, so packs at those difficulties silently fell through to "default" (null
+        // score, no color). There's also no Beginner tier on the list anymore, so that
+        // case was dropped rather than carried forward as dead code.
         switch (pack.difficulty) { // Set the pack's score based on its difficulty.
-            case 0:
-
-                /* Beginner Packs */
-                packscore = 5;
-                break;
             case 1:
 
                 /* Easy Packs */
-                packscore = 15;
+                packscore = 25;
                 break;
             case 2:
 
                 /* Medium Packs */
-                packscore = 30;
+                packscore = 50;
                 break;
             case 3:
 
@@ -207,11 +209,26 @@ export function packScore(pack) {
             case 6:
 
                 /* Extreme Packs */
-                packscore = 250;
+                packscore = 200;
                 break;
             case 7:
 
+                /* Supreme Packs */
+                packscore = 250;
+                break;
+            case 8:
+
+                /* Ethereal Packs */
+                packscore = 300;
+                break;
+            case 9:
+
                 /* Legendary Packs */
+                packscore = 400;
+                break;
+            case 10:
+
+                /* Silent Packs */
                 packscore = 500;
                 break;
             default:
@@ -257,15 +274,9 @@ export function packColor(difficulty) {
     
     // For help figuring out how this switch statement works, look at the comments on
     // the switch statement in the score function above.
+    //
+    // NOTE: same 1 (Easy) - 10 (Silent) scale as packScore above — see the note there.
     switch (difficulty) { // Set the pack's color based on its difficulty.
-        case 0:
-
-            /* Beginner Packs */
-            r = 197;
-            g = 12;
-            b = 105;
-            a = 0.9;
-            break;
         case 1:
 
             /* Easy Packs */
@@ -314,11 +325,35 @@ export function packColor(difficulty) {
             break;
         case 7:
 
+            /* Supreme Packs */
+            r = 255;
+            g = 215;
+            b = 0;
+            a = 0.9;
+            break;
+        case 8:
+
+            /* Ethereal Packs */
+            r = 255;
+            g = 105;
+            b = 180;
+            a = 0.9;
+            break;
+        case 9:
+
             /* Legendary Packs */
             r = 200;
             g = 200;
             b = 200;
             a = 0.8;
+            break;
+        case 10:
+
+            /* Silent Packs */
+            r = 64;
+            g = 64;
+            b = 64;
+            a = 0.9;
             break;
         default:
 
