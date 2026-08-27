@@ -10,5 +10,13 @@
   "song": "chase by fleetwire",
   "difficulty": 4,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://medal.tv/games/geometry-dash/clips/npaff4b38131-JY3L?invite=cr-MSxJWnQsNDkxOTczMDE2",
+      "percent": 100,
+      "hz": 960,
+      "enjoyment": 6
+    }
+  ]
 }
