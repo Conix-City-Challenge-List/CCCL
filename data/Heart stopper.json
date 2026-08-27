@@ -101,6 +101,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 9
+    },
+    {
+      "user": "lenin",
+      "link": "https://drive.google.com/file/d/1CjrL4GjAp3fHxcqrK6La7f5Eiwy1aNpx/view?usp=drivesdk",
+      "percent": 100,
+      "hz": 60,
+      "enjoyment": 9
     }
   ]
 }
