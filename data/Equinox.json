@@ -10,5 +10,13 @@
   "song": "LAYERS BY KORAII",
   "difficulty": 1,
   "enjoyment": 10,
-  "records": []
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://medal.tv/games/geometry-dash/clips/noYQUgbzkH9r6HQJR?invite=cr-MSxyTnUsNDkxOTczMDE2",
+      "percent": 100,
+      "hz": 960,
+      "enjoyment": 8
+    }
+  ]
 }
