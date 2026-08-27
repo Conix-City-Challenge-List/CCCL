@@ -220,6 +220,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 7
+    },
+    {
+      "user": "ToadOrSomething",
+      "link": "https://www.youtube.com/watch?v=eh1B-lp6Wtw&t=59s",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
     }
   ]
 }
