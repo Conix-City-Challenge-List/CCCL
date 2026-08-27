@@ -143,6 +143,13 @@
       "percent": 100,
       "hz": 360,
       "enjoyment": 1
+    },
+    {
+      "user": "blackboy",
+      "link": "https://youtu.be/kAswLBfBpSQ",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
     }
   ]
 }
