@@ -10,5 +10,13 @@
   "song": "Paladin by env",
   "difficulty": 2,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://medal.tv/games/geometry-dash/clips/noXctUdqedLY0bwSW?invite=cr-MSxKQm8sNDkxOTczMDE2",
+      "percent": 100,
+      "hz": 960,
+      "enjoyment": 6
+    }
+  ]
 }
