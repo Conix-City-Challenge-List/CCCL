@@ -10,5 +10,13 @@
   "song": "-Stalker-",
   "difficulty": 5,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://medal.tv/games/geometry-dash/clips/npamVWhwEhda9fnNP?invite=cr-MSxrcTgsNDkxOTczMDE2",
+      "percent": 100,
+      "hz": 960,
+      "enjoyment": 5
+    }
+  ]
 }
