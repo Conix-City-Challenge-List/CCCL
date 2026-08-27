@@ -11,7 +11,7 @@
   "difficulty": 2,
   "enjoyment": 8,
   "records": [
-     {
+    {
       "user": "PersonNub",
       "link": "https://medal.tv/games/geometry-dash/clips/noZ4nREKkVukKwb8l?invite=cr-MSxwU3gsNTIwMTEyMzI2",
       "percent": 100,
@@ -23,6 +23,13 @@
       "link": "https://medal.tv/games/geometry-dash/clips/noYTWJPFbDRteCVV6?invite=cr-MSxEU1AsNDkxOTczMDE2",
       "percent": 100,
       "hz": 960,
+      "enjoyment": 6
+    },
+    {
+      "user": "okbro129_",
+      "link": "https://medal.tv/games/geometry-dash/clips/noZ4q67EOMTUlJNvt?invite=cr-MSxnamQsNDM1ODMyODk1",
+      "percent": 100,
+      "hz": 144,
       "enjoyment": 6
     }
   ]
