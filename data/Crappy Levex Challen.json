@@ -87,6 +87,13 @@
       "percent": 100,
       "hz": 300,
       "enjoyment": 5
+    },
+    {
+      "user": "K1tty",
+      "link": "https://www.youtube.com/watch?v=SFzf9x02p0c",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 4
     }
   ]
 }
