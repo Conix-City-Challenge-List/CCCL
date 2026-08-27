@@ -10,5 +10,13 @@
   "song": "Astronaut - 13 (Rukkus Remix)",
   "difficulty": 9,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "BlueGamer",
+      "link": "https://youtu.be/IDHtStqp55M",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 6
+    }
+  ]
 }
