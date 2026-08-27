@@ -10,5 +10,13 @@
   "song": "Flawless Wings of Yatagarasu",
   "difficulty": 7,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "BlueGamer",
+      "link": "https://youtu.be/XUc9c3F8Z90",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 6
+    }
+  ]
 }
