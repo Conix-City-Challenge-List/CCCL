@@ -10,5 +10,13 @@
   "song": "Nuke Powder",
   "difficulty": 1,
   "enjoyment": 4,
-  "records": []
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://medal.tv/games/geometry-dash/clips/noYWH39PoptYrNg49?invite=cr-MSxWeXksNDkxOTczMDE2",
+      "percent": 100,
+      "hz": 960,
+      "enjoyment": 8
+    }
+  ]
 }
