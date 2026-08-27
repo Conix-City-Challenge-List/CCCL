@@ -262,6 +262,13 @@
       "percent": 100,
       "hz": 120,
       "enjoyment": 6
+    },
+    {
+      "user": "Machinify",
+      "link": "https://www.youtube.com/watch?v=S6vTWGNl3Ps",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 9
     }
   ]
 }
