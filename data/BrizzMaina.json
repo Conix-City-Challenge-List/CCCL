@@ -206,6 +206,13 @@
       "percent": 100,
       "hz": 480,
       "enjoyment": 9
+    },
+    {
+      "user": "KongWave",
+      "link": "https://www.youtube.com/watch?v=l8Qkq5HHZs0",
+      "percent": 100,
+      "hz": 60,
+      "enjoyment": 8
     }
   ]
 }
