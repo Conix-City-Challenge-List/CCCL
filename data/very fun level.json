@@ -10,5 +10,13 @@
   "song": "just gd",
   "difficulty": 3,
   "enjoyment": 0.2,
-  "records": []
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://medal.tv/games/geometry-dash/clips/noWLk5HRSm7-JdVG5?invite=cr-MSxVR08sNDkxOTczMDE2",
+      "percent": 100,
+      "hz": 960,
+      "enjoyment": 7
+    }
+  ]
 }
