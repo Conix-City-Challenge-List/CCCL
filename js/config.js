@@ -350,9 +350,9 @@ export function packColor(difficulty) {
         case 10:
 
             /* Silent Packs */
-            r = 64;
-            g = 64;
-            b = 64;
+            r = 20;
+            g = 20;
+            b = 20;
             a = 0.9;
             break;
         default:
