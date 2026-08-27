@@ -10,5 +10,13 @@
   "song": "flamewall",
   "difficulty": 5,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://medal.tv/games/geometry-dash/clips/npa9i3EavmVsDZ0vL?invite=cr-MSxxSTksNDkxOTczMDE2",
+      "percent": 100,
+      "hz": 960,
+      "enjoyment": 7
+    }
+  ]
 }
