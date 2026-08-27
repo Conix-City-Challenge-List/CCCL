@@ -122,6 +122,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 8
+    },
+    {
+      "user": "ricochet",
+      "link": "https://youtu.be/Cb8Xt430Ppk",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 3
     }
   ]
 }
