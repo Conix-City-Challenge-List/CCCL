@@ -80,6 +80,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 3
+    },
+    {
+      "user": "Chicken Sandwich",
+      "link": "https://youtu.be/vL4uO1fQlL4?is=CzGzT_Ei2OrjLKWh",
+      "percent": 100,
+      "hz": 60,
+      "enjoyment": 7
     }
   ]
 }
