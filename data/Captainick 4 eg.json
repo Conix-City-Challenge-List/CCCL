@@ -283,6 +283,13 @@
       "percent": 100,
       "hz": 720,
       "enjoyment": 10
+    },
+    {
+      "user": "cashlos",
+      "link": "https://www.youtube.com/watch?v=deUrjK4G0fU",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 10
     }
   ]
 }
