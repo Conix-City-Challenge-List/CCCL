@@ -101,6 +101,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 1
+    },
+    {
+      "user": "MrFrog",
+      "link": "https://youtu.be/eJKv4XMUmHY",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 3
     }
   ]
 }
