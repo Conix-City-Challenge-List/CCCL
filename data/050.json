@@ -66,6 +66,13 @@
       "percent": 100,
       "hz": 360,
       "enjoyment": 1
+    },
+    {
+      "user": "mevue",
+      "link": "https://youtu.be/0TnUpZ0DpdE",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 10
     }
   ]
 }
