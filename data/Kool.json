@@ -199,6 +199,13 @@
       "percent": 100,
       "hz": 360,
       "enjoyment": 1
+    },
+    {
+      "user": "ToadOrSomething",
+      "link": "https://www.youtube.com/watch?v=eh1B-lp6Wtw&t=159s",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
     }
   ]
 }
