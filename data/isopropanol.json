@@ -10,5 +10,13 @@
   "song": "Aether",
   "difficulty": 5,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://medal.tv/games/geometry-dash/clips/npbuDjvKpfkSkC7l8?invite=cr-MSx1SU8sNDkxOTczMDE2",
+      "percent": 100,
+      "hz": 960,
+      "enjoyment": 3
+    }
+  ]
 }
