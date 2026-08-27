@@ -66,7 +66,7 @@ export default {
                     <Copy v-if="!copied" @click="copyURL('https://conixchallengelist.pages.dev/#/packs/pack/' + selectedPack.name.toLowerCase().replaceAll(' ', '_')); copied = true"></Copy>
                     <Copied v-if="copied" @click="copyURL('https://conixchallengelist.pages.dev/#/packs/pack/' + selectedPack.name.toLowerCase().replaceAll(' ', '_')); copied = true"></Copied>
                 </div>
-                    <h2>Difficulty: {{ ["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Legendary"][selectedPack.difficulty] }}</h2>
+                    <h2>Difficulty: {{ ["", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent"][selectedPack.difficulty] }}</h2>
                     <div class="pack-score">
                         <h3>Points: {{ selectedPack.score }}</h3>
                     </div>
@@ -78,8 +78,7 @@ export default {
                             <span v-if="index < selectedPack.levels.length - 1">, </span>
                         </template>
                     </p>
-                    <p v-if="!selectedPack.levels && selectedPack.difficulty < 7"> Beat any 5 challenges in the {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme"][selectedPack.difficulty] }} tier that are not in any other packs</p>
-                    <p v-if="!selectedPack.levels && selectedPack.difficulty >= 7"> Beat any 5 challenges in the supreme tier or above that are not in any other packs</p>
+                    <p v-if="!selectedPack.levels"> Beat any 5 challenges in the {{ ["", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent"][selectedPack.difficulty] }} tier that are not in any other packs</p>
                     <h2>Records ({{ selectedPack.records.length }})</h2>
                     <div class="pack-records">
                         <p v-for="record in selectedPack.records">
