@@ -136,6 +136,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 10
+    },
+    {
+      "user": "Amethyst",
+      "link": "https://youtu.be/kpVsIUTSphw",
+      "percent": 100,
+      "hz": 180,
+      "enjoyment": 6
     }
   ]
 }
