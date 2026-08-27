@@ -10,5 +10,13 @@
   "song": "13(rukkus remix)",
   "difficulty": 6,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://medal.tv/games/geometry-dash/clips/noYkdyeU4-BM36CzA?invite=cr-MSxIVzEsNDkxOTczMDE2",
+      "percent": 100,
+      "hz": 960,
+      "enjoyment": 0
+    }
+  ]
 }
