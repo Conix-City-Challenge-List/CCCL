@@ -24,6 +24,13 @@
       "percent": 100,
       "hz": 200,
       "enjoyment": 5
+    },
+    {
+      "user": "BlueGamer",
+      "link": "https://youtu.be/m23S22MPm0s",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 7
     }
   ]
 }
