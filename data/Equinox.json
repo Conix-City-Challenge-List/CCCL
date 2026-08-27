@@ -24,6 +24,13 @@
       "percent": 100,
       "hz": 360,
       "enjoyment": 5
+    },
+    {
+      "user": "JakeGD",
+      "link": "https://www.youtube.com/watch?v=ftFEO9xSq9A",
+      "percent": 100,
+      "hz": 200,
+      "enjoyment": 6
     }
   ]
 }
