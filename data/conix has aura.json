@@ -10,5 +10,13 @@
   "song": "Heavenly Horrors",
   "difficulty": 1,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "K1tty",
+      "link": "https://youtu.be/OF5CEXLSmaM",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 6
+    }
+  ]
 }
