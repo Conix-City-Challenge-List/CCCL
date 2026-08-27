@@ -11,7 +11,7 @@
   "difficulty": 1,
   "enjoyment": 4,
   "records": [
-     {
+    {
       "user": "mevue",
       "link": "https://youtu.be/t86ntvMV9i8",
       "percent": 100,
@@ -24,6 +24,13 @@
       "percent": 100,
       "hz": 960,
       "enjoyment": 8
+    },
+    {
+      "user": "trev22",
+      "link": "https://youtu.be/3b9yXpEqpR0",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 10
     }
   ]
 }
