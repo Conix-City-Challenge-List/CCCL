@@ -10,5 +10,13 @@
   "song": "Garlagan - Holography",
   "difficulty": 6,
   "enjoyment": 5.5,
-  "records": []
+  "records": [
+    {
+      "user": "BlueGamer",
+      "link": "https://youtu.be/pP0PgMQONsY",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 6
+    }
+  ]
 }
