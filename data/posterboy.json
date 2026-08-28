@@ -10,5 +10,13 @@
   "song": "poster boy",
   "difficulty": 8,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "mevue",
+      "link": "https://www.youtube.com/watch?v=Ndb-h6tr6c8",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 4
+    }
+  ]
 }
