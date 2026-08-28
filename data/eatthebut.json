@@ -10,5 +10,13 @@
   "song": "Paranoid Android",
   "difficulty": 7,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "mevue",
+      "link": "https://youtu.be/IiETTCru9u8",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 10
+    }
+  ]
 }
