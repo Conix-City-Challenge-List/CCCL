@@ -199,6 +199,13 @@
       "percent": 100,
       "hz": 480,
       "enjoyment": 9
+    },
+    {
+      "user": "clovr",
+      "link": "https://youtu.be/DDJ67mnLfuQ",
+      "percent": 100,
+      "hz": 1000,
+      "enjoyment": 9
     }
   ]
 }
