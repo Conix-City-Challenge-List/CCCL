@@ -185,13 +185,20 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 7.5
-          },
+    },
     {
       "user": "conix",
       "link": "",
       "percent": 100,
       "hz": 360,
       "enjoyment": 1
+    },
+    {
+      "user": "clovr",
+      "link": "https://youtu.be/eqY6_MrZSPM",
+      "percent": 100,
+      "hz": 1000,
+      "enjoyment": 6
     }
   ]
 }
