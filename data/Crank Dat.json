@@ -10,5 +10,13 @@
   "song": "Through the Gates",
   "difficulty": 2,
   "enjoyment": 10,
-  "records": []
+  "records": [
+    {
+      "user": "K1tty",
+      "link": "https://www.youtube.com/watch?v=aVcwyDI-kUI",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 5.5
+    }
+  ]
 }
