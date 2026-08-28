@@ -136,6 +136,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 0.5
+    },
+    {
+      "user": "strayW",
+      "link": "https://www.twitch.tv/strayw__/clip/OptimisticBlueTaroCoolStoryBob-T7zz7arS7OfVksd2?range=7d",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 0
     }
   ]
 }
