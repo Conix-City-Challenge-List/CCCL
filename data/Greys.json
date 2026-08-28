@@ -10,5 +10,13 @@
   "song": "Greys",
   "difficulty": 5,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "nero",
+      "link": "https://share.icloud.com/photos/033m8MHioQj79qB5CvaMVtquQ",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
+    }
+  ]
 }
