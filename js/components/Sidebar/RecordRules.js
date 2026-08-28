@@ -13,7 +13,7 @@ export default {
                 3. NO 2P challenges allowed.
             </p>
             <p>
-                4. Completion must have clicks clearly audible in the video. (Mobile players are exempt from this rule but they should preferably have taps.)
+                4. Completion must have clicks clearly audible in the video. (Mobile players are exempt from this rule but they should preferably have taps.) Click sounds mod is NOT allowed.
             </p>
             <p>
                 5. The recording must have a previous attempt and death animation shown before the completion, unless the completion is on the first attempt.
