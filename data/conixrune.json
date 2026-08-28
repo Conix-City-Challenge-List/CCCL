@@ -276,6 +276,13 @@
       "percent": 100,
       "hz": 960,
       "enjoyment": 7
+    },
+    {
+      "user": "GDEnder",
+      "link": "https://www.youtube.com/watch?v=5drloKj_oQo",
+      "percent": 100,
+      "hz": 250,
+      "enjoyment": 10
     }
   ]
 }
