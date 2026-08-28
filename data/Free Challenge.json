@@ -416,6 +416,13 @@
       "percent": 100,
       "hz": 640,
       "enjoyment": 9
+    },
+    {
+      "user": "limitqa",
+      "link": "https://youtu.be/CKwjtWEz2z4",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 10
     }
   ]
 }
