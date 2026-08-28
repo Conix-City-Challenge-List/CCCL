@@ -10,5 +10,13 @@
   "song": "kocmoc unleashed",
   "difficulty": 7,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "BlueGamer",
+      "link": "https://youtu.be/qrmL2GirDN4",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 7
+    }
+  ]
 }
