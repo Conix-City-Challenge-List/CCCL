@@ -10,5 +10,13 @@
   "song": "Cast Darkness by Jimbobsthebest",
   "difficulty": 4,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "K1tty",
+      "link": "https://www.youtube.com/watch?v=eUC2i_pzrsA",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 7
+    }
+  ]
 }
