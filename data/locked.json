@@ -10,5 +10,13 @@
   "song": "~NK~",
   "difficulty": 2,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "K1tty",
+      "link": "https://www.youtube.com/watch?v=8xAJU7C_6Co",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 6
+    }
+  ]
 }
