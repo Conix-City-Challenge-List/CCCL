@@ -206,13 +206,20 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 8
-          },
+    },
     {
       "user": "conix",
       "link": "",
       "percent": 100,
       "hz": 360,
       "enjoyment": 1
+    },
+    {
+      "user": "coopzatroop",
+      "link": "https://streamable.com/22ph49",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
     }
   ]
 }
