@@ -10,5 +10,13 @@
   "song": "-Hidden Path-",
   "difficulty": 9,
   "enjoyment": 6,
-  "records": []
+  "records": [
+    {
+      "user": "Murshark",
+      "link": "https://medal.tv/games/geometry-dash/clips/npJtcGK2g20qAVBa_?invite=cr-MSxNOWIsNzcwNjg5MDcw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
+    }
+  ]
 }
