@@ -10,5 +10,13 @@
   "song": "Resident Evil Main Title Theme",
   "difficulty": 10,
   "enjoyment": 3,
-  "records": []
+  "records": [
+    {
+      "user": "Wayne",
+      "link": "https://youtu.be/CyOZapTVipg",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 0
+    }
+  ]
 }
