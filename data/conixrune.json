@@ -472,6 +472,13 @@
       "percent": 100,
       "hz": 480,
       "enjoyment": 7
+    },
+    {
+      "user": "Jackrabot",
+      "link": "https://www.youtube.com/watch?v=2h1-o-ShC-0&feature=youtu.be",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
     }
   ]
 }
