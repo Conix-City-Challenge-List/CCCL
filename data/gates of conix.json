@@ -10,5 +10,13 @@
   "song": "Betrayal of Fear",
   "difficulty": 6,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "exotic",
+      "link": "https://medal.tv/games/geometry-dash/clips/npGUY9G8CM5pYgXgR?invite=cr-MSxUdUwsMTYwMzE3NDM3",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
+    }
+  ]
 }
