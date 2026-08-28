@@ -73,6 +73,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 0.2
+    },
+    {
+      "user": "strayW",
+      "link": "https://www.twitch.tv/strayw__/clip/KnottyEntertainingGorillaVoteNay-mqEk9gcDFsr4N1LB?range=7d",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 2
     }
   ]
 }
