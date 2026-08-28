@@ -185,6 +185,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 4
+    },
+    {
+      "user": "mogman67",
+      "link": "https://www.youtube.com/watch?v=rRwjcrg0JkM",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
     }
   ]
 }
