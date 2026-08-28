@@ -297,13 +297,20 @@
       "percent": 100,
       "hz": 120,
       "enjoyment": 4
-      },
+    },
     {
       "user": "conix",
       "link": "",
       "percent": 100,
       "hz": 360,
       "enjoyment": 1
+    },
+    {
+      "user": "Jackrabot",
+      "link": "https://www.youtube.com/watch?v=k5ppShkFo4g",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
     }
   ]
 }
