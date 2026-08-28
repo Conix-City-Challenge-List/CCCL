@@ -10,5 +10,13 @@
   "song": "Klaskii Romper - Kawaii Sprite",
   "difficulty": 10,
   "enjoyment": 3,
-  "records": []
+  "records": [
+    {
+      "user": "FerronPlays",
+      "link": "https://youtu.be/eqHuQbXlyyo",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
+    }
+  ]
 }
