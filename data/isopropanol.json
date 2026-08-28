@@ -66,13 +66,20 @@
       "percent": 100,
       "hz": 144,
       "enjoyment": 8
-      },
+    },
     {
       "user": "conix",
       "link": "",
       "percent": 100,
       "hz": 360,
       "enjoyment": 1
+    },
+    {
+      "user": "exotic",
+      "link": "https://medal.tv/games/geometry-dash/clips/npCA9siJhhelVtnCX?invite=cr-MSx3c1YsMTYwMzE3NDM3",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 9
     }
   ]
 }
