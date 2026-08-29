@@ -290,6 +290,13 @@
       "percent": 100,
       "hz": 360,
       "enjoyment": 7
+    },
+    {
+      "user": "SRT6",
+      "link": "https://www.youtube.com/watch?v=hSx-mnkXlGw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
     }
   ]
 }
