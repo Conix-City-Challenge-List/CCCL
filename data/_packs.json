@@ -1,52 +1,60 @@
-[		
-	{
-		"name": "Easy Pack",
-		"difficulty": 1
-	},
-	{
-		"name": "Medium Pack",
-		"difficulty": 2
-	},
-	{
-		"name": "Hard Pack",
-		"difficulty": 3
-	},
-	{
-		"name": "Insane Pack",
-		"difficulty": 4
-	},
-	{
-		"name": "Mythical Pack",
-		"difficulty": 5
-	},
-	{
-		"name": "Extreme Pack",
-		"difficulty": 6
-	},
-	{
-		"name": "Supreme Pack",
-		"difficulty": 7
-	},
-	{
-		"name": "Ethereal Pack",
-		"difficulty": 8
-	},
-	{
-		"name": "Legendary Pack",
-		"difficulty": 9
-	},
-	{
-		"name": "Silent Pack",
-		"difficulty": 10
-	},
-	{
-		"name": "Confused? Pack",
-		"difficulty": 4,
-		"levels": [
-			"uhhhhhhh",
-			"ummmmmmm",
-			"uhhhmmmm"
-		]
-	}
-			
+[
+  {
+    "name": "Easy Pack",
+    "difficulty": 1
+  },
+  {
+    "name": "Medium Pack",
+    "difficulty": 2
+  },
+  {
+    "name": "Hard Pack",
+    "difficulty": 3
+  },
+  {
+    "name": "Insane Pack",
+    "difficulty": 4
+  },
+  {
+    "name": "Mythical Pack",
+    "difficulty": 5
+  },
+  {
+    "name": "Extreme Pack",
+    "difficulty": 6
+  },
+  {
+    "name": "Supreme Pack",
+    "difficulty": 7
+  },
+  {
+    "name": "Ethereal Pack",
+    "difficulty": 8
+  },
+  {
+    "name": "Legendary Pack",
+    "difficulty": 9
+  },
+  {
+    "name": "Silent Pack",
+    "difficulty": 10
+  },
+  {
+    "name": "Confused? Pack",
+    "difficulty": 4,
+    "levels": [
+      "uhhhhhhh",
+      "ummmmmmm",
+      "uhhhmmmm"
+    ]
+  },
+  {
+    "name": "Conix's Hideout",
+    "difficulty": 4,
+    "levels": [
+      "Conixs basement",
+      "Conixs cave",
+      "Conixs attic"
+    ]
+  }
 ]
