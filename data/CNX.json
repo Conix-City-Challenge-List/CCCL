@@ -10,5 +10,13 @@
   "song": "-stalker-",
   "difficulty": 7,
   "enjoyment": 10,
-  "records": []
+  "records": [
+    {
+      "user": "strayW",
+      "link": "https://www.twitch.tv/strayw__/clip/PreciousMiniatureGoatDoubleRainbow-puo7r7KGvZnU1nSr?range=7d",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 4
+    }
+  ]
 }
