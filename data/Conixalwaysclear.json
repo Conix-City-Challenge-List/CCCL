@@ -10,5 +10,13 @@
   "song": "Electroman Adventures",
   "difficulty": 1,
   "enjoyment": 9.2,
-  "records": []
+  "records": [
+    {
+      "user": "uDaririn",
+      "link": "https://youtu.be/YqPBfsTCuOg",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 9
+    }
+  ]
 }
