@@ -6,7 +6,7 @@ import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
 import Scroll from '../components/Scroll.js'
 import User from '../components/Leaderboard/User.js';
-
+ 
 export default {
     components: { Spinner, Copy, Copied, Scroll, User },
     template: `
@@ -45,7 +45,7 @@ export default {
                         <Scroll alt="Scroll to selected" @click="scrollToSelected()" />
                         <select v-model="selectedNation">
                             <option :value="null">All nations</option>
-                            <option v-for="flag in Object.keys(flagMap)" :value="flag">{{ flagMap[flag] }}</option>
+                            <option v-for="flag in sortedNations" :value="flag">{{ flagMap[flag] }}</option>
                         </select>
                     </div>
                     <table class="board" v-if="filteredLeaderboard.length > 0">
@@ -70,7 +70,7 @@ export default {
             </div>
         </main>
     `,
-
+ 
     data: () => ({
         loading: true,
         leaderboard: [],
@@ -83,7 +83,7 @@ export default {
         selectedNation: null,
         flags: {}
     }),
-
+ 
     methods: {
         localize,
         rgbaBind,
@@ -111,12 +111,16 @@ export default {
             });
         }
     },
-
+ 
     computed: {
         entry() {
             return this.leaderboard[this.selected];
         },
-
+ 
+        sortedNations() {
+            return Object.keys(this.flagMap).sort((a, b) => a.localeCompare(b));
+        },
+ 
         filteredLeaderboard() {
             const query = this.searchQuery.toLowerCase().replace(/\s/g, '');
     
@@ -129,13 +133,13 @@ export default {
                 );
         },
     },
-
+ 
     async mounted() {
         // Fetch leaderboard and errors from store
         const [leaderboard, err] = this.store.leaderboard;
         this.leaderboard = leaderboard;
         this.err = err;
-
+ 
         this.flags = await fetch("../../data/_flags.json")
             .then(async (res) => await res.json())
         this.flagMap = await fetch("../../data/_flagMap.json")
@@ -145,17 +149,17 @@ export default {
         for (var key in this.flagMap) {
             ret[this.flagMap[key]] = key;
         }
-
+ 
         this.flagMap = Object.fromEntries(
             Object.entries(ret).filter(([key, value]) => Object.values(this.flags).includes(key))
         );
         
         this.selectFromParam()
-
+ 
         // Hide loading spinner
         this.loading = false;
     },
-
+ 
     watch: {
         store: {
             handler(updated) {
@@ -167,3 +171,4 @@ export default {
         }
     },
 };
+ 
