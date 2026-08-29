@@ -10,5 +10,13 @@
   "song": "-Cove- By Waterflame",
   "difficulty": 10,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "Wayne",
+      "link": "https://youtu.be/nwnMT_nQnKQ",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
+    }
+  ]
 }
