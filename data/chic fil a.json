@@ -94,6 +94,13 @@
       "percent": 100,
       "hz": 480,
       "enjoyment": 5
+    },
+    {
+      "user": "kyvries",
+      "link": "https://www.youtube.com/watch?v=suQME4gN9B4",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 10
     }
   ]
 }
