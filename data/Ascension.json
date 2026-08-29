@@ -10,5 +10,13 @@
   "song": "431573",
   "difficulty": 7,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "strayW",
+      "link": "https://www.twitch.tv/strayw__/clip/MiniatureImpartialTubersNerfRedBlaster-X3yyNrli5CjVg0TH?range=7d",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 2
+    }
+  ]
 }
