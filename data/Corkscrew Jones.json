@@ -31,6 +31,13 @@
       "percent": 100,
       "hz": 480,
       "enjoyment": 0
+    },
+    {
+      "user": "Wayne",
+      "link": "https://youtu.be/qpWXUVIJB3U",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 8
     }
   ]
 }
