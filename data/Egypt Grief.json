@@ -94,6 +94,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 3
+    },
+    {
+      "user": "nomix",
+      "link": "https://www.youtube.com/watch?v=uo1975fWmsE",
+      "percent": 100,
+      "hz": 420,
+      "enjoyment": 8
     }
   ]
 }
