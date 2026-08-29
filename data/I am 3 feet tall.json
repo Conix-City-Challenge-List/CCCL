@@ -123,13 +123,19 @@
       "hz": 120,
       "enjoyment": 0
     },
-     {
+    {
       "user": "conix",
       "link": "https://drive.google.com/file/d/11c5gxz7e1Nb8Q9T9Xat1mCl6tgQkX2Sa/view?usp=sharing",
       "percent": 100,
       "hz": 960,
       "enjoyment": 7
+    },
+    {
+      "user": "MatrixGMD",
+      "link": "https://medal.tv/games/geometry-dash/clips/nq85ix8BK1ILEPa_F?invite=cr-MSwyYVksMjkxMTk3MjA0",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 6
     }
-    
   ]
 }
