@@ -773,6 +773,13 @@
       "percent": 100,
       "hz": 144,
       "enjoyment": 2
+    },
+    {
+      "user": "naerthoo",
+      "link": "https://www.youtube.com/watch?v=GVxoFS9j0l8",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
     }
   ]
 }
