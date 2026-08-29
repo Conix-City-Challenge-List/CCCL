@@ -277,13 +277,19 @@
       "hz": 240,
       "enjoyment": 5
     },
-     {
+    {
       "user": "TophShaw",
       "link": "https://drive.google.com/file/d/1AHyCvpWakPWZw4aF_OfJLkXLNJAZYaU8/view?usp=sharing",
       "percent": 100,
       "hz": 480,
       "enjoyment": 6
+    },
+    {
+      "user": "kuratomii",
+      "link": "https://youtu.be/X9M7Jg0QxyA",
+      "percent": 100,
+      "hz": 800,
+      "enjoyment": 9
     }
-    
   ]
 }
