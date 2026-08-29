@@ -290,6 +290,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 5
+    },
+    {
+      "user": "Dimebag",
+      "link": "https://www.youtube.com/watch?v=Xln7zd-ZFrY",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 6
     }
   ]
 }
