@@ -444,6 +444,13 @@
       "percent": 100,
       "hz": 300,
       "enjoyment": 5
+    },
+    {
+      "user": "G30n0va",
+      "link": "https://www.youtube.com/watch?v=FEqARk-PLl8",
+      "percent": 100,
+      "hz": 60,
+      "enjoyment": 8
     }
   ]
 }
