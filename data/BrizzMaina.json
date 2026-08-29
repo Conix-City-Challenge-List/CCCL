@@ -311,6 +311,13 @@
       "percent": 100,
       "hz": 300,
       "enjoyment": 6
+    },
+    {
+      "user": "scalder",
+      "link": "https://youtu.be/Aqk3jARi7Vg",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 6
     }
   ]
 }
