@@ -10,5 +10,13 @@
   "song": "486539",
   "difficulty": 10,
   "enjoyment": 9.5,
-  "records": []
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://medal.tv/games/geometry-dash/clips/nq8iZi24zWgJeGZ9v?invite=cr-MSxmOG0sNDkxOTczMDE2",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 8
+    }
+  ]
 }
