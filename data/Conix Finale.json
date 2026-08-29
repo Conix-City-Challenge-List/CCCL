@@ -129,6 +129,13 @@
       "percent": 100,
       "hz": 200,
       "enjoyment": 6
+    },
+    {
+      "user": "gguy",
+      "link": "https://youtu.be/Om8Ll4jYhIs?si=cBNLLS1gYhVskb1k",
+      "percent": 100,
+      "hz": 90,
+      "enjoyment": 2
     }
   ]
 }
