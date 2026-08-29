@@ -10,5 +10,13 @@
   "song": "Thunder",
   "difficulty": 8,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "strayW",
+      "link": "https://www.twitch.tv/strayw__/clip/ViscousHorriblePlumYouDontSay-7p8-SM3rA6SGMiZj",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
+    }
+  ]
 }
