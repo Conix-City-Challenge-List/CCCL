@@ -118,7 +118,9 @@ export default {
         },
  
         sortedNations() {
-            return Object.keys(this.flagMap).sort((a, b) => a.localeCompare(b));
+            return Object.keys(this.flagMap).sort((a, b) =>
+                this.flagMap[a].localeCompare(this.flagMap[b])
+            );
         },
  
         filteredLeaderboard() {
@@ -171,4 +173,3 @@ export default {
         }
     },
 };
- 
