@@ -199,6 +199,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 9
+    },
+    {
+      "user": "Slabiz",
+      "link": "https://www.youtube.com/watch?v=OwAuLQsmRcE",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 1
     }
   ]
 }
