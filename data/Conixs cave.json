@@ -325,6 +325,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 6.5
+    },
+    {
+      "user": "Manolas",
+      "link": "https://youtu.be/BsUn4BtO1Xg",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 10
     }
   ]
 }
