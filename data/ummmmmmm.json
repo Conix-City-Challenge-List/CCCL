@@ -164,6 +164,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 1e-7
+    },
+    {
+      "user": "dephy",
+      "link": "https://www.youtube.com/watch?v=hQddafv9gYE",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
     }
   ]
 }
