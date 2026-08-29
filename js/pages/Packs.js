@@ -78,7 +78,7 @@ export default {
                             <span v-if="index < selectedPack.levels.length - 1">, </span>
                         </template>
                     </p>
-                    <p v-if="!selectedPack.levels"> Beat any 5 challenges in the {{ ["", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent"][selectedPack.difficulty] }} tier that are not in any other packs</p>
+                    <p v-if="!selectedPack.levels"> Beat any 5 challenges in the {{ ["", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent"][selectedPack.difficulty] }} tier</p>
                     <h2>Records ({{ selectedPack.records.length }})</h2>
                     <div class="pack-records">
                         <p v-for="record in selectedPack.records">
