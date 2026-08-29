@@ -11,5 +11,13 @@
   "song": "solar wind",
   "difficulty": 8,
   "enjoyment": 5,
-  "records": []
+  "records": [
+    {
+      "user": "strayW",
+      "link": "https://www.twitch.tv/strayw__/clip/HomelyComfortableDiscTF2John-oLKoYexwM65RRkUM?range=7d",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 4
+    }
+  ]
 }
