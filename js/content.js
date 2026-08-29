@@ -200,8 +200,7 @@ export async function fetchLeaderboard(list) {
                     // Count levels completed by the user for the other difficulty packs
                     const completedInDifficulty = list.filter(([_, __, lvl]) =>
                         (lvl.difficulty === level.difficulty) && 
-                        (lvl.records.some((r) => r.user.toLowerCase() === verifier.toLowerCase() && r.percent === 100) || (lvl.verifier.toLowerCase() === verifier.toLowerCase())) &&
-                        packs.some((otherPack) => otherPack.levels && !otherPack.levels.some((otherLevel) => otherLevel.path === lvl.path))
+                        (lvl.records.some((r) => r.user.toLowerCase() === verifier.toLowerCase() && r.percent === 100) || (lvl.verifier.toLowerCase() === verifier.toLowerCase()))
                     ).length;
 
                     // Check if the user has completed as many levels as the pack's threshold
@@ -279,8 +278,7 @@ export async function fetchLeaderboard(list) {
                             // Count levels completed by the user for the other difficulty packs
                             const completedInDifficulty = list.filter(([_, __, lvl]) =>
                                 (lvl.difficulty === level.difficulty) && 
-                                (lvl.records.some((r) => r.user.toLowerCase() === user.toLowerCase() && r.percent === 100) || (lvl.verifier.toLowerCase() === user.toLowerCase())) &&
-                                packs.some((otherPack) => otherPack.levels && !otherPack.levels.some((otherLevel) => otherLevel.path === lvl.path))
+                                (lvl.records.some((r) => r.user.toLowerCase() === user.toLowerCase() && r.percent === 100) || (lvl.verifier.toLowerCase() === user.toLowerCase()))
                             ).length;
 
                             // Check if the user has completed as many levels as the pack's threshold
