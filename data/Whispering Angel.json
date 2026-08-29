@@ -11,5 +11,13 @@
   "song": "vierre cloud - gravity",
   "difficulty": 10,
   "enjoyment": 10,
-  "records": []
+  "records": [
+    {
+      "user": "Wayne",
+      "link": "https://youtu.be/1fmQu-W1waE",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 9.5
+    }
+  ]
 }
