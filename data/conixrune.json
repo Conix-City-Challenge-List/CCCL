@@ -549,6 +549,13 @@
       "percent": 100,
       "hz": 480,
       "enjoyment": 8
+    },
+    {
+      "user": "snow",
+      "link": "https://www.youtube.com/watch?v=Ej95YIjzdkY",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
     }
   ]
 }
