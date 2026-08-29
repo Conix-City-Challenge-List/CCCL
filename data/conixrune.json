@@ -605,6 +605,13 @@
       "percent": 100,
       "hz": 360,
       "enjoyment": 7
+    },
+    {
+      "user": "crude",
+      "link": "https://www.youtube.com/watch?v=2kT_IhljnMw",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 8
     }
   ]
 }
