@@ -241,6 +241,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 7.5
+    },
+    {
+      "user": "coder296",
+      "link": "https://www.youtube.com/watch?v=8oPnVaK9wNA",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 9
     }
   ]
 }
