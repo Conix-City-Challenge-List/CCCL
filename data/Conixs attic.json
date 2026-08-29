@@ -10,5 +10,13 @@
   "song": "death moon by rhk",
   "difficulty": 4,
   "enjoyment": 10,
-  "records": []
+  "records": [
+    {
+      "user": "K1tty",
+      "link": "https://youtu.be/CHXSJcxzjlA",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 6.5
+    }
+  ]
 }
