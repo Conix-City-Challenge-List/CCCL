@@ -18,6 +18,13 @@
       "percent": 100,
       "hz": 480,
       "enjoyment": 9.5
+    },
+    {
+      "user": "ZekeyZong",
+      "link": "https://www.youtube.com/watch?v=fx8wuIGoww4",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
     }
   ]
 }
