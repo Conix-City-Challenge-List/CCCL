@@ -353,6 +353,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 6
+    },
+    {
+      "user": "irolexic",
+      "link": "https://www.youtube.com/watch?v=F3pXKg5wNBA",
+      "percent": 100,
+      "hz": 60,
+      "enjoyment": 6.7
     }
   ]
 }
