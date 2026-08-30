@@ -507,6 +507,13 @@
       "percent": 100,
       "hz": 1000,
       "enjoyment": 4
+    },
+    {
+      "user": "feluksa",
+      "link": "https://youtu.be/zGJ0M0liVcE",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
     }
   ]
 }
