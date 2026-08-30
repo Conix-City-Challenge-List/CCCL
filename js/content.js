@@ -1,4 +1,4 @@
-import { score, packScore } from './config.js';
+import { score, packScore, legacyLimit } from './config.js';
 import { round, sortPacks } from './util.js';
 
 /**
@@ -166,6 +166,7 @@ export async function fetchLeaderboard(list) {
                 rank,
                 level: level.name,
                 link: level.verification,
+                legacy: rank > legacyLimit,
             });
         });
         
@@ -217,6 +218,7 @@ export async function fetchLeaderboard(list) {
             level: level.name,
             score: score(rank, level.difficulty, 100, level.percentToQualify, list),
             link: level.verification,
+            legacy: rank > legacyLimit,
         });
 
 
@@ -232,6 +234,7 @@ export async function fetchLeaderboard(list) {
             score: score(rank, level.difficulty, 100, level.percentToQualify, list),
             link: level.verification,
             rating: level.enjoyment,
+            legacy: rank > legacyLimit,
         });
 
         // Records
@@ -295,6 +298,7 @@ export async function fetchLeaderboard(list) {
                     link: record.link,
                     mobile: record.mobile,
                     rating: record.enjoyment,
+                    legacy: rank > legacyLimit,
                 });
                 
 
@@ -311,6 +315,7 @@ export async function fetchLeaderboard(list) {
                 link: record.link,
                 mobile: record.mobile,
                 rating: record.enjoyment,
+                legacy: rank > legacyLimit,
             });
 
             
@@ -538,6 +543,9 @@ export function fetchTierLength(list, difficulty) {
         if (rank === null) {
             return;
         }
+        if (rank > legacyLimit) {
+            return; // legacy levels don't count toward tier stats
+        }
 
         if (level.difficulty === difficulty) {
             tierLength += 1;
@@ -555,6 +563,9 @@ export function fetchTierMinimum(list, difficulty) {
         }
         if (rank === null) {
             return;
+        }
+        if (rank > legacyLimit) {
+            return; // legacy levels don't count toward tier stats
         }
 
         if (level.difficulty === difficulty) {
@@ -574,6 +585,9 @@ export function fetchHighestEnjoyment(list, difficulty) {
         }
         if (rank === null) {
             return;
+        }
+        if (rank > legacyLimit) {
+            return; // legacy levels don't count toward tier stats
         }
 
         if (level.difficulty === difficulty) {
@@ -601,6 +615,9 @@ export function fetchLowestEnjoyment(list, difficulty) {
         if (rank === null) {
             return;
         }
+        if (rank > legacyLimit) {
+            return; // legacy levels don't count toward tier stats
+        }
 
         if (level.difficulty === difficulty) {
             const enjoyment = averageEnjoyment(level.records);
@@ -627,6 +644,9 @@ export function fetchTotalScore(list, difficulty) {
         }
         if (rank === null) {
             return;
+        }
+        if (rank > legacyLimit) {
+            return; // legacy levels don't count toward tier stats
         }
 
         if (level.difficulty === difficulty) {
