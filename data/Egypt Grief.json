@@ -395,6 +395,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 3
+    },
+    {
+      "user": "timmy",
+      "link": "https://www.youtube.com/watch?v=-DPrZlPC9FU",
+      "percent": 100,
+      "hz": 843,
+      "enjoyment": 8.123456
     }
   ]
 }
