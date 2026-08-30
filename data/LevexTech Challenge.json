@@ -192,6 +192,13 @@
       "percent": 100,
       "hz": 720,
       "enjoyment": 2
+    },
+    {
+      "user": "wemby",
+      "link": "https://youtu.be/gyI7mGt1QOU?si=ChGys2HWYi2VWpPH",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 1
     }
   ]
 }
