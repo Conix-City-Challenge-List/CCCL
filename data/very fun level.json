@@ -171,6 +171,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 1e-56
+    },
+    {
+      "user": "Huddda",
+      "link": "https://www.youtube.com/watch?v=lYC2xbx4JsA&t=4m31s",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 10
     }
   ]
 }
