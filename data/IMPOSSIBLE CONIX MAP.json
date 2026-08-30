@@ -10,5 +10,13 @@
   "song": "numb",
   "difficulty": 4,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "GD Bean News",
+      "link": "https://youtu.be/sbGyAOLsWO8?si=SAewVI_1palHGxQf",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 3
+    }
+  ]
 }
