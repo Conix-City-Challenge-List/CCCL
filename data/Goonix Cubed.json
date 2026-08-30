@@ -206,6 +206,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 10
+    },
+    {
+      "user": "rivver.",
+      "link": "https://www.youtube.com/watch?v=4fMdgNOOO6c",
+      "percent": 100,
+      "hz": 500,
+      "enjoyment": 0
     }
   ]
 }
