@@ -1,4 +1,4 @@
-import { score } from "../../config.js";
+import { score, legacyLimit } from "../../config.js";
 import { averageEnjoyment } from "../../content.js";
 import { copyURL } from "../../util.js";
 
@@ -17,7 +17,8 @@ export default {
         <ul class="stats">
             <li>
                 <div class="type-title-sm">Points</div>
-                <p>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
+                <p v-if="isLegacy">N/A</p>
+                <p v-else>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
             </li>
             <li>
                 <div class="type-title-sm">ID</div>
@@ -46,6 +47,9 @@ export default {
         averageEnjoyment
     },
     computed: {
+        isLegacy() {
+            return this.level.rank !== null && this.level.rank > legacyLimit;
+        },
         songDownload() {
             if (!this.level.songLink.includes('drive.google.com')) return this.level.songLink;
             const id = this.level.songLink.match(/[-\w]{25,}/)?.[0];
