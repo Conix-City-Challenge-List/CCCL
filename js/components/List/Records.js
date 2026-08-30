@@ -7,11 +7,17 @@ export default {
         percentToQualify: {
             type: Number,
             required: false,
+        },
+        isLegacy: {
+            type: Boolean,
+            required: false,
+            default: false,
         }
     },
     template: `
         <h2>Records ({{ records.length }})</h2>
-        <p><strong>{{ percentToQualify }}%</strong> or better to qualify</p>
+        <p v-if="isLegacy">This challenge does not accept new records.</p>
+        <p v-else><strong>{{ percentToQualify }}%</strong> or better to qualify</p>
         <table class="records">
             <tr v-for="record in records" class="record">
                 <td class="percent">
