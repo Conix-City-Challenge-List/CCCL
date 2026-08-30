@@ -164,6 +164,13 @@
       "percent": 100,
       "hz": 180,
       "enjoyment": 7
+    },
+    {
+      "user": "Beatlesito",
+      "link": "https://www.youtube.com/watch?v=45QMK7wfA8g",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 10
     }
   ]
 }
