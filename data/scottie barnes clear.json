@@ -10,5 +10,13 @@
   "song": "No Church In The Wild - Jay-Z & Kanye West",
   "difficulty": 9,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "Huddda",
+      "link": "https://youtu.be/7siCqSTm8EU",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 8
+    }
+  ]
 }
