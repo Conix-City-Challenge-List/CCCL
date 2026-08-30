@@ -787,6 +787,13 @@
       "percent": 100,
       "hz": 720,
       "enjoyment": 5
+    },
+    {
+      "user": "blizzard gd",
+      "link": "https://www.youtube.com/watch?v=NH_5JumBgpE",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 9
     }
   ]
 }
