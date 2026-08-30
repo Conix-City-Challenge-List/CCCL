@@ -1,5 +1,6 @@
 import { store } from '../main.js';
 import { averageEnjoyment } from '../content.js';
+import { legacyLimit } from '../config.js';
 import Spinner from '../components/Spinner.js';
 import Scroll from '../components/Scroll.js'
 import Level from '../components/List/Level.js'
@@ -41,6 +42,7 @@ export default {
                 <tr v-for="({ item: [err, rank, level], index }, i) in filteredLevels" :key="index">
                     <td class="rank">
                         <p v-if="rank === null" class="type-label-lg" style="width:2.7rem">&mdash;</p>
+                        <p v-else-if="rank > legacyLimit" class="type-label-lg" style="width:2.7rem">-</p>
                         <p v-else class="type-label-lg" style="width:2.7rem">#{{ rank }}</p>
                     </td>
                     <td class="level" :class="{ 'active': selected == index, 'error': err !== null }" :ref="selected == index ? 'selected' : undefined">
@@ -84,7 +86,8 @@ export default {
         store,
         searchQuery: '',
         sortOption: 0,
-        descending: true
+        descending: true,
+        legacyLimit,
     }),
 
     methods: {
@@ -212,7 +215,10 @@ export default {
                     currentdiff = templevel.difficulty
                 }
                 
-                if (newdiff !== currentdiff) console.warn(`Found incorrect difficulty! ${templevel.name} (${templevel.path}.json) is set to ${newdiff}, please set it to ${currentdiff}.`)
+                // Legacy levels keep whatever difficulty they had when they
+                // fell off the main list — it no longer reflects their
+                // position, so this consistency check doesn't apply to them.
+                if (newdiff !== currentdiff && templevel.rank <= legacyLimit) console.warn(`Found incorrect difficulty! ${templevel.name} (${templevel.path}.json) is set to ${newdiff}, please set it to ${currentdiff}.`)
                 
                 
                 const foundusers = []
