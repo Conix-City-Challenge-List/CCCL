@@ -178,6 +178,13 @@
       "percent": 100,
       "hz": 120,
       "enjoyment": 10
+    },
+    {
+      "user": "thewhyguy",
+      "link": "https://youtu.be/FHzGHlu7iUQ",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 9
     }
   ]
 }
