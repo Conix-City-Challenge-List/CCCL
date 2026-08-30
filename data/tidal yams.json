@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/3iILZFATVzc",
   "percentToQualify": 100,
   "song": "shiawase vip - dion timmer",
-  "difficulty": 7,
+  "difficulty": 8,
   "enjoyment": 10,
   "records": [
     {
@@ -46,13 +46,12 @@
       "hz": 240,
       "enjoyment": 8
     },
-      {
+    {
       "user": "conix",
       "link": "https://drive.google.com/file/d/1Srs9O60aJbnjwaTm-yV2WNi3_b2nKEQI/view",
       "percent": 100,
       "hz": 960,
       "enjoyment": 7
     }
-    
   ]
 }
