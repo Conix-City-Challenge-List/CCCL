@@ -430,6 +430,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 5
+    },
+    {
+      "user": "sledgy",
+      "link": "https://www.youtube.com/watch?v=LXDv9_0_CVU",
+      "percent": 100,
+      "hz": 1000,
+      "enjoyment": 5
     }
   ]
 }
