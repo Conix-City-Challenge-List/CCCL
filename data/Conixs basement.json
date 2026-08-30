@@ -409,6 +409,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 3
+    },
+    {
+      "user": "leo",
+      "link": "https://youtu.be/2KdiHausKkw",
+      "percent": 100,
+      "hz": 144,
+      "enjoyment": 6
     }
   ]
 }
