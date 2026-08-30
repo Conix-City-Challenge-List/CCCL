@@ -13,6 +13,12 @@ import { fetchTierLength, fetchTierMinimum } from "./content.js";
 
 export const scale = 1; // Amount of decimals the site will globally round to and display.
 
+// The global rank (1-indexed) at which the main list ends and the Legacy
+// list begins. A level ranked 101 or worse no longer earns points, no
+// longer accepts new records, and is displayed separately from the
+// numbered main list.
+export const legacyLimit = 100;
+
 // ------------------------------------------------------------------------------------------
 // Information about imported functions:
 //      - round takes in a number and rounds it to the nearest nth decimal, where n is the
@@ -28,6 +34,17 @@ export const scale = 1; // Amount of decimals the site will globally round to an
 // Score function (levels and records):
 // -------------------------------------
 export function score(rank, difficulty, percent, minPercent, list) {
+    // Legacy levels (fallen off the top `legacyLimit` spots) no longer earn
+    // points at all, regardless of difficulty or record percent — so this
+    // short-circuits everything else in the function. Guarding here (rather
+    // than only at each call site) means every point total across the site
+    // — a level's own Points stat, tier totals, and leaderboard totals —
+    // automatically excludes legacy levels without needing separate checks
+    // everywhere score() gets called.
+    if (rank !== null && rank > legacyLimit) {
+        return 0;
+    }
+
     // There are two formulas used to calculate a level/record's score: linear and exponential.
     //      - Linear: Used for the levels in the beginner through mythical tiers, where each
     //        level increments an equal value from the minimum point value in the tier to
