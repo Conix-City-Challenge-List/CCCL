@@ -10,5 +10,13 @@
   "song": "Death Factory",
   "difficulty": 6,
   "enjoyment": 8.4,
-  "records": []
+  "records": [
+    {
+      "user": "kulerkas",
+      "link": "https://medal.tv/games/geometry-dash/clips/nqwhPQ0yT3Ah2U1Wf?invite=cr-MSxhaVIsNzcyNDk3NjQ1",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 6.0788746487
+    }
+  ]
 }
