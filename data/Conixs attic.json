@@ -108,6 +108,13 @@
       "percent": 100,
       "hz": 120,
       "enjoyment": 10
+    },
+    {
+      "user": "Thymetofly",
+      "link": "https://m.youtube.com/watch?v=cWlXAozc2N0&ra=m",
+      "percent": 100,
+      "hz": 60,
+      "enjoyment": 8
     }
   ]
 }
