@@ -18,6 +18,7 @@ export default {
                 <tr v-for="score in scores">
                     <td class="rank">
                         <p v-if="score.rank === null">&mdash;</p>
+                        <p v-else-if="score.legacy">-</p>
                         <p v-else>#{{ score.rank }}</p>
                     </td>
                     <td class="level">
@@ -30,7 +31,8 @@ export default {
                         <p v-if="score.rating !== undefined">{{ score.rating }}/10</p>
                     </td>
                     <td class="score" v-if="score.score !== undefined">
-                        <p v-if="score.score">+{{ localize(score.score) }}</p>
+                        <p v-if="score.legacy">N/A</p>
+                        <p v-else-if="score.score">+{{ localize(score.score) }}</p>
                         <p v-else>-</p>
                     </td>
                 </tr>
