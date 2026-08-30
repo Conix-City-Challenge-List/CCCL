@@ -1102,6 +1102,13 @@
       "percent": 100,
       "hz": 360,
       "enjoyment": 5
+    },
+    {
+      "user": "FreakyBoy50",
+      "link": "https://www.youtube.com/watch?v=rq9KjJAORQs",
+      "percent": 100,
+      "hz": 960,
+      "enjoyment": 10
     }
   ]
 }
