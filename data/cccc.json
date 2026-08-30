@@ -465,6 +465,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 0.2
+    },
+    {
+      "user": "pancho naranjo",
+      "link": "https://youtu.be/TBg-t34ilW0?si=mRgL8qRX1ptgXOZU",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 4
     }
   ]
 }
