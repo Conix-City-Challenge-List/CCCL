@@ -451,6 +451,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 4
+    },
+    {
+      "user": "visualizegd",
+      "link": "https://www.youtube.com/watch?v=q1DUzaqyYlU",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 8.5
     }
   ]
 }
