@@ -1067,6 +1067,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 2
+    },
+    {
+      "user": "Nasseral",
+      "link": "https://www.youtube.com/watch?v=7-fAYCtKpd4",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 8
     }
   ]
 }
