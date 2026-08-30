@@ -10,5 +10,13 @@
   "song": "Myths You Forgot (Ft. Toby Fox)",
   "difficulty": 1,
   "enjoyment": 10,
-  "records": []
+  "records": [
+    {
+      "user": "uDaririn",
+      "link": "https://youtu.be/D_DVCNpUlao",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 7.5
+    }
+  ]
 }
