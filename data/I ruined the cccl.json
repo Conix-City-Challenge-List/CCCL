@@ -11,5 +11,13 @@
   "song": "Ultimate Destruction",
   "difficulty": 9,
   "enjoyment": 2,
-  "records": []
+  "records": [
+    {
+      "user": "Wayne",
+      "link": "https://youtu.be/wioS9klkqFc",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 6
+    }
+  ]
 }
