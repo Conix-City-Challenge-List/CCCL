@@ -10,5 +10,13 @@
   "song": "Eden - Cysmix",
   "difficulty": 9,
   "enjoyment": 7,
-  "records": []
+  "records": [
+    {
+      "user": "Jackaboi",
+      "link": "https://medal.tv/games/geometry-dash/clips/nquwDyu47Nsg7vG6F",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 0
+    }
+  ]
 }
