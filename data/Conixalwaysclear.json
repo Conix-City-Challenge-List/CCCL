@@ -129,6 +129,13 @@
       "percent": 100,
       "hz": 360,
       "enjoyment": 6.5
+    },
+    {
+      "user": "surge",
+      "link": "https://www.youtube.com/watch?v=Ni_BpaMob4E&feature=youtu.be",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 2
     }
   ]
 }
