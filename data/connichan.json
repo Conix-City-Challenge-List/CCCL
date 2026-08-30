@@ -94,6 +94,13 @@
       "percent": 100,
       "hz": 120,
       "enjoyment": 9
+    },
+    {
+      "user": "Solarz",
+      "link": "https://youtu.be/WuaMhDyF6KQ",
+      "percent": 100,
+      "hz": 1000,
+      "enjoyment": 8
     }
   ]
 }
