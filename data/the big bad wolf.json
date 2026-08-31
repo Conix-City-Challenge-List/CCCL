@@ -81,5 +81,115 @@
       "hz": 240,
       "enjoyment": 8
     }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-26",
+      "position": 29,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 30,
+      "change": 1,
+      "reason": "BrizzMaina was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 31,
+      "change": 1,
+      "reason": "cooper challenge was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 32,
+      "change": 1,
+      "reason": "Narrow Passage Z was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 33,
+      "change": 1,
+      "reason": "Free Challenge was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 34,
+      "change": 1,
+      "reason": "Hailing in Las Vegas was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 35,
+      "change": 1,
+      "reason": "CONTROLLER was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 36,
+      "change": 1,
+      "reason": "Baby Spikes was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 37,
+      "change": 1,
+      "reason": "santi ufo was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 38,
+      "change": 1,
+      "reason": "Fvck this Lev3L was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 39,
+      "change": 1,
+      "reason": "Plague was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 40,
+      "change": 1,
+      "reason": "Goonix Unleashed was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 41,
+      "change": 1,
+      "reason": "Free ccl points was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 42,
+      "change": 1,
+      "reason": "27 was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 43,
+      "change": 1,
+      "reason": "chic fil a was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 42,
+      "change": -1,
+      "reason": "Silent Guh was removed from the list"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 43,
+      "change": 1,
+      "reason": "gercules swing trial was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 44,
+      "change": 1,
+      "reason": "unnerfed challenge was added above"
+    }
   ]
 }
