@@ -95,5 +95,97 @@
       "hz": 720,
       "enjoyment": 7
     }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-25",
+      "position": 5,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-25",
+      "position": 6,
+      "change": 1,
+      "reason": "queenix challenge was added above"
+    },
+    {
+      "date": "2026-08-25",
+      "position": 3,
+      "change": -3,
+      "reason": "Moved"
+    },
+    {
+      "date": "2026-08-25",
+      "position": 2,
+      "change": -1,
+      "reason": "Pluto was moved down past this demon"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 1,
+      "change": -1,
+      "reason": "Buffscapes was moved down past this demon"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 2,
+      "change": 1,
+      "reason": "CONTROLLER was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 3,
+      "change": 1,
+      "reason": "Baby Spikes was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 4,
+      "change": 1,
+      "reason": "queenix challenge was moved up past this demon"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 3,
+      "change": -1,
+      "reason": "Moved"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 4,
+      "change": 1,
+      "reason": "INFECTION was added above"
+    },
+    {
+      "date": "2026-08-27",
+      "position": 5,
+      "change": 1,
+      "reason": "Pain and Suffering was added above"
+    },
+    {
+      "date": "2026-08-28",
+      "position": 6,
+      "change": 1,
+      "reason": "cove was added above"
+    },
+    {
+      "date": "2026-08-29",
+      "position": 8,
+      "change": 2,
+      "reason": "Moved"
+    },
+    {
+      "date": "2026-08-29",
+      "position": 9,
+      "change": 1,
+      "reason": "Whispering Angel was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 10,
+      "change": 1,
+      "reason": "Make Conix Dance was added above"
+    }
   ]
 }
