@@ -7,6 +7,12 @@
 // (nothing to backfill from without the one-off backfill script the bot
 // repo ships for reconstructing the last ~7 days from GitHub's commit
 // history).
+//
+// A challenge that falls into the Legacy range gets exactly one final
+// entry with `legacy: true` and `position: null` — Legacy has no real
+// ranking, so the bot stops writing further entries for it after that one.
+// This renders that entry as "Legacy" in the Change column and "-" for New
+// Position, matching pointercrate's own history table.
 export default {
     props: {
         history: {
@@ -38,12 +44,16 @@ export default {
                 <tr v-for="(entry, index) in orderedHistory" :key="index" :style="rowStyle(entry)">
                     <td style="padding:0.5rem;">{{ entry.date }}</td>
                     <td style="padding:0.5rem;">
-                        <span v-if="entry.change === null || entry.change === undefined">-</span>
+                        <span v-if="entry.legacy">Legacy</span>
+                        <span v-else-if="entry.change === null || entry.change === undefined">-</span>
                         <span v-else-if="entry.change > 0">&#8595; {{ entry.change }}</span>
                         <span v-else-if="entry.change < 0">&#8593; {{ -entry.change }}</span>
                         <span v-else>-</span>
                     </td>
-                    <td style="padding:0.5rem;">#{{ entry.position }}</td>
+                    <td style="padding:0.5rem;">
+                        <span v-if="entry.legacy || entry.position === null || entry.position === undefined">-</span>
+                        <span v-else>#{{ entry.position }}</span>
+                    </td>
                     <td style="padding:0.5rem;">{{ entry.reason }}</td>
                 </tr>
             </table>
@@ -57,6 +67,11 @@ export default {
     },
     methods: {
         rowStyle(entry) {
+            if (entry.legacy) {
+                // Fell off the list — neutral highlight, same treatment as
+                // the very first "added to list" entry.
+                return { background: "rgba(255, 230, 150, 0.25)" };
+            }
             if (entry.change === null || entry.change === undefined) {
                 // First entry — added to the list.
                 return { background: "rgba(255, 230, 150, 0.25)" };
@@ -73,3 +88,4 @@ export default {
         },
     },
 }
+ 
