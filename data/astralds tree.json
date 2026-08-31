@@ -10,5 +10,13 @@
   "song": "10000104",
   "difficulty": 9,
   "enjoyment": 1,
-  "records": []
+  "records": [
+    {
+      "user": "ZekeyZong",
+      "link": "https://www.youtube.com/watch?v=_XDydMCsmnU",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 0
+    }
+  ]
 }
