@@ -32,5 +32,13 @@
       "hz": 240,
       "enjoyment": 6.7
     }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-31",
+      "position": 54,
+      "change": null,
+      "reason": "Added to list"
+    }
   ]
 }
