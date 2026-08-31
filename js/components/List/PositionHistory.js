@@ -19,7 +19,7 @@ export default {
         expanded: true,
     }),
     template: `
-        <div class="position-history" style="font-family: inherit;" v-if="history && history.length > 0">
+        <div class="position-history" style="font-family: 'Lexend Deca', sans-serif;" v-if="history && history.length > 0">
             <div
                 class="position-history-header"
                 style="display:flex; align-items:center; justify-content:space-between; cursor:pointer; user-select:none;"
@@ -28,7 +28,7 @@ export default {
                 <h2 style="margin:0">Position History</h2>
                 <span style="display:inline-block; transition: transform 0.15s;" :style="{ transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)' }">&#9650;</span>
             </div>
-            <table v-if="expanded" class="position-history-table" style="width:100%; border-collapse:collapse; margin-top:0.5rem; font-family: inherit;">
+            <table v-if="expanded" class="position-history-table" style="width:100%; border-collapse:collapse; margin-top:0.5rem;">
                 <tr style="background:#1c6fc9;">
                     <th style="padding:0.5rem; text-align:left; color:#fff;">Date</th>
                     <th style="padding:0.5rem; text-align:left; color:#fff;">Change</th>
@@ -73,4 +73,3 @@ export default {
         },
     },
 }
- 
