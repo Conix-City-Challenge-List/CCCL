@@ -77,7 +77,7 @@
 }
  
 .pack-level-detail-creators {
-    opacity: 0.75;
+    color: #b8b8b8;
 }
  
 .pack-level-detail-meta {
@@ -85,6 +85,11 @@
     flex-direction: column;
     align-items: end;
     gap: 0.15rem;
-    opacity: 0.85;
+    color: #c8c8c8;
     white-space: nowrap;
+}
+ 
+.pack-level-detail-meta p {
+    font-size: 14px;
+    line-height: 18px;
 }
