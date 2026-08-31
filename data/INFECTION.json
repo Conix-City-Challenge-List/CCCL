@@ -74,5 +74,25 @@
       "hz": 240,
       "enjoyment": 9
     }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-26",
+      "position": 1,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-27",
+      "position": 2,
+      "change": 1,
+      "reason": "Pain and Suffering was added above"
+    },
+    {
+      "date": "2026-08-28",
+      "position": 3,
+      "change": 1,
+      "reason": "cove was added above"
+    }
   ]
 }
