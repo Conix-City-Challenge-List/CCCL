@@ -528,6 +528,13 @@
       "percent": 100,
       "hz": 120,
       "enjoyment": 9.67
+    },
+    {
+      "user": "HimBG",
+      "link": "https://www.youtube.com/watch?v=fok-hdOVfSM",
+      "percent": 100,
+      "hz": 60,
+      "enjoyment": 6
     }
   ]
 }
