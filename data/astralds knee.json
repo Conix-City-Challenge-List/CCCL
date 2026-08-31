@@ -25,5 +25,25 @@
       "hz": 2000,
       "enjoyment": 8
     }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-31",
+      "position": 16,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 17,
+      "change": 1,
+      "reason": "Make Conix Dance was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 18,
+      "change": 1,
+      "reason": "astralds tree was added above"
+    }
   ]
 }
