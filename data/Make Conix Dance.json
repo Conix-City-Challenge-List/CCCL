@@ -10,5 +10,13 @@
   "song": "larrynachos - Beauty in Chaos",
   "difficulty": 10,
   "enjoyment": 0,
-  "records": []
+  "records": [
+    {
+      "user": "Huddda",
+      "link": "https://youtu.be/IMpIJfXZJ4w",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 5
+    }
+  ]
 }
