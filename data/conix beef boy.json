@@ -10,5 +10,13 @@
   "song": "Triple Helix",
   "difficulty": 4,
   "enjoyment": 9,
-  "records": []
+  "records": [
+    {
+      "user": "ZekeyZong",
+      "link": "https://www.youtube.com/watch?v=a0nWZFIVXkM",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 2
+    }
+  ]
 }
