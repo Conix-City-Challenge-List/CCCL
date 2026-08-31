@@ -2,7 +2,7 @@
     padding-left: 2.5rem;
     transition: background-color 75ms ease-out;
 }
-
+ 
 .pack-name {
     margin-bottom: 0.7rem;
     margin-top: 0.5rem;
@@ -13,10 +13,78 @@
     grid-auto-rows: max-content;
     gap: 1rem;
 }
-
+ 
 .pack-records {
     display: flex;
     flex-direction: column;
     align-items: left;
     gap: 1rem;
+}
+ 
+.pack-level-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+ 
+.pack-level-detail {
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    background-color: var(--color-background-hover);
+    border-radius: 0.5rem;
+    border-inline-start: 0.3rem solid transparent;
+}
+ 
+.pack-level-detail.error {
+    opacity: 0.6;
+}
+ 
+.pack-level-detail-rank {
+    min-width: 2.5rem;
+    text-align: end;
+}
+ 
+.pack-level-detail-main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    min-width: 0;
+}
+ 
+.pack-level-detail-name {
+    background: none;
+    border: none;
+    color: var(--color-on-background);
+    text-align: start;
+    padding: 0;
+    cursor: pointer;
+    font: inherit;
+}
+ 
+.pack-level-detail-name:hover:not(:disabled) {
+    text-decoration-color: var(--color-primary);
+    text-decoration-thickness: 2px;
+    text-decoration-line: underline;
+}
+ 
+.pack-level-detail-name:disabled {
+    color: var(--color-error);
+    cursor: not-allowed;
+    text-decoration: line-through;
+}
+ 
+.pack-level-detail-creators {
+    opacity: 0.75;
+}
+ 
+.pack-level-detail-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 0.15rem;
+    opacity: 0.85;
+    white-space: nowrap;
 }
