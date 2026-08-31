@@ -58,7 +58,13 @@ export default {
                                 <p class="type-label-lg" v-if="ientry.total == 0">{{ "—" }}</p> 
                             </td>
                             <td class="user" :class="{ 'active': selected == index }" :ref="selected == index ? 'selected' : undefined">
-                                <button @click="selected = index; copied = false;">
+                                <button @click="selected = index; copied = false;" style="display:flex; align-items:center; gap:0.5rem;">
+                                    <img
+                                        v-if="ientry.flag"
+                                        class="flag"
+                                        :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + ientry.flag.toLowerCase() + '.svg'"
+                                        alt="flag"
+                                    >
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
                             </td>
