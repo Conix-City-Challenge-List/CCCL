@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/QYeDI9eAQE0?is=dB-JK6Vgebuc9mdS",
   "percentToQualify": 100,
   "song": "Memphistos Lullaby",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 8,
   "records": [],
   "positionHistory": [
@@ -35,6 +35,12 @@
       "position": 20,
       "change": 1,
       "reason": "astralds tree was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 21,
+      "change": 1,
+      "reason": "depression was moved up past this demon"
     }
   ]
 }
