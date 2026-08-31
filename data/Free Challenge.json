@@ -1189,75 +1189,10 @@
     },
     {
       "date": "2026-08-30",
-      "position": 101,
-      "change": 1,
-      "reason": "conix beef boy was added above"
-    },
-    {
-      "date": "2026-08-30",
-      "position": 102,
-      "change": 1,
-      "reason": "Sraka was added above"
-    },
-    {
-      "date": "2026-08-30",
-      "position": 103,
-      "change": 1,
-      "reason": "Abyss Of Conix was added above"
-    },
-    {
-      "date": "2026-08-31",
-      "position": 104,
-      "change": 1,
-      "reason": "astralds knee was added above"
-    },
-    {
-      "date": "2026-08-31",
-      "position": 105,
-      "change": 1,
-      "reason": "Thinking Space TCD was added above"
-    },
-    {
-      "date": "2026-08-31",
-      "position": 106,
-      "change": 1,
-      "reason": "Tomato Farm was added above"
-    },
-    {
-      "date": "2026-08-31",
-      "position": 107,
-      "change": 1,
-      "reason": "conix drags slh was added above"
-    },
-    {
-      "date": "2026-08-31",
-      "position": 108,
-      "change": 1,
-      "reason": "Blizzy was added above"
-    },
-    {
-      "date": "2026-08-31",
-      "position": 109,
-      "change": 1,
-      "reason": "Make Conix Dance was added above"
-    },
-    {
-      "date": "2026-08-31",
-      "position": 110,
-      "change": 1,
-      "reason": "astralds tree was added above"
-    },
-    {
-      "date": "2026-08-31",
-      "position": 111,
-      "change": 1,
-      "reason": "astralds pee was added above"
-    },
-    {
-      "date": "2026-08-31",
-      "position": 112,
-      "change": 1,
-      "reason": "THE BIG ONE was added above"
+      "position": null,
+      "change": null,
+      "reason": "conix beef boy was added above",
+      "legacy": true
     }
   ]
 }
