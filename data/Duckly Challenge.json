@@ -1092,27 +1092,10 @@
     },
     {
       "date": "2026-08-31",
-      "position": 101,
-      "change": 1,
-      "reason": "Make Conix Dance was added above"
-    },
-    {
-      "date": "2026-08-31",
-      "position": 102,
-      "change": 1,
-      "reason": "astralds tree was added above"
-    },
-    {
-      "date": "2026-08-31",
-      "position": 103,
-      "change": 1,
-      "reason": "astralds pee was added above"
-    },
-    {
-      "date": "2026-08-31",
-      "position": 104,
-      "change": 1,
-      "reason": "THE BIG ONE was added above"
+      "position": null,
+      "change": null,
+      "reason": "Make Conix Dance was added above",
+      "legacy": true
     }
   ]
 }
