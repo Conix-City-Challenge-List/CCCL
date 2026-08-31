@@ -61,5 +61,19 @@
       "hz": 240,
       "enjoyment": 9
     }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-29",
+      "position": 8,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 9,
+      "change": 1,
+      "reason": "Make Conix Dance was added above"
+    }
   ]
 }
