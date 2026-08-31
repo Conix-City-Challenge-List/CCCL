@@ -67,5 +67,25 @@
       "hz": 240,
       "enjoyment": 9
     }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-29",
+      "position": 7,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-29",
+      "position": 6,
+      "change": -1,
+      "reason": "horizon was moved down past this demon"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 7,
+      "change": 1,
+      "reason": "Make Conix Dance was added above"
+    }
   ]
 }
