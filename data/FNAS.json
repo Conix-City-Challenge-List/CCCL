@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/5OmLP0PdTww",
   "percentToQualify": 100,
   "song": "The Living Tombstone - I Cant Fix You",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 10,
   "records": [
     {
@@ -749,6 +749,12 @@
       "position": 80,
       "change": 1,
       "reason": "astralds pee was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 81,
+      "change": 1,
+      "reason": "THE BIG ONE was added above"
     }
   ]
 }
