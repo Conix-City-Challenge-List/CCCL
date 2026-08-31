@@ -18,5 +18,49 @@
       "hz": 360,
       "enjoyment": 0
     }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-31",
+      "position": 68,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 69,
+      "change": 1,
+      "reason": "conix beef boy was moved up past this demon"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 70,
+      "change": 1,
+      "reason": "Blizzy was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 71,
+      "change": 1,
+      "reason": "Make Conix Dance was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 72,
+      "change": 1,
+      "reason": "astralds tree was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 73,
+      "change": 1,
+      "reason": "astralds pee was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 67,
+      "change": -6,
+      "reason": "Moved"
+    }
   ]
 }
