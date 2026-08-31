@@ -220,6 +220,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 0
+    },
+    {
+      "user": "zurr",
+      "link": "https://youtu.be/3e192xJr4-Y",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 1
     }
   ]
 }
