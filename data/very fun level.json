@@ -206,6 +206,13 @@
       "percent": 100,
       "hz": 720,
       "enjoyment": 5
+    },
+    {
+      "user": "BKGamingOnline",
+      "link": "https://www.youtube.com/watch?v=7TsnY2QTAX8",
+      "percent": 100,
+      "hz": 400,
+      "enjoyment": 6
     }
   ]
 }
