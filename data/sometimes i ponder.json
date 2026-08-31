@@ -10,5 +10,13 @@
   "song": "Lunar Abyss",
   "difficulty": 7,
   "enjoyment": 7.8,
-  "records": []
+  "records": [
+    {
+      "user": "thewhyguy",
+      "link": "https://drive.google.com/file/d/1Na8bnSLQl03y5cjMVjhOFoyKhjCDwZlB/view?usp=sharing",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 7
+    }
+  ]
 }
