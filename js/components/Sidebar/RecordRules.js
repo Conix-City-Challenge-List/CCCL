@@ -10,7 +10,7 @@ export default {
                 2. Challenges MUST be less than 30 seconds long and AT LEAST 5 seconds long . If It is longer than 30 seconds or shorter than 5 seconds it will not be accepted on the list.
             </p>
              <p>
-                3. NO 2P challenges allowed.
+                3. NO 2P challenges allowed and NO Memory Challenges allowed.
             </p>
             <p>
                 4. Completion must have clicks clearly audible in the video. (Mobile players are exempt from this rule but they should preferably have taps.) Click sounds mod is NOT allowed.
