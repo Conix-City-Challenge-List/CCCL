@@ -10,5 +10,13 @@
   "song": "Nuke Powder",
   "difficulty": 5,
   "enjoyment": 8,
-  "records": []
+  "records": [
+    {
+      "user": "thewhyguy",
+      "link": "https://drive.google.com/file/d/1ZezPF40OfHujZLlXOYj88Es_vo5gACcP/view?usp=sharing",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 7.1
+    }
+  ]
 }
