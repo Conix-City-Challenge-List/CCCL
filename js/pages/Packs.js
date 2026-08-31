@@ -71,6 +71,7 @@ export default {
                         <h3>Points: {{ selectedPack.score }}</h3>
                     </div>
                     <h2>Levels ({{ displayLevels.length }})</h2>
+                    <p v-if="!selectedPack.levels" class="type-body"> Beat any 5 challenges in the {{ ["", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent"][selectedPack.difficulty] }} tier</p>
                     <div class="pack-level-details">
                         <div v-for="lvl in displayLevels" :key="lvl.path" class="pack-level-detail" :class="{ 'error': lvl.difficulty === -50 }" :style="{ 'border-inline-start-color': rgbaBind(packColor(lvl.difficulty === -50 ? null : lvl.difficulty), 0) }">
                             <div class="pack-level-detail-rank">
@@ -310,3 +311,4 @@ export default {
         },
     },
 };
+ 
