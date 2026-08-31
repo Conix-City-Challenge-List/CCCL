@@ -7,6 +7,7 @@ import LevelMeta from "./LevelMeta.js";
 import Verification from "./Verification.js";
 import Records from "./Records.js";
 import Packs from "./Packs.js";
+import PositionHistory from "./PositionHistory.js";
 
 export default {
     props: {
@@ -24,7 +25,7 @@ export default {
             required: false,
         }
     },
-    components: { LevelAuthors, Copy, Copied, LevelMeta, Verification, Records, Packs },
+    components: { LevelAuthors, Copy, Copied, LevelMeta, Verification, Records, Packs, PositionHistory },
     data: () => ({
         copied: false,
     }),
@@ -44,6 +45,7 @@ export default {
             <Verification :verification="level.verification" :showcase="level.showcase || null" />
             <LevelMeta :level="level" :list="list" />
             <Records :records="level.records" :percentToQualify="(level.difficulty>3) ? level.percentToQualify : 100" :isLegacy="isLegacy" />
+            <PositionHistory :history="level.positionHistory" />
         </div>
     `,
     methods: {
