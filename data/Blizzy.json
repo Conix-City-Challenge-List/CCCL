@@ -18,5 +18,37 @@
       "hz": 360,
       "enjoyment": 8.5
     }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-31",
+      "position": 52,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 53,
+      "change": 1,
+      "reason": "Thinking Space TCD was moved up past this demon"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 54,
+      "change": 1,
+      "reason": "Make Conix Dance was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 55,
+      "change": 1,
+      "reason": "astralds tree was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 56,
+      "change": 1,
+      "reason": "astralds pee was added above"
+    }
   ]
 }
