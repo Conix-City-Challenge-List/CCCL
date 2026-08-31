@@ -10,5 +10,37 @@
   "song": "Killstealer",
   "difficulty": 7,
   "enjoyment": 2,
-  "records": []
+  "records": [],
+  "positionHistory": [
+    {
+      "date": "2026-08-26",
+      "position": 15,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 16,
+      "change": 1,
+      "reason": "27 was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 17,
+      "change": 1,
+      "reason": "chic fil a was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 18,
+      "change": 1,
+      "reason": "gercules swing trial was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 17,
+      "change": -1,
+      "reason": "27 was removed from the list"
+    }
+  ]
 }
