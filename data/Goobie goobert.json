@@ -18,5 +18,49 @@
       "hz": 240,
       "enjoyment": 0
     }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-30",
+      "position": 18,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-30",
+      "position": 19,
+      "change": 1,
+      "reason": "scottie barnes clear was added above"
+    },
+    {
+      "date": "2026-08-30",
+      "position": 20,
+      "change": 1,
+      "reason": "depression was added above"
+    },
+    {
+      "date": "2026-08-30",
+      "position": 21,
+      "change": 1,
+      "reason": "Abyss Of Conix was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 22,
+      "change": 1,
+      "reason": "astralds knee was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 23,
+      "change": 1,
+      "reason": "Make Conix Dance was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 24,
+      "change": 1,
+      "reason": "astralds tree was added above"
+    }
   ]
 }
