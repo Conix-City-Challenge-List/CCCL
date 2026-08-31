@@ -61,7 +61,7 @@
     text-align: start;
     padding: 0;
     cursor: pointer;
-    font: inherit;
+    text-decoration: none;
 }
  
 .pack-level-detail-name:hover:not(:disabled) {
