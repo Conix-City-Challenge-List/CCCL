@@ -10,5 +10,13 @@
   "song": "945695",
   "difficulty": 4,
   "enjoyment": 10,
-  "records": []
+  "records": [
+    {
+      "user": "thewhyguy",
+      "link": "https://drive.google.com/file/d/1pJPBV9B4ligIs6tmremY4ugm858y1nt5/view?usp=sharing",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 0
+    }
+  ]
 }
