@@ -10,5 +10,37 @@
   "song": "Heavenly Horrors",
   "difficulty": 8,
   "enjoyment": 3,
-  "records": []
+  "records": [],
+  "positionHistory": [
+    {
+      "date": "2026-08-30",
+      "position": 17,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-30",
+      "position": 18,
+      "change": 1,
+      "reason": "Abyss Of Conix was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 19,
+      "change": 1,
+      "reason": "astralds knee was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 20,
+      "change": 1,
+      "reason": "Make Conix Dance was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 21,
+      "change": 1,
+      "reason": "astralds tree was added above"
+    }
+  ]
 }
