@@ -60,5 +60,145 @@
       "hz": 240,
       "enjoyment": 6.7
     }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-25",
+      "position": 4,
+      "change": null,
+      "reason": "queenix challenge was added above"
+    },
+    {
+      "date": "2026-08-25",
+      "position": 5,
+      "change": 1,
+      "reason": "horizon was moved up past this demon"
+    },
+    {
+      "date": "2026-08-25",
+      "position": 4,
+      "change": -1,
+      "reason": "Moved"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 5,
+      "change": 1,
+      "reason": "Hailing in Las Vegas was moved up past this demon"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 6,
+      "change": 1,
+      "reason": "CONTROLLER was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 7,
+      "change": 1,
+      "reason": "Baby Spikes was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 8,
+      "change": 1,
+      "reason": "chic fil a was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 9,
+      "change": 1,
+      "reason": "INFECTION was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 10,
+      "change": 1,
+      "reason": "Cube Challenge was added above"
+    },
+    {
+      "date": "2026-08-26",
+      "position": 11,
+      "change": 1,
+      "reason": "Toph Shant Clear was moved up past this demon"
+    },
+    {
+      "date": "2026-08-27",
+      "position": 10,
+      "change": -1,
+      "reason": "Cube Challenge was moved down past this demon"
+    },
+    {
+      "date": "2026-08-27",
+      "position": 11,
+      "change": 1,
+      "reason": "Pain and Suffering was added above"
+    },
+    {
+      "date": "2026-08-28",
+      "position": 12,
+      "change": 1,
+      "reason": "Corkscrew Jones was added above"
+    },
+    {
+      "date": "2026-08-28",
+      "position": 13,
+      "change": 1,
+      "reason": "cove was added above"
+    },
+    {
+      "date": "2026-08-29",
+      "position": 14,
+      "change": 1,
+      "reason": "flushed was added above"
+    },
+    {
+      "date": "2026-08-29",
+      "position": 15,
+      "change": 1,
+      "reason": "Whispering Angel was added above"
+    },
+    {
+      "date": "2026-08-30",
+      "position": 16,
+      "change": 1,
+      "reason": "I ruined the cccl was added above"
+    },
+    {
+      "date": "2026-08-30",
+      "position": 17,
+      "change": 1,
+      "reason": "scottie barnes clear was added above"
+    },
+    {
+      "date": "2026-08-30",
+      "position": 18,
+      "change": 1,
+      "reason": "depression was added above"
+    },
+    {
+      "date": "2026-08-30",
+      "position": 19,
+      "change": 1,
+      "reason": "Abyss Of Conix was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 20,
+      "change": 1,
+      "reason": "astralds knee was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 21,
+      "change": 1,
+      "reason": "Make Conix Dance was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 22,
+      "change": 1,
+      "reason": "astralds tree was added above"
+    }
   ]
 }
