@@ -53,5 +53,67 @@
       "hz": 360,
       "enjoyment": 6
     }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-27",
+      "position": 39,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-27",
+      "position": 40,
+      "change": 1,
+      "reason": "dawg small conix was added above"
+    },
+    {
+      "date": "2026-08-27",
+      "position": 41,
+      "change": 1,
+      "reason": "Pain and Suffering was added above"
+    },
+    {
+      "date": "2026-08-28",
+      "position": 42,
+      "change": 1,
+      "reason": "Corkscrew Jones was added above"
+    },
+    {
+      "date": "2026-08-28",
+      "position": 43,
+      "change": 1,
+      "reason": "eatthebut was added above"
+    },
+    {
+      "date": "2026-08-28",
+      "position": 44,
+      "change": 1,
+      "reason": "bocchimoc was added above"
+    },
+    {
+      "date": "2026-08-28",
+      "position": 45,
+      "change": 1,
+      "reason": "posterboy was added above"
+    },
+    {
+      "date": "2026-08-28",
+      "position": 46,
+      "change": 1,
+      "reason": "francesco challenge was added above"
+    },
+    {
+      "date": "2026-08-28",
+      "position": 47,
+      "change": 1,
+      "reason": "Pvrple Diemond was added above"
+    },
+    {
+      "date": "2026-08-28",
+      "position": 48,
+      "change": 1,
+      "reason": "Greys was added above"
+    }
   ]
 }
