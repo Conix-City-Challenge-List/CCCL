@@ -65,5 +65,14 @@
       "astralds knee",
       "astralds tree"
     ]
+  },
+  {
+    "name": "Shiver Pack",
+    "difficulty": 6,
+    "levels": [
+      "Pluto",
+      "Freedom",
+      "Abyssal"
+    ]
   }
 ]
