@@ -10,5 +10,13 @@
   "song": "cYsmix - Eden",
   "difficulty": 5,
   "enjoyment": 5,
-  "records": []
+  "records": [
+    {
+      "user": "thewhyguy",
+      "link": "https://drive.google.com/file/d/1pb9uuzZToGIBOXsyllS2pKfzAc3kI0dx/view?usp=sharing",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 8.5
+    }
+  ]
 }
