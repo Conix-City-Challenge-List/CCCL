@@ -56,5 +56,14 @@
       "Conixs cave",
       "Conixs attic"
     ]
+  },
+  {
+    "name": "Astrald Pack",
+    "difficulty": 9,
+    "levels": [
+      "astralds pee",
+      "astralds knee",
+      "astralds tree"
+    ]
   }
 ]
