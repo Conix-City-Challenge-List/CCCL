@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/o645gE03Ayg",
   "percentToQualify": 100,
   "song": "~NK~ 'TruthOrDare featJrounds' ",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 7,
   "records": [
     {
@@ -359,6 +359,12 @@
       "position": 30,
       "change": 1,
       "reason": "Conix Valley was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 31,
+      "change": 1,
+      "reason": "Demise was added above"
     }
   ]
 }
