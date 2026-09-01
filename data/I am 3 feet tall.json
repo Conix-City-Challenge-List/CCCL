@@ -531,6 +531,12 @@
       "position": 64,
       "change": 1,
       "reason": "Demise was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 65,
+      "change": 1,
+      "reason": "santi cube was moved up past this challenge"
     }
   ]
 }
