@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/R7xYp9iTqcI?is=MdWSLKAXdc4_BWnC",
   "percentToQualify": 100,
   "song": "Flow - Creo",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 0,
   "records": [
     {
@@ -1101,6 +1101,12 @@
       "position": 90,
       "change": 1,
       "reason": "Conix Valley was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 91,
+      "change": 1,
+      "reason": "santi ship was added above"
     }
   ]
 }
