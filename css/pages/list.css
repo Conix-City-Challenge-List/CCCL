@@ -149,6 +149,9 @@
 }
  
 .page-list .level-container .level .records .records-row .user .type-label-lg {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -282,5 +285,6 @@
     align-items: center;
     gap: 0.5rem;
 }
+ 
  
  
