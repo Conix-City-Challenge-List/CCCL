@@ -10,7 +10,15 @@
   "song": "skrillex - andy",
   "difficulty": 2,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "Huddda",
+      "link": "https://youtu.be/xO6Ole-Yo0I",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 5
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-01",
