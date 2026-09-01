@@ -73,7 +73,7 @@ export default {
                     <h2>Levels ({{ displayLevels.length }})</h2>
                     <p v-if="!selectedPack.levels" class="type-body"> Beat any 5 challenges in the {{ ["", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent"][selectedPack.difficulty] }} tier</p>
                     <div class="pack-level-details">
-                        <div v-for="lvl in displayLevels" :key="lvl.path" class="pack-level-detail" :class="{ 'error': lvl.difficulty === -50 }" :style="{ 'border-inline-start-color': rgbaBind(packColor(lvl.difficulty === -50 ? null : lvl.difficulty), 0) }" @click="lvl.difficulty !== -50 && (selected = displayLevels.indexOf(lvl))">
+                        <div v-for="lvl in displayLevels" :key="lvl.path" class="pack-level-detail" :class="{ 'error': lvl.difficulty === -50 }" :style="{ 'border-inline-start-color': rgbaBind(accentColor(packColor(lvl.difficulty === -50 ? null : lvl.difficulty)), 0) }" @click="lvl.difficulty !== -50 && (selected = displayLevels.indexOf(lvl))">
                             <div class="pack-level-detail-rank">
                                 <p v-if="lvl.rank === null || lvl.difficulty === -50" class="type-label-lg">&mdash;</p>
                                 <p v-else class="type-label-lg">#{{ lvl.rank }}</p>
@@ -88,7 +88,7 @@ export default {
                                 </p>
                             </div>
                             <div class="pack-level-detail-meta" v-if="lvl.difficulty !== -50">
-                                <p class="type-label-sm">{{ ["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][lvl.difficulty] }}</p>
+                                <p v-if="selectedPack.levels" class="type-label-sm">{{ ["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][lvl.difficulty] }}</p>
                                 <p class="type-label-sm">{{ score(lvl.rank, lvl.difficulty, 100, lvl.percentToQualify, list) }} pts</p>
                             </div>
                         </div>
@@ -143,6 +143,27 @@ export default {
         rgbaBind,
         packColor,
         copyURL,
+ 
+        // Some tier colors (Silent's near-black, in particular) are too
+        // close to the row background (#27262c, luminance ~39) to read as
+        // a visible accent border — Silent's own luminance is ~20, darker
+        // than the background it's meant to stand out against. Scales the
+        // whole color up proportionally (preserving its hue) until it
+        // clears a minimum luminance, rather than flooring individual
+        // channels — flooring would tint saturated colors like Extreme's
+        // red (whose low green/blue channels are intentional, not a
+        // darkness problem) instead of just brightening genuinely-dark
+        // ones. Only affects this border — the tier's actual color
+        // elsewhere on the site (pack buttons, etc.) is untouched.
+        accentColor(color) {
+            if (!color) return color;
+            const [r, g, b, a] = color;
+            const luminance = 0.299 * r + 0.587 * g + 0.114 * b;
+            const minLuminance = 45;
+            if (luminance <= 0 || luminance >= minLuminance) return color;
+            const scale = minLuminance / luminance;
+            return [Math.min(255, r * scale), Math.min(255, g * scale), Math.min(255, b * scale), a];
+        },
  
         // initialize the selected pack
         selectPack(index, pack) {
@@ -311,5 +332,6 @@ export default {
         },
     },
 };
+ 
  
  
