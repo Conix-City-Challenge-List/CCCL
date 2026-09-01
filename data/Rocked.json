@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/OFfRVyp6czs",
   "percentToQualify": 100,
   "song": "Creo - Rock Thing",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 7,
   "records": [
     {
@@ -346,6 +346,12 @@
       "position": 50,
       "change": 1,
       "reason": "astralds tee was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 51,
+      "change": 1,
+      "reason": "Conix Valley was added above"
     }
   ]
 }
