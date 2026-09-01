@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/c1fZRD2FkX0",
   "percentToQualify": 100,
   "song": "flamewall",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 7,
   "records": [
     {
@@ -660,6 +660,12 @@
       "position": 90,
       "change": 1,
       "reason": "santi cube was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 91,
+      "change": 1,
+      "reason": "LevexTech Wave Trial was added above"
     }
   ]
 }
