@@ -148,16 +148,7 @@
     min-width: 0;
 }
  
-.page-list .level-container .level .records .records-row .user .username-clip {
-    /* Truncation lives here, on a plain wrapper — NOT on .type-label-lg
-       itself. That class's ::before/::after "leading trim" hack tightens
-       its own line box right down to cap-height/baseline; combining
-       overflow:hidden with that hack clips the tails off descenders
-       (g, y, p, q). This wrapper has no such hack, so it clips long
-       names with an ellipsis without cutting into the glyphs themselves. */
-    display: inline-block;
-    max-width: 100%;
-    vertical-align: middle;
+.page-list .level-container .level .records .records-row .user .type-label-lg {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -291,6 +282,5 @@
     align-items: center;
     gap: 0.5rem;
 }
- 
  
  
