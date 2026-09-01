@@ -131,6 +131,26 @@
     width: 100%;
 }
  
+.page-list .level-container .level .records .percent {
+    width: 4.5rem;
+}
+ 
+.page-list .level-container .level .records .mobile {
+    width: 2rem;
+}
+ 
+.page-list .level-container .level .records .enjoyment {
+    width: 5.5rem;
+}
+ 
+.page-list .level-container .level .records .hz {
+    width: 4.5rem;
+}
+ 
+.page-list .level-container .level .records .proof {
+    width: 5rem;
+}
+ 
 .page-list .level-container .level .records .percent,
 .page-list .level-container .level .records .hz {
     text-align: end;
@@ -150,10 +170,7 @@
 }
  
 .page-list .level-container .level .records .record-header th.percent,
-.page-list .level-container .level .records .record-header th.hz {
-    text-align: end;
-}
- 
+.page-list .level-container .level .records .record-header th.hz,
 .page-list .level-container .level .records .record-header th.proof {
     text-align: end;
     white-space: nowrap;
@@ -263,4 +280,3 @@
     align-items: center;
     gap: 0.5rem;
 }
- 
