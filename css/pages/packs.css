@@ -36,10 +36,12 @@
     background-color: var(--color-background-hover);
     border-radius: 0.5rem;
     border-inline-start: 0.3rem solid transparent;
+    cursor: pointer;
 }
  
 .pack-level-detail.error {
     opacity: 0.6;
+    cursor: not-allowed;
 }
  
 .pack-level-detail-rank {
@@ -93,3 +95,4 @@
     font-size: 14px;
     line-height: 18px;
 }
+ 
