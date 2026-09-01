@@ -1111,6 +1111,13 @@
       "position": 100,
       "change": 0,
       "reason": "astralds tee was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": null,
+      "change": null,
+      "reason": "Conix Valley was added above",
+      "legacy": true
     }
   ]
 }
