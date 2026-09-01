@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=XaMyOwNiLUI",
   "percentToQualify": 100,
   "song": "poster boy",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 9,
   "records": [
     {
@@ -247,6 +247,12 @@
       "position": 50,
       "change": 1,
       "reason": "Conix Valley was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 51,
+      "change": 1,
+      "reason": "Demise was added above"
     }
   ]
 }
