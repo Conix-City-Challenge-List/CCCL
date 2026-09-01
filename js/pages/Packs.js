@@ -73,17 +73,17 @@ export default {
                     <h2>Levels ({{ displayLevels.length }})</h2>
                     <p v-if="!selectedPack.levels" class="type-body"> Beat any 5 challenges in the {{ ["", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent"][selectedPack.difficulty] }} tier</p>
                     <div class="pack-level-details">
-                        <div v-for="lvl in displayLevels" :key="lvl.path" class="pack-level-detail" :class="{ 'error': lvl.difficulty === -50 }" :style="{ 'border-inline-start-color': rgbaBind(packColor(lvl.difficulty === -50 ? null : lvl.difficulty), 0) }">
+                        <div v-for="lvl in displayLevels" :key="lvl.path" class="pack-level-detail" :class="{ 'error': lvl.difficulty === -50 }" :style="{ 'border-inline-start-color': rgbaBind(packColor(lvl.difficulty === -50 ? null : lvl.difficulty), 0) }" @click="lvl.difficulty !== -50 && (selected = displayLevels.indexOf(lvl))">
                             <div class="pack-level-detail-rank">
                                 <p v-if="lvl.rank === null || lvl.difficulty === -50" class="type-label-lg">&mdash;</p>
                                 <p v-else class="type-label-lg">#{{ lvl.rank }}</p>
                             </div>
                             <div class="pack-level-detail-main">
-                                <button class="director type-title-sm pack-level-detail-name" :disabled="lvl.difficulty === -50" @click="selected = displayLevels.indexOf(lvl)">{{ lvl.name }}</button>
+                                <p class="director type-title-sm pack-level-detail-name" :class="{ 'disabled': lvl.difficulty === -50 }">{{ lvl.name }}</p>
                                 <p v-if="lvl.creators && lvl.creators.length" class="type-body pack-level-detail-creators">
                                     by
                                     <template v-for="(creator, index) in lvl.creators">
-                                        <a class="director link" :href="'https://conixchallengelist.pages.dev/#/leaderboard/user/' + creator.toLowerCase().replaceAll(' ', '_')">{{ creator }}</a><span v-if="index < lvl.creators.length - 1">, </span>
+                                        <a class="director link" @click.stop :href="'https://conixchallengelist.pages.dev/#/leaderboard/user/' + creator.toLowerCase().replaceAll(' ', '_')">{{ creator }}</a><span v-if="index < lvl.creators.length - 1">, </span>
                                     </template>
                                 </p>
                             </div>
@@ -311,4 +311,5 @@ export default {
         },
     },
 };
+ 
  
