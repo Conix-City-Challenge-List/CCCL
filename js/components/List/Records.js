@@ -18,8 +18,18 @@ export default {
         <h2>Records ({{ records.length }})</h2>
         <p v-if="isLegacy">This challenge does not accept new records.</p>
         <p v-else><strong>{{ percentToQualify }}%</strong> or better to qualify</p>
-        <table class="records">
-            <tr v-for="record in records" class="record">
+        <div class="search-container records-search-container" v-if="records.length > 0">
+            <input
+                type="text"
+                class="search"
+                id="records-search-bar"
+                placeholder="Search users..."
+                v-model="searchQuery"
+            />
+            <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search">x</button>
+        </div>
+        <table class="records" v-if="filteredRecords.length > 0">
+            <tr v-for="record in filteredRecords" class="record">
                 <td class="percent">
                     <p>{{ record.percent }}%</p>
                 </td>
@@ -41,6 +51,24 @@ export default {
                 </td>
             </tr>
         </table>
+        <p class="record" style="padding:1.1rem" v-else-if="records.length > 0">No users found.</p>
     `,
-
+ 
+    data: () => ({
+        searchQuery: '',
+    }),
+ 
+    computed: {
+        filteredRecords() {
+            if (!this.searchQuery.trim()) return this.records;
+ 
+            const query = this.searchQuery.toLowerCase().replace(/\s/g, '');
+ 
+            return this.records.filter((record) =>
+                record.user.toLowerCase().replace(/\s/g, '').includes(query)
+            );
+        },
+    },
+ 
 }
+ 
