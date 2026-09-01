@@ -96,6 +96,16 @@
     gap: 1rem;
 }
  
+.page-list .level-container .level .records-search-container {
+    margin-top: -1rem;
+}
+ 
+.page-list .level-container .level .records-search-container .search {
+    margin-left: 0;
+    width: 100%;
+    max-width: 100%;
+}
+ 
 .page-list .level-container .level .records {
     table-layout: fixed;
 }
