@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/U4ZUiGg6Jjo",
   "percentToQualify": 100,
   "song": "-stalker-",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 10,
   "records": [
     {
@@ -193,6 +193,12 @@
       "position": 50,
       "change": 1,
       "reason": "santi cube was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 51,
+      "change": 1,
+      "reason": "paradise was added above"
     }
   ]
 }
