@@ -25,6 +25,7 @@ export default {
                 id="records-search-bar"
                 placeholder="Search users..."
                 v-model="searchQuery"
+                style="margin-left: 0; width: 100%; max-width: 100%;"
             />
             <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search">x</button>
         </div>
