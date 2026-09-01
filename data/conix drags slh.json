@@ -68,6 +68,12 @@
       "position": 67,
       "change": -6,
       "reason": "Moved"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 68,
+      "change": 1,
+      "reason": "astralds bee was added above"
     }
   ]
 }
