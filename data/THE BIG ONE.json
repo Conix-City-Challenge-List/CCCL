@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=TXt8XsbDKiU",
   "percentToQualify": 100,
   "song": "fog by spurme",
-  "difficulty": 2,
+  "difficulty": 3,
   "enjoyment": 6,
   "records": [
     {
@@ -80,6 +80,12 @@
       "position": 85,
       "change": 1,
       "reason": "Smokescreen was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 76,
+      "change": -9,
+      "reason": "Moved"
     }
   ]
 }
