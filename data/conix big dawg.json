@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=Z2rst-wKJDc",
   "percentToQualify": 100,
   "song": "Death Factory",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 2,
   "records": [
     {
@@ -360,6 +360,12 @@
       "position": 70,
       "change": 1,
       "reason": "Demise was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 71,
+      "change": 1,
+      "reason": "santi cube was added above"
     }
   ]
 }
