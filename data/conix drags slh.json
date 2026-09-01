@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/-kJSJOaNhcs",
   "percentToQualify": 100,
   "song": "945695",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 10,
   "records": [
     {
@@ -86,6 +86,12 @@
       "position": 70,
       "change": 1,
       "reason": "Conix Valley was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 71,
+      "change": 1,
+      "reason": "Demise was added above"
     }
   ]
 }
