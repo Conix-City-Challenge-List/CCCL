@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/EX0HfMxde0w",
   "percentToQualify": 100,
   "song": "Helvetican - Bufu",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 6,
   "records": [
     {
@@ -362,6 +362,12 @@
       "position": 50,
       "change": 1,
       "reason": "CNX was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 51,
+      "change": 1,
+      "reason": "astralds tee was added above"
     }
   ]
 }
