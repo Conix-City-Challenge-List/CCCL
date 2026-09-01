@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/G4m3PHpC3YA",
   "percentToQualify": 100,
   "song": "620959",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 3,
   "records": [
     {
@@ -278,6 +278,12 @@
       "position": 40,
       "change": 1,
       "reason": "Demise was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 41,
+      "change": 1,
+      "reason": "santi cube was moved up past this challenge"
     }
   ]
 }
