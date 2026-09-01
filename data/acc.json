@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/NwFBjcR6Gj4",
   "percentToQualify": 100,
   "song": "-Stalker-",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 8,
   "records": [
     {
@@ -510,6 +510,12 @@
       "position": 80,
       "change": 1,
       "reason": "paradise was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 81,
+      "change": 1,
+      "reason": "THE BIG ONE was moved up past this challenge"
     }
   ]
 }
