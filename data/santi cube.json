@@ -10,7 +10,15 @@
   "song": "Dry Out",
   "difficulty": 7,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "ZekeyZong",
+      "link": "https://www.youtube.com/watch?v=xsmOhCAVhBI",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-01",
