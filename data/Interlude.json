@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/QyIMzYkvAC0",
   "percentToQualify": 100,
   "song": "Drake - Bria's Interlude",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 10,
   "records": [],
   "positionHistory": [
@@ -17,6 +17,12 @@
       "position": 80,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 81,
+      "change": 1,
+      "reason": "paradise was added above"
     }
   ]
 }
