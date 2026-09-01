@@ -1,0 +1,22 @@
+{
+  "id": 148125386,
+  "name": "astralds tee",
+  "creators": [
+    "NotAstrald"
+  ],
+  "verifier": "NotAstrald",
+  "verification": "https://www.youtube.com/watch?v=akvS7a08-bE",
+  "percentToQualify": 100,
+  "song": "53576",
+  "difficulty": 6,
+  "enjoyment": 8,
+  "records": [],
+  "positionHistory": [
+    {
+      "date": "2026-09-01",
+      "position": 46,
+      "change": null,
+      "reason": "Added to list"
+    }
+  ]
+}
