@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/cDCvDQFjX54?is=Sxk1Tp269451lOQY",
   "percentToQualify": 100,
   "song": "-radiocutter- waterflame",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 6,
   "records": [
     {
@@ -240,6 +240,12 @@
       "position": 40,
       "change": 1,
       "reason": "santi cube was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 41,
+      "change": 1,
+      "reason": "paradise was added above"
     }
   ]
 }
