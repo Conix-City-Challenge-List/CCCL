@@ -160,12 +160,13 @@
     padding-block: 0.5rem 0.75rem;
     padding-right: 1rem;
     text-align: start;
+    font-family: "Lexend Deca", sans-serif;
     font-size: 0.75rem;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-weight: 600;
     color: var(--color-on-background);
-    opacity: 0.45;
+    opacity: 0.75;
     border-bottom: 1px solid var(--color-background-hover);
 }
  
@@ -280,3 +281,4 @@
     align-items: center;
     gap: 0.5rem;
 }
+ 
