@@ -10,7 +10,15 @@
   "song": "726455",
   "difficulty": 1,
   "enjoyment": 10,
-  "records": [],
+  "records": [
+    {
+      "user": "NickelPackage",
+      "link": "https://youtu.be/vYgQ0U7IAUM?si=JznFvevA43GNv2sm",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 5
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-01",
