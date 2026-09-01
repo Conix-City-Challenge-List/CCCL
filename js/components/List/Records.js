@@ -29,40 +29,36 @@ export default {
             />
             <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search">x</button>
         </div>
-        <table class="records" v-if="filteredRecords.length > 0">
-            <tr class="record-header">
-                <th class="percent">Progress</th>
-                <th class="user">Record Holder</th>
-                <th class="mobile"></th>
-                <th class="enjoyment">Enjoyment</th>
-                <th class="hz">FPS</th>
-                <th class="proof">Video Proof</th>
-            </tr>
-            <tr v-for="record in filteredRecords" class="record">
-                <td class="percent">
-                    <p>{{ record.percent }}%</p>
-                </td>
-                <td class="user">
-                    <div class="user-container">
+        <div class="records" v-if="filteredRecords.length > 0">
+            <div class="records-row record-header">
+                <span class="percent">Progress</span>
+                <span class="user">Record Holder</span>
+                <span class="mobile"></span>
+                <span class="enjoyment">Enjoyment</span>
+                <span class="hz">FPS</span>
+                <span class="proof">Video Proof</span>
+            </div>
+            <div v-for="record in filteredRecords" class="records-row record">
+                <span class="percent">{{ record.percent }}%</span>
+                <span class="user">
+                    <span class="user-container">
                         <span class="type-label-lg">{{ record.user }}</span>
                         <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
-                    </div>
-                </td>
-                <td class="mobile">
+                    </span>
+                </span>
+                <span class="mobile">
                     <img v-if="record.mobile" :src="'/assets/phone-landscape' + (true ? '-dark' : '') + '.svg'" alt="Mobile">
-                </td>
-                <td class="enjoyment">
-                    <p v-if="record.enjoyment === undefined">?/10</p>
-                    <p v-else>{{ record.enjoyment }}/10</p>
-                </td>
-                <td class="hz">
-                    <p>{{ record.hz }}FPS</p>
-                </td>
-                <td class="proof">
+                </span>
+                <span class="enjoyment">
+                    <template v-if="record.enjoyment === undefined">?/10</template>
+                    <template v-else>{{ record.enjoyment }}/10</template>
+                </span>
+                <span class="hz">{{ record.hz }}FPS</span>
+                <span class="proof">
                     <a :href="record.link" target="_blank" class="type-label-lg director">Link</a>
-                </td>
-            </tr>
-        </table>
+                </span>
+            </div>
+        </div>
         <p class="record" style="padding:1.1rem" v-else-if="records.length > 0">No users found.</p>
     `,
  
