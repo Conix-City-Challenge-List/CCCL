@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=VNdBqmEwFwM",
   "percentToQualify": 100,
   "song": "Infernoplex",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 7,
   "records": [
     {
@@ -127,6 +127,12 @@
       "position": 80,
       "change": 1,
       "reason": "THE BIG ONE was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 81,
+      "change": 1,
+      "reason": "astralds bee was added above"
     }
   ]
 }
