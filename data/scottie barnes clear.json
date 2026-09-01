@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/6-sdGJh4xks?si=3F_k45qEysgu_3Jv",
   "percentToQualify": 100,
   "song": "No Church In The Wild - Jay-Z & Kanye West",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 9,
   "records": [
     {
@@ -49,6 +49,12 @@
       "position": 20,
       "change": 1,
       "reason": "depression was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 21,
+      "change": 1,
+      "reason": "Abyss Of Conix was moved up past this challenge"
     }
   ]
 }
