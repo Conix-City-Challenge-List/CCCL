@@ -136,13 +136,6 @@
       "percent": 100,
       "hz": 500,
       "enjoyment": 10
-    },
-    {
-      "user": "thewhyguy",
-      "link": "https://drive.google.com/file/d/1kU144vk7bF85bc6fBPANVjtnX2XvqZFi/view?usp=sharing",
-      "percent": 100,
-      "hz": 360,
-      "enjoyment": 0
     }
   ],
   "positionHistory": [
@@ -168,7 +161,7 @@
       "date": "2026-08-27",
       "position": 7,
       "change": -1,
-      "reason": "Cube Challenge was moved down past this demon"
+      "reason": "Cube Challenge was moved down past this challenge"
     },
     {
       "date": "2026-08-27",
