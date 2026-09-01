@@ -984,6 +984,13 @@
       "position": 100,
       "change": 1,
       "reason": "Interlude was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": null,
+      "change": null,
+      "reason": "paradise was added above",
+      "legacy": true
     }
   ]
 }
