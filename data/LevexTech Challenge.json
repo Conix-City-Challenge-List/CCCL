@@ -646,6 +646,12 @@
       "position": 98,
       "change": 1,
       "reason": "astralds tee was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 98,
+      "change": 0,
+      "reason": "LevexTech Wave Trial was added above"
     }
   ]
 }
