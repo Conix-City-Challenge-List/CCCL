@@ -10,7 +10,15 @@
   "song": "Pathetic - Society (Remix)",
   "difficulty": 10,
   "enjoyment": 5,
-  "records": [],
+  "records": [
+    {
+      "user": "Jackaboi",
+      "link": "https://medal.tv/games/geometry-dash/clips/nrjRvpAfS9_yAg4aS",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-01",
