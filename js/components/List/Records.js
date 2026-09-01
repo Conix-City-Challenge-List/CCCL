@@ -36,7 +36,7 @@ export default {
                 </td>
                 <td class="user">
                     <div class="user-container">
-                        <a :href="record.link" target="_blank" class="type-label-lg director">{{ record.user }}</a>
+                        <span class="type-label-lg">{{ record.user }}</span>
                         <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
                     </div>
                 </td>
@@ -49,6 +49,9 @@ export default {
                 </td>
                 <td class="hz">
                     <p>{{ record.hz }}FPS</p>
+                </td>
+                <td class="proof">
+                    <a :href="record.link" target="_blank" class="type-label-lg director">Video Proof</a>
                 </td>
             </tr>
         </table>
