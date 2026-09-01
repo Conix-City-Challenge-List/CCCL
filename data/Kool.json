@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/J_S0TEV0DMI?is=I0HiXXwvOK1spqdq",
   "percentToQualify": 100,
   "song": "NH22-Isolation",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 9,
   "records": [
     {
@@ -976,6 +976,12 @@
       "position": 90,
       "change": 1,
       "reason": "astralds bee was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 91,
+      "change": 1,
+      "reason": "Bufloe has soft hand was added above"
     }
   ]
 }
