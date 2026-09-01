@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/fS5llVDcgRw",
   "percentToQualify": 100,
   "song": "Dry Out",
-  "difficulty": 4,
+  "difficulty": 5,
   "enjoyment": 7,
   "records": [],
   "positionHistory": [
@@ -17,6 +17,12 @@
       "position": 67,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 60,
+      "change": -7,
+      "reason": "Moved"
     }
   ]
 }
