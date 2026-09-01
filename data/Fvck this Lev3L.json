@@ -1077,6 +1077,12 @@
       "position": 86,
       "change": 1,
       "reason": "conixwall x was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 87,
+      "change": 1,
+      "reason": "Bufloe has soft hand was added above"
     }
   ]
 }
