@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/BPo-SAqQRJU?si=g9sM0BciR5ZNnoxn",
   "percentToQualify": 100,
   "song": "Он гениален",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 5,
   "records": [
     {
@@ -657,6 +657,12 @@
       "position": 80,
       "change": 1,
       "reason": "Demise was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 81,
+      "change": 1,
+      "reason": "santi cube was added above"
     }
   ]
 }
