@@ -30,6 +30,14 @@ export default {
             <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search">x</button>
         </div>
         <table class="records" v-if="filteredRecords.length > 0">
+            <tr class="record-header">
+                <th class="percent">Progress</th>
+                <th class="user">Record Holder</th>
+                <th class="mobile"></th>
+                <th class="enjoyment">Enjoyment</th>
+                <th class="hz">FPS</th>
+                <th class="proof">Video Proof</th>
+            </tr>
             <tr v-for="record in filteredRecords" class="record">
                 <td class="percent">
                     <p>{{ record.percent }}%</p>
@@ -51,7 +59,7 @@ export default {
                     <p>{{ record.hz }}FPS</p>
                 </td>
                 <td class="proof">
-                    <a :href="record.link" target="_blank" class="type-label-lg director">Video Proof</a>
+                    <a :href="record.link" target="_blank" class="type-label-lg director">Link</a>
                 </td>
             </tr>
         </table>
