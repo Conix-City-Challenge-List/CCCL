@@ -10,7 +10,15 @@
   "song": "53576",
   "difficulty": 6,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "ZekeyZong",
+      "link": "https://www.youtube.com/watch?v=R9KL4rT4X-4",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-01",
