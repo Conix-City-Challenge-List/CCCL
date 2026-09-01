@@ -87,6 +87,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 8
+    },
+    {
+      "user": "rori",
+      "link": "https://www.youtube.com/watch?v=HTZ9KsN6Wxo",
+      "percent": 100,
+      "hz": 1080,
+      "enjoyment": 10
     }
   ],
   "positionHistory": [
