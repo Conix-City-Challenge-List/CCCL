@@ -10,7 +10,15 @@
   "song": "Heavenly Horrors",
   "difficulty": 9,
   "enjoyment": 3,
-  "records": [],
+  "records": [
+    {
+      "user": "Murshark",
+      "link": "https://medal.tv/games/geometry-dash/clips/nr2hqpgB4d8ACqv85?invite=cr-MSw3eFMsNzcwNjg5MDcw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 0
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-08-30",
