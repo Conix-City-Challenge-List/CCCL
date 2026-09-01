@@ -234,6 +234,13 @@
       "percent": 100,
       "hz": 400,
       "enjoyment": 8
+    },
+    {
+      "user": "The Sigma Beyond",
+      "link": "https://www.youtube.com/watch?v=DNSLMWlSoew",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 5
     }
   ],
   "positionHistory": [
