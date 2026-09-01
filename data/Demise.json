@@ -10,7 +10,15 @@
   "song": "-Stalker-",
   "difficulty": 8,
   "enjoyment": 0,
-  "records": [],
+  "records": [
+    {
+      "user": "rivver.",
+      "link": "https://youtu.be/ocmxh6n48k8?si=kQAvJmVZiyt8602e",
+      "percent": 100,
+      "hz": 500,
+      "enjoyment": 7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-01",
