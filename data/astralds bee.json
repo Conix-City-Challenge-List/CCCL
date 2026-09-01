@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=iXPCUp0BXgY",
   "percentToQualify": 100,
   "song": "653094",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 9,
   "records": [
     {
@@ -25,6 +25,12 @@
       "position": 30,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 31,
+      "change": 1,
+      "reason": "Conix Valley was added above"
     }
   ]
 }
