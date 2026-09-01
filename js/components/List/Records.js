@@ -42,7 +42,9 @@ export default {
                 <span class="percent">{{ record.percent }}%</span>
                 <span class="user">
                     <span class="user-container">
-                        <a :href="'https://conixchallengelist.pages.dev/#/leaderboard/user/' + record.user.toLowerCase().replaceAll(' ', '_')" class="type-label-lg director link">{{ record.user }}</a>
+                        <span class="username-clip">
+                            <a :href="'https://conixchallengelist.pages.dev/#/leaderboard/user/' + record.user.toLowerCase().replaceAll(' ', '_')" class="type-label-lg director link">{{ record.user }}</a>
+                        </span>
                         <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
                     </span>
                 </span>
@@ -79,4 +81,5 @@ export default {
     },
  
 }
+ 
  
