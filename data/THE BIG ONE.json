@@ -10,7 +10,15 @@
   "song": "fog by spurme",
   "difficulty": 3,
   "enjoyment": 6,
-  "records": [],
+  "records": [
+    {
+      "user": "The Sigma Beyond",
+      "link": "https://www.youtube.com/watch?v=G02Ua-OZENU",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 0
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-08-31",
