@@ -535,6 +535,13 @@
       "percent": 100,
       "hz": 480,
       "enjoyment": 6
+    },
+    {
+      "user": "Smoke",
+      "link": "https://drive.google.com/file/d/1STq5ipSKdO-hGntTX8WlF0Ztt5BlKnDS/view?usp=drive_link",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 1
     }
   ],
   "positionHistory": [
