@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/2lj-r-sMrRM",
   "percentToQualify": 100,
   "song": "Ricochet Love",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 2,
   "records": [
     {
@@ -918,6 +918,12 @@
       "position": 90,
       "change": 1,
       "reason": "THE BIG ONE was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 91,
+      "change": 1,
+      "reason": "astralds bee was added above"
     }
   ]
 }
