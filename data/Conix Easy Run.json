@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/s3mLlNMtBqA?si=WkAfHyzXGu4tZnLz",
   "percentToQualify": 100,
   "song": "CreoMusic - Idolize",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 9,
   "records": [],
   "positionHistory": [
@@ -53,6 +53,12 @@
       "position": 90,
       "change": 1,
       "reason": "Interlude was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 91,
+      "change": 1,
+      "reason": "paradise was added above"
     }
   ]
 }
