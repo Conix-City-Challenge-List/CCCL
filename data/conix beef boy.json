@@ -168,6 +168,12 @@
       "position": 76,
       "change": 1,
       "reason": "THE BIG ONE was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-02",
+      "position": 75,
+      "change": -1,
+      "reason": "THE BIG ONE was moved down past this challenge"
     }
   ]
 }
