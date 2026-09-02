@@ -24,6 +24,13 @@
       "percent": 100,
       "hz": 720,
       "enjoyment": 10
+    },
+    {
+      "user": "ernest",
+      "link": "https://www.youtube.com/watch?v=gJ7h7soHpTk",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 10
     }
   ],
   "positionHistory": [
