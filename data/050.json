@@ -605,6 +605,12 @@
       "position": 76,
       "change": 0,
       "reason": "Make Conix Dance was removed from the list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 77,
+      "change": 1,
+      "reason": "MakeConixDance was added above"
     }
   ]
 }
