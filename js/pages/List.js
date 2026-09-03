@@ -136,8 +136,15 @@ export default {
             list = list.map((item, index) => ({ index, item }));
  
             // Legacy entries have their own tab (pages/Legacy.js) — excluded
-            // here so they don't show up twice.
-            list = list.filter(({ item: [err, rank, level] }) => rank === null || rank <= this.legacyLimit)
+            // here so they don't show up twice. The synthetic "(Legacy
+            // Challenges)" divider content.js splices in (path
+            // "_legacychallenges") has rank === null just like a real tier
+            // divider, so it needs its own explicit exclusion too — it
+            // served as the boundary marker for the old inline display,
+            // but has nothing to head now that Legacy is its own tab.
+            list = list.filter(({ item: [err, rank, level] }) =>
+                level?.path !== '_legacychallenges' && (rank === null || rank <= this.legacyLimit)
+            )
  
             // search logic
             if (query.trim()) {
