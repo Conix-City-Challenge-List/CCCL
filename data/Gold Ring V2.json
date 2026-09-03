@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/1B1lFajafog",
   "percentToQualify": 100,
   "song": "ColBreakz - Gold Ring",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 8,
   "records": [
     {
@@ -537,6 +537,12 @@
       "position": 80,
       "change": 1,
       "reason": "conix rivers was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 81,
+      "change": 1,
+      "reason": "Don't Fail Now was added above"
     }
   ]
 }
