@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/97xTOe11g2g",
   "percentToQualify": 100,
   "song": "+HEAVEN",
-  "difficulty": 8,
+  "difficulty": 10,
   "enjoyment": 9,
   "records": [
     {
@@ -134,6 +134,12 @@
       "position": 21,
       "change": 1,
       "reason": "cade cunningham was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 10,
+      "change": -11,
+      "reason": "Moved"
     }
   ]
 }
