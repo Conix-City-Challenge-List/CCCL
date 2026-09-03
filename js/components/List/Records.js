@@ -17,7 +17,7 @@ export default {
     template: `
         <h2>Records ({{ records.length }})</h2>
         <p v-if="isLegacy">This challenge does not accept new records.</p>
-        <p v-else><strong>{{ percentToQualify }}%</strong> or better to qualify</p>
+        <p v-else><strong>{{ percentToQualify }}%</strong> to qualify</p>
         <div class="search-container records-search-container" v-if="records.length > 0">
             <input
                 type="text"
@@ -81,5 +81,6 @@ export default {
     },
  
 }
+ 
  
  
