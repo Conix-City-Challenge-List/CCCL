@@ -1,0 +1,22 @@
+{
+  "id": 148029290,
+  "name": "Dance room",
+  "creators": [
+    "lucasvd"
+  ],
+  "verifier": "lucasvd",
+  "verification": "https://www.youtube.com/watch?v=9HI0r8YGNzM",
+  "percentToQualify": 100,
+  "song": "Eden - cysmix",
+  "difficulty": 1,
+  "enjoyment": 8,
+  "records": [],
+  "positionHistory": [
+    {
+      "date": "2026-09-03",
+      "position": 97,
+      "change": null,
+      "reason": "Added to list"
+    }
+  ]
+}
