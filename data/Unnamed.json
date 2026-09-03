@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/R7uuldDFgiI?feature=shared",
   "percentToQualify": 100,
   "song": "Death Factory",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 8.4,
   "records": [
     {
@@ -208,6 +208,12 @@
       "position": 70,
       "change": 1,
       "reason": "Don't Fail Now was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 71,
+      "change": 1,
+      "reason": "Hardscapes was added above"
     }
   ]
 }
