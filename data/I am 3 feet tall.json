@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/U0_gV7BkGmk?is=HYTDQrjHOAqQ2b2-",
   "percentToQualify": 100,
   "song": "dimension - hyperdemented",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 2,
   "records": [
     {
@@ -574,6 +574,12 @@
       "position": 70,
       "change": 1,
       "reason": "Aria Math was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 71,
+      "change": 1,
+      "reason": "Sweeping Chud II was added above"
     }
   ]
 }
