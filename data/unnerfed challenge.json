@@ -371,6 +371,12 @@
       "position": 70,
       "change": 1,
       "reason": "Happy Ship was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 69,
+      "change": -1,
+      "reason": "Make Conix Dance was removed from the list"
     }
   ]
 }
