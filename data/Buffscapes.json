@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/j9WTo1ivDIs?si=UlYXJ3zkdUEPSg51",
   "percentToQualify": 100,
   "song": "Creo - Slow Down",
-  "difficulty": 9,
+  "difficulty": 10,
   "enjoyment": 9,
   "records": [
     {
@@ -138,6 +138,12 @@
       "position": 14,
       "change": 1,
       "reason": "Toph Shant Clear was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 10,
+      "change": -4,
+      "reason": "Moved"
     }
   ]
 }
