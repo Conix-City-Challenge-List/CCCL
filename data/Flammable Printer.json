@@ -23,6 +23,12 @@
       "position": 91,
       "change": 1,
       "reason": "Interlude was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 96,
+      "change": 5,
+      "reason": "Moved"
     }
   ]
 }
