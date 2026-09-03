@@ -10,7 +10,15 @@
   "song": "NK - Classical Vip",
   "difficulty": 2,
   "enjoyment": 5,
-  "records": [],
+  "records": [
+    {
+      "user": "Huddda",
+      "link": "https://www.youtube.com/watch?v=2k__xONZdOc&t=1m2s",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 4
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-03",
