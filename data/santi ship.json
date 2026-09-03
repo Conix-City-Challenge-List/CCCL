@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=R4T1t8I3HtU",
   "percentToQualify": 100,
   "song": "ᑫᵘᵉˢᵗᶦᵒᶰ Mᵃʳᵏ",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 2.5,
   "records": [
     {
@@ -108,6 +108,12 @@
       "position": 90,
       "change": 1,
       "reason": "cade cunningham was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 91,
+      "change": 1,
+      "reason": "Corrupt Heaven was added above"
     }
   ]
 }
