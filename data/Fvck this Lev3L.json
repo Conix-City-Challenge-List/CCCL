@@ -1203,6 +1203,13 @@
       "position": 100,
       "change": 1,
       "reason": "cade cunningham was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": null,
+      "change": null,
+      "reason": "Corrupt Heaven was added above",
+      "legacy": true
     }
   ]
 }
