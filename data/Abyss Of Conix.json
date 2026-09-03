@@ -10,7 +10,15 @@
   "song": "Memphistos Lullaby",
   "difficulty": 9,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "conix",
+      "link": "https://youtube.com/shorts/GmeRqLwBiw8?si=qXdViiVjvPBXLyNM",
+      "percent": 100,
+      "hz": 960,
+      "enjoyment": 2
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-08-30",
