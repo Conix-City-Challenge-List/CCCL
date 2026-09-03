@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/wxXfxFyAFAk",
   "percentToQualify": 100,
   "song": "Arctic Monkey - 505",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 7,
   "records": [
     {
@@ -551,6 +551,12 @@
       "position": 70,
       "change": 1,
       "reason": "cade cunningham was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 71,
+      "change": 1,
+      "reason": "TheSkyIsFallingUp was added above"
     }
   ]
 }
