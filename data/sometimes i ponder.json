@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/FHv0GMYmDTI",
   "percentToQualify": 100,
   "song": "Lunar Abyss",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 7.8,
   "records": [
     {
@@ -98,6 +98,12 @@
       "position": 40,
       "change": 1,
       "reason": "conix rivers was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 41,
+      "change": 1,
+      "reason": "Hardscapes was added above"
     }
   ]
 }
