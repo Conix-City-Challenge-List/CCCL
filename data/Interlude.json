@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/QyIMzYkvAC0",
   "percentToQualify": 100,
   "song": "Drake - Bria's Interlude",
-  "difficulty": 1,
+  "difficulty": 2,
   "enjoyment": 10,
   "records": [
     {
@@ -124,6 +124,12 @@
       "position": 93,
       "change": 1,
       "reason": "Flammable Printer was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 83,
+      "change": -10,
+      "reason": "Moved"
     }
   ]
 }
