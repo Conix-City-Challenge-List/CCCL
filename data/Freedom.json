@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/V26pIE8QC5E",
   "percentToQualify": 100,
   "song": "Teminite - Break Free",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 6,
   "records": [
     {
@@ -454,6 +454,12 @@
       "position": 60,
       "change": 1,
       "reason": "conix rivers was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 61,
+      "change": 1,
+      "reason": "Hardscapes was added above"
     }
   ]
 }
