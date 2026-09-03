@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=z3O2LNOH9ss",
   "percentToQualify": 100,
   "song": "danque - boomkitty",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 8,
   "records": [
     {
@@ -356,6 +356,12 @@
       "position": 50,
       "change": 0,
       "reason": "Make Conix Dance was removed from the list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 51,
+      "change": 1,
+      "reason": "MakeConixDance was added above"
     }
   ]
 }
