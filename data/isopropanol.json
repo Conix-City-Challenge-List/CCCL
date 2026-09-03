@@ -529,6 +529,12 @@
       "position": 89,
       "change": 1,
       "reason": "Interlude was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 90,
+      "change": 1,
+      "reason": "Happy Ship was added above"
     }
   ]
 }
