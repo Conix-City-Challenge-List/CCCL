@@ -43,6 +43,13 @@
       "position": 100,
       "change": 1,
       "reason": "sometimes you rage was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": null,
+      "change": null,
+      "reason": "TheSkyIsFallingUp was added above",
+      "legacy": true
     }
   ]
 }
