@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/B88bpFi-XYE",
   "percentToQualify": 100,
   "song": "I. Am. God.",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 7,
   "records": [
     {
@@ -79,6 +79,12 @@
       "position": 90,
       "change": 1,
       "reason": "Don't Fail Now was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 91,
+      "change": 1,
+      "reason": "Hardscapes was added above"
     }
   ]
 }
