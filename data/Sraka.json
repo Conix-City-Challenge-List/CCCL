@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=VNdBqmEwFwM",
   "percentToQualify": 100,
   "song": "Infernoplex",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 7,
   "records": [
     {
@@ -187,6 +187,12 @@
       "position": 90,
       "change": 1,
       "reason": "Smokescreen was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 91,
+      "change": 1,
+      "reason": "MinusConix was added above"
     }
   ]
 }
