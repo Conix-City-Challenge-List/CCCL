@@ -11,7 +11,15 @@
   "song": "rat river",
   "difficulty": 8,
   "enjoyment": 9,
-  "records": [],
+  "records": [
+    {
+      "user": "rori",
+      "link": "https://youtu.be/MOQb5sbYsu0",
+      "percent": 100,
+      "hz": 1080,
+      "enjoyment": 10
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-03",
