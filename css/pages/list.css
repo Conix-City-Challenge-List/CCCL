@@ -84,9 +84,9 @@
  
 .page-list .level-container .level .stats {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
-    gap: auto;
+    gap: 3rem;
 }
  
 .page-list .level-container .level .stats li {
@@ -282,5 +282,6 @@
     align-items: center;
     gap: 0.5rem;
 }
+ 
  
  
