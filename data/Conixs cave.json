@@ -1046,6 +1046,13 @@
       "position": 100,
       "change": 1,
       "reason": "Smokescreen was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": null,
+      "change": null,
+      "reason": "MinusConix was added above",
+      "legacy": true
     }
   ]
 }
