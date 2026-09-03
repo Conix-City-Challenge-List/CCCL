@@ -128,6 +128,12 @@
       "position": 42,
       "change": 1,
       "reason": "MakeConixDance was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 41,
+      "change": -1,
+      "reason": "MakeConixDance was removed from the list"
     }
   ]
 }
