@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/O_ri_XO1W-g?si=q5epVcF2N19rDL1n",
   "percentToQualify": 100,
   "song": "kocmoc unleashed",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 9,
   "records": [
     {
@@ -327,6 +327,12 @@
       "position": 70,
       "change": 1,
       "reason": "conix rivers was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 71,
+      "change": 1,
+      "reason": "Don't Fail Now was added above"
     }
   ]
 }
