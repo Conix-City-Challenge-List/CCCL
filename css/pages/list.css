@@ -89,6 +89,11 @@
     column-gap: 3rem;
 }
  
+.page-list .level-container .level .stats.stats-single {
+    display: flex;
+    justify-content: center;
+}
+ 
 .page-list .level-container .level .stats li {
     display: flex;
     flex-direction: column;
