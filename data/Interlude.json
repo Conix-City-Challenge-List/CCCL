@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/QyIMzYkvAC0",
   "percentToQualify": 100,
   "song": "Drake - Bria's Interlude",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 10,
   "records": [
     {
@@ -106,6 +106,12 @@
       "position": 90,
       "change": 1,
       "reason": "conix rivers was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 91,
+      "change": 1,
+      "reason": "Don't Fail Now was added above"
     }
   ]
 }
