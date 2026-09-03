@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/NwFBjcR6Gj4",
   "percentToQualify": 100,
   "song": "-Stalker-",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 8,
   "records": [
     {
@@ -577,6 +577,12 @@
       "position": 90,
       "change": 1,
       "reason": "Interlude was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 91,
+      "change": 1,
+      "reason": "Happy Ship was added above"
     }
   ]
 }
