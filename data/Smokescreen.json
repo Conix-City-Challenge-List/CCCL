@@ -97,6 +97,12 @@
       "position": 93,
       "change": 1,
       "reason": "Interlude was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 92,
+      "change": -1,
+      "reason": "Flammable Printer was moved down past this challenge"
     }
   ]
 }
