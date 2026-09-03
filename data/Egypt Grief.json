@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/1MoGM5Hqk6U?is=11JEaM2mXKGUL2zK",
   "percentToQualify": 100,
   "song": "stalemate (egypt mix) - kzx",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 5,
   "records": [
     {
@@ -849,6 +849,12 @@
       "position": 90,
       "change": 1,
       "reason": "Aria Math was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 91,
+      "change": 1,
+      "reason": "Sweeping Chud II was added above"
     }
   ]
 }
