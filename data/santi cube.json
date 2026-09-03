@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/fS5llVDcgRw",
   "percentToQualify": 100,
   "song": "Dry Out",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 7,
   "records": [
     {
@@ -102,6 +102,12 @@
       "position": 40,
       "change": 1,
       "reason": "Sweeping Chud II was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 41,
+      "change": 1,
+      "reason": "conix rivers was added above"
     }
   ]
 }
