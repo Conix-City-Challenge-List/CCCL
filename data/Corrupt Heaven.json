@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/b0eEIdSuQxI",
   "percentToQualify": 100,
   "song": "NK - Classical Vip",
-  "difficulty": 1,
+  "difficulty": 2,
   "enjoyment": 5,
   "records": [],
   "positionHistory": [
@@ -77,6 +77,12 @@
       "position": 92,
       "change": 1,
       "reason": "Happy Ship was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 83,
+      "change": -9,
+      "reason": "Moved"
     }
   ]
 }
