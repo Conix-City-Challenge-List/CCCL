@@ -10,7 +10,15 @@
   "song": "Travis Scott -SDP Interlude (extended)",
   "difficulty": 8,
   "enjoyment": 10,
-  "records": [],
+  "records": [
+    {
+      "user": "rori",
+      "link": "https://youtu.be/vj0dbxJd0Ow",
+      "percent": 100,
+      "hz": 1080,
+      "enjoyment": 10
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-03",
