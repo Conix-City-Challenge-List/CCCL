@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/Vjqt5Ugq8j4",
   "percentToQualify": 100,
   "song": "Lunar Abyss",
-  "difficulty": 4,
+  "difficulty": 5,
   "enjoyment": 8,
   "records": [
     {
@@ -388,6 +388,12 @@
       "position": 61,
       "change": 1,
       "reason": "Happy Ship was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 60,
+      "change": -1,
+      "reason": "Make Conix Dance was removed from the list"
     }
   ]
 }
