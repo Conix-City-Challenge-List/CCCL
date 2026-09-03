@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=FCbwhGpELf0",
   "percentToQualify": 100,
   "song": "Eden - Cysmix",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 7,
   "records": [
     {
@@ -97,6 +97,12 @@
       "position": 30,
       "change": 1,
       "reason": "conix rivers was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 31,
+      "change": 1,
+      "reason": "Hardscapes was added above"
     }
   ]
 }
