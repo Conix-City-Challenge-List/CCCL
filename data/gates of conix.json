@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/mGZal-Cu6h0?si=knDP1dryDWd9dse_",
   "percentToQualify": 100,
   "song": "Betrayal of Fear",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 9,
   "records": [
     {
@@ -336,6 +336,12 @@
       "position": 80,
       "change": 1,
       "reason": "TheSkyIsFallingUp was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 81,
+      "change": 1,
+      "reason": "Aria Math was added above"
     }
   ]
 }
