@@ -10,7 +10,15 @@
   "song": "Glimmer (feat VMRROBOTIC)",
   "difficulty": 6,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "ImSaturnN",
+      "link": "https://youtu.be/F1zRyTS5OBw",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 4
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-08-31",
