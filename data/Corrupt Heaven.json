@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/b0eEIdSuQxI",
   "percentToQualify": 100,
   "song": "NK - Classical Vip",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 5,
   "records": [],
   "positionHistory": [
@@ -53,6 +53,12 @@
       "position": 90,
       "change": 1,
       "reason": "Hardscapes was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 91,
+      "change": 1,
+      "reason": "Flammable Printer was added above"
     }
   ]
 }
