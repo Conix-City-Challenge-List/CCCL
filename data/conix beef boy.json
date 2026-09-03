@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/-sdU-GGCZEY",
   "percentToQualify": 100,
   "song": "Triple Helix",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 9,
   "records": [
     {
@@ -211,6 +211,12 @@
       "position": 80,
       "change": 1,
       "reason": "Sweeping Chud II was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 81,
+      "change": 1,
+      "reason": "conix rivers was added above"
     }
   ]
 }
