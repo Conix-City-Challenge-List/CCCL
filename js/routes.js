@@ -1,27 +1,31 @@
 import List from './pages/List.js';
+import Legacy from './pages/Legacy.js';
 import Leaderboard from './pages/Leaderboard.js';
 import Roulette from './pages/Roulette.js';
 import Packs from './pages/Packs.js';
 import ChallengeList from './Archived/ChallengeList.js';
 import ChallengeLeaderboard from './Archived/ChallengeLeaderboard.js';
 import Grind from './pages/Grind.js'
-
+ 
 export default [
     { path: "/", component: List },
     { path: '/level/:level', component: List },
-    
-    
+ 
+    { path: "/legacy", component: Legacy },
+    { path: '/legacy/level/:level', component: Legacy },
+ 
     { path: "/challenges", component: ChallengeList },
-
+ 
     { path: "/leaderboard", component: Leaderboard },
     { path: "/leaderboard/user/:user", component: Leaderboard },
-
+ 
     { path: "/challengeleaderboard", component: ChallengeLeaderboard },
-
+ 
     { path: "/roulette", component: Roulette },
-
+ 
     { path: "/packs", component: Packs },
     { path: "/packs/pack/:pack", component: Packs },
-
+ 
     { path: "/grind", component: Grind },
 ];
+ 
