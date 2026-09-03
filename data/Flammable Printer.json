@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/olIPmll3R9s",
   "percentToQualify": 100,
   "song": "Flammable Printer",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 8,
   "records": [],
   "positionHistory": [
@@ -17,6 +17,12 @@
       "position": 90,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 91,
+      "change": 1,
+      "reason": "Interlude was moved up past this challenge"
     }
   ]
 }
