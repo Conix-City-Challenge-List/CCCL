@@ -236,9 +236,12 @@ export async function fetchLeaderboard(list) {
                         completedPacksMap[verifier].add(pack);
                     }
                 } else if (pack.difficulty === level.difficulty) {
-                    // Count levels completed by the user for the other difficulty packs
+                    // Count levels completed by the user for the other difficulty packs —
+                    // legacy levels (fallen off the ranked list) don't count toward this,
+                    // same as they're excluded from tier stats elsewhere in this file.
                     const completedInDifficulty = list.filter(([_, __, lvl]) =>
                         (lvl.difficulty === level.difficulty) && 
+                        (lvl.rank !== null && lvl.rank <= legacyLimit) &&
                         (lvl.records.some((r) => r.user.toLowerCase() === verifier.toLowerCase() && r.percent === 100) || (lvl.verifier.toLowerCase() === verifier.toLowerCase()))
                     ).length;
  
@@ -316,9 +319,12 @@ export async function fetchLeaderboard(list) {
                                 completedPacksMap[user].add(pack);
                             }
                         } else if (pack.difficulty === level.difficulty) {
-                            // Count levels completed by the user for the other difficulty packs
+                            // Count levels completed by the user for the other difficulty packs —
+                            // legacy levels (fallen off the ranked list) don't count toward this,
+                            // same as they're excluded from tier stats elsewhere in this file.
                             const completedInDifficulty = list.filter(([_, __, lvl]) =>
                                 (lvl.difficulty === level.difficulty) && 
+                                (lvl.rank !== null && lvl.rank <= legacyLimit) &&
                                 (lvl.records.some((r) => r.user.toLowerCase() === user.toLowerCase() && r.percent === 100) || (lvl.verifier.toLowerCase() === user.toLowerCase()))
                             ).length;
  
@@ -483,10 +489,14 @@ export async function fetchPacks(list) {
                     }
  
                 } else {
-                    // Check levels by difficulty
+                    // Check levels by difficulty — legacy levels (fallen off the
+                    // ranked list) don't count toward this, same as they're
+                    // excluded from tier stats and from fetchLeaderboard's
+                    // equivalent pack-threshold counting.
                     let levelsInDifficulty = list.filter(
                         ([_, __, lvl]) =>
-                            lvl.difficulty === pack.difficulty && lvl.id !== 0
+                            lvl.difficulty === pack.difficulty && lvl.id !== 0 &&
+                            lvl.rank !== null && lvl.rank <= legacyLimit
                     );
                     const completedLevels = levelsInDifficulty.filter(
                         ([_, __, level]) =>
@@ -717,3 +727,4 @@ export async function fetchUsers() {
  
     return uniqueUsers
 }
+ 
