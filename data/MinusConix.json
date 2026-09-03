@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=YhFJuM1tovQ",
   "percentToQualify": 100,
   "song": "Dry Out",
-  "difficulty": 3,
+  "difficulty": 4,
   "enjoyment": 1,
   "records": [],
   "positionHistory": [
@@ -59,6 +59,12 @@
       "position": 71,
       "change": 1,
       "reason": "Happy Ship was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 70,
+      "change": -1,
+      "reason": "Make Conix Dance was removed from the list"
     }
   ]
 }
