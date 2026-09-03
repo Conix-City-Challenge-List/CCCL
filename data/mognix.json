@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/BPo-SAqQRJU?si=g9sM0BciR5ZNnoxn",
   "percentToQualify": 100,
   "song": "Он гениален",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 5,
   "records": [
     {
@@ -717,6 +717,12 @@
       "position": 90,
       "change": 1,
       "reason": "TheSkyIsFallingUp was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 91,
+      "change": 1,
+      "reason": "Aria Math was added above"
     }
   ]
 }
