@@ -10,7 +10,15 @@
   "song": "Eden - cysmix",
   "difficulty": 1,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://medal.tv/games/geometry-dash/clips/nrQZ4js8WN6HosCgG?invite=cr-MSxGNTEsNDkxOTczMDE2",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 10
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-03",
