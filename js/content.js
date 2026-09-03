@@ -120,40 +120,15 @@ export async function fetchList() {
         );
  
         // Legacy challenges (rank > legacyLimit) don't get a real divider
-        // entry in data/_list.json anymore — the bot determines Legacy
-        // purely from rank rather than maintaining a marker's position in
-        // the list, since that position has to be re-threaded through the
-        // array by hand every time an insertion pushes someone new past the
-        // cutoff (which is exactly what went wrong before this: the marker
-        // was left behind at its old spot, or dropped, instead of tracking
-        // the boundary). Splicing a synthetic "(Legacy Challenges)" divider
-        // row in here — purely for display, with no backing file — means
-        // the header/TierInfo panel always lines up with wherever rank
-        // legacyLimit actually falls, with nothing to keep in sync.
-        const firstLegacyIndex = resolvedList.findIndex(
-            ([err, rank]) => rank !== null && rank > legacyLimit
-        );
-        if (firstLegacyIndex !== -1) {
-            resolvedList.splice(firstLegacyIndex, 0, [
-                null,
-                null,
-                {
-                    id: 0,
-                    name: "(Legacy Challenges)",
-                    author: "",
-                    creators: [],
-                    verifier: "",
-                    verification: "",
-                    percentToQualify: 0,
-                    password: "",
-                    song: "",
-                    difficulty: null,
-                    path: "_legacychallenges",
-                    packs: [],
-                    records: [],
-                },
-            ]);
-        }
+        // entry in data/_list.json — the bot determines Legacy purely from
+        // rank rather than maintaining a marker's position in the list.
+        // This used to splice in a synthetic "(Legacy Challenges)" divider
+        // row here for display, back when Legacy was shown inline at the
+        // bottom of the main list — now that Legacy has its own tab
+        // (pages/Legacy.js), that divider has nothing left to head and was
+        // just adding a spurious "incorrect divider difficulty" console
+        // warning (its difficulty is null, which never matches the
+        // preceding real tier's), so it's not created at all anymore.
  
         return resolvedList;
     } catch {
