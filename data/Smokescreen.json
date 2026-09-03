@@ -10,7 +10,15 @@
   "song": "I. Am. God.",
   "difficulty": 2,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "Huddda",
+      "link": "https://youtu.be/xmOtFd-YYxk&t=1m17s",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 5
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-01",
