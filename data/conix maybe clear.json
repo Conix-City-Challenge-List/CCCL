@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/-Vuh0Ap_LWg",
   "percentToQualify": 100,
   "song": "fog by hypercuberecords",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 7,
   "records": [
     {
@@ -473,6 +473,12 @@
       "position": 70,
       "change": 1,
       "reason": "TheSkyIsFallingUp was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 71,
+      "change": 1,
+      "reason": "Aria Math was added above"
     }
   ]
 }
