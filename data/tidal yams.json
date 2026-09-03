@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/3iILZFATVzc",
   "percentToQualify": 100,
   "song": "shiawase vip - dion timmer",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 10,
   "records": [
     {
@@ -309,6 +309,12 @@
       "position": 50,
       "change": 1,
       "reason": "conix rivers was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 51,
+      "change": 1,
+      "reason": "Hardscapes was added above"
     }
   ]
 }
