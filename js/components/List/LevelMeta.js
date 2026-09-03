@@ -1,7 +1,7 @@
 import { score, legacyLimit } from "../../config.js";
 import { averageEnjoyment } from "../../content.js";
 import { copyURL } from "../../util.js";
-
+ 
 export default {
     props: {
         level: {
@@ -23,10 +23,6 @@ export default {
             <li>
                 <div class="type-title-sm">ID</div>
                 <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
-            </li>
-            <li>
-                <div class="type-title-sm">Password</div>
-                <p>{{ level.password || 'Free to Copy' }}</p>
             </li>
             <li>
                 <div class="type-title-sm">Enjoyment</div>
@@ -58,3 +54,4 @@ export default {
         },
     }
 }
+ 
