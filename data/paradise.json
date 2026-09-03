@@ -46,6 +46,12 @@
       "position": 8,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 5,
+      "change": -3,
+      "reason": "Moved"
     }
   ]
 }
