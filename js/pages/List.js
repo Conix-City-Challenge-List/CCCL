@@ -11,7 +11,7 @@ import RecordRules from '../components/Sidebar/RecordRules.js';
 import TemplateDisclaimer from '../components/Sidebar/TemplateDisclaimer.js';
 import Staff from '../components/Sidebar/Staff.js';
 import Errors from '../components/Sidebar/Errors.js';
-
+ 
 export default {
     components: { Spinner, Scroll, Level, TierInfo, CacheDisclaimer, RecordRules, DifficultyInfo, TemplateDisclaimer, Staff, Errors },
     template: `
@@ -42,7 +42,6 @@ export default {
                 <tr v-for="({ item: [err, rank, level], index }, i) in filteredLevels" :key="index">
                     <td class="rank">
                         <p v-if="rank === null" class="type-label-lg" style="width:2.7rem">&mdash;</p>
-                        <p v-else-if="rank > legacyLimit" class="type-label-lg" style="width:2.7rem">-</p>
                         <p v-else class="type-label-lg" style="width:2.7rem">#{{ rank }}</p>
                     </td>
                     <td class="level" :class="{ 'active': selected == index, 'error': err !== null }" :ref="selected == index ? 'selected' : undefined">
@@ -76,7 +75,7 @@ export default {
             </div>
         </main>
     `,
-
+ 
     data: () => ({
         loading: true,
         list: [],
@@ -89,7 +88,7 @@ export default {
         descending: true,
         legacyLimit,
     }),
-
+ 
     methods: {
         // used for the ability to deselect tag filters
         search(query) {
@@ -119,7 +118,7 @@ export default {
             });
         }
     },
-
+ 
     computed: {
         level() {
             return this.list && this.list[this.selected] && this.list[this.selected][2];
@@ -129,10 +128,17 @@ export default {
             let list = this.list
             // this was a lot of fun!
             let sortOption = parseInt(this.sortOption)
-
-            // use the separate indexing for searching Shenanigans
+ 
+            // use the separate indexing for searching Shenanigans — this has
+            // to happen BEFORE any filtering below, so `index` always stays
+            // anchored to this.list's real indices (selected/level() rely on
+            // that), not the position within whatever's left after filtering.
             list = list.map((item, index) => ({ index, item }));
-            
+ 
+            // Legacy entries have their own tab (pages/Legacy.js) — excluded
+            // here so they don't show up twice.
+            list = list.filter(({ item: [err, rank, level] }) => rank === null || rank <= this.legacyLimit)
+ 
             // search logic
             if (query.trim()) {
                 list = list.filter(({ item: [err, rank, level] }) =>
@@ -141,7 +147,7 @@ export default {
                     level?.id !== 0
                 )
             }
-
+ 
             // sort based on value of dropdown menu
             if (sortOption === 1) {
                 list = list.filter(({ item }) =>
@@ -151,7 +157,7 @@ export default {
                     .sort((a, b) => {
                             const enjoymentA = averageEnjoyment(a.item[2].records);
                             const enjoymentB = averageEnjoyment(b.item[2].records);
-
+ 
                             return enjoymentB - enjoymentA;
                         })
                         
@@ -166,23 +172,23 @@ export default {
                 })
                 
             }
-
+ 
             // by default the list should be in descending order
             if (!this.descending) {
                 list = list.reverse()
             }
-
+ 
             return list
         },
     },
-
+ 
     async mounted() {
         // Fetch list from store
         this.list = this.store.list;
         this.staff = store.staff;
         
         this.selectFromParam()
-
+ 
         // Error handling
         if (!this.list) {
             this.errors = [
@@ -191,22 +197,22 @@ export default {
         } else {
             this.store.errors.forEach((err) => 
                 this.errors.push(`Failed to load level. (${err}.json)`))
-
+ 
             if (!this.staff) {
                 this.errors.push('Failed to load list staff.');
             }
         }
-
+ 
         // Hide loading spinner
         this.loading = false;
-
+ 
         // tests for incorrect difficulties and duplicate records
         let i = 0
         let currentdiff, newdiff;
         while (i < this.list.length) {
             if (this.list[i][2]) {
                 let templevel = this.list[i][2]
-
+ 
                 newdiff = templevel.difficulty 
                 if (templevel.id === 0) {
                     if (templevel.difficulty !== currentdiff - 1 && currentdiff !== undefined) {
@@ -231,17 +237,17 @@ export default {
                     } else {
                         foundusers.push(record.user)
                     }
-
+ 
                     if (record.enjoyment && (templevel.creators.includes(record.user))) {
                         console.warn(`Invalid enjoyment on ${templevel.name}: ${record.enjoyment}/10 by ${record.user}!`)
                     }
-
+ 
                 }
             }
             i++
         }
     },
-
+ 
     watch: {        
         store: {
             handler(updated) {
@@ -256,3 +262,4 @@ export default {
         }
     },
 };
+ 
