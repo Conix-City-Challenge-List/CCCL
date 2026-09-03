@@ -99,6 +99,13 @@
       "position": 100,
       "change": 1,
       "reason": "Aria Math was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": null,
+      "change": null,
+      "reason": "Sweeping Chud II was added above",
+      "legacy": true
     }
   ]
 }
