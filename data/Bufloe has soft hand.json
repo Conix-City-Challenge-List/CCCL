@@ -209,6 +209,13 @@
       "position": 100,
       "change": 1,
       "reason": "moonwaves was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": null,
+      "change": null,
+      "reason": "Defeated Conix was added above",
+      "legacy": true
     }
   ]
 }
