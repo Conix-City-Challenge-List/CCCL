@@ -9,7 +9,7 @@
   "verification": "https://www.youtube.com/watch?v=wiBfk-aJc2A",
   "percentToQualify": 100,
   "song": "Clubstep",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 6,
   "records": [
     {
@@ -580,6 +580,12 @@
       "position": 71,
       "change": 1,
       "reason": "Defeated Conix was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 84,
+      "change": 13,
+      "reason": "Moved"
     }
   ]
 }
