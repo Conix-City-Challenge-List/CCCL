@@ -10,7 +10,15 @@
   "song": "rip and tear",
   "difficulty": 10,
   "enjoyment": 4,
-  "records": [],
+  "records": [
+    {
+      "user": "TostGD",
+      "link": "https://medal.tv/games/geometry-dash/clips/nsiKFx7IolVfBbEeR?invite=cr-MSxOcTQsMzUxNTU5MzMx",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6.7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-04",
