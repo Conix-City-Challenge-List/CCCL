@@ -10,7 +10,15 @@
   "song": "Dance of the Violins",
   "difficulty": 6,
   "enjoyment": 6.5,
-  "records": [],
+  "records": [
+    {
+      "user": "rori",
+      "link": "https://drive.google.com/file/d/1IDhPNkv6qK6XIskrf-X16COY1Wq9Wc6I/view?usp=sharing",
+      "percent": 100,
+      "hz": 1080,
+      "enjoyment": 10
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-03",
