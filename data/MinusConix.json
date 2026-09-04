@@ -10,7 +10,15 @@
   "song": "Dry Out",
   "difficulty": 3,
   "enjoyment": 1,
-  "records": [],
+  "records": [
+    {
+      "user": "Inksowlpt2",
+      "link": "https://youtu.be/3TsIEx-MMHA",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-03",
