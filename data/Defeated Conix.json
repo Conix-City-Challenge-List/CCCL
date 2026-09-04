@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/u3HQe2QGeew?si=CWEf3ITqAxoEzany",
   "percentToQualify": 100,
   "song": "It Passed You By",
-  "difficulty": 4,
+  "difficulty": 5,
   "enjoyment": 9.7,
   "records": [],
   "positionHistory": [
@@ -17,6 +17,12 @@
       "position": 65,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 54,
+      "change": -11,
+      "reason": "Moved"
     }
   ]
 }
