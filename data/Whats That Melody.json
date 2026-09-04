@@ -10,7 +10,15 @@
   "song": "Squid Melody (Blue Version) By The Living Tombstone",
   "difficulty": 7,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "rori",
+      "link": "https://drive.google.com/file/d/1RVsbrds4DnqomahqbebWzIpq3ykI4aPE/view?usp=sharing",
+      "percent": 100,
+      "hz": 1080,
+      "enjoyment": 10
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-08-30",
