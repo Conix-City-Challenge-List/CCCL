@@ -9,7 +9,7 @@
   "verification": "https://www.youtube.com/watch?v=wiBfk-aJc2A",
   "percentToQualify": 100,
   "song": "Clubstep",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 6,
   "records": [
     {
@@ -574,6 +574,12 @@
       "position": 70,
       "change": 1,
       "reason": "moonwaves was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 71,
+      "change": 1,
+      "reason": "Defeated Conix was added above"
     }
   ]
 }
