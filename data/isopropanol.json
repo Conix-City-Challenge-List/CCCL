@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=vUDKEISo0rk",
   "percentToQualify": 100,
   "song": "Aether",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 8,
   "records": [
     {
@@ -565,6 +565,12 @@
       "position": 90,
       "change": -1,
       "reason": "MakeConixDance was removed from the list"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 91,
+      "change": 1,
+      "reason": "unnamed 37 was added above"
     }
   ]
 }
