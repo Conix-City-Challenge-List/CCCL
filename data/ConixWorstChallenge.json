@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/WAiQGgMsBW8?si=e2mkWdPND7XObUsH",
   "percentToQualify": 100,
   "song": "10000748",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 2,
   "records": [
     {
@@ -247,6 +247,12 @@
       "position": 50,
       "change": 1,
       "reason": "unnamed 37 was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 51,
+      "change": 1,
+      "reason": "Veri SuBBo Conix Challenge was added above"
     }
   ]
 }
