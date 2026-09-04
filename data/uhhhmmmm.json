@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=0L0EG4eHuL0",
   "percentToQualify": 100,
   "song": "F-777 - Sonic Blaster",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 6.5,
   "records": [
     {
@@ -560,6 +560,12 @@
       "position": 80,
       "change": 1,
       "reason": "unnamed 37 was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 81,
+      "change": 1,
+      "reason": "Veri SuBBo Conix Challenge was added above"
     }
   ]
 }
