@@ -478,6 +478,13 @@
       "position": 100,
       "change": null,
       "reason": "MakeConixDance was removed from the list"
+    },
+    {
+      "date": "2026-09-04",
+      "position": null,
+      "change": null,
+      "reason": "unnamed 37 was added above",
+      "legacy": true
     }
   ]
 }
