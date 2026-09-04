@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/-mGIwrAOMdg?is=eNa9lHdxw7pbwdQY",
   "percentToQualify": 100,
   "song": "creo - drift",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 3,
   "records": [
     {
@@ -401,6 +401,12 @@
       "position": 70,
       "change": 1,
       "reason": "unnamed 37 was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 71,
+      "change": 1,
+      "reason": "Veri SuBBo Conix Challenge was added above"
     }
   ]
 }
