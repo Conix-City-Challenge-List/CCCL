@@ -10,7 +10,15 @@
   "song": "-Glorious Morning-",
   "difficulty": 4,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "Huddda",
+      "link": "https://youtu.be/eW2i8bLxUm0",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 9
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-03",
