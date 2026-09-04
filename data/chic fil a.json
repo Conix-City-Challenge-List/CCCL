@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/gW9wzUMEKBE?is=NgYWMU0LrABHgnHB",
   "percentToQualify": 100,
   "song": "Clove - Waterflame",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 5,
   "records": [
     {
@@ -312,6 +312,12 @@
       "position": 20,
       "change": -1,
       "reason": "MakeConixDance was removed from the list"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 21,
+      "change": 1,
+      "reason": "unnamed 37 was added above"
     }
   ]
 }
