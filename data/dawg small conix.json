@@ -422,6 +422,12 @@
       "position": 82,
       "change": 1,
       "reason": "Defeated Conix was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 81,
+      "change": -1,
+      "reason": "Refusal was moved down past this challenge"
     }
   ]
 }
