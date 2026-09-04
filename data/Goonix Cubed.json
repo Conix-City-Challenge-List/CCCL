@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/Pr89bKsu-eY?si=XMY2WlMYuIaL8Mew",
   "percentToQualify": 100,
   "song": "Pimp Slap",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 0,
   "records": [
     {
@@ -889,6 +889,12 @@
       "position": 90,
       "change": 1,
       "reason": "unnamed 37 was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 91,
+      "change": 1,
+      "reason": "Veri SuBBo Conix Challenge was added above"
     }
   ]
 }
