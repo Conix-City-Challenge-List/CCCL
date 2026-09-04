@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/EX0HfMxde0w",
   "percentToQualify": 100,
   "song": "Helvetican - Bufu",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 6,
   "records": [
     {
@@ -452,6 +452,12 @@
       "position": 60,
       "change": 1,
       "reason": "unnamed 37 was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 61,
+      "change": 1,
+      "reason": "Veri SuBBo Conix Challenge was added above"
     }
   ]
 }
