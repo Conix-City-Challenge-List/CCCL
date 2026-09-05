@@ -695,6 +695,12 @@
       "change": null,
       "reason": "depression was added above",
       "legacy": true
+    },
+    {
+      "date": "2026-09-05",
+      "position": 143,
+      "change": null,
+      "reason": "Mossy Meadows was added above"
     }
   ]
 }
