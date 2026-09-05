@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=eNtHzjIYig0",
   "percentToQualify": 100,
   "song": "Creo - Endless",
-  "difficulty": 1,
+  "difficulty": 6,
   "enjoyment": 7.5,
   "records": [
     {
@@ -163,7 +163,7 @@
       "link": "https://medal.tv/games/geometry-dash/clips/nq7777bFblD3WVzDu?invite=cr-MSxCMmQsMjcyMDQ2NzUz",
       "percent": 100,
       "hz": 240,
-      "enjoyment": 1e-7
+      "enjoyment": 1e-07
     },
     {
       "user": "dephy",

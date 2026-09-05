@@ -1,6 +1,6 @@
 {
     "id": 0,
-    "name": "(Mythical Challenges)",
+    "name": "(Impossible Challenges)",
     "author": "",
     "creators": [],
     "verifier": "",
@@ -8,6 +8,6 @@
     "percentToQualify": 0,
     "password": "",
     "song": "",
-    "difficulty": 7,
+    "difficulty": 15,
     "records": []
 }

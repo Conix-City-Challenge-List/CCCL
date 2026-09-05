@@ -8,8 +8,6 @@
     "percentToQualify": 0,
     "password": "",
     "song": "",
-    "difficulty": 0,
-    "records": [
-        
-    ]
+    "difficulty": 1,
+    "records": []
 }
