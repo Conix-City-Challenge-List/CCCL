@@ -1,6 +1,5 @@
 import { round } from './util.js';
-import { fetchTierLength, fetchTierMinimum } from "./content.js";
- 
+
 // ------------------------------------------------------------------------------------------
 // Welcome to the site's configuration! This file allows us to change: 
 //      - The formula used anytime the site needs to calculate a score (level, record, and
@@ -10,29 +9,18 @@ import { fetchTierLength, fetchTierMinimum } from "./content.js";
 // Additionally, notes have been provided to explain exactly what everything does, especially
 // to non programmers. Notes are denoted using "//", as seen here.
 // ------------------------------------------------------------------------------------------
- 
+
 export const scale = 0; // Amount of decimals the site will globally round to and display.
                         // 0 = whole numbers everywhere points are shown (level points, tier
                         // totals, leaderboard totals). This also affects round()/localize()
                         // site-wide, not just score() below.
- 
+
 // The global rank (1-indexed) at which the main list ends and the Legacy
-// list begins. A level ranked 101 or worse no longer earns points, no
+// list begins. A level ranked 151 or worse no longer earns points, no
 // longer accepts new records, and is displayed separately from the
-// numbered main list.
-export const legacyLimit = 100;
- 
-// ------------------------------------------------------------------------------------------
-// Information about imported functions:
-//      - round takes in a number and rounds it to the nearest nth decimal, where n is the
-//        number of decimals the site will globally round to.
-//      - fetchTierLength takes in the list data and a specific difficulty, then outputs the
-//        amount of levels in that difficulty.
-//      - fetchTierMinimum takes in the list data and a specific difficulty, then outputs
-//        the level in that difficulty with the GREATEST rank (lowest-placed on the list).
-// ------------------------------------------------------------------------------------------
- 
- 
+// numbered main list. Matches 15 tiers x 10 challenges each.
+export const legacyLimit = 150;
+
 // -------------------------------------
 // Score function (levels and records):
 // -------------------------------------
@@ -47,234 +35,138 @@ export function score(rank, difficulty, percent, minPercent, list) {
     if (rank !== null && rank > legacyLimit) {
         return 0;
     }
- 
-    // There are two formulas used to calculate a level/record's score: linear and exponential.
-    //      - Linear: Used for the levels in the beginner through mythical tiers, where each
-    //        level increments an equal value from the minimum point value in the tier to
-    //        the maximum point value in the tier.
-    //      - Exponential: Used for the extreme and above tiers, where each level increments
-    //        an increasingly large value from the minimum point value of the supreme tier
-    //        to the point value of the #1 ranked level.
- 
-    // EXPONENTIAL FUNCTION CONFIGURATION
-    // Change these values to edit the exponential function.
-    const maxExpScore = 500; // The maximum score given by the exponential function.
-    const minExpScore = 230; // The minimum score given by the exponential function.
-    const scoreDivider = 210 // The maximum score given by the linear function.
-    // Shape of the exponential curve (must be greater than 0). This was 0.25, which made the
-    // curve extremely front-loaded: the exponent term ((rank-1)/(expLength-1))^curveBuff
-    // shoots up almost instantly for small ranks then flattens out for the rest of the tier —
-    // in practice that meant a ~120-point drop from #1 to #2, then barely 1 point of
-    // difference per rank for most of the Mythical-through-Extreme range. curveBuff = 1 makes
-    // this a plain exponential decay (a constant ratio between consecutive ranks' scores)
-    // instead of that lopsided shape, which spreads the point differences evenly across the
-    // whole exponential range instead of dumping them all at the very top.
-    //   - Lower than 1: pushes back toward the old front-loaded/flat-tailed shape.
-    //   - Higher than 1: the opposite bias — a small gap at the top, then a steepening gap
-    //     as you approach the Mythical/Extreme boundary.
-    // 1 is a good, evenly-spread default; nudge up or down from there to taste.
-    const curveBuff = 1;
-    const diffDivider = 5; // The difficulty (exclusive) at which the site will stop using
-                           // the linear point system and start using the exponential one.
-    // NOTE: If you change the value of diffDivider without adding/removing cases in the
-    // switch statement below, it'll mess stuff up.
- 
-    // Initializes variables used in the function
-    let score = 0;
-    let minScore = 0;
-    let maxScore = 0;
-    const tierLength = fetchTierLength(list, difficulty);
-    const tierMin = fetchTierMinimum(list, difficulty);
-    const rankInTier = rank - tierMin + tierLength;
-    
-    if (difficulty < diffDivider) { // Checks if the difficulty tier is mythical and below
-        // LINEAR FUNCTION CONFIGURATION
-        // You can change the minimum and maximum point values given for each tier here.
- 
-        // A switch statement basically just tests a bunch of values against the value of
-        // the case (in this case, the value of difficulty). Read the comments in the
-        // function below for more clarification.
-        switch (difficulty) { // Set the values of minScore and maxScore based on the difficulty.
-            case 0: // If the value of difficulty is 0, do the following:
- 
-                /* Beginner Tier */
-                minScore = 3;
-                maxScore = 7;
-                break; // Leave the switch statement without checking any other cases.
-            case 1: // If the value of difficulty is 1, do the following:
- 
-                /* Easy Tier */
-                minScore = 10;
-                maxScore = 30;
-                break;
-            case 2: // etc.
- 
-                /* Medium Tier */
-                minScore = 35;
-                maxScore = 75;
-                break;
-            case 3:
- 
-                /* Hard Tier */
-                minScore = 90;
-                maxScore = 130;
-                break;
-            case 4:
- 
-                /* Insane Tier */
-                minScore = 135;
-                maxScore = 200;
-                break;
-            case 5:
- 
-                /* Mythical Tier */
-                minScore = 210;
-                maxScore = 280;
-                break;
-            default: // If none of the other cases are met, resort to this:
- 
-                /* If there's a mistake */
-                break;
-        }
- 
-        // Calculates the linear score
-        let decreaseAmount = (maxScore - minScore) / (tierLength - 1);
-        score = maxScore - decreaseAmount * (rankInTier - 1);
-        if (tierLength === 1) {     
-            score = maxScore;
-        }
-    } // End of linear portion
-    
-    else { // Executes this code if the previous condition wasn't true (in other words, if
-           // the difficulty tier is extreme or above).
-        
-        let expLength = fetchTierMinimum(list, diffDivider); // Gets the number of levels
-        // from the tier above diffDivider to the #1 ranked level.
-        
-        const scaleFactor = Math.log(minExpScore / maxExpScore); // Gets the scale factor
-        // for the exponential function.
-        
-        // Calculates the exponential score
-        let expScore = maxExpScore * Math.exp(scaleFactor * Math.pow((rank - 1) / (expLength - 1), curveBuff));
-        
-        // Rounds up the value of expScore to minExpScore if it's below the value of
-        // minExpScore, and rounds down the value of expScore to maxExpScore if it's above
-        // the value of maxExpScore.
-        score = Math.max(minExpScore, Math.min(expScore, maxExpScore)); 
-    } // End of exponential portion
-    
-    // Set minPercent to 100 if the difficulty tier is hard tier or below
-    if (difficulty < 4) {
+
+    // POINTS FUNCTION CONFIGURATION
+    // One straight line across every ranked spot: #1 (hardest) is worth
+    // maxScore, #legacyLimit (easiest, the very last ranked spot) is worth
+    // minScore, and every rank in between is evenly spaced — no more
+    // separate per-tier bands or an exponential curve for the harder
+    // tiers, just a single simple formula across the whole ranked list.
+    const maxScore = 500; // Points awarded to the #1 ranked challenge.
+    const minScore = 5;   // Points awarded to the #legacyLimit (last ranked) challenge.
+
+    const decreaseAmount = (maxScore - minScore) / (legacyLimit - 1);
+    let baseScore = maxScore - decreaseAmount * (rank - 1);
+
+    // Set minPercent to 100 if the difficulty tier is Hard (4) or below —
+    // i.e. Beginner/Easy/Medium/Hard always require a full completion,
+    // same rule as before just re-numbered for the 15-tier scale (Hard
+    // used to be 3, now it's 4).
+    if (difficulty < 5) {
         minPercent = 100;
     }
-    
-    // Multuplies the value of score by the factor of the difference between the value of
+
+    // Multiplies the value of score by the factor of the difference between the value of
     // percent and minPercent - 1, divided by the difference between 100 and the value of
-    // minPercent - 1 (note that if you c)
-    score *=((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
- 
+    // minPercent - 1.
+    baseScore *= ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
+
     // Rounds the value of score to the nearest nth decimal, where n is the value of scale,
     // and makes it 0 if the score is negative.
-    score = Math.max(round(score), 0);
- 
-    return score;
+    return Math.max(round(baseScore), 0);
 }
- 
+
 // ------------------------
 // Score function (packs):
 // ------------------------
 export function packScore(pack) {
     let packscore = 0; // Initialize packscore
- 
-    // Code between the '/*' and '*/' symbols is ignored / disabled.
-    // This code used to score packs based on the levels they contain, if any.
- 
-    /* if (pack.levels) { // Checks if the pack has definitive levels associated with it
- 
-        // Sets packscore to the average of the scores of the levels in the pack
-        let totalScore = 0
-        pack.levels.forEach((lvl) => {
-            totalScore += score(lvl.rank, lvl.difficulty, 100, lvl.percentToQualify, list)
-        })
-        packscore = totalScore / pack.levels.length
-    } 
- 
-    else { // If the pack does not have definitive levels associated with it (if it is
-           // a difficulty pack) */
- 
-        // For help figuring out how this switch statement works, look at the comments on
-        // the switch statement in the score function above.
-        //
-        // NOTE: This scale (1 = Easy ... 10 = Silent) matches the list's current tier
-        // numbering, which has grown since this file was first written — it used to run
-        // 0 (Beginner) through 7 (Legendary) and had no cases for Supreme, Ethereal, or
-        // Silent, so packs at those difficulties silently fell through to "default" (null
-        // score, no color). There's also no Beginner tier on the list anymore, so that
-        // case was dropped rather than carried forward as dead code.
-        switch (pack.difficulty) { // Set the pack's score based on its difficulty.
-            case 1:
- 
-                /* Easy Packs */
-                packscore = 25;
-                break;
-            case 2:
- 
-                /* Medium Packs */
-                packscore = 50;
-                break;
-            case 3:
- 
-                /* Hard Packs */
-                packscore = 75;
-                break;
-            case 4:
- 
-                /* Insane Packs */
-                packscore = 100;
-                break;
-            case 5:
- 
-                /* Mythical Packs */
-                packscore = 150;
-                break;
-            case 6:
- 
-                /* Extreme Packs */
-                packscore = 200;
-                break;
-            case 7:
- 
-                /* Supreme Packs */
-                packscore = 250;
-                break;
-            case 8:
- 
-                /* Ethereal Packs */
-                packscore = 300;
-                break;
-            case 9:
- 
-                /* Legendary Packs */
-                packscore = 400;
-                break;
-            case 10:
- 
-                /* Silent Packs */
-                packscore = 500;
-                break;
-            default:
- 
-                /* if the pack's difficulty does not correspond to a "case" above */
-                packscore = null;
-                break;
-        }
- // } Ignore this bracket, it is part of the commented out code above.
- 
+
+    // For help figuring out how this switch statement works, look at the comments on
+    // the switch statement in the score function above.
+    //
+    // NOTE: 1 (Beginner) - 15 (Impossible) — the list's current 15-tier
+    // scale. Extreme (6) and Mythical (7) are deliberately in this order,
+    // not alphabetical/intuitive order — Mythical is considered the
+    // harder of the two on this list.
+    switch (pack.difficulty) { // Set the pack's score based on its difficulty.
+        case 1:
+
+            /* Beginner Packs */
+            packscore = 10;
+            break;
+        case 2:
+
+            /* Easy Packs */
+            packscore = 25;
+            break;
+        case 3:
+
+            /* Medium Packs */
+            packscore = 50;
+            break;
+        case 4:
+
+            /* Hard Packs */
+            packscore = 75;
+            break;
+        case 5:
+
+            /* Insane Packs */
+            packscore = 100;
+            break;
+        case 6:
+
+            /* Extreme Packs */
+            packscore = 150;
+            break;
+        case 7:
+
+            /* Mythical Packs */
+            packscore = 200;
+            break;
+        case 8:
+
+            /* Supreme Packs */
+            packscore = 300;
+            break;
+        case 9:
+
+            /* Ethereal Packs */
+            packscore = 400;
+            break;
+        case 10:
+
+            /* Divine Packs */
+            packscore = 500;
+            break;
+        case 11:
+
+            /* Apocalyptic Packs */
+            packscore = 600;
+            break;
+        case 12:
+
+            /* Catastrophic Packs */
+            packscore = 700;
+            break;
+        case 13:
+
+            /* Legendary Packs */
+            packscore = 800;
+            break;
+        case 14:
+
+            /* Silent Packs */
+            packscore = 900;
+            break;
+        case 15:
+
+            /* Impossible Packs */
+            packscore = 1000;
+            break;
+        default:
+
+            /* if the pack's difficulty does not correspond to a "case" above */
+            packscore = null;
+            break;
+    }
+
     // if the packscore is not "null" (i.e. if the difficulty is not in 
     // the above switch statement), round before returning it.
     return packscore === null ? packscore : round(packscore);
 }
- 
+
 // ------------------------
 // Dark mode pack colors:
 // ------------------------
@@ -286,68 +178,72 @@ export function packColor(difficulty) {
     //      - a is the alpha/opacity of the color (think alpha trigger in Geometry Dash).
     //      - The values of r, g, and b are integers between 0 and 255, inclusive.
     //      - The value of a is a number between 0 and 1, inclusive.
- 
+
     // If you're not on mobile, an easy way to select and test these values is to open
     // inspect element, click on a pack's button, and find something that looks like this:
     // https://imgur.com/a/6q2MsTj. From there, you're able to change the color in real
     // time (on your device only). When you're done, copy the values from above the color
     // picker and fill them into the switch statement below.
- 
+
     // Also, keep in mind that these are the values used *while the pack is selected*.
     // If a pack is deselected or the user is only hovering over it, the opacity will
     // decrease.
- 
+
     // Initialize r, g, b, and a values
     let r = 0;
     let g = 0;
     let b = 0;
     let a = 1; // The site assumes the opacity is 1, unless specified below.
-    
+
     // For help figuring out how this switch statement works, look at the comments on
     // the switch statement in the score function above.
     //
-    // NOTE: same 1 (Easy) - 10 (Silent) scale as packScore above — see the note there.
-    switch (difficulty) { // Set the pack's color based on its difficulty.
+    // NOTE: same 1 (Beginner) - 15 (Impossible) scale as packScore above — see the note
+    // there. Existing tiers (Easy through Silent) kept their exact original colors, just
+    // at their new numeric slots — only Beginner, Divine, Apocalyptic, Catastrophic, and
+    // Impossible are new colors, picked to be distinct from their neighbors. Feel free to
+    // retune any of these to taste.
+    switch (difficulty) {
         case 1:
- 
+
+            /* Beginner Packs */
+            r = 110;
+            g = 190;
+            b = 130;
+            a = 0.85;
+            break;
+        case 2:
+
             /* Easy Packs */
             r = 0;
             g = 53;
             b = 177;
             a = 0.9;
             break;
-        case 2:
- 
+        case 3:
+
             /* Medium Packs */
             r = 17;
             g = 137;
             b = 54;
             a = 0.8;
             break;
-        case 3:
- 
+        case 4:
+
             /* Hard Packs */
             r = 204;
             g = 209;
             a = 0.8;
             break;
-        case 4:
- 
+        case 5:
+
             /* Insane Packs */
             r = 211;
             g = 99;
             a = 0.9;
             break;
-        case 5:
- 
-            /* Mythical Packs */
-            r = 117;
-            g = 13;
-            b = 209;
-            a = 0.9;
-            break;
         case 6:
- 
+
             /* Extreme Packs */
             r = 217;
             g = 6;
@@ -355,39 +251,79 @@ export function packColor(difficulty) {
             a = 0.9;
             break;
         case 7:
- 
+
+            /* Mythical Packs */
+            r = 117;
+            g = 13;
+            b = 209;
+            a = 0.9;
+            break;
+        case 8:
+
             /* Supreme Packs */
             r = 255;
             g = 215;
             b = 0;
             a = 0.9;
             break;
-        case 8:
- 
+        case 9:
+
             /* Ethereal Packs */
             r = 255;
             g = 105;
             b = 180;
             a = 0.9;
             break;
-        case 9:
- 
+        case 10:
+
+            /* Divine Packs */
+            r = 255;
+            g = 240;
+            b = 200;
+            a = 0.9;
+            break;
+        case 11:
+
+            /* Apocalyptic Packs */
+            r = 180;
+            g = 45;
+            b = 0;
+            a = 0.9;
+            break;
+        case 12:
+
+            /* Catastrophic Packs */
+            r = 120;
+            g = 0;
+            b = 20;
+            a = 0.9;
+            break;
+        case 13:
+
             /* Legendary Packs */
             r = 200;
             g = 200;
             b = 200;
             a = 0.8;
             break;
-        case 10:
- 
+        case 14:
+
             /* Silent Packs */
             r = 20;
             g = 20;
             b = 20;
             a = 0.9;
             break;
+        case 15:
+
+            /* Impossible Packs */
+            r = 25;
+            g = 0;
+            b = 35;
+            a = 0.95;
+            break;
         default:
- 
+
             /* If there's a mistake */
             break;
     }
