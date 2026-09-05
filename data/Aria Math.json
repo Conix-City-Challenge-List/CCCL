@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/qL3SFRIdiLg",
   "percentToQualify": 100,
   "song": "Aria Math",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 9,
   "records": [
     {
@@ -147,6 +147,12 @@
       "position": 80,
       "change": 1,
       "reason": "Bvbonik was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 81,
+      "change": 1,
+      "reason": "narcolepix was added above"
     }
   ]
 }

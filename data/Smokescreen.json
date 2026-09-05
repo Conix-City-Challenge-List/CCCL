@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/B88bpFi-XYE",
   "percentToQualify": 100,
   "song": "I. Am. God.",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 7,
   "records": [
     {
@@ -181,6 +181,12 @@
       "position": 100,
       "change": 1,
       "reason": "Bvbonik was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 101,
+      "change": 1,
+      "reason": "narcolepix was added above"
     }
   ]
 }

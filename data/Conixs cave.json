@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=TBmGYqIAEtk",
   "percentToQualify": 100,
   "song": "Cast Darkness by Jimbobsthebest",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 7,
   "records": [
     {
@@ -1077,6 +1077,12 @@
       "position": 120,
       "change": 1,
       "reason": "Bvbonik was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 121,
+      "change": 1,
+      "reason": "narcolepix was added above"
     }
   ]
 }
