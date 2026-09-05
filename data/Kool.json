@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/J_S0TEV0DMI?is=I0HiXXwvOK1spqdq",
   "percentToQualify": 100,
   "song": "NH22-Isolation",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 9,
   "records": [
     {
@@ -1074,6 +1074,12 @@
       "position": 120,
       "change": 1,
       "reason": "verity ii was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 121,
+      "change": 1,
+      "reason": "Bvbonik was added above"
     }
   ]
 }

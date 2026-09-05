@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/U0_gV7BkGmk?is=HYTDQrjHOAqQ2b2-",
   "percentToQualify": 100,
   "song": "dimension - hyperdemented",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 2,
   "records": [
     {
@@ -690,6 +690,12 @@
       "position": 80,
       "change": 1,
       "reason": "verity ii was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 81,
+      "change": 1,
+      "reason": "Bvbonik was added above"
     }
   ]
 }

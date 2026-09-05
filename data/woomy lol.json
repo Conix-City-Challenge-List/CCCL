@@ -1778,6 +1778,13 @@
       "position": 150,
       "change": 1,
       "reason": "verity ii was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": null,
+      "change": null,
+      "reason": "Bvbonik was added above",
+      "legacy": true
     }
   ]
 }

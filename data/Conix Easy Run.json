@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/s3mLlNMtBqA?si=WkAfHyzXGu4tZnLz",
   "percentToQualify": 100,
   "song": "CreoMusic - Idolize",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 9,
   "records": [
     {
@@ -188,6 +188,12 @@
       "position": 110,
       "change": 1,
       "reason": "verity ii was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 111,
+      "change": 1,
+      "reason": "Bvbonik was added above"
     }
   ]
 }

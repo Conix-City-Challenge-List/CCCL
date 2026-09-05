@@ -993,6 +993,12 @@
       "position": 122,
       "change": 1,
       "reason": "verity ii was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 123,
+      "change": 1,
+      "reason": "Bvbonik was added above"
     }
   ]
 }
