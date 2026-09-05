@@ -58,6 +58,12 @@
       "position": 1,
       "change": -1,
       "reason": "cove was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 2,
+      "change": 1,
+      "reason": "Narrow Dark was moved up past this challenge"
     }
   ]
 }
