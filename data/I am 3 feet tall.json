@@ -665,6 +665,12 @@
       "position": 77,
       "change": -1,
       "reason": "Refusal was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 78,
+      "change": 1,
+      "reason": "Mossy Meadows was added above"
     }
   ]
 }
