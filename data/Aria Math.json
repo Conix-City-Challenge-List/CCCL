@@ -24,6 +24,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 3.5
+    },
+    {
+      "user": "Huddda",
+      "link": "https://www.youtube.com/watch?v=BxaMFEw3Lak&t=3m42s",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 8
     }
   ],
   "positionHistory": [
