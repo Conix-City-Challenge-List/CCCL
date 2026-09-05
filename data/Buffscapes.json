@@ -206,6 +206,12 @@
       "position": 13,
       "change": 1,
       "reason": "Injured Angel was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 12,
+      "change": -1,
+      "reason": "Injured Angel was moved down past this challenge"
     }
   ]
 }

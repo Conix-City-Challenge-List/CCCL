@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=ig30GNHha50",
   "percentToQualify": 100,
   "song": "I N J U R Y (Sped Up) - Cight",
-  "difficulty": 15,
+  "difficulty": 13,
   "enjoyment": 7,
   "records": [
     {
@@ -39,6 +39,12 @@
       "position": 10,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 23,
+      "change": 13,
+      "reason": "Moved"
     }
   ]
 }

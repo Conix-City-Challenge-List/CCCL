@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/wZJ8ljOtbUw?is=GeVVF1F8q_gF_wXr",
   "percentToQualify": 100,
   "song": "Klaskii Romper - Kawaii Sprite",
-  "difficulty": 14,
+  "difficulty": 15,
   "enjoyment": 2,
   "records": [
     {
@@ -187,6 +187,12 @@
       "position": 11,
       "change": 1,
       "reason": "Injured Angel was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 10,
+      "change": -1,
+      "reason": "Injured Angel was moved down past this challenge"
     }
   ]
 }
