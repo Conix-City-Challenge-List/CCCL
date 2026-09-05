@@ -7,7 +7,7 @@
   "verifier": "Reflex geo",
   "verification": "https://youtu.be/BPo-SAqQRJU?si=g9sM0BciR5ZNnoxn",
   "percentToQualify": 100,
-  "song": "\u041e\u043d \u0433\u0435\u043d\u0438\u0430\u043b\u0435\u043d",
+  "song": "Он гениален",
   "difficulty": 6,
   "enjoyment": 5,
   "records": [
@@ -820,6 +820,12 @@
       "position": 99,
       "change": 1,
       "reason": "Defeated Conix was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 100,
+      "change": 1,
+      "reason": "Mossy Meadows was added above"
     }
   ]
 }
