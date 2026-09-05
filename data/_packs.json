@@ -96,5 +96,14 @@
       "Freedom",
       "Abyssal"
     ]
+  },
+  {
+    "name": "Ship Control Pack",
+    "difficulty": 13,
+    "levels": [
+      "Abyss Of Conix",
+      "Injured Angel",
+      "Happy Ship"
+    ]
   }
 ]
