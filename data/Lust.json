@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/2lj-r-sMrRM",
   "percentToQualify": 100,
   "song": "Ricochet Love",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 2,
   "records": [
     {
@@ -1010,6 +1010,12 @@
       "position": 120,
       "change": 1,
       "reason": "Narrow Dark was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 121,
+      "change": 1,
+      "reason": "verity ii was added above"
     }
   ]
 }

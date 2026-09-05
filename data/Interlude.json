@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/QyIMzYkvAC0",
   "percentToQualify": 100,
   "song": "Drake - Bria's Interlude",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 10,
   "records": [
     {
@@ -223,6 +223,12 @@
       "position": 90,
       "change": 1,
       "reason": "Narrow Dark was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 91,
+      "change": 1,
+      "reason": "verity ii was added above"
     }
   ]
 }

@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/G4m3PHpC3YA",
   "percentToQualify": 100,
   "song": "620959",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 3,
   "records": [
     {
@@ -389,6 +389,12 @@
       "position": 50,
       "change": 1,
       "reason": "Narrow Dark was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 51,
+      "change": 1,
+      "reason": "verity ii was added above"
     }
   ]
 }

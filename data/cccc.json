@@ -563,13 +563,6 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 7.5
-    },
-    {
-      "user": "egotisticality",
-      "link": "https://medal.tv/games/geometry-dash/clips/nsX0f5d6uySJyW9uq?invite=cr-MSxCR3AsNjEyNDI0MTk2",
-      "percent": 100,
-      "hz": 720,
-      "enjoyment": 3
     }
   ],
   "positionHistory": [
@@ -1197,6 +1190,12 @@
       "position": 145,
       "change": 1,
       "reason": "Narrow Dark was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 146,
+      "change": 1,
+      "reason": "verity ii was added above"
     }
   ]
 }

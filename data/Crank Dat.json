@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/4my0Qz70wD0",
   "percentToQualify": 100,
   "song": "Through the Gates",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 10,
   "records": [
     {
@@ -743,6 +743,12 @@
       "position": 140,
       "change": 1,
       "reason": "Narrow Dark was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 141,
+      "change": 1,
+      "reason": "verity ii was added above"
     }
   ]
 }

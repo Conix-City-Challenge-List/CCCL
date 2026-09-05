@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/58wNmbBlgAA",
   "percentToQualify": 100,
   "song": "Nuke Powder",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 8,
   "records": [
     {
@@ -207,6 +207,12 @@
       "position": 70,
       "change": 1,
       "reason": "Narrow Dark was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 71,
+      "change": 1,
+      "reason": "verity ii was added above"
     }
   ]
 }
