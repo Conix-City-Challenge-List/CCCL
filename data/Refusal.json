@@ -600,6 +600,12 @@
       "position": 84,
       "change": 13,
       "reason": "Moved"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 85,
+      "change": 1,
+      "reason": "Mossy Meadows was added above"
     }
   ]
 }
