@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/GlflwdBzmRo",
   "percentToQualify": 100,
   "song": "cYsmix - Eden",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 1,
   "records": [
     {
@@ -784,6 +784,12 @@
       "position": 140,
       "change": 1,
       "reason": "Injured Angel was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 141,
+      "change": 1,
+      "reason": "lol why not was added above"
     }
   ]
 }

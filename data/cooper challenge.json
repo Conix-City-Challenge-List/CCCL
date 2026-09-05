@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=z3O2LNOH9ss",
   "percentToQualify": 100,
   "song": "danque - boomkitty",
-  "difficulty": 10,
+  "difficulty": 9,
   "enjoyment": 8,
   "records": [
     {
@@ -428,6 +428,12 @@
       "position": 60,
       "change": 1,
       "reason": "Injured Angel was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 61,
+      "change": 1,
+      "reason": "lol why not was added above"
     }
   ]
 }

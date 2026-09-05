@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/tUC4MU3AeVY?si=BSVd3psGRveYYS_o",
   "percentToQualify": 100,
   "song": "Stalker-Waterflame",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 7,
   "records": [
     {
@@ -1168,6 +1168,12 @@
       "position": 130,
       "change": 1,
       "reason": "Injured Angel was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 131,
+      "change": 1,
+      "reason": "lol why not was added above"
     }
   ]
 }

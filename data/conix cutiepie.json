@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/9U0txEv3EwA",
   "percentToQualify": 100,
   "song": "523299",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 10,
   "records": [
     {
@@ -172,6 +172,12 @@
       "position": 110,
       "change": 1,
       "reason": "Injured Angel was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 111,
+      "change": 1,
+      "reason": "lol why not was added above"
     }
   ]
 }
