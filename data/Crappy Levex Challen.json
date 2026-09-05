@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/NdABlSjF9vE",
   "percentToQualify": 100,
   "song": "360804",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 9,
   "records": [
     {
@@ -767,6 +767,12 @@
       "position": 140,
       "change": 1,
       "reason": "Captainick ccl was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 141,
+      "change": 1,
+      "reason": "I wanna Freakyfreak was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=xEtmiMclGKI",
   "percentToQualify": 100,
   "song": "Greys",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 8,
   "records": [
     {
@@ -521,6 +521,12 @@
       "position": 110,
       "change": 1,
       "reason": "Captainick ccl was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 111,
+      "change": 1,
+      "reason": "I wanna Freakyfreak was added above"
     }
   ]
 }

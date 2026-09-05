@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/R7xYp9iTqcI?is=MdWSLKAXdc4_BWnC",
   "percentToQualify": 100,
   "song": "Flow - Creo",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 0,
   "records": [
     {
@@ -1252,6 +1252,12 @@
       "position": 120,
       "change": 1,
       "reason": "Captainick ccl was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 121,
+      "change": 1,
+      "reason": "I wanna Freakyfreak was added above"
     }
   ]
 }

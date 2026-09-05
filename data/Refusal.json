@@ -9,7 +9,7 @@
   "verification": "https://www.youtube.com/watch?v=wiBfk-aJc2A",
   "percentToQualify": 100,
   "song": "Clubstep",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 6,
   "records": [
     {
@@ -643,6 +643,12 @@
       "position": 90,
       "change": 1,
       "reason": "Captainick ccl was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 91,
+      "change": 1,
+      "reason": "I wanna Freakyfreak was added above"
     }
   ]
 }

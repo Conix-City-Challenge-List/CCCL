@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=vUDKEISo0rk",
   "percentToQualify": 100,
   "song": "Aether",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 8,
   "records": [
     {
@@ -625,6 +625,12 @@
       "position": 100,
       "change": 1,
       "reason": "Captainick ccl was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 101,
+      "change": 1,
+      "reason": "I wanna Freakyfreak was added above"
     }
   ]
 }
