@@ -10,7 +10,15 @@
   "song": "It Passed You By",
   "difficulty": 5,
   "enjoyment": 9.7,
-  "records": [],
+  "records": [
+    {
+      "user": "TyreekBigs",
+      "link": "https://youtu.be/eU6Jsi1YWtc?si=Luf-4Y4vq0kKbSu4",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 3
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-04",
