@@ -1118,6 +1118,12 @@
       "change": null,
       "reason": "Conix Valley was added above",
       "legacy": true
+    },
+    {
+      "date": "2026-09-05",
+      "position": 125,
+      "change": null,
+      "reason": "Mossy Meadows was added above"
     }
   ]
 }
