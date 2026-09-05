@@ -777,6 +777,12 @@
       "change": null,
       "reason": "Dance room was added above",
       "legacy": true
+    },
+    {
+      "date": "2026-09-05",
+      "position": 116,
+      "change": null,
+      "reason": "Mossy Meadows was added above"
     }
   ]
 }
