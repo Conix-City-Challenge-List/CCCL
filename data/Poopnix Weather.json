@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/w-_dIKV3odM?si=31BPvqO6bL6PZzrR",
   "percentToQualify": 100,
   "song": "Sweater weather",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 2,
   "records": [
     {
@@ -650,6 +650,12 @@
       "position": 120,
       "change": 1,
       "reason": "lol why not was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 121,
+      "change": 1,
+      "reason": "DreamLand was added above"
     }
   ]
 }

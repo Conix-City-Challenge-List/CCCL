@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/-mGIwrAOMdg?is=eNa9lHdxw7pbwdQY",
   "percentToQualify": 100,
   "song": "creo - drift",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 3,
   "records": [
     {
@@ -473,6 +473,12 @@
       "position": 80,
       "change": 1,
       "reason": "lol why not was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 81,
+      "change": 1,
+      "reason": "DreamLand was added above"
     }
   ]
 }

@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/EX0HfMxde0w",
   "percentToQualify": 100,
   "song": "Helvetican - Bufu",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 6,
   "records": [
     {
@@ -512,6 +512,12 @@
       "position": 70,
       "change": 1,
       "reason": "lol why not was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 71,
+      "change": 1,
+      "reason": "DreamLand was added above"
     }
   ]
 }
