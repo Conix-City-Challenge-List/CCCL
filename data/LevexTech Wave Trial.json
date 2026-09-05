@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=Hw4TKjmer2w",
   "percentToQualify": 100,
   "song": "726455",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 10,
   "records": [
     {
@@ -185,6 +185,12 @@
       "position": 120,
       "change": 1,
       "reason": "la peace was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 121,
+      "change": 1,
+      "reason": "Vex was added above"
     }
   ]
 }

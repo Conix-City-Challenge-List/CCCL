@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/X7OXwkFnkYw?is=8GcPM7UdBp9qhvEa",
   "percentToQualify": 100,
   "song": "Klaskii Romper - Kawaii Sprite",
-  "difficulty": 14,
+  "difficulty": 13,
   "enjoyment": 3,
   "records": [
     {
@@ -176,6 +176,12 @@
       "position": 20,
       "change": 1,
       "reason": "Injured Angel was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 21,
+      "change": 1,
+      "reason": "Vex was added above"
     }
   ]
 }

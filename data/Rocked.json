@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/OFfRVyp6czs",
   "percentToQualify": 100,
   "song": "Creo - Rock Thing",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 7,
   "records": [
     {
@@ -510,6 +510,12 @@
       "position": 70,
       "change": 1,
       "reason": "DreamLand was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 71,
+      "change": 1,
+      "reason": "Vex was added above"
     }
   ]
 }

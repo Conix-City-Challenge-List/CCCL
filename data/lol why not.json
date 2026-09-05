@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/XDMgUG1E90w",
   "percentToQualify": 100,
   "song": "Dom & Roland - Thunder (Okuu Remix)",
-  "difficulty": 13,
+  "difficulty": 12,
   "enjoyment": 7.7,
   "records": [],
   "positionHistory": [
@@ -17,6 +17,12 @@
       "position": 30,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 31,
+      "change": 1,
+      "reason": "Vex was added above"
     }
   ]
 }

@@ -655,6 +655,12 @@
       "position": 105,
       "change": 1,
       "reason": "la peace was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 106,
+      "change": 1,
+      "reason": "Vex was added above"
     }
   ]
 }

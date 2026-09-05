@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/-sdU-GGCZEY",
   "percentToQualify": 100,
   "song": "Triple Helix",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 9,
   "records": [
     {
@@ -361,6 +361,12 @@
       "position": 100,
       "change": 1,
       "reason": "la peace was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 101,
+      "change": 1,
+      "reason": "Vex was added above"
     }
   ]
 }
