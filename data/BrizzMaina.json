@@ -1192,6 +1192,12 @@
       "position": 134,
       "change": 1,
       "reason": "Vex was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 135,
+      "change": 1,
+      "reason": "Hazy wave was added above"
     }
   ]
 }

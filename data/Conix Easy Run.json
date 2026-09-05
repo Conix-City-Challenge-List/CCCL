@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/s3mLlNMtBqA?si=WkAfHyzXGu4tZnLz",
   "percentToQualify": 100,
   "song": "CreoMusic - Idolize",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 9,
   "records": [
     {
@@ -248,6 +248,12 @@
       "position": 120,
       "change": 1,
       "reason": "Vex was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 121,
+      "change": 1,
+      "reason": "Hazy wave was added above"
     }
   ]
 }

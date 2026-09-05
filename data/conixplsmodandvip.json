@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=pFhqlQ9UXko",
   "percentToQualify": 100,
   "song": "13(rukkus remix)",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 8,
   "records": [
     {
@@ -596,6 +596,12 @@
       "position": 90,
       "change": -1,
       "reason": "Vex was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 91,
+      "change": 1,
+      "reason": "Hazy wave was added above"
     }
   ]
 }

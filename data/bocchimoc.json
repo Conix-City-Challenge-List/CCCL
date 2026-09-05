@@ -499,6 +499,12 @@
       "position": 85,
       "change": -1,
       "reason": "Vex was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 86,
+      "change": 1,
+      "reason": "Hazy wave was added above"
     }
   ]
 }

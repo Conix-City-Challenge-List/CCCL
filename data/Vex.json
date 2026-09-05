@@ -23,6 +23,12 @@
       "position": 106,
       "change": 88,
       "reason": "Moved"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 107,
+      "change": 1,
+      "reason": "Hazy wave was added above"
     }
   ]
 }

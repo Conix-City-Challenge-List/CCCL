@@ -946,6 +946,13 @@
       "position": 150,
       "change": 1,
       "reason": "Vex was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": null,
+      "change": null,
+      "reason": "Hazy wave was added above",
+      "legacy": true
     }
   ]
 }
