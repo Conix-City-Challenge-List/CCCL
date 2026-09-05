@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/W6FLM9LmHMY?is=lw7u4p3x5F2SLd1K",
   "percentToQualify": 100,
   "song": "Pagoda - Xomu & Amidst",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 7,
   "records": [
     {
@@ -25,6 +25,12 @@
       "position": 50,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 51,
+      "change": 1,
+      "reason": "Mossy Meadows was added above"
     }
   ]
 }
