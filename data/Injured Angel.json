@@ -10,7 +10,15 @@
   "song": "I N J U R Y (Sped Up) - Cight",
   "difficulty": 15,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "hdnjcna",
+      "link": "https://medal.tv/games/geometry-dash/clips/nsZ6xzOhLXAJItMBr?invite=cr-MSxnd3MsMjcyMDQ2NzUz",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-05",
