@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/77IkDZI6xEI",
   "percentToQualify": 100,
   "song": "Impulse",
-  "difficulty": 14,
+  "difficulty": 5,
   "enjoyment": 0,
   "records": [],
   "positionHistory": [
@@ -17,6 +17,12 @@
       "position": 18,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 106,
+      "change": 88,
+      "reason": "Moved"
     }
   ]
 }

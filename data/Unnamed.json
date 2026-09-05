@@ -340,6 +340,12 @@
       "position": 85,
       "change": 1,
       "reason": "Vex was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 84,
+      "change": -1,
+      "reason": "Vex was moved down past this challenge"
     }
   ]
 }
