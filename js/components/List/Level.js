@@ -44,7 +44,7 @@ export default {
             <h3 v-else>Difficulty: {{["", "Beginner", "Easy", "Medium", "Hard", "Insane", "Extreme", "Mythical", "Supreme", "Ethereal", "Divine", "Apocalyptic", "Catastrophic", "Legendary", "Silent", "Impossible"][level.difficulty]}} Challenge</h3>
             <Verification :verification="level.verification" :showcase="level.showcase || null" />
             <LevelMeta :level="level" :list="list" />
-            <Records :records="level.records" :percentToQualify="(level.difficulty>3) ? level.percentToQualify : 100" :isLegacy="isLegacy" />
+            <Records :records="level.records" :percentToQualify="(level.difficulty>4) ? level.percentToQualify : 100" :isLegacy="isLegacy" />
             <PositionHistory :history="level.positionHistory" />
         </div>
     `,
