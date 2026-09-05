@@ -41,7 +41,7 @@ export default {
             <Packs :packs="level.packs" v-show="!fromPacksPage" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels" />
             <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment"></LevelAuthors>
             <h3 v-if="isLegacy">Difficulty: Legacy</h3>
-            <h3 v-else>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} Challenge</h3>
+            <h3 v-else>Difficulty: {{["", "Beginner", "Easy", "Medium", "Hard", "Insane", "Extreme", "Mythical", "Supreme", "Ethereal", "Divine", "Apocalyptic", "Catastrophic", "Legendary", "Silent", "Impossible"][level.difficulty]}} Challenge</h3>
             <Verification :verification="level.verification" :showcase="level.showcase || null" />
             <LevelMeta :level="level" :list="list" />
             <Records :records="level.records" :percentToQualify="(level.difficulty>3) ? level.percentToQualify : 100" :isLegacy="isLegacy" />
