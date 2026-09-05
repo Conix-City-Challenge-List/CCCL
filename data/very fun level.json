@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/iJuPARnRUY8",
   "percentToQualify": 100,
   "song": "just gd",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 0.2,
   "records": [
     {
@@ -625,6 +625,12 @@
       "position": 140,
       "change": 1,
       "reason": "DreamLand was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 141,
+      "change": 1,
+      "reason": "la peace was added above"
     }
   ]
 }

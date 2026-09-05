@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/c1fZRD2FkX0",
   "percentToQualify": 100,
   "song": "flamewall",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 7,
   "records": [
     {
@@ -800,6 +800,12 @@
       "position": 120,
       "change": 1,
       "reason": "DreamLand was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 121,
+      "change": 1,
+      "reason": "la peace was added above"
     }
   ]
 }
