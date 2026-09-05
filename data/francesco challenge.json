@@ -253,6 +253,12 @@
       "position": 49,
       "change": 1,
       "reason": "verity ii was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 50,
+      "change": 1,
+      "reason": "Tomato Farm was moved up past this challenge"
     }
   ]
 }

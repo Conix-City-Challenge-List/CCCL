@@ -9,7 +9,7 @@
   "verification": "https://www.youtube.com/watch?v=eH0Rett9TYo",
   "percentToQualify": 100,
   "song": "solar wind",
-  "difficulty": 10,
+  "difficulty": 9,
   "enjoyment": 5,
   "records": [
     {
@@ -268,6 +268,12 @@
       "position": 60,
       "change": 1,
       "reason": "Bvbonik was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 61,
+      "change": 1,
+      "reason": "Tomato Farm was moved up past this challenge"
     }
   ]
 }

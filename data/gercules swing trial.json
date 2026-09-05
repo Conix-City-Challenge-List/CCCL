@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/cDCvDQFjX54?is=Sxk1Tp269451lOQY",
   "percentToQualify": 100,
   "song": "-radiocutter- waterflame",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 6,
   "records": [
     {
@@ -337,6 +337,12 @@
       "position": 50,
       "change": 1,
       "reason": "verity ii was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 51,
+      "change": 1,
+      "reason": "Tomato Farm was moved up past this challenge"
     }
   ]
 }
