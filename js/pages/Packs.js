@@ -66,12 +66,12 @@ export default {
                     <Copy v-if="!copied" @click="copyURL('https://conixchallengelist.pages.dev/#/packs/pack/' + selectedPack.name.toLowerCase().replaceAll(' ', '_')); copied = true"></Copy>
                     <Copied v-if="copied" @click="copyURL('https://conixchallengelist.pages.dev/#/packs/pack/' + selectedPack.name.toLowerCase().replaceAll(' ', '_')); copied = true"></Copied>
                 </div>
-                    <h2>Difficulty: {{ ["", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent"][selectedPack.difficulty] }}</h2>
+                    <h2>Difficulty: {{ ["", "Beginner", "Easy", "Medium", "Hard", "Insane", "Extreme", "Mythical", "Supreme", "Ethereal", "Divine", "Apocalyptic", "Catastrophic", "Legendary", "Silent", "Impossible"][selectedPack.difficulty] }}</h2>
                     <div class="pack-score">
                         <h3>Points: {{ selectedPack.score }}</h3>
                     </div>
                     <h2>Levels ({{ displayLevels.length }})</h2>
-                    <p v-if="!selectedPack.levels" class="type-body"> Beat any 5 challenges in the {{ ["", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent"][selectedPack.difficulty] }} tier</p>
+                    <p v-if="!selectedPack.levels" class="type-body"> Beat any 5 challenges in the {{ ["", "beginner", "easy", "medium", "hard", "insane", "extreme", "mythical", "supreme", "ethereal", "divine", "apocalyptic", "catastrophic", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier</p>
                     <div class="pack-level-details">
                         <div v-for="lvl in displayLevels" :key="lvl.path" class="pack-level-detail" :class="{ 'error': lvl.difficulty === -50 }" :style="{ 'border-inline-start-color': rgbaBind(accentColor(packColor(lvl.difficulty === -50 ? null : lvl.difficulty)), 0) }" @click="lvl.difficulty !== -50 && (selected = displayLevels.indexOf(lvl))">
                             <div class="pack-level-detail-rank">
@@ -88,7 +88,7 @@ export default {
                                 </p>
                             </div>
                             <div class="pack-level-detail-meta" v-if="lvl.difficulty !== -50">
-                                <p v-if="selectedPack.levels" class="type-label-sm">{{ ["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][lvl.difficulty] }}</p>
+                                <p v-if="selectedPack.levels" class="type-label-sm">{{ ["", "Beginner", "Easy", "Medium", "Hard", "Insane", "Extreme", "Mythical", "Supreme", "Ethereal", "Divine", "Apocalyptic", "Catastrophic", "Legendary", "Silent", "Impossible"][lvl.difficulty] }}</p>
                                 <p class="type-label-sm">{{ score(lvl.rank, lvl.difficulty, 100, lvl.percentToQualify, list) }} pts</p>
                             </div>
                         </div>
