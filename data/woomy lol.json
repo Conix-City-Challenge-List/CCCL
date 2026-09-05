@@ -1186,6 +1186,13 @@
       "percent": 100,
       "hz": 720,
       "enjoyment": 8
+    },
+    {
+      "user": "josh49ers",
+      "link": "https://www.youtube.com/watch?v=fplRtKiDibg",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 5
     }
   ],
   "positionHistory": [
