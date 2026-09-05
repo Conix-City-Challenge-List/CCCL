@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=Gtb3X_k6kn0",
   "percentToQualify": 100,
   "song": "-Hidden Path-",
-  "difficulty": 12,
+  "difficulty": 11,
   "enjoyment": 6,
   "records": [
     {
@@ -201,6 +201,12 @@
       "position": 40,
       "change": 1,
       "reason": "unnamed 37 was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 41,
+      "change": 1,
+      "reason": "Mossy Meadows was added above"
     }
   ]
 }
