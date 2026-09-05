@@ -1,0 +1,167 @@
+{
+  "id": 148125386,
+  "name": "astralds tee",
+  "creators": [
+    "NotAstrald"
+  ],
+  "verifier": "NotAstrald",
+  "verification": "https://www.youtube.com/watch?v=akvS7a08-bE",
+  "percentToQualify": 100,
+  "song": "53576",
+  "difficulty": 10,
+  "enjoyment": 8,
+  "records": [
+    {
+      "user": "ZekeyZong",
+      "link": "https://www.youtube.com/watch?v=R9KL4rT4X-4",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
+    },
+    {
+      "user": "thewhyguy",
+      "link": "https://drive.google.com/file/d/166saCCbj7TYBVW2NSngQFmIF-isVc-A2/view?usp=sharing",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 7
+    },
+    {
+      "user": "rori",
+      "link": "https://youtu.be/IlqR1LGktlM",
+      "percent": 100,
+      "hz": 1080,
+      "enjoyment": 10
+    },
+    {
+      "user": "Murqy",
+      "link": "https://youtu.be/0SVwPkoWAps",
+      "percent": 100,
+      "hz": 200,
+      "enjoyment": 3.5
+    },
+    {
+      "user": "Smileyyman",
+      "link": "https://medal.tv/games/geometry-dash/clips/nsiGbarhJ3KtPIG_P?invite=cr-MSxzWTEsMzYyNDQ1ODEz",
+      "percent": 100,
+      "hz": 180,
+      "enjoyment": 4
+    },
+    {
+      "user": "150IQPlayer",
+      "link": "https://medal.tv/games/geometry-dash/clips/nsBZtDlQvGf1SgKZL?invite=cr-MSx1SzgsNTg0MzAzMDg1",
+      "percent": 100,
+      "hz": 60,
+      "enjoyment": 5
+    }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-09-01",
+      "position": 46,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 47,
+      "change": 1,
+      "reason": "Conix Valley was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 48,
+      "change": 1,
+      "reason": "Demise was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 49,
+      "change": 1,
+      "reason": "santi cube was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 50,
+      "change": 1,
+      "reason": "paradise was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 51,
+      "change": 1,
+      "reason": "cade cunningham was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 52,
+      "change": 1,
+      "reason": "Sweeping Chud II was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 53,
+      "change": 1,
+      "reason": "conix rivers was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 54,
+      "change": 1,
+      "reason": "Hardscapes was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 55,
+      "change": 1,
+      "reason": "Happy Ship was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 54,
+      "change": -1,
+      "reason": "Make Conix Dance was removed from the list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 54,
+      "change": 0,
+      "reason": "Make Conix Dance was removed from the list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 55,
+      "change": 1,
+      "reason": "MakeConixDance was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 54,
+      "change": -1,
+      "reason": "MakeConixDance was removed from the list"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 55,
+      "change": 1,
+      "reason": "unnamed 37 was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 56,
+      "change": 1,
+      "reason": "Veri SuBBo Conix Challenge was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 57,
+      "change": 1,
+      "reason": "moonwaves was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 58,
+      "change": 1,
+      "reason": "Defeated Conix was moved up past this challenge"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": 147865674,
+  "name": "Goobie goobert",
+  "creators": [
+    "Moh"
+  ],
+  "verifier": "AhFewz",
+  "verification": "https://www.youtube.com/watch?v=FCbwhGpELf0",
+  "percentToQualify": 100,
+  "song": "Eden - Cysmix",
+  "difficulty": 12,
+  "enjoyment": 7,
+  "records": [
+    {
+      "user": "Jackaboi",
+      "link": "https://medal.tv/games/geometry-dash/clips/nquwDyu47Nsg7vG6F",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 0
+    },
+    {
+      "user": "rori",
+      "link": "https://drive.google.com/file/d/1TwZQE2RM00nI7sfNoODX2BiumndNxV5u/view?usp=sharing",
+      "percent": 100,
+      "hz": 1080,
+      "enjoyment": 10
+    }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-30",
+      "position": 18,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-30",
+      "position": 19,
+      "change": 1,
+      "reason": "scottie barnes clear was added above"
+    },
+    {
+      "date": "2026-08-30",
+      "position": 20,
+      "change": 1,
+      "reason": "depression was added above"
+    },
+    {
+      "date": "2026-08-30",
+      "position": 21,
+      "change": 1,
+      "reason": "Abyss Of Conix was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 22,
+      "change": 1,
+      "reason": "astralds knee was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 23,
+      "change": 1,
+      "reason": "Make Conix Dance was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 24,
+      "change": 1,
+      "reason": "astralds tree was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 25,
+      "change": 1,
+      "reason": "Conix Valley was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 26,
+      "change": 1,
+      "reason": "Demise was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 27,
+      "change": 1,
+      "reason": "paradise was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 28,
+      "change": 1,
+      "reason": "cade cunningham was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 29,
+      "change": 1,
+      "reason": "Sweeping Chud II was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 30,
+      "change": 1,
+      "reason": "conix rivers was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 31,
+      "change": 1,
+      "reason": "Hardscapes was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 30,
+      "change": -1,
+      "reason": "Make Conix Dance was removed from the list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 30,
+      "change": 0,
+      "reason": "Make Conix Dance was removed from the list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 31,
+      "change": 1,
+      "reason": "MakeConixDance was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 30,
+      "change": -1,
+      "reason": "MakeConixDance was removed from the list"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 31,
+      "change": 1,
+      "reason": "unnamed 37 was added above"
+    }
+  ]
+}

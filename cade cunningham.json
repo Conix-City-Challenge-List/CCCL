@@ -1,0 +1,78 @@
+{
+  "id": 148137400,
+  "name": "cade cunningham",
+  "creators": [
+    "FerronPlays"
+  ],
+  "verifier": "rivver.",
+  "verification": "https://youtu.be/i4LOYH9jBHg?si=N1aB49II5wTPaucZ",
+  "percentToQualify": 100,
+  "song": "Travis Scott -SDP Interlude (extended)",
+  "difficulty": 13,
+  "enjoyment": 10,
+  "records": [
+    {
+      "user": "rori",
+      "link": "https://youtu.be/vj0dbxJd0Ow",
+      "percent": 100,
+      "hz": 1080,
+      "enjoyment": 10
+    }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-09-03",
+      "position": 19,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 20,
+      "change": 1,
+      "reason": "Toph Shant Clear was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 21,
+      "change": 1,
+      "reason": "Sweeping Chud II was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 22,
+      "change": 1,
+      "reason": "Hardscapes was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 21,
+      "change": -1,
+      "reason": "Make Conix Dance was removed from the list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 21,
+      "change": 0,
+      "reason": "Make Conix Dance was removed from the list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 22,
+      "change": 1,
+      "reason": "MakeConixDance was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 21,
+      "change": -1,
+      "reason": "MakeConixDance was removed from the list"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 22,
+      "change": 1,
+      "reason": "unnamed 37 was added above"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Beginner Pack",
+    "difficulty": 1
+  },
+  {
+    "name": "Easy Pack",
+    "difficulty": 2
+  },
+  {
+    "name": "Medium Pack",
+    "difficulty": 3
+  },
+  {
+    "name": "Hard Pack",
+    "difficulty": 4
+  },
+  {
+    "name": "Insane Pack",
+    "difficulty": 5
+  },
+  {
+    "name": "Extreme Pack",
+    "difficulty": 6
+  },
+  {
+    "name": "Mythical Pack",
+    "difficulty": 7
+  },
+  {
+    "name": "Supreme Pack",
+    "difficulty": 8
+  },
+  {
+    "name": "Ethereal Pack",
+    "difficulty": 9
+  },
+  {
+    "name": "Divine Pack",
+    "difficulty": 10
+  },
+  {
+    "name": "Apocalyptic Pack",
+    "difficulty": 11
+  },
+  {
+    "name": "Catastrophic Pack",
+    "difficulty": 12
+  },
+  {
+    "name": "Legendary Pack",
+    "difficulty": 13
+  },
+  {
+    "name": "Silent Pack",
+    "difficulty": 14
+  },
+  {
+    "name": "Impossible Pack",
+    "difficulty": 15
+  },
+  {
+    "name": "Confused? Pack",
+    "difficulty": 7,
+    "levels": [
+      "uhhhhhhh",
+      "ummmmmmm",
+      "uhhhmmmm"
+    ]
+  },
+  {
+    "name": "Conix's Hideout",
+    "difficulty": 5,
+    "levels": [
+      "Conixs basement",
+      "Conixs cave",
+      "Conixs attic"
+    ]
+  },
+  {
+    "name": "Astrald Pack",
+    "difficulty": 13,
+    "levels": [
+      "astralds pee",
+      "astralds tee",
+      "astralds knee",
+      "astralds bee",
+      "astralds tree"
+    ]
+  },
+  {
+    "name": "Shiver Pack",
+    "difficulty": 6,
+    "levels": [
+      "Pluto",
+      "Freedom",
+      "Abyssal"
+    ]
+  }
+]

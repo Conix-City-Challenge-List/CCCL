@@ -1,0 +1,200 @@
+{
+  "id": 147817463,
+  "name": "Blizzy",
+  "creators": [
+    "rnsummerl"
+  ],
+  "verifier": "rnsummerl",
+  "verification": "https://youtu.be/_oMgmHbPCO8?si=ik7Rll58770ikwqX",
+  "percentToQualify": 100,
+  "song": "cYsmix - Eden",
+  "difficulty": 8,
+  "enjoyment": 5,
+  "records": [
+    {
+      "user": "thewhyguy",
+      "link": "https://drive.google.com/file/d/1pb9uuzZToGIBOXsyllS2pKfzAc3kI0dx/view?usp=sharing",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 8.5
+    },
+    {
+      "user": "ImSaturnN",
+      "link": "https://youtu.be/B2lupBSFl58",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 1
+    },
+    {
+      "user": "Josh lol",
+      "link": "https://youtu.be/khsyT_VvTMo",
+      "percent": 100,
+      "hz": 60,
+      "enjoyment": 4
+    }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-08-31",
+      "position": 52,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 53,
+      "change": 1,
+      "reason": "Thinking Space TCD was moved up past this challenge"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 54,
+      "change": 1,
+      "reason": "Make Conix Dance was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 55,
+      "change": 1,
+      "reason": "astralds tree was added above"
+    },
+    {
+      "date": "2026-08-31",
+      "position": 56,
+      "change": 1,
+      "reason": "astralds pee was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 57,
+      "change": 1,
+      "reason": "astralds bee was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 58,
+      "change": 1,
+      "reason": "astralds tee was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 59,
+      "change": 1,
+      "reason": "Conix Valley was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 60,
+      "change": 1,
+      "reason": "Demise was added above"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 61,
+      "change": 1,
+      "reason": "santi cube was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-01",
+      "position": 62,
+      "change": 1,
+      "reason": "paradise was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 63,
+      "change": 1,
+      "reason": "cade cunningham was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 64,
+      "change": 1,
+      "reason": "TheSkyIsFallingUp was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 65,
+      "change": 1,
+      "reason": "Sweeping Chud II was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 66,
+      "change": 1,
+      "reason": "conix rivers was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 67,
+      "change": 1,
+      "reason": "Don't Fail Now was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 68,
+      "change": 1,
+      "reason": "Hardscapes was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 69,
+      "change": 1,
+      "reason": "Happy Ship was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 68,
+      "change": -1,
+      "reason": "Make Conix Dance was removed from the list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 68,
+      "change": 0,
+      "reason": "Make Conix Dance was removed from the list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 69,
+      "change": 1,
+      "reason": "MakeConixDance was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 68,
+      "change": -1,
+      "reason": "MakeConixDance was removed from the list"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 69,
+      "change": 1,
+      "reason": "unnamed 37 was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 70,
+      "change": 1,
+      "reason": "Veri SuBBo Conix Challenge was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 71,
+      "change": 1,
+      "reason": "moonwaves was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 72,
+      "change": 1,
+      "reason": "Defeated Conix was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 71,
+      "change": -1,
+      "reason": "Refusal was moved down past this challenge"
+    }
+  ]
+}

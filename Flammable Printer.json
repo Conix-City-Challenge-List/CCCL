@@ -1,0 +1,138 @@
+{
+  "id": 148122959,
+  "name": "Flammable Printer",
+  "creators": [
+    "Beans9252"
+  ],
+  "verifier": "Beans9252",
+  "verification": "https://youtu.be/olIPmll3R9s",
+  "percentToQualify": 100,
+  "song": "Flammable Printer",
+  "difficulty": 5,
+  "enjoyment": 8,
+  "records": [
+    {
+      "user": "ZekeyZong",
+      "link": "https://www.youtube.com/watch?v=GWYsLMaXgNg",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 9
+    },
+    {
+      "user": "Kuboiks",
+      "link": "https://www.youtube.com/watch?v=lQXmOjwWB9Q",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 7
+    },
+    {
+      "user": "Huddda",
+      "link": "https://www.youtube.com/watch?v=2k__xONZdOc&t=0m16s",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 9
+    },
+    {
+      "user": "Murqy",
+      "link": "https://youtu.be/0SVwPkoWAps",
+      "percent": 100,
+      "hz": 200,
+      "enjoyment": 9
+    },
+    {
+      "user": "dog3ee",
+      "link": "https://medal.tv/games/geometry-dash/clips/nshBvnc5EFW-IaohY?invite=cr-MSx0a2gsMjAyMTA0NjU0",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 9
+    },
+    {
+      "user": "LockRee",
+      "link": "https://medal.tv/games/geometry-dash/clips/nsFYPYujuh4ecK4lS?invite=cr-MSw5WXosNjE0NDUwODgz",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 10
+    },
+    {
+      "user": "WayMix.7",
+      "link": "https://www.youtube.com/watch?v=P00Cykpx1lg",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 10
+    }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-09-03",
+      "position": 90,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 91,
+      "change": 1,
+      "reason": "Interlude was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 96,
+      "change": 5,
+      "reason": "Moved"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 97,
+      "change": 1,
+      "reason": "Happy Ship was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 96,
+      "change": -1,
+      "reason": "Make Conix Dance was removed from the list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 96,
+      "change": 0,
+      "reason": "Make Conix Dance was removed from the list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 97,
+      "change": 1,
+      "reason": "MakeConixDance was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 96,
+      "change": -1,
+      "reason": "MakeConixDance was removed from the list"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 97,
+      "change": 1,
+      "reason": "unnamed 37 was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 98,
+      "change": 1,
+      "reason": "Veri SuBBo Conix Challenge was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 99,
+      "change": 1,
+      "reason": "moonwaves was added above"
+    },
+    {
+      "date": "2026-09-04",
+      "position": 100,
+      "change": 1,
+      "reason": "Defeated Conix was added above"
+    }
+  ]
+}

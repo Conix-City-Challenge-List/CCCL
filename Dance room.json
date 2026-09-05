@@ -1,0 +1,55 @@
+{
+  "id": 148029290,
+  "name": "Dance room",
+  "creators": [
+    "lucasvd"
+  ],
+  "verifier": "lucasvd",
+  "verification": "https://www.youtube.com/watch?v=9HI0r8YGNzM",
+  "percentToQualify": 100,
+  "song": "Eden - cysmix",
+  "difficulty": 4,
+  "enjoyment": 8,
+  "records": [
+    {
+      "user": "Duckly",
+      "link": "https://medal.tv/games/geometry-dash/clips/nrQZ4js8WN6HosCgG?invite=cr-MSxGNTEsNDkxOTczMDE2",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 10
+    }
+  ],
+  "positionHistory": [
+    {
+      "date": "2026-09-03",
+      "position": 97,
+      "change": null,
+      "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 98,
+      "change": 1,
+      "reason": "cade cunningham was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 99,
+      "change": 1,
+      "reason": "Corrupt Heaven was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": 100,
+      "change": 1,
+      "reason": "sometimes you rage was added above"
+    },
+    {
+      "date": "2026-09-03",
+      "position": null,
+      "change": null,
+      "reason": "TheSkyIsFallingUp was added above",
+      "legacy": true
+    }
+  ]
+}
