@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=415EinLmc18",
   "percentToQualify": 100,
   "song": "-Final Battle-",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 8,
   "records": [
     {
@@ -807,6 +807,12 @@
       "position": 120,
       "change": 1,
       "reason": "narcolepix was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 121,
+      "change": 1,
+      "reason": "hey its conixity was added above"
     }
   ]
 }

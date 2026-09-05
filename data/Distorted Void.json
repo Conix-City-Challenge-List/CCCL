@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=6HFjKVKeays",
   "percentToQualify": 100,
   "song": "861866",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 8.5,
   "records": [
     {
@@ -751,6 +751,12 @@
       "position": 130,
       "change": 1,
       "reason": "narcolepix was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 131,
+      "change": 1,
+      "reason": "hey its conixity was added above"
     }
   ]
 }
