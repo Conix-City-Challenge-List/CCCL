@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=9LVhK7dS_Ws",
   "percentToQualify": 100,
   "song": "28549",
-  "difficulty": 10,
+  "difficulty": 9,
   "enjoyment": 0,
   "records": [
     {
@@ -228,6 +228,12 @@
       "position": 60,
       "change": 1,
       "reason": "Defeated Conix was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 61,
+      "change": 1,
+      "reason": "Mossy Meadows was added above"
     }
   ]
 }
