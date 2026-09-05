@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/NwFBjcR6Gj4",
   "percentToQualify": 100,
   "song": "-Stalker-",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 8,
   "records": [
     {
@@ -667,6 +667,12 @@
       "position": 100,
       "change": 1,
       "reason": "narcolepix was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 101,
+      "change": 1,
+      "reason": "Captainick ccl was added above"
     }
   ]
 }

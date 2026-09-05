@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=MLblkdUNMhM",
   "percentToQualify": 100,
   "song": "death moon by rhk",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 10,
   "records": [
     {
@@ -691,6 +691,12 @@
       "position": 120,
       "change": 1,
       "reason": "hey its conixity was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 121,
+      "change": 1,
+      "reason": "Captainick ccl was added above"
     }
   ]
 }
