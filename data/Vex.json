@@ -10,7 +10,15 @@
   "song": "Impulse",
   "difficulty": 5,
   "enjoyment": 0,
-  "records": [],
+  "records": [
+    {
+      "user": "LifeDrain",
+      "link": "https://youtu.be/q5qeVGIvXtU",
+      "percent": 100,
+      "hz": 400,
+      "enjoyment": 7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-05",
