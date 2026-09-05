@@ -29,7 +29,7 @@ export default {
                 <td><h3 class="tier-info" style="padding-bottom:0.5rem">Lowest enjoyment: {{ (isLegacyDivider ? legacyLowestEnjoyment : fetchLowestEnjoyment(list, level.difficulty)) || "N/A" }}</h3></td>
             </tr>
             <p style="padding-top:1.5rem" v-if="isLegacyDivider">The levels {{ descending ? 'below' : 'above' }} are Legacy Challenges.</p>
-            <p style="padding-top:1.5rem" v-else>The levels {{ descending ? 'below' : 'above' }} are {{ ["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty] }} Challenges.</p>
+            <p style="padding-top:1.5rem" v-else>The levels {{ descending ? 'below' : 'above' }} are {{ ["", "Beginner", "Easy", "Medium", "Hard", "Insane", "Extreme", "Mythical", "Supreme", "Ethereal", "Divine", "Apocalyptic", "Catastrophic", "Legendary", "Silent", "Impossible"][level.difficulty] }} Challenges.</p>
  
         </div>
     `,
