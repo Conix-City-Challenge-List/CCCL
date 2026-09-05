@@ -1718,6 +1718,12 @@
       "change": null,
       "reason": "manic panic was added above",
       "legacy": true
+    },
+    {
+      "date": "2026-09-05",
+      "position": 148,
+      "change": null,
+      "reason": "Mossy Meadows was added above"
     }
   ]
 }
