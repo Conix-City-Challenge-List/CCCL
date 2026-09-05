@@ -10,7 +10,15 @@
   "song": "Omnipresent (AIM 2023)",
   "difficulty": 7,
   "enjoyment": 4,
-  "records": [],
+  "records": [
+    {
+      "user": "wlarpoff",
+      "link": "https://youtu.be/v6OjGtxfDcg",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-05",
