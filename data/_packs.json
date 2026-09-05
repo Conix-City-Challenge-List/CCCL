@@ -1,22 +1,22 @@
 [
   {
-    "name": "Easy Pack",
+    "name": "Beginner Pack",
     "difficulty": 1
   },
   {
-    "name": "Medium Pack",
+    "name": "Easy Pack",
     "difficulty": 2
   },
   {
-    "name": "Hard Pack",
+    "name": "Medium Pack",
     "difficulty": 3
   },
   {
-    "name": "Insane Pack",
+    "name": "Hard Pack",
     "difficulty": 4
   },
   {
-    "name": "Mythical Pack",
+    "name": "Insane Pack",
     "difficulty": 5
   },
   {
@@ -24,24 +24,44 @@
     "difficulty": 6
   },
   {
-    "name": "Supreme Pack",
+    "name": "Mythical Pack",
     "difficulty": 7
   },
   {
-    "name": "Ethereal Pack",
+    "name": "Supreme Pack",
     "difficulty": 8
   },
   {
-    "name": "Legendary Pack",
+    "name": "Ethereal Pack",
     "difficulty": 9
   },
   {
-    "name": "Silent Pack",
+    "name": "Divine Pack",
     "difficulty": 10
   },
   {
+    "name": "Apocalyptic Pack",
+    "difficulty": 11
+  },
+  {
+    "name": "Catastrophic Pack",
+    "difficulty": 12
+  },
+  {
+    "name": "Legendary Pack",
+    "difficulty": 13
+  },
+  {
+    "name": "Silent Pack",
+    "difficulty": 14
+  },
+  {
+    "name": "Impossible Pack",
+    "difficulty": 15
+  },
+  {
     "name": "Confused? Pack",
-    "difficulty": 5,
+    "difficulty": 7,
     "levels": [
       "uhhhhhhh",
       "ummmmmmm",
@@ -50,7 +70,7 @@
   },
   {
     "name": "Conix's Hideout",
-    "difficulty": 4,
+    "difficulty": 5,
     "levels": [
       "Conixs basement",
       "Conixs cave",
@@ -59,7 +79,7 @@
   },
   {
     "name": "Astrald Pack",
-    "difficulty": 9,
+    "difficulty": 13,
     "levels": [
       "astralds pee",
       "astralds tee",
