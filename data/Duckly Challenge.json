@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/Wh7aKJTdxZA",
   "percentToQualify": 100,
   "song": "At The Speed of Light",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 10,
   "records": [
     {
@@ -1144,6 +1144,12 @@
       "position": 140,
       "change": 1,
       "reason": "I wanna Freakyfreak was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 141,
+      "change": 1,
+      "reason": "Injured Angel was added above"
     }
   ]
 }

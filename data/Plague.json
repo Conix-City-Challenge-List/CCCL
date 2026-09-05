@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/wGZQAXUWopg?si=_N-p3L_vedY8P9uM",
   "percentToQualify": 100,
   "song": "Death Moon",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 8,
   "records": [
     {
@@ -1045,6 +1045,12 @@
       "position": 120,
       "change": 1,
       "reason": "I wanna Freakyfreak was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 121,
+      "change": 1,
+      "reason": "Injured Angel was added above"
     }
   ]
 }

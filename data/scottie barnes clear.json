@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/6-sdGJh4xks?si=3F_k45qEysgu_3Jv",
   "percentToQualify": 100,
   "song": "No Church In The Wild - Jay-Z & Kanye West",
-  "difficulty": 13,
+  "difficulty": 12,
   "enjoyment": 9,
   "records": [
     {
@@ -153,6 +153,12 @@
       "position": 30,
       "change": 1,
       "reason": "Narrow Dark was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 31,
+      "change": 1,
+      "reason": "Injured Angel was added above"
     }
   ]
 }
