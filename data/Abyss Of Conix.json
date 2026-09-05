@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/QYeDI9eAQE0?is=dB-JK6Vgebuc9mdS",
   "percentToQualify": 100,
   "song": "Memphistos Lullaby",
-  "difficulty": 14,
+  "difficulty": 13,
   "enjoyment": 8,
   "records": [
     {
@@ -134,6 +134,12 @@
       "position": 20,
       "change": 1,
       "reason": "Mossy Meadows was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 21,
+      "change": 1,
+      "reason": "Narrow Dark was added above"
     }
   ]
 }

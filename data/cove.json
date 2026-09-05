@@ -73,6 +73,12 @@
       "position": 2,
       "change": 1,
       "reason": "Moved"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 3,
+      "change": 1,
+      "reason": "Narrow Dark was added above"
     }
   ]
 }

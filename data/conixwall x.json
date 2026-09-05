@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/c1fZRD2FkX0",
   "percentToQualify": 100,
   "song": "flamewall",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 7,
   "records": [
     {
@@ -740,6 +740,12 @@
       "position": 110,
       "change": null,
       "reason": "Mossy Meadows was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 111,
+      "change": 1,
+      "reason": "Narrow Dark was added above"
     }
   ]
 }

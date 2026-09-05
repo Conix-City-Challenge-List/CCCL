@@ -17,6 +17,12 @@
       "position": 12,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 13,
+      "change": 1,
+      "reason": "Narrow Dark was added above"
     }
   ]
 }

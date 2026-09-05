@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/mItp95XAO_s",
   "percentToQualify": 100,
   "song": "Flawless Wings of Yatagarasu",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 7,
   "records": [
     {
@@ -313,6 +313,12 @@
       "position": 50,
       "change": 1,
       "reason": "Mossy Meadows was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 51,
+      "change": 1,
+      "reason": "Narrow Dark was added above"
     }
   ]
 }

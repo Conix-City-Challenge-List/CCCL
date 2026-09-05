@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/IJpJIHpXwTs",
   "percentToQualify": 100,
   "song": "62095",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 5,
   "records": [
     {
@@ -799,6 +799,12 @@
       "position": 140,
       "change": null,
       "reason": "Mossy Meadows was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 141,
+      "change": 1,
+      "reason": "Narrow Dark was added above"
     }
   ]
 }

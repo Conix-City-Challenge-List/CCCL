@@ -368,6 +368,12 @@
       "position": 147,
       "change": null,
       "reason": "Mossy Meadows was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 148,
+      "change": 1,
+      "reason": "Narrow Dark was added above"
     }
   ]
 }

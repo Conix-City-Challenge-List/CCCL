@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=KiHq7EPJpds",
   "percentToQualify": 100,
   "song": "486539",
-  "difficulty": 15,
+  "difficulty": 14,
   "enjoyment": 9.5,
   "records": [
     {
@@ -148,6 +148,12 @@
       "position": 10,
       "change": 1,
       "reason": "unnamed 37 was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 11,
+      "change": 1,
+      "reason": "Narrow Dark was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/-sdU-GGCZEY",
   "percentToQualify": 100,
   "song": "Triple Helix",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 9,
   "records": [
     {
@@ -301,6 +301,12 @@
       "position": 90,
       "change": 1,
       "reason": "Mossy Meadows was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 91,
+      "change": 1,
+      "reason": "Narrow Dark was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/iJuPARnRUY8",
   "percentToQualify": 100,
   "song": "just gd",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 0.2,
   "records": [
     {
@@ -558,6 +558,12 @@
       "position": 130,
       "change": null,
       "reason": "Mossy Meadows was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 131,
+      "change": 1,
+      "reason": "Narrow Dark was added above"
     }
   ]
 }

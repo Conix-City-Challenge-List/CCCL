@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/wxXfxFyAFAk",
   "percentToQualify": 100,
   "song": "Arctic Monkey - 505",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 7,
   "records": [
     {
@@ -653,6 +653,12 @@
       "position": 80,
       "change": 1,
       "reason": "Mossy Meadows was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 81,
+      "change": 1,
+      "reason": "Narrow Dark was added above"
     }
   ]
 }

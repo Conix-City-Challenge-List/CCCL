@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=T4Yp5DcwaUc&t=1s",
   "percentToQualify": 100,
   "song": "Squid Melody (Blue Version) By The Living Tombstone",
-  "difficulty": 12,
+  "difficulty": 11,
   "enjoyment": 8,
   "records": [
     {
@@ -145,6 +145,12 @@
       "position": 40,
       "change": 1,
       "reason": "Mossy Meadows was added above"
+    },
+    {
+      "date": "2026-09-05",
+      "position": 41,
+      "change": 1,
+      "reason": "Narrow Dark was added above"
     }
   ]
 }
