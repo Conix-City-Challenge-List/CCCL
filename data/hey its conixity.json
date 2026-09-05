@@ -10,7 +10,15 @@
   "song": "kocmoc unleashed",
   "difficulty": 4,
   "enjoyment": 4,
-  "records": [],
+  "records": [
+    {
+      "user": "thewhyguy",
+      "link": "https://drive.google.com/file/d/1wK-ms0C-HRkNJ9oBwbPTEgduQMBTCtJp/view?usp=sharing",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 6
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-05",
