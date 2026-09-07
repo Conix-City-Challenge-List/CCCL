@@ -1244,6 +1244,12 @@
       "position": 138,
       "change": 1,
       "reason": "shipscapes was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 139,
+      "change": 1,
+      "reason": "memory was added above"
     }
   ]
 }

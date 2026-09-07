@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/b0eEIdSuQxI",
   "percentToQualify": 100,
   "song": "NK - Classical Vip",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 5,
   "records": [
     {
@@ -242,6 +242,12 @@
       "position": 100,
       "change": 1,
       "reason": "Black Flower was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 101,
+      "change": 1,
+      "reason": "memory was added above"
     }
   ]
 }

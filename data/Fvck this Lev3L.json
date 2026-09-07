@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/R7xYp9iTqcI?is=MdWSLKAXdc4_BWnC",
   "percentToQualify": 100,
   "song": "Flow - Creo",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 0,
   "records": [
     {
@@ -1340,6 +1340,12 @@
       "position": 130,
       "change": 1,
       "reason": "shipscapes was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 131,
+      "change": 1,
+      "reason": "memory was added above"
     }
   ]
 }
