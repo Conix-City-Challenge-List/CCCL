@@ -10,7 +10,15 @@
   "song": "Silo - meaningful love (slowed instrumental)",
   "difficulty": 8,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "LifeDrain",
+      "link": "https://youtu.be/_xBPmnCheaA?si=rRamgCkuREUK2rMN",
+      "percent": 100,
+      "hz": 400,
+      "enjoyment": 7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-07",
