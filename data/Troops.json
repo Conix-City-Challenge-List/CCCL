@@ -10,7 +10,15 @@
   "song": "OsamaSon - Troops",
   "difficulty": 4,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "keke",
+      "link": "https://medal.tv/games/geometry-dash/clips/ntMWC8fn0PDoOz5z-?invite=cr-MSxBQzgsNTEyMTA0NDk3",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 10
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-07",
