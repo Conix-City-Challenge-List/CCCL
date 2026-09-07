@@ -10,7 +10,15 @@
   "song": "strawberrychop",
   "difficulty": 7,
   "enjoyment": 6,
-  "records": [],
+  "records": [
+    {
+      "user": "serbian guy",
+      "link": "https://youtube.com/shorts/YCRBMsk9yHI?si=baW9pGaHyKfQh4iG",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 5
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-05",
