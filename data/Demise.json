@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/fDox20f50IQ",
   "percentToQualify": 100,
   "song": "-Stalker-",
-  "difficulty": 13,
+  "difficulty": 12,
   "enjoyment": 0,
   "records": [
     {
@@ -128,6 +128,12 @@
       "position": 30,
       "change": 1,
       "reason": "Evilest ConixStep was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 31,
+      "change": 1,
+      "reason": "conix rivers was moved up past this challenge"
     }
   ]
 }
