@@ -10,7 +10,15 @@
   "song": "Dimension",
   "difficulty": 9,
   "enjoyment": 5,
-  "records": [],
+  "records": [
+    {
+      "user": "thewhyguy",
+      "link": "https://drive.google.com/file/d/1piJhaoRhOHjGcYBfutTLwAfN_B2_1Ec_/view?usp=sharing",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-07",
