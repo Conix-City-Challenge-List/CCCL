@@ -166,6 +166,12 @@
       "position": 11,
       "change": -1,
       "reason": "Injured Angel was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 12,
+      "change": 1,
+      "reason": "Evilest ConixStep was added above"
     }
   ]
 }

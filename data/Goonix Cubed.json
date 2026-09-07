@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/Pr89bKsu-eY?si=XMY2WlMYuIaL8Mew",
   "percentToQualify": 100,
   "song": "Pimp Slap",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 0,
   "records": [
     {
@@ -1054,6 +1054,12 @@
       "position": 110,
       "change": -1,
       "reason": "Troops was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 111,
+      "change": 1,
+      "reason": "Evilest ConixStep was added above"
     }
   ]
 }

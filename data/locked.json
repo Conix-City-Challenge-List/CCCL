@@ -606,6 +606,13 @@
       "position": 150,
       "change": 1,
       "reason": "Troops was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": null,
+      "change": null,
+      "reason": "Evilest ConixStep was added above",
+      "legacy": true
     }
   ]
 }

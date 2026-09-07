@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/w-_dIKV3odM?si=31BPvqO6bL6PZzrR",
   "percentToQualify": 100,
   "song": "Sweater weather",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 2,
   "records": [
     {
@@ -745,6 +745,12 @@
       "position": 130,
       "change": 1,
       "reason": "Troops was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 131,
+      "change": 1,
+      "reason": "Evilest ConixStep was added above"
     }
   ]
 }

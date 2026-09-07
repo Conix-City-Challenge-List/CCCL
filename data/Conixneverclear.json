@@ -918,6 +918,12 @@
       "position": 135,
       "change": 1,
       "reason": "Troops was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 136,
+      "change": 1,
+      "reason": "Evilest ConixStep was added above"
     }
   ]
 }

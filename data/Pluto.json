@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/9MN8piZXWa8",
   "percentToQualify": 100,
   "song": "Creo - Flow",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 4,
   "records": [
     {
@@ -440,6 +440,12 @@
       "position": 50,
       "change": 1,
       "reason": "Unamed 47 final part was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 51,
+      "change": 1,
+      "reason": "Evilest ConixStep was added above"
     }
   ]
 }

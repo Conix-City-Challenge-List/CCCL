@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/W7H_dK4io-8?si=YxEJ4VuDjFXqV7iw",
   "percentToQualify": 100,
   "song": "Cast darkness (FX Loop)",
-  "difficulty": 10,
+  "difficulty": 9,
   "enjoyment": 9,
   "records": [],
   "positionHistory": [
@@ -53,6 +53,12 @@
       "position": 60,
       "change": 1,
       "reason": "Unamed 47 final part was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 61,
+      "change": 1,
+      "reason": "Evilest ConixStep was added above"
     }
   ]
 }

@@ -928,6 +928,12 @@
       "position": 109,
       "change": -1,
       "reason": "Troops was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 110,
+      "change": 1,
+      "reason": "Evilest ConixStep was added above"
     }
   ]
 }

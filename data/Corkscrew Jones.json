@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/X7OXwkFnkYw?is=8GcPM7UdBp9qhvEa",
   "percentToQualify": 100,
   "song": "Klaskii Romper - Kawaii Sprite",
-  "difficulty": 14,
+  "difficulty": 13,
   "enjoyment": 3,
   "records": [
     {
@@ -207,6 +207,12 @@
       "position": 20,
       "change": 1,
       "reason": "Unamed 47 final part was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 21,
+      "change": 1,
+      "reason": "Evilest ConixStep was added above"
     }
   ]
 }

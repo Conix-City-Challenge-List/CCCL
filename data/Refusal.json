@@ -9,7 +9,7 @@
   "verification": "https://www.youtube.com/watch?v=wiBfk-aJc2A",
   "percentToQualify": 100,
   "song": "Clubstep",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 6,
   "records": [
     {
@@ -722,6 +722,12 @@
       "position": 100,
       "change": 1,
       "reason": "sometimes its easy was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 101,
+      "change": 1,
+      "reason": "Evilest ConixStep was added above"
     }
   ]
 }
