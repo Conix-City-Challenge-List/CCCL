@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=415EinLmc18",
   "percentToQualify": 100,
   "song": "-Final Battle-",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 8,
   "records": [
     {
@@ -888,6 +888,12 @@
       "position": 130,
       "change": 1,
       "reason": "Unamed 47 final part was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 131,
+      "change": 1,
+      "reason": "Black Flower was added above"
     }
   ]
 }
