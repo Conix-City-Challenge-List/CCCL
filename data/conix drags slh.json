@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/-kJSJOaNhcs",
   "percentToQualify": 100,
   "song": "945695",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 10,
   "records": [
     {
@@ -322,6 +322,12 @@
       "position": 100,
       "change": 1,
       "reason": "memory was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 101,
+      "change": 1,
+      "reason": "sometimes its easy was added above"
     }
   ]
 }
