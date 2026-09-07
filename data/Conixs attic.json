@@ -836,6 +836,12 @@
       "position": 136,
       "change": 1,
       "reason": "good luck was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 135,
+      "change": -1,
+      "reason": "Flammable Printer was moved down past this challenge"
     }
   ]
 }
