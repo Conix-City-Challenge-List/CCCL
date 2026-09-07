@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/c1fZRD2FkX0",
   "percentToQualify": 100,
   "song": "flamewall",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 7,
   "records": [
     {
@@ -879,6 +879,12 @@
       "position": 130,
       "change": -1,
       "reason": "Flammable Printer was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 131,
+      "change": 1,
+      "reason": "Conx Hates LifeDrain was added above"
     }
   ]
 }

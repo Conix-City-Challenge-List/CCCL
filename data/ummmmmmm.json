@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=eNtHzjIYig0",
   "percentToQualify": 100,
   "song": "Creo - Endless",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 7.5,
   "records": [
     {
@@ -934,6 +934,12 @@
       "position": 110,
       "change": 1,
       "reason": "Evilest ConixStep was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 111,
+      "change": 1,
+      "reason": "Conx Hates LifeDrain was added above"
     }
   ]
 }

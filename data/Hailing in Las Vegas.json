@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/zyIQycfy36E",
   "percentToQualify": 100,
   "song": "Snowing in Las Vegas",
-  "difficulty": 13,
+  "difficulty": 12,
   "enjoyment": 5,
   "records": [
     {
@@ -255,6 +255,12 @@
       "position": 30,
       "change": 1,
       "reason": "conix rivers was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 31,
+      "change": 1,
+      "reason": "Conx Hates LifeDrain was added above"
     }
   ]
 }

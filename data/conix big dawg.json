@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=Z2rst-wKJDc",
   "percentToQualify": 100,
   "song": "Death Factory",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 2,
   "records": [
     {
@@ -601,6 +601,12 @@
       "position": 100,
       "change": 1,
       "reason": "Evilest ConixStep was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 101,
+      "change": 1,
+      "reason": "Conx Hates LifeDrain was added above"
     }
   ]
 }

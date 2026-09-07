@@ -1383,6 +1383,12 @@
       "position": 134,
       "change": -1,
       "reason": "Flammable Printer was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 135,
+      "change": 1,
+      "reason": "Conx Hates LifeDrain was added above"
     }
   ]
 }

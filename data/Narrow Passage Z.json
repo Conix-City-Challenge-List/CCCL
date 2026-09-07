@@ -896,6 +896,13 @@
       "position": 150,
       "change": 1,
       "reason": "good luck was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": null,
+      "change": null,
+      "reason": "Conx Hates LifeDrain was added above",
+      "legacy": true
     }
   ]
 }

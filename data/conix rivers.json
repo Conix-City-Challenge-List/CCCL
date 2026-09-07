@@ -117,6 +117,12 @@
       "position": 26,
       "change": -5,
       "reason": "Moved"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 27,
+      "change": 1,
+      "reason": "Conx Hates LifeDrain was added above"
     }
   ]
 }

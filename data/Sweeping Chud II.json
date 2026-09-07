@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/PDtyexxjNx4?si=b-q4-lIunw4dLgc_",
   "percentToQualify": 100,
   "song": "Xtrullor - Wonderpunch",
-  "difficulty": 14,
+  "difficulty": 13,
   "enjoyment": 7,
   "records": [
     {
@@ -131,6 +131,12 @@
       "position": 20,
       "change": 1,
       "reason": "Evilest ConixStep was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 21,
+      "change": 1,
+      "reason": "Conx Hates LifeDrain was added above"
     }
   ]
 }
