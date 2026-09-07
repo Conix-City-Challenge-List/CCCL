@@ -429,6 +429,12 @@
       "position": 107,
       "change": 1,
       "reason": "Troops was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 106,
+      "change": -1,
+      "reason": "Troops was moved down past this challenge"
     }
   ]
 }

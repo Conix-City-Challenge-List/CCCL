@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/8T5z6ZZ_Hpo",
   "percentToQualify": 100,
   "song": "OsamaSon - Troops",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 8,
   "records": [],
   "positionHistory": [
@@ -17,6 +17,12 @@
       "position": 104,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 117,
+      "change": 13,
+      "reason": "Moved"
     }
   ]
 }
