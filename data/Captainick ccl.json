@@ -10,7 +10,15 @@
   "song": "Iron God",
   "difficulty": 6,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "IsniffDustt",
+      "link": "https://youtu.be/_XIXPPmIFLg",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8.889
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-05",
