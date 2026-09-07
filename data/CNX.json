@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/U4ZUiGg6Jjo",
   "percentToQualify": 100,
   "song": "-stalker-",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 10,
   "records": [
     {
@@ -362,6 +362,12 @@
       "position": 70,
       "change": 1,
       "reason": "Conx Hates LifeDrain was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 71,
+      "change": 1,
+      "reason": "sometimes its easy was moved up past this challenge"
     }
   ]
 }

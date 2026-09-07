@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=QZEyXAMYs9k",
   "percentToQualify": 100,
   "song": "Dimension",
-  "difficulty": 8,
+  "difficulty": 9,
   "enjoyment": 5,
   "records": [
     {
@@ -37,6 +37,12 @@
       "position": 71,
       "change": 1,
       "reason": "Conx Hates LifeDrain was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 62,
+      "change": -9,
+      "reason": "Moved"
     }
   ]
 }
