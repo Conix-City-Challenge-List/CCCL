@@ -948,6 +948,13 @@
       "position": 150,
       "change": 1,
       "reason": "Hazy wave was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": null,
+      "change": null,
+      "reason": "Unamed 47 final part was added above",
+      "legacy": true
     }
   ]
 }

@@ -164,6 +164,12 @@
       "position": 21,
       "change": -1,
       "reason": "Injured Angel was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 22,
+      "change": 1,
+      "reason": "Unamed 47 final part was added above"
     }
   ]
 }

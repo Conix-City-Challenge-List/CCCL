@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=TBmGYqIAEtk",
   "percentToQualify": 100,
   "song": "Cast Darkness by Jimbobsthebest",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 7,
   "records": [
     {
@@ -1179,6 +1179,12 @@
       "position": 130,
       "change": 1,
       "reason": "Hazy wave was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 131,
+      "change": 1,
+      "reason": "Unamed 47 final part was added above"
     }
   ]
 }

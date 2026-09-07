@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/-17NnGMoomo?is=qnLLqmrQug29Kb76",
   "percentToQualify": 100,
   "song": "numb",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 7,
   "records": [
     {
@@ -467,6 +467,12 @@
       "position": 110,
       "change": 1,
       "reason": "Hazy wave was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 111,
+      "change": 1,
+      "reason": "Unamed 47 final part was added above"
     }
   ]
 }

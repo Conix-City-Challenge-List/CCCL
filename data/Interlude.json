@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/QyIMzYkvAC0",
   "percentToQualify": 100,
   "song": "Drake - Bria's Interlude",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 10,
   "records": [
     {
@@ -316,6 +316,12 @@
       "position": 100,
       "change": 1,
       "reason": "Hazy wave was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 101,
+      "change": 1,
+      "reason": "Unamed 47 final part was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://medal.tv/games/geometry-dash/clips/noRCwJWsgSohnlePi?invite=cr-MSxLYkssNTIyODkzMzA3",
   "percentToQualify": 100,
   "song": "Flamewall",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 9,
   "records": [
     {
@@ -930,6 +930,12 @@
       "position": 140,
       "change": 1,
       "reason": "Hazy wave was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 141,
+      "change": 1,
+      "reason": "Unamed 47 final part was added above"
     }
   ]
 }

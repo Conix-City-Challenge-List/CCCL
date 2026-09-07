@@ -41,6 +41,12 @@
       "position": 44,
       "change": -1,
       "reason": "Vex was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 45,
+      "change": 1,
+      "reason": "Unamed 47 final part was added above"
     }
   ]
 }
