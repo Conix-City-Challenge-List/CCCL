@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/NwFBjcR6Gj4",
   "percentToQualify": 100,
   "song": "-Stalker-",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 8,
   "records": [
     {
@@ -727,6 +727,12 @@
       "position": 110,
       "change": 1,
       "reason": "Black Flower was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 111,
+      "change": 1,
+      "reason": "shipscapes was added above"
     }
   ]
 }
