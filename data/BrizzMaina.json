@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/tUC4MU3AeVY?si=BSVd3psGRveYYS_o",
   "percentToQualify": 100,
   "song": "Stalker-Waterflame",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 7,
   "records": [
     {
@@ -1256,6 +1256,12 @@
       "position": 140,
       "change": 1,
       "reason": "sometimes its easy was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 141,
+      "change": 1,
+      "reason": "Troops was added above"
     }
   ]
 }

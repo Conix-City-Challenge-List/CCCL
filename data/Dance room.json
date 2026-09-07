@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=9HI0r8YGNzM",
   "percentToQualify": 100,
   "song": "Eden - cysmix",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 8,
   "records": [
     {
@@ -185,6 +185,12 @@
       "position": 130,
       "change": 1,
       "reason": "sometimes its easy was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 131,
+      "change": 1,
+      "reason": "Troops was added above"
     }
   ]
 }

@@ -851,6 +851,13 @@
       "position": 150,
       "change": 1,
       "reason": "sometimes its easy was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": null,
+      "change": null,
+      "reason": "Troops was added above",
+      "legacy": true
     }
   ]
 }

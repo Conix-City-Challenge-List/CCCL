@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/9U0txEv3EwA",
   "percentToQualify": 100,
   "song": "523299",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 10,
   "records": [
     {
@@ -232,6 +232,12 @@
       "position": 120,
       "change": 1,
       "reason": "sometimes its easy was added above"
+    },
+    {
+      "date": "2026-09-07",
+      "position": 121,
+      "change": 1,
+      "reason": "Troops was added above"
     }
   ]
 }
