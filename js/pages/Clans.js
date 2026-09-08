@@ -1,5 +1,5 @@
 import { store } from "../main.js";
-import { computeClanLeaderboard, computeClanChallenges, computeClanCreated } from "../content.js";
+import { computeClanLeaderboard, computeClanChallenges, computeClanCreated, computeClanVerified } from "../content.js";
 import { localize, rgbaBind } from "../util.js";
 import { legacyLimit, packColor } from "../config.js";
 import Spinner from "../components/Spinner.js";
@@ -89,7 +89,7 @@ export default {
                             </div>
                             <div class="pack-level-detail-main">
                                 <a class="director type-title-sm pack-level-detail-name" :href="'https://conixchallengelist.pages.dev/#/level/' + hardestChallenge.path">{{ hardestChallenge.name }}</a>
-                                <p class="type-body pack-level-detail-creators">Completed By {{ hardestChallenge.completedBy.join(', ') }}</p>
+                                <p class="type-body pack-level-detail-creators">Completed By, {{ hardestChallenge.completedBy.join(', ') }}</p>
                             </div>
                             <div class="pack-level-detail-meta">
                                 <p class="type-label-sm">{{ hardestChallenge.rank > legacyLimit ? 'Legacy' : DIFFICULTY_NAMES[hardestChallenge.difficulty] }}</p>
@@ -119,6 +119,29 @@ export default {
                         </a>
                     </div>
                     <p v-else class="type-body">No challenges created by this clan's members yet.</p>
+ 
+                    <h2>Verified ({{ verifiedChallenges.length }})</h2>
+                    <div class="pack-level-details" v-if="verifiedChallenges.length">
+                        <a
+                            v-for="lvl in verifiedChallenges"
+                            :key="lvl.path"
+                            class="pack-level-detail"
+                            :style="{ 'border-inline-start-color': tierBorderColor(lvl) }"
+                            :href="'https://conixchallengelist.pages.dev/#/level/' + lvl.path"
+                        >
+                            <div class="pack-level-detail-rank">
+                                <p class="type-label-lg">#{{ lvl.rank }}</p>
+                            </div>
+                            <div class="pack-level-detail-main">
+                                <p class="director type-title-sm pack-level-detail-name">{{ lvl.name }}</p>
+                                <p class="type-body pack-level-detail-creators">Verified by {{ lvl.verifiedBy }}</p>
+                            </div>
+                            <div class="pack-level-detail-meta">
+                                <p class="type-label-sm">{{ lvl.rank > legacyLimit ? 'Legacy' : DIFFICULTY_NAMES[lvl.difficulty] }}</p>
+                            </div>
+                        </a>
+                    </div>
+                    <p v-else class="type-body">No challenges verified by this clan's members yet.</p>
  
                     <h2>Challenges Completed ({{ mainCompletedChallenges.length }})</h2>
                     <div class="pack-level-details" v-if="mainCompletedChallenges.length">
@@ -285,6 +308,10 @@ export default {
         createdChallenges() {
             if (!this.selected || !this.list.length) return [];
             return computeClanCreated(this.selected, this.list);
+        },
+        verifiedChallenges() {
+            if (!this.selected || !this.list.length) return [];
+            return computeClanVerified(this.selected, this.list);
         },
         hardestChallenge() {
             return this.completedChallenges[0] || null;
