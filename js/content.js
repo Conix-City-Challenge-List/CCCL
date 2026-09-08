@@ -614,6 +614,32 @@ export function computeClanCreated(clan, list) {
     return created;
 }
  
+/**
+ * Every ranked (non-legacy or legacy — not filtered here, same as
+ * computeClanChallenges/computeClanCreated) challenge VERIFIED by any
+ * member of `clan` — i.e. level.verifier is a clan member, regardless of
+ * whether that member also holds other 100% records elsewhere (that's
+ * what computeClanChallenges' "completed" already covers). A challenge
+ * only ever has one verifier, so unlike created/completed this never
+ * needs a "by more than one member" list — verifiedBy is always exactly
+ * one name.
+ */
+export function computeClanVerified(clan, list) {
+    const memberLower = new Set(clan.members.map((m) => m.toLowerCase()));
+    const verified = [];
+ 
+    list.forEach(([err, rank, level]) => {
+        if (err || !level || rank === null) return;
+ 
+        if (memberLower.has(level.verifier.toLowerCase())) {
+            verified.push({ ...level, rank, verifiedBy: level.verifier });
+        }
+    });
+ 
+    verified.sort((a, b) => a.rank - b.rank);
+    return verified;
+}
+ 
 export async function fetchStaff() {
     try {
         const staffResults = await fetch(`${dir}/_staff.json`);
@@ -799,4 +825,5 @@ export async function fetchUsers() {
  
     return uniqueUsers
 }
+ 
  
