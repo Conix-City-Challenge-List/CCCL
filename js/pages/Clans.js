@@ -237,7 +237,13 @@ export default {
         },
         sortedMembers() {
             if (!this.selected) return [];
-            return [...this.selected.memberEntries].sort((a, b) => b.total - a.total);
+            const ownerLower = this.selected.ownerUsername.toLowerCase();
+            return [...this.selected.memberEntries].sort((a, b) => {
+                const aIsOwner = a.username.toLowerCase() === ownerLower;
+                const bIsOwner = b.username.toLowerCase() === ownerLower;
+                if (aIsOwner !== bIsOwner) return aIsOwner ? -1 : 1;
+                return b.total - a.total;
+            });
         },
         completedChallenges() {
             if (!this.selected || !this.list.length) return [];
