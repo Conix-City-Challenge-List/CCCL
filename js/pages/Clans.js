@@ -111,7 +111,7 @@ export default {
                             </div>
                             <div class="pack-level-detail-main">
                                 <p class="director type-title-sm pack-level-detail-name">{{ lvl.name }}</p>
-                                <p class="type-body pack-level-detail-creators">Completed By, {{ lvl.completedBy.join(', ') }}</p>
+                                <p class="type-body pack-level-detail-creators">Completed by {{ lvl.completedBy.join(', ') }}</p>
                             </div>
                             <div class="pack-level-detail-meta">
                                 <p class="type-label-sm">{{ lvl.rank > legacyLimit ? 'Legacy' : DIFFICULTY_NAMES[lvl.difficulty] }}</p>
