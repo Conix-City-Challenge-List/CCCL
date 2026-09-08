@@ -426,7 +426,6 @@
   "nephrum": "US",
   "expired": "US",
   "CosmicLuna": "US",
-  "zdark": "CA",
   "KnownAssassin": "US",
   "roundhouse": "US",
   "jvs552": "US",
@@ -484,5 +483,6 @@
   "Medaides": "NL",
   "plagurn": "US",
   "[null] ggodhandd": "RU",
-  "Vice": "US"
+  "Vice": "US",
+  "[null] zdark": "CA"
 }
