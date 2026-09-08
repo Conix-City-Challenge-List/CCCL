@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "tag": "DUCK",
+    "name": "Duckly Clan",
+    "ownerUsername": "Duckly",
+    "members": [
+      "Duckly"
+    ],
+    "createdAt": "2026-09-08T21:49:38.483Z"
+  }
+]
