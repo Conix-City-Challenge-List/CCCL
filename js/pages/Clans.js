@@ -1,6 +1,7 @@
 import { store } from "../main.js";
 import { computeClanLeaderboard, computeClanChallenges } from "../content.js";
 import { localize } from "../util.js";
+import { legacyLimit } from "../config.js";
 import Spinner from "../components/Spinner.js";
 import Copy from "../components/Copy.js";
 import Copied from "../components/Copied.js";
@@ -16,13 +17,26 @@ export default {
         </main>
         <main v-else class="page-list page-clans">
             <div class="list-container">
+                <div class="search-container" v-if="clanLeaderboard.length">
+                    <input
+                        type="text"
+                        class="search"
+                        id="search-bar"
+                        placeholder="Search..."
+                        v-model="searchQuery"
+                    />
+                    <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search">x</button>
+                </div>
                 <p v-if="!clanLeaderboard.length" class="type-body" style="padding: 1rem;">
                     No clans yet — create one with <code>/clan create</code> on Discord.
                 </p>
+                <p v-else-if="!filteredClanLeaderboard.length" class="level" style="padding:1.1rem">
+                    No clans found.
+                </p>
                 <table class="list" v-else>
-                    <tr v-for="(clan, index) in clanLeaderboard" :key="clan.tag">
+                    <tr v-for="({ clan, rank } ) in filteredClanLeaderboard" :key="clan.tag">
                         <td class="rank">
-                            <p class="type-label-lg">#{{ index + 1 }}</p>
+                            <p class="type-label-lg">#{{ rank }}</p>
                         </td>
                         <td class="level">
                             <button
@@ -53,11 +67,6 @@ export default {
 
                     <h3>{{ localize(selected.total) }} points &middot; {{ selected.members.length }} member(s)</h3>
 
-                    <h2>Owner</h2>
-                    <p class="type-body">
-                        <a class="director link" :href="'https://conixchallengelist.pages.dev/#/leaderboard/user/' + selected.ownerUsername.toLowerCase().replaceAll(' ', '_')">{{ selected.ownerUsername }}</a>
-                    </p>
-
                     <h2>Members ({{ selected.members.length }})</h2>
                     <div class="clan-members">
                         <a
@@ -80,10 +89,10 @@ export default {
                             </div>
                             <div class="pack-level-detail-main">
                                 <a class="director type-title-sm pack-level-detail-name" :href="'https://conixchallengelist.pages.dev/#/level/' + hardestChallenge.path">{{ hardestChallenge.name }}</a>
-                                <p class="type-body pack-level-detail-creators">by {{ hardestChallenge.completedBy.join(', ') }}</p>
+                                <p class="type-body pack-level-detail-creators">Completed By, {{ hardestChallenge.completedBy.join(', ') }}</p>
                             </div>
                             <div class="pack-level-detail-meta">
-                                <p class="type-label-sm">{{ DIFFICULTY_NAMES[hardestChallenge.difficulty] }}</p>
+                                <p class="type-label-sm">{{ hardestChallenge.rank > legacyLimit ? 'Legacy' : DIFFICULTY_NAMES[hardestChallenge.difficulty] }}</p>
                             </div>
                         </div>
                     </template>
@@ -101,10 +110,10 @@ export default {
                             </div>
                             <div class="pack-level-detail-main">
                                 <p class="director type-title-sm pack-level-detail-name">{{ lvl.name }}</p>
-                                <p class="type-body pack-level-detail-creators">by {{ lvl.completedBy.join(', ') }}</p>
+                                <p class="type-body pack-level-detail-creators">Completed By, {{ lvl.completedBy.join(', ') }}</p>
                             </div>
                             <div class="pack-level-detail-meta">
-                                <p class="type-label-sm">{{ DIFFICULTY_NAMES[lvl.difficulty] }}</p>
+                                <p class="type-label-sm">{{ lvl.rank > legacyLimit ? 'Legacy' : DIFFICULTY_NAMES[lvl.difficulty] }}</p>
                             </div>
                         </a>
                     </div>
@@ -115,11 +124,14 @@ export default {
             <div class="meta-container">
                 <div class="meta">
                     <Errors :errors="errors" />
-                    <div class="type-title-sm">About Clans</div>
+                    <h3>About Clans</h3>
                     <p class="type-body">
-                        A clan's score is the sum of all its members' leaderboard totals.
-                        Manage clans with <code>/clan</code> on Discord — create, invite,
-                        kick, leave, transfer, delete, and info are all there.
+                        Clans are user created teams where you can either join another
+                        user's clan, or create your own. Clans are ranked by points in
+                        their own leaderboard and the points are decided by the sum of
+                        all its members' leaderboard totals. Create, Manage/ or Join
+                        Clans through the discord server by running the respective
+                        commands.
                     </p>
                 </div>
             </div>
@@ -135,7 +147,9 @@ export default {
         errors: [],
         selected: null,
         copied: false,
+        searchQuery: '',
         DIFFICULTY_NAMES,
+        legacyLimit,
     }),
 
     methods: {
@@ -163,6 +177,16 @@ export default {
     computed: {
         clanLeaderboard() {
             return computeClanLeaderboard(this.clans, this.leaderboard);
+        },
+        filteredClanLeaderboard() {
+            const query = this.searchQuery.toLowerCase().trim();
+            return this.clanLeaderboard
+                .map((clan, index) => ({ clan, rank: index + 1 }))
+                .filter(({ clan }) =>
+                    !query ||
+                    clan.name.toLowerCase().includes(query) ||
+                    clan.tag.toLowerCase().includes(query)
+                );
         },
         sortedMembers() {
             if (!this.selected) return [];

@@ -20,6 +20,18 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+/* Buttons, inputs, and selects don't inherit font by default in most
+   browsers — without this, any text that lives directly inside one
+   (rather than inside a child with an explicit .type-* class) silently
+   falls back to the browser's UI font instead of Lexend Deca. */
+button,
+input,
+select,
+textarea {
+    font: inherit;
 }
 
 header,

@@ -29,6 +29,7 @@
     background-color: var(--color-background);
     color: var(--color-on-background);
     border: none;
+    border-inline-start: 0.3rem solid transparent;
     border-radius: 0.5rem;
     padding: 1rem;
     text-align: start;

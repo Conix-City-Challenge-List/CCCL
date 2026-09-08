@@ -1,6 +1,6 @@
 .clan-tag {
-    color: var(--color-primary);
-    font-weight: 700;
+    color: inherit;
+    font: inherit;
     text-decoration: none;
     margin-right: 0.3rem;
     white-space: nowrap;

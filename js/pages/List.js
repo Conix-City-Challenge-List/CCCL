@@ -1,6 +1,7 @@
 import { store } from '../main.js';
 import { averageEnjoyment } from '../content.js';
-import { legacyLimit } from '../config.js';
+import { legacyLimit, packColor } from '../config.js';
+import { rgbaBind } from '../util.js';
 import Spinner from '../components/Spinner.js';
 import Scroll from '../components/Scroll.js'
 import Level from '../components/List/Level.js'
@@ -45,7 +46,7 @@ export default {
                         <p v-else class="type-label-lg" style="width:2.7rem">#{{ rank }}</p>
                     </td>
                     <td class="level" :class="{ 'active': selected == index, 'error': err !== null }" :ref="selected == index ? 'selected' : undefined">
-                        <button @click="selected = index">
+                        <button @click="selected = index" :style="level && level.id !== 0 ? { 'border-inline-start-color': rgbaBind(accentColor(packColor(level.difficulty)), 0) } : {}">
                             <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                         </button>
                     </td>
@@ -90,6 +91,24 @@ export default {
     }),
  
     methods: {
+        packColor,
+        rgbaBind,
+
+        // Some tier colors (Silent's near-black, in particular) are too
+        // close to the row background to read as a visible accent border.
+        // Scales the whole color up proportionally (preserving its hue)
+        // until it clears a minimum luminance, rather than flooring
+        // individual channels. Same helper as the one on the Packs tab.
+        accentColor(color) {
+            if (!color) return color;
+            const [r, g, b, a] = color;
+            const luminance = 0.299 * r + 0.587 * g + 0.114 * b;
+            const minLuminance = 45;
+            if (luminance <= 0 || luminance >= minLuminance) return color;
+            const scale = minLuminance / luminance;
+            return [Math.min(255, r * scale), Math.min(255, g * scale), Math.min(255, b * scale), a];
+        },
+
         // used for the ability to deselect tag filters
         search(query) {
             if (this.searchQuery === query) {
