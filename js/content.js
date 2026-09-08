@@ -527,7 +527,7 @@ export async function fetchClans() {
         return [];
     }
 }
-
+ 
 /**
  * Builds the clan leaderboard: each clan's score is the sum of its
  * members' current site totals (completed + progressed + pack bonuses —
@@ -540,7 +540,7 @@ export function computeClanLeaderboard(clans, leaderboard) {
     (leaderboard || []).forEach((entry) => {
         totalByUser[entry.user.toLowerCase()] = entry.total;
     });
-
+ 
     return clans
         .map((clan) => {
             const memberEntries = clan.members.map((username) => ({
@@ -552,7 +552,7 @@ export function computeClanLeaderboard(clans, leaderboard) {
         })
         .sort((a, b) => b.total - a.total);
 }
-
+ 
 /**
  * Every ranked (non-legacy) challenge completed by any member of `clan`,
  * sorted hardest-first (ascending rank — rank 1 is the hardest challenge
@@ -562,10 +562,10 @@ export function computeClanLeaderboard(clans, leaderboard) {
 export function computeClanChallenges(clan, list) {
     const memberLower = new Set(clan.members.map((m) => m.toLowerCase()));
     const completed = [];
-
+ 
     list.forEach(([err, rank, level]) => {
         if (err || !level || rank === null) return;
-
+ 
         const completedBy = [];
         if (memberLower.has(level.verifier.toLowerCase())) {
             completedBy.push(level.verifier);
@@ -579,16 +579,41 @@ export function computeClanChallenges(clan, list) {
                 completedBy.push(record.user);
             }
         });
-
+ 
         if (completedBy.length > 0) {
             completed.push({ ...level, rank, completedBy });
         }
     });
-
+ 
     completed.sort((a, b) => a.rank - b.rank);
     return completed;
 }
-
+ 
+/**
+ * Every ranked (non-legacy) challenge created by any member of `clan`,
+ * sorted hardest-first — same shape and ordering as computeClanChallenges,
+ * just matching against level.creators instead of verifier/records. A
+ * challenge with multiple creators from the same clan only appears once,
+ * with everyone from that clan listed in createdBy.
+ */
+export function computeClanCreated(clan, list) {
+    const memberLower = new Set(clan.members.map((m) => m.toLowerCase()));
+    const created = [];
+ 
+    list.forEach(([err, rank, level]) => {
+        if (err || !level || rank === null) return;
+ 
+        const createdBy = (level.creators || []).filter((creator) => memberLower.has(creator.toLowerCase()));
+ 
+        if (createdBy.length > 0) {
+            created.push({ ...level, rank, createdBy });
+        }
+    });
+ 
+    created.sort((a, b) => a.rank - b.rank);
+    return created;
+}
+ 
 export async function fetchStaff() {
     try {
         const staffResults = await fetch(`${dir}/_staff.json`);
