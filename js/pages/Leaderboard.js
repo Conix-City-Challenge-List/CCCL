@@ -66,8 +66,9 @@ export default {
                                         :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + ientry.flag.toLowerCase() + '.svg'"
                                         alt="flag"
                                     >
-                                    <ClanTag :username="ientry.user" class="type-label-lg" />
-                                    <span class="type-label-lg">{{ ientry.user }}</span>
+                                    <span class="type-label-lg" style="display:flex; align-items:center;">
+                                        <ClanTag :username="ientry.user" />{{ ientry.user }}
+                                    </span>
                                 </button>
                             </td>
                         </tr>

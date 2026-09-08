@@ -1,7 +1,7 @@
 import { store } from "../main.js";
 import { computeClanLeaderboard, computeClanChallenges } from "../content.js";
-import { localize } from "../util.js";
-import { legacyLimit } from "../config.js";
+import { localize, rgbaBind } from "../util.js";
+import { legacyLimit, packColor } from "../config.js";
 import Spinner from "../components/Spinner.js";
 import Copy from "../components/Copy.js";
 import Copied from "../components/Copied.js";
@@ -83,7 +83,7 @@ export default {
 
                     <template v-if="hardestChallenge">
                         <h2>Hardest Challenge Completed</h2>
-                        <div class="pack-level-detail">
+                        <div class="pack-level-detail" :style="{ 'border-inline-start-color': tierBorderColor(hardestChallenge) }">
                             <div class="pack-level-detail-rank">
                                 <p class="type-label-lg">#{{ hardestChallenge.rank }}</p>
                             </div>
@@ -103,6 +103,7 @@ export default {
                             v-for="lvl in completedChallenges"
                             :key="lvl.path"
                             class="pack-level-detail"
+                            :style="{ 'border-inline-start-color': tierBorderColor(lvl) }"
                             :href="'https://conixchallengelist.pages.dev/#/level/' + lvl.path"
                         >
                             <div class="pack-level-detail-rank">
@@ -154,6 +155,29 @@ export default {
 
     methods: {
         localize,
+        rgbaBind,
+        packColor,
+
+        // Same helper as the Packs and main list tabs — some tier colors
+        // (Silent's near-black, in particular) are too close to the row
+        // background to read as a visible accent border, so this scales
+        // the color up (preserving its hue) until it clears a minimum
+        // luminance.
+        accentColor(color) {
+            if (!color) return color;
+            const [r, g, b, a] = color;
+            const luminance = 0.299 * r + 0.587 * g + 0.114 * b;
+            const minLuminance = 45;
+            if (luminance <= 0 || luminance >= minLuminance) return color;
+            const scale = minLuminance / luminance;
+            return [Math.min(255, r * scale), Math.min(255, g * scale), Math.min(255, b * scale), a];
+        },
+        // Legacy challenges (rank > legacyLimit) no longer belong to a
+        // tier, so they get a neutral grey border instead of a tier color.
+        tierBorderColor(lvl) {
+            const color = lvl.rank > legacyLimit ? [110, 110, 110, 0.7] : packColor(lvl.difficulty);
+            return this.rgbaBind(this.accentColor(color), 0);
+        },
         select(clan) {
             this.selected = clan;
             this.copied = false;
