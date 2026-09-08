@@ -302,3 +302,15 @@
     min-width: 0;
 }
  
+/* The username link itself carries .type-label-lg, whose ::before/::after
+   (display:table, with negative margins tuned for normal inline/block
+   flow) fight with the outer flex's align-items:center once the link is
+   treated as a flex item — that's what was clipping/misaligning the text.
+   Making the link itself an inline-flex container too routes its own
+   pseudo-elements through flex layout instead, which is the same fix
+   Leaderboard.js already uses for this exact class. */
+.username-clip .type-label-lg {
+    display: inline-flex;
+    align-items: center;
+}
+ 
