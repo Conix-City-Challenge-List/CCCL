@@ -289,5 +289,16 @@
     gap: 0.5rem;
 }
  
- 
+/* Keeps a clan tag and the username right after it on the same line.
+   Needed because .type-label-lg (used on the username link) adds ::before
+   and ::after pseudo-elements with display:table for line-height control —
+   that forces a block-level line break around the link, which otherwise
+   pushes it onto its own line below an inline sibling like .clan-tag.
+   Explicit flex here overrides that. */
+.username-clip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    min-width: 0;
+}
  
