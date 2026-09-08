@@ -130,7 +130,7 @@ export default {
                         Clans are user created teams where you can either join another
                         user's clan, or create your own. Clans are ranked by points in
                         their own leaderboard and the points are decided by the sum of
-                        all its members' leaderboard totals. Create, Manage/ or Join
+                        all its members' leaderboard totals. Create, Manage, or Join
                         Clans through the discord server by running the respective
                         commands.
                     </p>
