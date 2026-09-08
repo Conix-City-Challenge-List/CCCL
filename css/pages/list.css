@@ -298,8 +298,27 @@
 .username-clip {
     display: inline-flex;
     align-items: center;
-    gap: 0.3rem;
+    gap: 0.15rem;
     min-width: 0;
+}
+ 
+/* .clan-tag uses font: inherit, which normally works fine — but here it
+   inherits from .username-clip (its actual DOM parent), not from its
+   sibling username link, which sets its own size via .type-label-lg.
+   Since that size never cascades sideways to a sibling, the tag was
+   falling back to the ambient body font-size instead of matching the
+   username next to it. Matching .type-label-lg's font metrics directly
+   (without its ::before/::after quirks — the tag doesn't need those)
+   keeps both the same size. */
+.username-clip .clan-tag {
+    font-size: 17.1428571429px;
+    font-weight: 500;
+    line-height: 20px;
+    /* .clan-tag has its own margin-right (clans.css) meant for contexts
+       where it isn't already inside a flex row with a gap — here that
+       would stack on top of .username-clip's gap and make the space
+       wider than intended, so it's zeroed out and gap alone controls it. */
+    margin-right: 0;
 }
  
 /* The username link itself carries .type-label-lg, whose ::before/::after
@@ -313,4 +332,7 @@
     display: inline-flex;
     align-items: center;
 }
+ 
+ 
+ 
  
