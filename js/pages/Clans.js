@@ -120,10 +120,10 @@ export default {
                     </div>
                     <p v-else class="type-body">No challenges created by this clan's members yet.</p>
  
-                    <h2>All Challenges Completed ({{ completedChallenges.length }})</h2>
-                    <div class="pack-level-details" v-if="completedChallenges.length">
+                    <h2>Challenges Completed ({{ mainCompletedChallenges.length }})</h2>
+                    <div class="pack-level-details" v-if="mainCompletedChallenges.length">
                         <a
-                            v-for="lvl in completedChallenges"
+                            v-for="lvl in mainCompletedChallenges"
                             :key="lvl.path"
                             class="pack-level-detail"
                             :style="{ 'border-inline-start-color': tierBorderColor(lvl) }"
@@ -137,11 +137,34 @@ export default {
                                 <p class="type-body pack-level-detail-creators">Completed by {{ lvl.completedBy.join(', ') }}</p>
                             </div>
                             <div class="pack-level-detail-meta">
-                                <p class="type-label-sm">{{ lvl.rank > legacyLimit ? 'Legacy' : DIFFICULTY_NAMES[lvl.difficulty] }}</p>
+                                <p class="type-label-sm">{{ DIFFICULTY_NAMES[lvl.difficulty] }}</p>
                             </div>
                         </a>
                     </div>
                     <p v-else class="type-body">No challenges completed by this clan yet.</p>
+ 
+                    <h2>Legacy Challenges Completed ({{ legacyCompletedChallenges.length }})</h2>
+                    <div class="pack-level-details" v-if="legacyCompletedChallenges.length">
+                        <a
+                            v-for="lvl in legacyCompletedChallenges"
+                            :key="lvl.path"
+                            class="pack-level-detail"
+                            :style="{ 'border-inline-start-color': tierBorderColor(lvl) }"
+                            :href="'https://conixchallengelist.pages.dev/#/level/' + lvl.path"
+                        >
+                            <div class="pack-level-detail-rank">
+                                <p class="type-label-lg">#{{ lvl.rank }}</p>
+                            </div>
+                            <div class="pack-level-detail-main">
+                                <p class="director type-title-sm pack-level-detail-name">{{ lvl.name }}</p>
+                                <p class="type-body pack-level-detail-creators">Completed by {{ lvl.completedBy.join(', ') }}</p>
+                            </div>
+                            <div class="pack-level-detail-meta">
+                                <p class="type-label-sm">Legacy</p>
+                            </div>
+                        </a>
+                    </div>
+                    <p v-else class="type-body">No legacy challenges completed by this clan yet.</p>
                 </div>
             </div>
  
@@ -249,12 +272,22 @@ export default {
             if (!this.selected || !this.list.length) return [];
             return computeClanChallenges(this.selected, this.list);
         },
+        // completedChallenges is sorted rank-ascending, and Legacy
+        // challenges (rank > legacyLimit) always sort after every real
+        // main-list rank — so splitting on that boundary keeps both halves
+        // already correctly ordered without needing to re-sort.
+        mainCompletedChallenges() {
+            return this.completedChallenges.filter((lvl) => lvl.rank <= this.legacyLimit);
+        },
+        legacyCompletedChallenges() {
+            return this.completedChallenges.filter((lvl) => lvl.rank > this.legacyLimit);
+        },
         createdChallenges() {
             if (!this.selected || !this.list.length) return [];
             return computeClanCreated(this.selected, this.list);
         },
         hardestChallenge() {
-            return this.completedChallenges[0] || null;
+            return this.mainCompletedChallenges[0] || null;
         },
     },
  
