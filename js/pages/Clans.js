@@ -287,7 +287,7 @@ export default {
             return computeClanCreated(this.selected, this.list);
         },
         hardestChallenge() {
-            return this.mainCompletedChallenges[0] || null;
+            return this.completedChallenges[0] || null;
         },
     },
  
