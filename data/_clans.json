@@ -1,15 +1,5 @@
 [
   {
-    "tag": "DUCK",
-    "name": "Duckly Clan",
-    "ownerUsername": "Duckly",
-    "members": [
-      "Duckly",
-      "Moh"
-    ],
-    "createdAt": "2026-09-08T21:49:38.483Z"
-  },
-  {
     "tag": "LARP",
     "name": "LARPTOWN",
     "ownerUsername": "wlarpoff",
