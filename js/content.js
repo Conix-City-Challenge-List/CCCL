@@ -517,6 +517,78 @@ export async function fetchPacks(list) {
     }
 }
  
+export async function fetchClans() {
+    try {
+        const clansResult = await fetch(`${dir}/_clans.json`);
+        const clans = await clansResult.json();
+        return Array.isArray(clans) ? clans : [];
+    } catch (e) {
+        console.error(`failed to fetch clans: ${e}`);
+        return [];
+    }
+}
+
+/**
+ * Builds the clan leaderboard: each clan's score is the sum of its
+ * members' current site totals (completed + progressed + pack bonuses —
+ * the same `total` shown on a member's own leaderboard profile), sorted
+ * highest first. `leaderboard` is the resolved (first element) result of
+ * fetchLeaderboard.
+ */
+export function computeClanLeaderboard(clans, leaderboard) {
+    const totalByUser = {};
+    (leaderboard || []).forEach((entry) => {
+        totalByUser[entry.user.toLowerCase()] = entry.total;
+    });
+
+    return clans
+        .map((clan) => {
+            const memberEntries = clan.members.map((username) => ({
+                username,
+                total: totalByUser[username.toLowerCase()] || 0,
+            }));
+            const total = memberEntries.reduce((sum, m) => sum + m.total, 0);
+            return { ...clan, total: round(total), memberEntries };
+        })
+        .sort((a, b) => b.total - a.total);
+}
+
+/**
+ * Every ranked (non-legacy) challenge completed by any member of `clan`,
+ * sorted hardest-first (ascending rank — rank 1 is the hardest challenge
+ * on the list). "Completed" means either verifying the challenge or
+ * holding a 100% record on it. `list` is fetchList's resolved array.
+ */
+export function computeClanChallenges(clan, list) {
+    const memberLower = new Set(clan.members.map((m) => m.toLowerCase()));
+    const completed = [];
+
+    list.forEach(([err, rank, level]) => {
+        if (err || !level || rank === null) return;
+
+        const completedBy = [];
+        if (memberLower.has(level.verifier.toLowerCase())) {
+            completedBy.push(level.verifier);
+        }
+        level.records.forEach((record) => {
+            if (
+                record.percent === 100 &&
+                memberLower.has(record.user.toLowerCase()) &&
+                !completedBy.some((u) => u.toLowerCase() === record.user.toLowerCase())
+            ) {
+                completedBy.push(record.user);
+            }
+        });
+
+        if (completedBy.length > 0) {
+            completed.push({ ...level, rank, completedBy });
+        }
+    });
+
+    completed.sort((a, b) => a.rank - b.rank);
+    return completed;
+}
+
 export async function fetchStaff() {
     try {
         const staffResults = await fetch(`${dir}/_staff.json`);

@@ -6,9 +6,10 @@ import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
 import Scroll from '../components/Scroll.js'
 import User from '../components/Leaderboard/User.js';
+import ClanTag from '../components/ClanTag.js';
  
 export default {
-    components: { Spinner, Copy, Copied, Scroll, User },
+    components: { Spinner, Copy, Copied, Scroll, User, ClanTag },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -65,6 +66,7 @@ export default {
                                         :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + ientry.flag.toLowerCase() + '.svg'"
                                         alt="flag"
                                     >
+                                    <ClanTag :username="ientry.user" />
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
                             </td>

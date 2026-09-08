@@ -3,6 +3,7 @@ import { copyURL, localize, rgbaBind } from "../../util.js"
 import Copied from "../Copied.js"
 import Copy from "../Copy.js"
 import Section from "./Section.js"
+import ClanTag from "../ClanTag.js"
 
 export default {
     props: {
@@ -15,13 +16,13 @@ export default {
             required: true,
         }
     },
-    components: { Copy, Copied, Section },
+    components: { Copy, Copied, Section, ClanTag },
     template: `
         <div class="player-container">
             <div class="player">
                 <div class="copy-container">
                     <h1 class="copy-name" style="padding-right:0.3rem;">
-                        #{{ rank }} {{ entry.user }}
+                        #{{ rank }} <ClanTag :username="entry.user" /> {{ entry.user }}
                     </h1>
                     <img class="flag" v-if="entry.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + entry.flag.toLowerCase() + '.svg'" alt="flag" style="margin-right: 10px;width:50px">
                     <Copy

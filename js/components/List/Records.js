@@ -1,4 +1,7 @@
+import ClanTag from '../ClanTag.js';
+
 export default {
+    components: { ClanTag },
     props: {
         records: {
             type: Array,
@@ -43,6 +46,7 @@ export default {
                 <span class="user">
                     <span class="user-container">
                         <span class="username-clip">
+                            <ClanTag :username="record.user" />
                             <a :href="'https://conixchallengelist.pages.dev/#/leaderboard/user/' + record.user.toLowerCase().replaceAll(' ', '_')" class="type-label-lg director link">{{ record.user }}</a>
                         </span>
                         <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">

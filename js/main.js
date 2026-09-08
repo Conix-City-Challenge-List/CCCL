@@ -1,5 +1,5 @@
 import routes from "./routes.js";
-import { fetchList, fetchLeaderboard, fetchPacks, fetchStaff } from "./content.js";
+import { fetchList, fetchLeaderboard, fetchPacks, fetchStaff, fetchClans } from "./content.js";
 
 console.clear();
 
@@ -59,6 +59,13 @@ if (!debug) {
         localStorage.setItem("staffdata", compressData(cookieStaff));
     }
 
+    // Compress and store clans locally if it doesn't exist
+    if (!localStorage.getItem("clansdata")) {
+        console.warn("Clans not found in cache, refreshing...");
+        let cookieClans = await fetchClans();
+        localStorage.setItem("clansdata", compressData(cookieClans));
+    }
+
     // Compress and store list locally if it doesn't exist
     if (!localStorage.getItem("listdata")) {
         console.warn("List not found in cache, refreshing...");
@@ -111,6 +118,9 @@ if (!debug) {
         packs: localStorage.getItem("packsdata")
             ? decompressData(localStorage.getItem("packsdata"))
             : null,
+        clans: localStorage.getItem("clansdata")
+            ? decompressData(localStorage.getItem("clansdata"))
+            : null,
         errors: [],
         version
     });
@@ -119,6 +129,7 @@ if (!debug) {
     const leaderboard = await fetchLeaderboard(list);
     const packs = await fetchPacks(list);
     const staff = await fetchStaff();
+    const clans = await fetchClans();
     store = Vue.reactive({
         loaded: false,
         dark: JSON.parse(localStorage.getItem("dark")) || false,
@@ -131,6 +142,7 @@ if (!debug) {
         staff,
         packs,
         leaderboard,
+        clans,
         errors: [],
         version
     });
@@ -187,11 +199,18 @@ let app = Vue.createApp({
             localStorage.setItem("listdata", compressData(updatedList));
             localStorage.setItem("packsdata", compressData(updatedPacks));
         }
+        // Update clans if it's different than what's stored locally
+        const updatedClans = await fetchClans();
+        if (JSON.stringify(updatedClans) !== JSON.stringify(store.clans)) {
+            console.info("Found new data in clans! Overwriting...");
+            localStorage.setItem("clansdata", compressData(updatedClans));
+        }
 
         store.list = updatedList;
         store.staff = updatedStaff;
         store.leaderboard = updatedLeaderboard;
         store.packs = updatedPacks;
+        store.clans = updatedClans;
         store.errors = updatedLeaderboard[1]; // Levels with errors are stored here
         console.info("Up to date!");
     },

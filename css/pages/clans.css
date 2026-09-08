@@ -1,0 +1,47 @@
+.clan-tag {
+    color: var(--color-primary);
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 0.3rem;
+    white-space: nowrap;
+}
+
+.clan-tag:hover {
+    text-decoration: underline;
+}
+
+.page-clans .pack-name.active {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+
+.clan-detail .clan-members {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.clan-detail .clan-member {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.6rem 0.9rem;
+    background-color: var(--color-background-hover);
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.clan-detail .clan-member .type-label-sm {
+    margin-left: auto;
+    color: #b8b8b8;
+}
+
+.clan-owner-badge {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-on-primary);
+    background-color: var(--color-primary);
+    border-radius: 0.3rem;
+    padding: 0.1rem 0.4rem;
+}
