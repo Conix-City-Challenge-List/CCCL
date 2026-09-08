@@ -325,6 +325,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 8.5
+    },
+    {
+      "user": "barn",
+      "link": "https://www.youtube.com/watch?v=tZsiGmFoPbo",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 8
     }
   ],
   "positionHistory": [
