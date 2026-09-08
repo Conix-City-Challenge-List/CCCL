@@ -50,6 +50,12 @@
       "position": 62,
       "change": -9,
       "reason": "Moved"
+    },
+    {
+      "date": "2026-09-08",
+      "position": 63,
+      "change": 1,
+      "reason": "Sine Nomine XXX was added above"
     }
   ]
 }

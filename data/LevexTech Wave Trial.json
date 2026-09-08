@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=Hw4TKjmer2w",
   "percentToQualify": 100,
   "song": "726455",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 10,
   "records": [
     {
@@ -264,6 +264,12 @@
       "position": 130,
       "change": 1,
       "reason": "Conx Hates LifeDrain was added above"
+    },
+    {
+      "date": "2026-09-08",
+      "position": 131,
+      "change": 1,
+      "reason": "Sine Nomine XXX was added above"
     }
   ]
 }

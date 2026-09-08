@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/BPo-SAqQRJU?si=g9sM0BciR5ZNnoxn",
   "percentToQualify": 100,
   "song": "Он гениален",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 5,
   "records": [
     {
@@ -946,6 +946,12 @@
       "position": 120,
       "change": 1,
       "reason": "Conx Hates LifeDrain was added above"
+    },
+    {
+      "date": "2026-09-08",
+      "position": 121,
+      "change": 1,
+      "reason": "Sine Nomine XXX was added above"
     }
   ]
 }

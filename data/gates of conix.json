@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/mGZal-Cu6h0?si=knDP1dryDWd9dse_",
   "percentToQualify": 100,
   "song": "Betrayal of Fear",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 9,
   "records": [
     {
@@ -570,6 +570,12 @@
       "position": 110,
       "change": 1,
       "reason": "Conx Hates LifeDrain was added above"
+    },
+    {
+      "date": "2026-09-08",
+      "position": 111,
+      "change": 1,
+      "reason": "Sine Nomine XXX was added above"
     }
   ]
 }

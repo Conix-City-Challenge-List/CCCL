@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/647ZzVFd1nk?is=ACQ_5uB-f_79lwXY",
   "percentToQualify": 100,
   "song": "-Stalker-",
-  "difficulty": 10,
+  "difficulty": 9,
   "enjoyment": 5,
   "records": [],
   "positionHistory": [
@@ -65,6 +65,12 @@
       "position": 60,
       "change": 1,
       "reason": "Conx Hates LifeDrain was added above"
+    },
+    {
+      "date": "2026-09-08",
+      "position": 61,
+      "change": 1,
+      "reason": "Sine Nomine XXX was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/1sD1kyhTND0?si=IMtNOvJzzEBMd3SN",
   "percentToQualify": 100,
   "song": "Iron God",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 7,
   "records": [
     {
@@ -116,6 +116,12 @@
       "position": 100,
       "change": 1,
       "reason": "Conx Hates LifeDrain was added above"
+    },
+    {
+      "date": "2026-09-08",
+      "position": 101,
+      "change": 1,
+      "reason": "Sine Nomine XXX was added above"
     }
   ]
 }

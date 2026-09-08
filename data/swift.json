@@ -1073,6 +1073,13 @@
       "position": 150,
       "change": 1,
       "reason": "Conx Hates LifeDrain was added above"
+    },
+    {
+      "date": "2026-09-08",
+      "position": null,
+      "change": null,
+      "reason": "Sine Nomine XXX was added above",
+      "legacy": true
     }
   ]
 }
