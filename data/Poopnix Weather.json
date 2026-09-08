@@ -304,6 +304,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 4
+    },
+    {
+      "user": "JaydenR",
+      "link": "https://www.youtube.com/watch?v=kuhJxPouWUk",
+      "percent": 100,
+      "hz": 60,
+      "enjoyment": 0
     }
   ],
   "positionHistory": [
