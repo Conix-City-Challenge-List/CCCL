@@ -98,7 +98,6 @@
   "FerronPlays": "CA",
   "cipher": "DE",
   "ZekeyZong": "GB",
-  "dountwrap": "US",
   "rogi": "PL",
   "Wayne": "US",
   "NDZ": "CA",
@@ -487,5 +486,6 @@
   "[null] LifeDrain": "US",
   "doge": "US",
   "DaNosduh": "CA",
-  "zdark": "CA"
+  "zdark": "CA",
+  "donutwrap": "US"
 }
