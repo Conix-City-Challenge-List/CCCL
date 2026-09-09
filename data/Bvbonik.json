@@ -10,7 +10,15 @@
   "song": "-Stalker-",
   "difficulty": 9,
   "enjoyment": 5,
-  "records": [],
+  "records": [
+    {
+      "user": "150IQPlayer",
+      "link": "https://medal.tv/games/geometry-dash/clips/nuFYdXP2PXvD2lPtb?invite=cr-MSx1WHYsNTg0MzAzMDg1",
+      "percent": 100,
+      "hz": 60,
+      "enjoyment": 6.25
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-05",
