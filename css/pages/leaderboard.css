@@ -114,3 +114,35 @@
     width: 20px; /* Adjust size as needed */
     height: auto; /* Maintain aspect ratio */
 }
+
+.staff-badge {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 0.3rem;
+    padding: 0.15rem 0.5rem;
+    white-space: nowrap;
+}
+
+.staff-badge-owner {
+    background-color: #f1c40f;
+    color: #2b2100;
+}
+
+.staff-badge-admin {
+    background-color: #e74c3c;
+}
+
+.staff-badge-helper {
+    background-color: #2ecc71;
+    color: #08320f;
+}
+
+.staff-badge-dev {
+    background-color: #9b59b6;
+}
+
+.staff-badge-trial {
+    background-color: #7f8c9a;
+}

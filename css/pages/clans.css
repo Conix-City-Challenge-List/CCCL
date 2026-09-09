@@ -45,3 +45,13 @@
     border-radius: 0.3rem;
     padding: 0.1rem 0.4rem;
 }
+
+.clan-vice-badge {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #6e7f96;
+    border-radius: 0.3rem;
+    padding: 0.1rem 0.4rem;
+}

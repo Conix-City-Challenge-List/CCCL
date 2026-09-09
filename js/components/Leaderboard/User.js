@@ -4,6 +4,7 @@ import Copied from "../Copied.js"
 import Copy from "../Copy.js"
 import Section from "./Section.js"
 import ClanTag from "../ClanTag.js"
+import { findStaffRoleForUser, STAFF_ROLE_LABELS } from "../../staff.js"
 
 export default {
     props: {
@@ -25,6 +26,7 @@ export default {
                         #{{ rank }} <ClanTag :username="entry.user" /> {{ entry.user }}
                     </h1>
                     <img class="flag" v-if="entry.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + entry.flag.toLowerCase() + '.svg'" alt="flag" style="margin-right: 10px;width:50px">
+                    <span v-if="staffRole" class="staff-badge" :class="'staff-badge-' + staffRole">{{ staffRoleLabel }}</span>
                     <Copy
                         v-if="!copied"
                         @click="copyURL('https://conixchallengelist.pages.dev/#/leaderboard/user/' + entry.user.toLowerCase().replaceAll(' ', '_')); copied = true"
@@ -53,6 +55,12 @@ export default {
         packColor,
     },
     computed: {
+        staffRole() {
+            return findStaffRoleForUser(this.entry.user);
+        },
+        staffRoleLabel() {
+            return STAFF_ROLE_LABELS[this.staffRole] || this.staffRole;
+        },
         // Legacy completions/verifications don't earn points (see
         // config.js's legacyLimit), so they're pulled out of the normal
         // Completed/Verified sections and shown in their own Legacy

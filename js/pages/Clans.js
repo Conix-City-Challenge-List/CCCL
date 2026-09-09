@@ -77,6 +77,7 @@ export default {
                         >
                             {{ member.username }}
                             <span v-if="member.username.toLowerCase() === selected.ownerUsername.toLowerCase()" class="clan-owner-badge">Owner</span>
+                            <span v-else-if="isViceLeader(member.username)" class="clan-vice-badge">Vice Leader</span>
                             <span class="type-label-sm">{{ localize(member.total) }} pts</span>
                         </a>
                     </div>
@@ -258,6 +259,13 @@ export default {
             this.selected = clan;
             this.copied = false;
         },
+        isViceLeader(username) {
+            return Boolean(
+                this.selected &&
+                Array.isArray(this.selected.viceLeaders) &&
+                this.selected.viceLeaders.some((m) => m.toLowerCase() === username.toLowerCase())
+            );
+        },
         copyURL() {
             navigator.clipboard?.writeText(
                 "https://conixchallengelist.pages.dev/#/clans/clan/" + this.selected.tag.toLowerCase()
@@ -291,10 +299,14 @@ export default {
         sortedMembers() {
             if (!this.selected) return [];
             const ownerLower = this.selected.ownerUsername.toLowerCase();
+            const viceLeaders = new Set((this.selected.viceLeaders || []).map((m) => m.toLowerCase()));
             return [...this.selected.memberEntries].sort((a, b) => {
                 const aIsOwner = a.username.toLowerCase() === ownerLower;
                 const bIsOwner = b.username.toLowerCase() === ownerLower;
                 if (aIsOwner !== bIsOwner) return aIsOwner ? -1 : 1;
+                const aIsVice = viceLeaders.has(a.username.toLowerCase());
+                const bIsVice = viceLeaders.has(b.username.toLowerCase());
+                if (aIsVice !== bIsVice) return aIsVice ? -1 : 1;
                 return b.total - a.total;
             });
         },
