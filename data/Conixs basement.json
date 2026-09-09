@@ -640,6 +640,13 @@
       "percent": 100,
       "hz": 240,
       "enjoyment": 10
+    },
+    {
+      "user": "JamesRepina",
+      "link": "https://www.youtube.com/watch?v=eYJo-js0lzM",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 8
     }
   ],
   "positionHistory": [
