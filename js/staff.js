@@ -11,9 +11,9 @@ const STAFF_ROLE_ORDER = ['owner', 'admin', 'helper', 'dev', 'trial'];
 export const STAFF_ROLE_LABELS = {
     owner: 'Owner',
     admin: 'Admin',
-    helper: 'Helper',
+    helper: 'Moderator',
     dev: 'Dev',
-    trial: 'Trial Mod',
+    trial: 'Helper',
 };
 
 /** Returns the role key ("owner"/"admin"/"helper"/"dev"/"trial") for `username`, or null. */
