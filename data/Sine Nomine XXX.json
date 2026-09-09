@@ -10,7 +10,15 @@
   "song": "Protecc Thiccburger At All Costs",
   "difficulty": 15,
   "enjoyment": 10,
-  "records": [],
+  "records": [
+    {
+      "user": "michoo123",
+      "link": "https://www.youtube.com/watch?v=4hIR7Bkp1_I",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6.7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-08",
