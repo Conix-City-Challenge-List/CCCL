@@ -46,7 +46,7 @@ export default {
                         <p v-else class="type-label-lg" style="width:2.7rem">#{{ rank }}</p>
                     </td>
                     <td class="level" :class="{ 'active': selected == index, 'error': err !== null }" :ref="selected == index ? 'selected' : undefined">
-                        <button @click="selected = index" :style="level && level.id !== 0 ? { 'border-inline-start-color': rgbaBind(accentColor(packColor(level.difficulty)), 0) } : {}">
+                        <button @click="selected = index" :style="level && level.id !== 0 ? { 'border-inline-start-color': rgbaBind(accentColor(packColor(level.difficulty), level.difficulty), 0) } : {}">
                             <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                         </button>
                     </td>
@@ -99,8 +99,15 @@ export default {
         // Scales the whole color up proportionally (preserving its hue)
         // until it clears a minimum luminance, rather than flooring
         // individual channels. Same helper as the one on the Packs tab.
-        accentColor(color) {
+        accentColor(color, difficulty) {
             if (!color) return color;
+            // Impossible (15) is exempted so it always renders as EXACTLY
+            // packColor(15) everywhere — main list, packs, and clans pages
+            // all need to show the identical shade, matching the color
+            // used on the Impossible Pack button itself, rather than the
+            // brightened version this correction would otherwise produce
+            // for such a dark color.
+            if (difficulty === 15) return color;
             const [r, g, b, a] = color;
             const luminance = 0.299 * r + 0.587 * g + 0.114 * b;
             const minLuminance = 45;

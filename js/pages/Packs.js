@@ -73,7 +73,7 @@ export default {
                     <h2>Levels ({{ displayLevels.length }})</h2>
                     <p v-if="!selectedPack.levels" class="type-body"> Beat any 5 challenges in the {{ ["", "beginner", "easy", "medium", "hard", "insane", "extreme", "mythical", "supreme", "ethereal", "divine", "apocalyptic", "catastrophic", "legendary", "silent", "impossible"][selectedPack.difficulty] }} tier</p>
                     <div class="pack-level-details">
-                        <div v-for="lvl in displayLevels" :key="lvl.path" class="pack-level-detail" :class="{ 'error': lvl.difficulty === -50 }" :style="{ 'border-inline-start-color': rgbaBind(accentColor(packColor(lvl.difficulty === -50 ? null : lvl.difficulty)), 0) }" @click="lvl.difficulty !== -50 && (selected = displayLevels.indexOf(lvl))">
+                        <div v-for="lvl in displayLevels" :key="lvl.path" class="pack-level-detail" :class="{ 'error': lvl.difficulty === -50 }" :style="{ 'border-inline-start-color': rgbaBind(accentColor(packColor(lvl.difficulty === -50 ? null : lvl.difficulty), lvl.difficulty), 0) }" @click="lvl.difficulty !== -50 && (selected = displayLevels.indexOf(lvl))">
                             <div class="pack-level-detail-rank">
                                 <p v-if="lvl.rank === null || lvl.difficulty === -50" class="type-label-lg">&mdash;</p>
                                 <p v-else class="type-label-lg">#{{ lvl.rank }}</p>
@@ -155,8 +155,15 @@ export default {
         // darkness problem) instead of just brightening genuinely-dark
         // ones. Only affects this border — the tier's actual color
         // elsewhere on the site (pack buttons, etc.) is untouched.
-        accentColor(color) {
+        accentColor(color, difficulty) {
             if (!color) return color;
+            // Impossible (15) is exempted so it always renders as EXACTLY
+            // packColor(15) everywhere — main list, packs, and clans pages
+            // all need to show the identical shade, matching the color
+            // used on the Impossible Pack button itself, rather than the
+            // brightened version this correction would otherwise produce
+            // for such a dark color.
+            if (difficulty === 15) return color;
             const [r, g, b, a] = color;
             const luminance = 0.299 * r + 0.587 * g + 0.114 * b;
             const minLuminance = 45;

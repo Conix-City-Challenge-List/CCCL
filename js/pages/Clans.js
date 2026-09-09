@@ -232,8 +232,15 @@ export default {
         // background to read as a visible accent border, so this scales
         // the color up (preserving its hue) until it clears a minimum
         // luminance.
-        accentColor(color) {
+        accentColor(color, difficulty) {
             if (!color) return color;
+            // Impossible (15) is exempted so it always renders as EXACTLY
+            // packColor(15) everywhere — main list, packs, and clans pages
+            // all need to show the identical shade, matching the color
+            // used on the Impossible Pack button itself, rather than the
+            // brightened version this correction would otherwise produce
+            // for such a dark color.
+            if (difficulty === 15) return color;
             const [r, g, b, a] = color;
             const luminance = 0.299 * r + 0.587 * g + 0.114 * b;
             const minLuminance = 45;
@@ -245,7 +252,7 @@ export default {
         // tier, so they get a neutral grey border instead of a tier color.
         tierBorderColor(lvl) {
             const color = lvl.rank > legacyLimit ? [110, 110, 110, 0.7] : packColor(lvl.difficulty);
-            return this.rgbaBind(this.accentColor(color), 0);
+            return this.rgbaBind(this.accentColor(color, lvl.difficulty), 0);
         },
         select(clan) {
             this.selected = clan;
