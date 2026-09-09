@@ -89,7 +89,7 @@ export default {
                             </div>
                             <div class="pack-level-detail-main">
                                 <a class="director type-title-sm pack-level-detail-name" :href="'https://conixchallengelist.pages.dev/#/level/' + hardestChallenge.path">{{ hardestChallenge.name }}</a>
-                                <p class="type-body pack-level-detail-creators">Completed By, {{ hardestChallenge.completedBy.join(', ') }}</p>
+                                <p class="type-body pack-level-detail-creators">Completed By {{ hardestChallenge.completedBy.join(', ') }}</p>
                             </div>
                             <div class="pack-level-detail-meta">
                                 <p class="type-label-sm">{{ hardestChallenge.rank > legacyLimit ? 'Legacy' : DIFFICULTY_NAMES[hardestChallenge.difficulty] }}</p>
