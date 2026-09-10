@@ -10,7 +10,15 @@
   "song": "NK - Cla",
   "difficulty": 3,
   "enjoyment": 9,
-  "records": [],
+  "records": [
+    {
+      "user": "thewhyguy",
+      "link": "https://drive.google.com/file/d/1aZc3JPL8wqNo57Ae_I8wyfF72XWrTGru/view?usp=sharing",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 7.8
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-10",
