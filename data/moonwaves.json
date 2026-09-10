@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/W6FLM9LmHMY?is=lw7u4p3x5F2SLd1K",
   "percentToQualify": 100,
   "song": "Pagoda - Xomu & Amidst",
-  "difficulty": 10,
+  "difficulty": 9,
   "enjoyment": 7,
   "records": [
     {
@@ -97,6 +97,12 @@
       "position": 60,
       "change": 1,
       "reason": "Sine Nomine XXX was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 61,
+      "change": 1,
+      "reason": "I wanna Freakyfreak was moved up past this challenge"
     }
   ]
 }

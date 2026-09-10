@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=2hbW-janbvo",
   "percentToQualify": 100,
   "song": "Silo - meaningful love (slowed instrumental)",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 7,
   "records": [
     {
@@ -84,6 +84,12 @@
       "position": 80,
       "change": 1,
       "reason": "Sine Nomine XXX was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 81,
+      "change": 1,
+      "reason": "I wanna Freakyfreak was moved up past this challenge"
     }
   ]
 }
