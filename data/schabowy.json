@@ -10,7 +10,15 @@
   "song": "golden haze",
   "difficulty": 11,
   "enjoyment": 6,
-  "records": [],
+  "records": [
+    {
+      "user": "serbian guy",
+      "link": "https://youtube.com/shorts/Nu3hV7uvZ2I?si=dn3PuFLqxpkOPKQS",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 10
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-10",
