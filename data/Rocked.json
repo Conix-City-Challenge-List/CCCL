@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/OFfRVyp6czs",
   "percentToQualify": 100,
   "song": "Creo - Rock Thing",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 7,
   "records": [
     {
@@ -582,6 +582,12 @@
       "position": 80,
       "change": 1,
       "reason": "Euphoria was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 81,
+      "change": 1,
+      "reason": "Evil Conix was added above"
     }
   ]
 }

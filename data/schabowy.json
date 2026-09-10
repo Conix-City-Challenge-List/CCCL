@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=vG0FT9cyN58",
   "percentToQualify": 100,
   "song": "golden haze",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 6,
   "records": [
     {
@@ -37,6 +37,12 @@
       "position": 50,
       "change": 1,
       "reason": "Euphoria was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 51,
+      "change": 1,
+      "reason": "Evil Conix was added above"
     }
   ]
 }

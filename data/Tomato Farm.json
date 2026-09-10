@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=MlpOkCq64dc",
   "percentToQualify": 100,
   "song": "Glimmer (feat VMRROBOTIC)",
-  "difficulty": 10,
+  "difficulty": 9,
   "enjoyment": 8,
   "records": [
     {
@@ -260,6 +260,12 @@
       "position": 60,
       "change": 1,
       "reason": "Euphoria was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 61,
+      "change": 1,
+      "reason": "Evil Conix was added above"
     }
   ]
 }

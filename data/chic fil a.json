@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/gW9wzUMEKBE?is=NgYWMU0LrABHgnHB",
   "percentToQualify": 100,
   "song": "Clove - Waterflame",
-  "difficulty": 13,
+  "difficulty": 12,
   "enjoyment": 5,
   "records": [
     {
@@ -384,6 +384,12 @@
       "position": 30,
       "change": 1,
       "reason": "Conix Fantasy was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 31,
+      "change": 1,
+      "reason": "Evil Conix was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/Co4hS9Ht7Ak?si=OxoNAw8dykwXz6JI",
   "percentToQualify": 100,
   "song": "cradles",
-  "difficulty": 14,
+  "difficulty": 13,
   "enjoyment": 0,
   "records": [],
   "positionHistory": [
@@ -35,6 +35,12 @@
       "position": 20,
       "change": 1,
       "reason": "Sine Nomine XXX was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 21,
+      "change": 1,
+      "reason": "Evil Conix was added above"
     }
   ]
 }
