@@ -10,7 +10,15 @@
   "song": "Flawless Wings of Yatagarasu",
   "difficulty": 7,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "ZekeyZong",
+      "link": "https://www.youtube.com/watch?v=XYG0M4XSAbg",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-10",
