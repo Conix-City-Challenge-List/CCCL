@@ -10,7 +10,15 @@
   "song": "sleeping hummingbird london? Albbe remix?",
   "difficulty": 3,
   "enjoyment": 6,
-  "records": [],
+  "records": [
+    {
+      "user": "thewhyguy",
+      "link": "https://drive.google.com/file/d/1LMaZGfl_4Y51VLgvwnA4QVaGxQyaS2o4/view?usp=sharing",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 6
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-10",
