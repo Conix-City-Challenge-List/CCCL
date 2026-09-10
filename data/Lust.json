@@ -1243,6 +1243,13 @@
       "position": 150,
       "change": 0,
       "reason": "swingwebz was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": null,
+      "change": null,
+      "reason": "Firework (VIP) was added above",
+      "legacy": true
     }
   ]
 }

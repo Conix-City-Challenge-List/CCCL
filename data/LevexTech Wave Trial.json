@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=Hw4TKjmer2w",
   "percentToQualify": 100,
   "song": "726455",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 10,
   "records": [
     {
@@ -351,6 +351,12 @@
       "position": 140,
       "change": 0,
       "reason": "swingwebz was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 141,
+      "change": 1,
+      "reason": "Firework (VIP) was added above"
     }
   ]
 }
