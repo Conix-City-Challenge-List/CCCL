@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/1sD1kyhTND0?si=IMtNOvJzzEBMd3SN",
   "percentToQualify": 100,
   "song": "Iron God",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 7,
   "records": [
     {
@@ -189,6 +189,12 @@
       "position": 110,
       "change": 1,
       "reason": "Black Death was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 111,
+      "change": 1,
+      "reason": "conix challenge was added above"
     }
   ]
 }

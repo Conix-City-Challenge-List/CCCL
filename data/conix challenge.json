@@ -1,0 +1,22 @@
+{
+  "id": 148548350,
+  "name": "conix challenge",
+  "creators": [
+    "lime"
+  ],
+  "verifier": "osb",
+  "verification": "https://www.youtube.com/watch?v=mwNFXqSoTSY",
+  "percentToQualify": 100,
+  "song": "{The Traveller}",
+  "difficulty": 8,
+  "enjoyment": 2,
+  "records": [],
+  "positionHistory": [
+    {
+      "date": "2026-09-10",
+      "position": 73,
+      "change": null,
+      "reason": "Added to list"
+    }
+  ]
+}

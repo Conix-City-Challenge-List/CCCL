@@ -973,6 +973,13 @@
       "position": 150,
       "change": 1,
       "reason": "hyperplex was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": null,
+      "change": null,
+      "reason": "conix challenge was added above",
+      "legacy": true
     }
   ]
 }

@@ -25,6 +25,12 @@
       "position": 89,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 90,
+      "change": 1,
+      "reason": "conix challenge was added above"
     }
   ]
 }
