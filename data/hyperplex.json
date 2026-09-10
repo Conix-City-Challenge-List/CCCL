@@ -10,7 +10,15 @@
   "song": "Stereo madness (Rock CovEr's Rock Cover)",
   "difficulty": 3,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "IsniffDustt",
+      "link": "https://youtu.be/xKEg4Zqefro",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 2
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-10",
