@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/J_S0TEV0DMI?is=I0HiXXwvOK1spqdq",
   "percentToQualify": 100,
   "song": "NH22-Isolation",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 9,
   "records": [
     {
@@ -1248,6 +1248,12 @@
       "position": 140,
       "change": 1,
       "reason": "Sine Nomine XXX was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 141,
+      "change": 1,
+      "reason": "schabowy was added above"
     }
   ]
 }

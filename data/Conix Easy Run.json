@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/s3mLlNMtBqA?si=WkAfHyzXGu4tZnLz",
   "percentToQualify": 100,
   "song": "CreoMusic - Idolize",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 9,
   "records": [
     {
@@ -362,6 +362,12 @@
       "position": 130,
       "change": 1,
       "reason": "Sine Nomine XXX was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 131,
+      "change": 1,
+      "reason": "schabowy was added above"
     }
   ]
 }

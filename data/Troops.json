@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/8T5z6ZZ_Hpo",
   "percentToQualify": 100,
   "song": "OsamaSon - Troops",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 8,
   "records": [
     {
@@ -105,6 +105,12 @@
       "position": 120,
       "change": 1,
       "reason": "Sine Nomine XXX was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 121,
+      "change": 1,
+      "reason": "schabowy was added above"
     }
   ]
 }

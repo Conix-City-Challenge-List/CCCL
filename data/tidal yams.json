@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/3iILZFATVzc",
   "percentToQualify": 100,
   "song": "shiawase vip - dion timmer",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 10,
   "records": [
     {
@@ -471,6 +471,12 @@
       "position": 70,
       "change": 1,
       "reason": "I wanna Freakyfreak was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 71,
+      "change": 1,
+      "reason": "schabowy was added above"
     }
   ]
 }
