@@ -12,7 +12,7 @@ const ROLE_LABELS = {
     admin: "Admins",
     helper: "Moderators",
     dev: "Developers",
-    trial: "List Helpers",
+    trial: "Helpers",
 };
  
 export default {
