@@ -1366,6 +1366,13 @@
       "position": 150,
       "change": 1,
       "reason": "corycian cavern was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": null,
+      "change": null,
+      "reason": "Black Death was added above",
+      "legacy": true
     }
   ]
 }

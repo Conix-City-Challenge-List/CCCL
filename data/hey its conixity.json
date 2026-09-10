@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/JcN8bKNPf0Y",
   "percentToQualify": 100,
   "song": "kocmoc unleashed",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 4,
   "records": [
     {
@@ -232,6 +232,12 @@
       "position": 140,
       "change": 1,
       "reason": "corycian cavern was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 141,
+      "change": 1,
+      "reason": "Black Death was added above"
     }
   ]
 }

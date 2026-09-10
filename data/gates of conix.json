@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/mGZal-Cu6h0?si=knDP1dryDWd9dse_",
   "percentToQualify": 100,
   "song": "Betrayal of Fear",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 9,
   "records": [
     {
@@ -650,6 +650,12 @@
       "position": 120,
       "change": 0,
       "reason": "swingwebz was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 121,
+      "change": 1,
+      "reason": "Black Death was added above"
     }
   ]
 }

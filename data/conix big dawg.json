@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=Z2rst-wKJDc",
   "percentToQualify": 100,
   "song": "Death Factory",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 2,
   "records": [
     {
@@ -667,6 +667,12 @@
       "position": 110,
       "change": 0,
       "reason": "swingwebz was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 111,
+      "change": 1,
+      "reason": "Black Death was added above"
     }
   ]
 }
