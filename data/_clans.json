@@ -202,5 +202,15 @@
     ],
     "viceLeaders": [],
     "createdAt": "2026-09-09T21:13:58.790Z"
+  },
+  {
+    "tag": "AURA",
+    "name": "aura",
+    "ownerUsername": "rori",
+    "members": [
+      "rori"
+    ],
+    "viceLeaders": [],
+    "createdAt": "2026-09-10T05:07:01.938Z"
   }
 ]
