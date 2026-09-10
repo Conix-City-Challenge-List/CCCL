@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/JcN8bKNPf0Y",
   "percentToQualify": 100,
   "song": "kocmoc unleashed",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 4,
   "records": [
     {
@@ -166,6 +166,12 @@
       "position": 130,
       "change": 1,
       "reason": "schabowy was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 131,
+      "change": 1,
+      "reason": "silent octagons was added above"
     }
   ]
 }
