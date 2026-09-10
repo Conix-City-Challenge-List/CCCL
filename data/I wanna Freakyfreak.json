@@ -10,7 +10,15 @@
   "song": "Cerebral Cobweb",
   "difficulty": 7,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "vipexx",
+      "link": "https://youtu.be/ZvYkrX4cfeo",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 1
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-05",
