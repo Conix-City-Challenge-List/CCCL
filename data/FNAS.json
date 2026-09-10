@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/5OmLP0PdTww",
   "percentToQualify": 100,
   "song": "The Living Tombstone - I Cant Fix You",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 10,
   "records": [
     {
@@ -1105,6 +1105,12 @@
       "position": 140,
       "change": 1,
       "reason": "Black Death was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 141,
+      "change": 1,
+      "reason": "hyperplex was added above"
     }
   ]
 }
