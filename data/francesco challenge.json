@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/nZxLGZeNj2E?si=Cs-O0em8kHxx19V4",
   "percentToQualify": 100,
   "song": "770520",
-  "difficulty": 10,
+  "difficulty": 9,
   "enjoyment": 6,
   "records": [
     {
@@ -331,6 +331,12 @@
       "position": 60,
       "change": 1,
       "reason": "Conix Fantasy was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 61,
+      "change": 1,
+      "reason": "Euphoria was added above"
     }
   ]
 }

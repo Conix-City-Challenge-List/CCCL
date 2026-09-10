@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/1B1lFajafog",
   "percentToQualify": 100,
   "song": "ColBreakz - Gold Ring",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 8,
   "records": [
     {
@@ -766,6 +766,12 @@
       "position": 110,
       "change": 1,
       "reason": "Conix Fantasy was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 111,
+      "change": 1,
+      "reason": "Euphoria was added above"
     }
   ]
 }

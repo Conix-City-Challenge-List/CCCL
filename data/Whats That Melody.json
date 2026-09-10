@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=T4Yp5DcwaUc&t=1s",
   "percentToQualify": 100,
   "song": "Squid Melody (Blue Version) By The Living Tombstone",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 8,
   "records": [
     {
@@ -217,6 +217,12 @@
       "position": 50,
       "change": 1,
       "reason": "Conix Fantasy was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 51,
+      "change": 1,
+      "reason": "Euphoria was added above"
     }
   ]
 }

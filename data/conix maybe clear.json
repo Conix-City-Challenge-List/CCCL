@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/-Vuh0Ap_LWg",
   "percentToQualify": 100,
   "song": "fog by hypercuberecords",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 7,
   "records": [
     {
@@ -735,6 +735,12 @@
       "position": 100,
       "change": 1,
       "reason": "Conix Fantasy was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 101,
+      "change": 1,
+      "reason": "Euphoria was added above"
     }
   ]
 }

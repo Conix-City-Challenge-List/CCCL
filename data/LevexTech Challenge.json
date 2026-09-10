@@ -872,6 +872,13 @@
       "position": 150,
       "change": 1,
       "reason": "Oval was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": null,
+      "change": null,
+      "reason": "Euphoria was added above",
+      "legacy": true
     }
   ]
 }

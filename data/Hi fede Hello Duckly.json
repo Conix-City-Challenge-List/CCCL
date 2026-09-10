@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/EX0HfMxde0w",
   "percentToQualify": 100,
   "song": "Helvetican - Bufu",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 6,
   "records": [
     {
@@ -584,6 +584,12 @@
       "position": 80,
       "change": 1,
       "reason": "Conix Fantasy was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 81,
+      "change": 1,
+      "reason": "Euphoria was added above"
     }
   ]
 }
