@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/qL3SFRIdiLg",
   "percentToQualify": 100,
   "song": "Aria Math",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 9,
   "records": [
     {
@@ -286,6 +286,12 @@
       "position": 100,
       "change": 1,
       "reason": "Evil Conix was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 101,
+      "change": 1,
+      "reason": "Arconix Lights was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/Pr89bKsu-eY?si=XMY2WlMYuIaL8Mew",
   "percentToQualify": 100,
   "song": "Pimp Slap",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 0,
   "records": [
     {
@@ -1114,6 +1114,12 @@
       "position": 120,
       "change": 1,
       "reason": "Evil Conix was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 121,
+      "change": 1,
+      "reason": "Arconix Lights was added above"
     }
   ]
 }
