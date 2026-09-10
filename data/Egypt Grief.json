@@ -718,7 +718,7 @@
       "hz": 360,
       "enjoyment": 1
     },
-      {
+    {
       "user": "conix",
       "link": "https://www.youtube.com/shorts/zBMFTpNMbKQ",
       "percent": 100,
@@ -1236,6 +1236,12 @@
       "position": 121,
       "change": 1,
       "reason": "silent octagons was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 122,
+      "change": 1,
+      "reason": "good luck was moved up past this challenge"
     }
   ]
 }

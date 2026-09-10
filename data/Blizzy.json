@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/_oMgmHbPCO8?si=ik7Rll58770ikwqX",
   "percentToQualify": 100,
   "song": "cYsmix - Eden",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 5,
   "records": [
     {
@@ -342,6 +342,12 @@
       "position": 90,
       "change": 1,
       "reason": "silent octagons was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 91,
+      "change": 1,
+      "reason": "good luck was moved up past this challenge"
     }
   ]
 }

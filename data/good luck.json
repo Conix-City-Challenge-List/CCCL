@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=TgP2MZcSc2k",
   "percentToQualify": 100,
   "song": "NK - Sine Wavs",
-  "difficulty": 3,
+  "difficulty": 7,
   "enjoyment": 3,
   "records": [],
   "positionHistory": [
@@ -41,6 +41,12 @@
       "position": 124,
       "change": 1,
       "reason": "silent octagons was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 85,
+      "change": -39,
+      "reason": "Moved"
     }
   ]
 }
