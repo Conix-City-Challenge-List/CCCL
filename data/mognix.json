@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/BPo-SAqQRJU?si=g9sM0BciR5ZNnoxn",
   "percentToQualify": 100,
   "song": "Он гениален",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 5,
   "records": [
     {
@@ -1006,6 +1006,12 @@
       "position": 130,
       "change": 1,
       "reason": "Arconix Lights was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 131,
+      "change": 1,
+      "reason": "swingwebz was added above"
     }
   ]
 }

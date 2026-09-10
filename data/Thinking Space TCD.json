@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/58wNmbBlgAA",
   "percentToQualify": 100,
   "song": "Nuke Powder",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 8,
   "records": [
     {
@@ -339,6 +339,12 @@
       "position": 90,
       "change": 1,
       "reason": "Evil Conix was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 91,
+      "change": 1,
+      "reason": "swingwebz was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=igQhXR7bmXU",
   "percentToQualify": 100,
   "song": "Andy - Skrillex",
-  "difficulty": 12,
+  "difficulty": 11,
   "enjoyment": 6.7,
   "records": [
     {
@@ -356,6 +356,12 @@
       "position": 40,
       "change": 1,
       "reason": "Evil Conix was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 41,
+      "change": 1,
+      "reason": "swingwebz was added above"
     }
   ]
 }

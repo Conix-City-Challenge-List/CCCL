@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/O_ri_XO1W-g?si=q5epVcF2N19rDL1n",
   "percentToQualify": 100,
   "song": "kocmoc unleashed",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 9,
   "records": [
     {
@@ -596,6 +596,12 @@
       "position": 100,
       "change": 1,
       "reason": "Arconix Lights was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 101,
+      "change": 1,
+      "reason": "swingwebz was added above"
     }
   ]
 }

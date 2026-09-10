@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/W7H_dK4io-8?si=YxEJ4VuDjFXqV7iw",
   "percentToQualify": 100,
   "song": "Cast darkness (FX Loop)",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 9,
   "records": [],
   "positionHistory": [
@@ -113,6 +113,12 @@
       "position": 70,
       "change": 1,
       "reason": "Evil Conix was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 71,
+      "change": 1,
+      "reason": "swingwebz was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=eNtHzjIYig0",
   "percentToQualify": 100,
   "song": "Creo - Endless",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 7.5,
   "records": [
     {
@@ -1022,6 +1022,12 @@
       "position": 120,
       "change": 1,
       "reason": "Arconix Lights was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 121,
+      "change": 1,
+      "reason": "swingwebz was added above"
     }
   ]
 }
