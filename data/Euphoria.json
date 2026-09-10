@@ -10,7 +10,15 @@
   "song": "Exyl x Teminite x Creo - Moai Samurai",
   "difficulty": 12,
   "enjoyment": 10,
-  "records": [],
+  "records": [
+    {
+      "user": "LifeDrain",
+      "link": "https://youtu.be/tLSeVzzHAeI?si=W3DDG6UDKzpeia6i",
+      "percent": 100,
+      "hz": 400,
+      "enjoyment": 10
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-10",
