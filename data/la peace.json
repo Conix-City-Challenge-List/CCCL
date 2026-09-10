@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/txO5ibIi6_A",
   "percentToQualify": 100,
   "song": "Omnipresent (AIM 2023)",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 4,
   "records": [
     {
@@ -208,6 +208,12 @@
       "position": 100,
       "change": 1,
       "reason": "conix challenge was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 101,
+      "change": 1,
+      "reason": "conixs cave infinity was added above"
     }
   ]
 }

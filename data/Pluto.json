@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/9MN8piZXWa8",
   "percentToQualify": 100,
   "song": "Creo - Flow",
-  "difficulty": 10,
+  "difficulty": 9,
   "enjoyment": 4,
   "records": [
     {
@@ -500,6 +500,12 @@
       "position": 60,
       "change": 1,
       "reason": "swingwebz was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 61,
+      "change": 1,
+      "reason": "conixs cave infinity was added above"
     }
   ]
 }

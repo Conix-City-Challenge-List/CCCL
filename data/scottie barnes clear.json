@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/6-sdGJh4xks?si=3F_k45qEysgu_3Jv",
   "percentToQualify": 100,
   "song": "No Church In The Wild - Jay-Z & Kanye West",
-  "difficulty": 12,
+  "difficulty": 11,
   "enjoyment": 9,
   "records": [
     {
@@ -225,6 +225,12 @@
       "position": 40,
       "change": 1,
       "reason": "swingwebz was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 41,
+      "change": 1,
+      "reason": "conixs cave infinity was added above"
     }
   ]
 }

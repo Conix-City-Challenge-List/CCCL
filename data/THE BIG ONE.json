@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=TXt8XsbDKiU",
   "percentToQualify": 100,
   "song": "fog by spurme",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 6,
   "records": [
     {
@@ -429,6 +429,12 @@
       "position": 120,
       "change": 1,
       "reason": "conix challenge was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 121,
+      "change": 1,
+      "reason": "conixs cave infinity was added above"
     }
   ]
 }

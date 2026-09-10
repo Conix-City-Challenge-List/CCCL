@@ -9,7 +9,7 @@
   "verification": "https://www.youtube.com/watch?v=7YunmSrktuY",
   "percentToQualify": 100,
   "song": "rat river",
-  "difficulty": 13,
+  "difficulty": 12,
   "enjoyment": 9,
   "records": [
     {
@@ -148,6 +148,12 @@
       "position": 30,
       "change": 1,
       "reason": "Evil Conix was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 31,
+      "change": 1,
+      "reason": "conixs cave infinity was added above"
     }
   ]
 }

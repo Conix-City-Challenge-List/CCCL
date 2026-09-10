@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/77IkDZI6xEI",
   "percentToQualify": 100,
   "song": "Impulse",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 0,
   "records": [
     {
@@ -235,6 +235,12 @@
       "position": 130,
       "change": 1,
       "reason": "Break The Targets was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 131,
+      "change": 1,
+      "reason": "conixs cave infinity was added above"
     }
   ]
 }
