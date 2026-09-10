@@ -10,7 +10,15 @@
   "song": "Death Factory by: ET16",
   "difficulty": 3,
   "enjoyment": 3,
-  "records": [],
+  "records": [
+    {
+      "user": "IsniffDustt",
+      "link": "https://youtu.be/K9g60buZHfM",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-10",
