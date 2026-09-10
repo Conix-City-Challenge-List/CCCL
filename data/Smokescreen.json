@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/B88bpFi-XYE",
   "percentToQualify": 100,
   "song": "I. Am. God.",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 7,
   "records": [
     {
@@ -32,7 +32,7 @@
       "hz": 200,
       "enjoyment": 5
     },
-      {
+    {
       "user": "conix",
       "link": "https://www.youtube.com/shorts/zBMFTpNMbKQ",
       "percent": 100,
@@ -334,6 +334,12 @@
       "position": 120,
       "change": 1,
       "reason": "good luck was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 121,
+      "change": 1,
+      "reason": "Conix Fantasy was added above"
     }
   ]
 }

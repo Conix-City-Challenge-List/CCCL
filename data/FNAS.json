@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/5OmLP0PdTww",
   "percentToQualify": 100,
   "song": "The Living Tombstone - I Cant Fix You",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 10,
   "records": [
     {
@@ -1039,6 +1039,12 @@
       "position": 130,
       "change": 1,
       "reason": "silent octagons was added above"
+    },
+    {
+      "date": "2026-09-10",
+      "position": 131,
+      "change": 1,
+      "reason": "Conix Fantasy was added above"
     }
   ]
 }
