@@ -38,6 +38,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 2.5
+    },
+    {
+      "user": "Vice_STX",
+      "link": "https://www.youtube.com/watch?v=SkA3BcklANc",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
     }
   ],
   "positionHistory": [
