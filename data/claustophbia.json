@@ -10,7 +10,15 @@
   "song": "just a burning memory (cover)",
   "difficulty": 15,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "michoo123",
+      "link": "https://www.youtube.com/watch?v=jAcZWuxaKDQ",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 10
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-11",
