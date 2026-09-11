@@ -10,7 +10,15 @@
   "song": "-killstealer-",
   "difficulty": 2,
   "enjoyment": 2,
-  "records": [],
+  "records": [
+    {
+      "user": "wlarpoff",
+      "link": "https://youtu.be/twf8qj5jC2E",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 4
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-11",
