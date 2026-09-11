@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/_oMgmHbPCO8?si=ik7Rll58770ikwqX",
   "percentToQualify": 100,
   "song": "cYsmix - Eden",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 5,
   "records": [
     {
@@ -402,6 +402,12 @@
       "position": 100,
       "change": 1,
       "reason": "Conix Feet was added above"
+    },
+    {
+      "date": "2026-09-11",
+      "position": 101,
+      "change": 1,
+      "reason": "Ocean Grief was added above"
     }
   ]
 }

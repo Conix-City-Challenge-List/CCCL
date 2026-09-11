@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/8T5z6ZZ_Hpo",
   "percentToQualify": 100,
   "song": "OsamaSon - Troops",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 8,
   "records": [
     {
@@ -231,6 +231,12 @@
       "position": 140,
       "change": 1,
       "reason": "4 Jumps was added above"
+    },
+    {
+      "date": "2026-09-11",
+      "position": 141,
+      "change": 1,
+      "reason": "Ocean Grief was added above"
     }
   ]
 }
