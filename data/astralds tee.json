@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=akvS7a08-bE",
   "percentToQualify": 100,
   "song": "53576",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 8,
   "records": [
     {
@@ -313,6 +313,12 @@
       "position": 80,
       "change": 1,
       "reason": "conixs cave infinity was added above"
+    },
+    {
+      "date": "2026-09-11",
+      "position": 81,
+      "change": 1,
+      "reason": "claustophbia was added above"
     }
   ]
 }

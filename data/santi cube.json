@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/fS5llVDcgRw",
   "percentToQualify": 100,
   "song": "Dry Out",
-  "difficulty": 10,
+  "difficulty": 9,
   "enjoyment": 7,
   "records": [
     {
@@ -278,6 +278,12 @@
       "position": 60,
       "change": 1,
       "reason": "conixs cave infinity was added above"
+    },
+    {
+      "date": "2026-09-11",
+      "position": 61,
+      "change": 1,
+      "reason": "claustophbia was added above"
     }
   ]
 }
