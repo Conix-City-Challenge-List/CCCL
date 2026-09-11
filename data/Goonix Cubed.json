@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/Pr89bKsu-eY?si=XMY2WlMYuIaL8Mew",
   "percentToQualify": 100,
   "song": "Pimp Slap",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 0,
   "records": [
     {
@@ -1187,6 +1187,12 @@
       "position": 130,
       "change": 1,
       "reason": "Ocean Grief was added above"
+    },
+    {
+      "date": "2026-09-11",
+      "position": 131,
+      "change": 1,
+      "reason": "corycian cavern was moved up past this challenge"
     }
   ]
 }
