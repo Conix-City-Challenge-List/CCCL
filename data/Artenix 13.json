@@ -94,6 +94,13 @@
       "percent": 100,
       "hz": 1080,
       "enjoyment": 10
+    },
+    {
+      "user": "Vice_STX",
+      "link": "https://www.youtube.com/watch?v=WZQqi-DK7wE",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
     }
   ],
   "positionHistory": [
