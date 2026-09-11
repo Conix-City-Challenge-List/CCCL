@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/1B1lFajafog",
   "percentToQualify": 100,
   "song": "ColBreakz - Gold Ring",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 8,
   "records": [
     {
@@ -832,6 +832,12 @@
       "position": 120,
       "change": 1,
       "reason": "Ocean Grief was added above"
+    },
+    {
+      "date": "2026-09-11",
+      "position": 121,
+      "change": 1,
+      "reason": "rocket challenge v2 was added above"
     }
   ]
 }

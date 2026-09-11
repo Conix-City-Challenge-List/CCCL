@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/row_nuM71EI?si=NpUn_TZ2n2wmLMtN",
   "percentToQualify": 100,
   "song": "strawberrychop",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 6,
   "records": [
     {
@@ -166,6 +166,12 @@
       "position": 100,
       "change": 1,
       "reason": "Ocean Grief was added above"
+    },
+    {
+      "date": "2026-09-11",
+      "position": 101,
+      "change": 1,
+      "reason": "rocket challenge v2 was added above"
     }
   ]
 }
