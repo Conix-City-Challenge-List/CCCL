@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/c8vqMY4m5oI?is=KFtHoY5yINVevgej",
   "percentToQualify": 100,
   "song": "Death Factory by: ET16",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 3,
   "records": [
     {
@@ -91,6 +91,12 @@
       "position": 130,
       "change": 1,
       "reason": "claustophbia was added above"
+    },
+    {
+      "date": "2026-09-11",
+      "position": 131,
+      "change": 1,
+      "reason": "Conix Feet was added above"
     }
   ]
 }

@@ -904,6 +904,13 @@
       "position": 150,
       "change": 1,
       "reason": "claustophbia was added above"
+    },
+    {
+      "date": "2026-09-11",
+      "position": null,
+      "change": null,
+      "reason": "Conix Feet was added above",
+      "legacy": true
     }
   ]
 }
