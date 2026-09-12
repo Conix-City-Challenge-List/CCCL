@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=TXt8XsbDKiU",
   "percentToQualify": 100,
   "song": "fog by spurme",
-  "difficulty": 3,
+  "difficulty": 7,
   "enjoyment": 6,
   "records": [
     {
@@ -471,6 +471,12 @@
       "position": 127,
       "change": 1,
       "reason": "verity was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 82,
+      "change": -45,
+      "reason": "Moved"
     }
   ]
 }

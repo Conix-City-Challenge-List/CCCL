@@ -9,7 +9,7 @@
   "verification": "https://www.youtube.com/watch?v=wiBfk-aJc2A",
   "percentToQualify": 100,
   "song": "Clubstep",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 6,
   "records": [
     {
@@ -848,6 +848,12 @@
       "position": 120,
       "change": 1,
       "reason": "shipscapes was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 121,
+      "change": 1,
+      "reason": "THE BIG ONE was moved up past this challenge"
     }
   ]
 }

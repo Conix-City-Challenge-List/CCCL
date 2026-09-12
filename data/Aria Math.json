@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/qL3SFRIdiLg",
   "percentToQualify": 100,
   "song": "Aria Math",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 9,
   "records": [
     {
@@ -346,6 +346,12 @@
       "position": 110,
       "change": 1,
       "reason": "shipscapes was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 111,
+      "change": 1,
+      "reason": "THE BIG ONE was moved up past this challenge"
     }
   ]
 }

@@ -569,6 +569,12 @@
       "position": 125,
       "change": 1,
       "reason": "verity was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 126,
+      "change": 1,
+      "reason": "THE BIG ONE was moved up past this challenge"
     }
   ]
 }
