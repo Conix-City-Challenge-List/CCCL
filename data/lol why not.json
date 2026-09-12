@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/XDMgUG1E90w",
   "percentToQualify": 100,
   "song": "Dom & Roland - Thunder (Okuu Remix)",
-  "difficulty": 12,
+  "difficulty": 11,
   "enjoyment": 7.7,
   "records": [],
   "positionHistory": [
@@ -89,6 +89,12 @@
       "position": 40,
       "change": 1,
       "reason": "claustophbia was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 41,
+      "change": 1,
+      "reason": "Conx Loves LifeDrain was added above"
     }
   ]
 }

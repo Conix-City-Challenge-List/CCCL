@@ -584,6 +584,13 @@
       "position": 150,
       "change": 1,
       "reason": "Robot Challenge was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": null,
+      "change": null,
+      "reason": "Conx Loves LifeDrain was added above",
+      "legacy": true
     }
   ]
 }
