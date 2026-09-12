@@ -10,7 +10,15 @@
   "song": "Break The Targets 2",
   "difficulty": 3,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "uDaririn",
+      "link": "https://youtu.be/2HwuFMyE7tc",
+      "percent": 100,
+      "hz": 120,
+      "enjoyment": 10
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-10",
