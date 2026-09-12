@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=FPIQ_1_v4eo",
   "percentToQualify": 100,
   "song": "Break The Targets 2",
-  "difficulty": 2,
+  "difficulty": 3,
   "enjoyment": 8,
   "records": [
     {
@@ -98,6 +98,12 @@
       "position": 131,
       "change": -1,
       "reason": "CST was removed from the list"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 130,
+      "change": -1,
+      "reason": "Evil Conix was removed from the list"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/W6FLM9LmHMY?is=lw7u4p3x5F2SLd1K",
   "percentToQualify": 100,
   "song": "Pagoda - Xomu & Amidst",
-  "difficulty": 8,
+  "difficulty": 9,
   "enjoyment": 7,
   "records": [
     {
@@ -175,6 +175,12 @@
       "position": 71,
       "change": -1,
       "reason": "CST was removed from the list"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 70,
+      "change": -1,
+      "reason": "Evil Conix was removed from the list"
     }
   ]
 }

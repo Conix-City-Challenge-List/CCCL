@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=ig30GNHha50",
   "percentToQualify": 100,
   "song": "I N J U R Y (Sped Up) - Cight",
-  "difficulty": 12,
+  "difficulty": 13,
   "enjoyment": 7,
   "records": [
     {
@@ -105,6 +105,12 @@
       "position": 31,
       "change": -1,
       "reason": "CST was removed from the list"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 30,
+      "change": -1,
+      "reason": "Evil Conix was removed from the list"
     }
   ]
 }

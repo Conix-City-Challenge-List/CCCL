@@ -591,6 +591,12 @@
       "change": null,
       "reason": "Conx Loves LifeDrain was added above",
       "legacy": true
+    },
+    {
+      "date": "2026-09-12",
+      "position": 150,
+      "change": null,
+      "reason": "Evil Conix was removed from the list"
     }
   ]
 }

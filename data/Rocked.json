@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/OFfRVyp6czs",
   "percentToQualify": 100,
   "song": "Creo - Rock Thing",
-  "difficulty": 6,
+  "difficulty": 7,
   "enjoyment": 7,
   "records": [
     {
@@ -667,6 +667,12 @@
       "position": 91,
       "change": -1,
       "reason": "CST was removed from the list"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 90,
+      "change": -1,
+      "reason": "Evil Conix was removed from the list"
     }
   ]
 }

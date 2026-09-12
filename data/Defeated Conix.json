@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/u3HQe2QGeew?si=CWEf3ITqAxoEzany",
   "percentToQualify": 100,
   "song": "It Passed You By",
-  "difficulty": 7,
+  "difficulty": 8,
   "enjoyment": 9.7,
   "records": [
     {
@@ -238,6 +238,12 @@
       "position": 81,
       "change": -1,
       "reason": "CST was removed from the list"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 80,
+      "change": -1,
+      "reason": "Evil Conix was removed from the list"
     }
   ]
 }
