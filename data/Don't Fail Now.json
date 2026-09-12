@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=Z6nodb-EdM8",
   "percentToQualify": 100,
   "song": "-Glorious Morning-",
-  "difficulty": 5,
+  "difficulty": 6,
   "enjoyment": 7,
   "records": [
     {
@@ -308,6 +308,12 @@
       "position": 101,
       "change": 1,
       "reason": "CST was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 100,
+      "change": -1,
+      "reason": "CST was removed from the list"
     }
   ]
 }

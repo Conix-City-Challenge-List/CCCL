@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/TvtrmVfXW2A",
   "percentToQualify": 100,
   "song": "Cerebral Cobweb",
-  "difficulty": 10,
+  "difficulty": 11,
   "enjoyment": 7,
   "records": [
     {
@@ -151,6 +151,12 @@
       "position": 51,
       "change": 1,
       "reason": "CST was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 50,
+      "change": -1,
+      "reason": "CST was removed from the list"
     }
   ]
 }

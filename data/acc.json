@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/NwFBjcR6Gj4",
   "percentToQualify": 100,
   "song": "-Stalker-",
-  "difficulty": 1,
+  "difficulty": 2,
   "enjoyment": 8,
   "records": [
     {
@@ -952,6 +952,12 @@
       "position": 141,
       "change": 1,
       "reason": "CST was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 140,
+      "change": -1,
+      "reason": "CST was removed from the list"
     }
   ]
 }

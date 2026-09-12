@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/4K8eMARiwRU?si=8JnBKUOVUppOhOQL",
   "percentToQualify": 100,
   "song": "sleeping hummingbird london? Albbe remix?",
-  "difficulty": 2,
+  "difficulty": 3,
   "enjoyment": 6,
   "records": [
     {
@@ -127,6 +127,12 @@
       "position": 131,
       "change": 1,
       "reason": "CST was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 130,
+      "change": -1,
+      "reason": "CST was removed from the list"
     }
   ]
 }

@@ -47,6 +47,12 @@
       "position": 33,
       "change": 1,
       "reason": "CST was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 32,
+      "change": -1,
+      "reason": "CST was removed from the list"
     }
   ]
 }

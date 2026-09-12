@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/97xTOe11g2g",
   "percentToQualify": 100,
   "song": "+HEAVEN",
-  "difficulty": 13,
+  "difficulty": 14,
   "enjoyment": 9,
   "records": [
     {
@@ -255,6 +255,12 @@
       "position": 21,
       "change": 1,
       "reason": "CST was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 20,
+      "change": -1,
+      "reason": "CST was removed from the list"
     }
   ]
 }
