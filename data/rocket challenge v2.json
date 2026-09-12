@@ -10,7 +10,15 @@
   "song": "Rip and Tear",
   "difficulty": 6,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "breadbug95",
+      "link": "https://www.youtube.com/watch?v=2tLrfnZaAwY",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 2.1
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-11",
