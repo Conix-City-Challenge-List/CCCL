@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/EX0HfMxde0w",
   "percentToQualify": 100,
   "song": "Helvetican - Bufu",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 6,
   "records": [
     {
@@ -644,6 +644,12 @@
       "position": 90,
       "change": 1,
       "reason": "THE BIG ONE was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 91,
+      "change": 1,
+      "reason": "Robot Challenge was added above"
     }
   ]
 }

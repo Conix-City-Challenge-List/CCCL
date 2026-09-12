@@ -1172,6 +1172,13 @@
       "position": 150,
       "change": 1,
       "reason": "verity was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": null,
+      "change": null,
+      "reason": "Robot Challenge was added above",
+      "legacy": true
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/IlatTGUt7lI",
   "percentToQualify": 100,
   "song": "Rip and Tear",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 7,
   "records": [
     {
@@ -44,6 +44,12 @@
       "position": 100,
       "change": 1,
       "reason": "THE BIG ONE was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 101,
+      "change": 1,
+      "reason": "Robot Challenge was added above"
     }
   ]
 }

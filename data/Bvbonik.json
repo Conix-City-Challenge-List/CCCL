@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/647ZzVFd1nk?is=ACQ_5uB-f_79lwXY",
   "percentToQualify": 100,
   "song": "-Stalker-",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 5,
   "records": [
     {
@@ -154,6 +154,12 @@
       "position": 70,
       "change": 1,
       "reason": "claustophbia was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 71,
+      "change": 1,
+      "reason": "Robot Challenge was added above"
     }
   ]
 }

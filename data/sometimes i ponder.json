@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/FHv0GMYmDTI",
   "percentToQualify": 100,
   "song": "Lunar Abyss",
-  "difficulty": 10,
+  "difficulty": 9,
   "enjoyment": 7.8,
   "records": [
     {
@@ -281,6 +281,12 @@
       "position": 60,
       "change": 1,
       "reason": "claustophbia was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 61,
+      "change": 1,
+      "reason": "Robot Challenge was added above"
     }
   ]
 }
