@@ -10,7 +10,15 @@
   "song": "Momentum",
   "difficulty": 6,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "poxxed",
+      "link": "https://youtu.be/h8DexmgneZ4",
+      "percent": 100,
+      "hz": 60,
+      "enjoyment": 6
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-07",
