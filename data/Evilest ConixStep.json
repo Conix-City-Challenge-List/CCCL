@@ -11,7 +11,15 @@
   "song": "Clubstep",
   "difficulty": 15,
   "enjoyment": 10,
-  "records": [],
+  "records": [
+    {
+      "user": "Crimsonking22",
+      "link": "https://youtu.be/JkuR-iwD9p8?si=fSCD3tPv-sYcafNk",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 8
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-07",
