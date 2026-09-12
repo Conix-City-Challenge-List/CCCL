@@ -507,6 +507,12 @@
       "position": 123,
       "change": 1,
       "reason": "verity was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 124,
+      "change": 1,
+      "reason": "shipscapes was moved up past this challenge"
     }
   ]
 }

@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/rWVOtxzGmIg",
   "percentToQualify": 100,
   "song": "creo - flow",
-  "difficulty": 3,
+  "difficulty": 7,
   "enjoyment": 4,
   "records": [
     {
@@ -198,6 +198,12 @@
       "position": 124,
       "change": 1,
       "reason": "verity was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 85,
+      "change": -39,
+      "reason": "Moved"
     }
   ]
 }
