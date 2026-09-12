@@ -10,7 +10,15 @@
   "song": "purgatori",
   "difficulty": 3,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "kelix",
+      "link": "https://youtu.be/1ch0_5Ci7aE",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-10",
