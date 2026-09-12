@@ -10,7 +10,15 @@
   "song": "I N J U R Y",
   "difficulty": 4,
   "enjoyment": 10,
-  "records": [],
+  "records": [
+    {
+      "user": "bocchi",
+      "link": "https://youtu.be/zNpZ1drbF_Q?si=Ez3woft25RyzJS07",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-12",
