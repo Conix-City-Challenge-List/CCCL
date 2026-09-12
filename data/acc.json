@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/NwFBjcR6Gj4",
   "percentToQualify": 100,
   "song": "-Stalker-",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 8,
   "records": [
     {
@@ -946,6 +946,12 @@
       "position": 140,
       "change": 1,
       "reason": "Conx Loves LifeDrain was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 141,
+      "change": 1,
+      "reason": "CST was added above"
     }
   ]
 }

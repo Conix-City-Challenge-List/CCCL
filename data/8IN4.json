@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/mItp95XAO_s",
   "percentToQualify": 100,
   "song": "Flawless Wings of Yatagarasu",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 7,
   "records": [
     {
@@ -459,6 +459,12 @@
       "position": 70,
       "change": 1,
       "reason": "Conx Loves LifeDrain was added above"
+    },
+    {
+      "date": "2026-09-12",
+      "position": 71,
+      "change": 1,
+      "reason": "CST was added above"
     }
   ]
 }
