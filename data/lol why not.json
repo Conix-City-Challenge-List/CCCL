@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/XDMgUG1E90w",
   "percentToQualify": 100,
   "song": "Dom & Roland - Thunder (Okuu Remix)",
-  "difficulty": 11,
+  "difficulty": 12,
   "enjoyment": 7.7,
   "records": [],
   "positionHistory": [
@@ -119,6 +119,12 @@
       "position": 41,
       "change": 1,
       "reason": "Loneliness was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 40,
+      "change": -1,
+      "reason": "Unamed 47 final part was removed from the list"
     }
   ]
 }

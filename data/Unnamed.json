@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/R7uuldDFgiI?feature=shared",
   "percentToQualify": 100,
   "song": "Death Factory",
-  "difficulty": 4,
+  "difficulty": 5,
   "enjoyment": 8.4,
   "records": [
     {
@@ -546,6 +546,12 @@
       "position": 111,
       "change": 1,
       "reason": "Loneliness was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 110,
+      "change": -1,
+      "reason": "Unamed 47 final part was removed from the list"
     }
   ]
 }

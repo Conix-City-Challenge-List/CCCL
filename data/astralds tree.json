@@ -226,6 +226,12 @@
       "position": 28,
       "change": 1,
       "reason": "Loneliness was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 27,
+      "change": -1,
+      "reason": "Unamed 47 final part was removed from the list"
     }
   ]
 }

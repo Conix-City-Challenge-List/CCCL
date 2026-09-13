@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/W6FLM9LmHMY?is=lw7u4p3x5F2SLd1K",
   "percentToQualify": 100,
   "song": "Pagoda - Xomu & Amidst",
-  "difficulty": 8,
+  "difficulty": 9,
   "enjoyment": 7,
   "records": [
     {
@@ -187,6 +187,12 @@
       "position": 71,
       "change": 1,
       "reason": "Loneliness was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 70,
+      "change": -1,
+      "reason": "Unamed 47 final part was removed from the list"
     }
   ]
 }
