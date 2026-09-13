@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=f3i5MJZw9oc",
   "percentToQualify": 100,
   "song": "Hexagon Force",
-  "difficulty": 10,
+  "difficulty": 9,
   "enjoyment": 2,
   "records": [
     {
@@ -121,6 +121,12 @@
       "position": 60,
       "change": 1,
       "reason": "infernal air was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 61,
+      "change": 1,
+      "reason": "I fixed the cccl was added above"
     }
   ]
 }

@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/-mGIwrAOMdg?is=eNa9lHdxw7pbwdQY",
   "percentToQualify": 100,
   "song": "creo - drift",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 3,
   "records": [
     {
@@ -715,6 +715,12 @@
       "position": 110,
       "change": 1,
       "reason": "infernal air was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 111,
+      "change": 1,
+      "reason": "I fixed the cccl was added above"
     }
   ]
 }

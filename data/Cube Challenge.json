@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/YmtRbLmAeJg?si=j0InU8vPMBggkEWM",
   "percentToQualify": 100,
   "song": "Wander of Thought - F-777",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 5,
   "records": [
     {
@@ -441,6 +441,12 @@
       "position": 50,
       "change": 1,
       "reason": "infernal air was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 51,
+      "change": 1,
+      "reason": "I fixed the cccl was added above"
     }
   ]
 }

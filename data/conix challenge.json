@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=mwNFXqSoTSY",
   "percentToQualify": 100,
   "song": "{The Traveller}",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 2,
   "records": [],
   "positionHistory": [
@@ -95,6 +95,12 @@
       "position": 80,
       "change": 1,
       "reason": "infernal air was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 81,
+      "change": 1,
+      "reason": "I fixed the cccl was added above"
     }
   ]
 }

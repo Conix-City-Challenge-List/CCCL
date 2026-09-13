@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/-sdU-GGCZEY",
   "percentToQualify": 100,
   "song": "Triple Helix",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 9,
   "records": [
     {
@@ -635,6 +635,12 @@
       "position": 130,
       "change": 1,
       "reason": "infernal air was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 131,
+      "change": 1,
+      "reason": "I fixed the cccl was added above"
     }
   ]
 }

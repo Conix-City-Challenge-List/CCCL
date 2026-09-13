@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/QYeDI9eAQE0?is=dB-JK6Vgebuc9mdS",
   "percentToQualify": 100,
   "song": "Memphistos Lullaby",
-  "difficulty": 13,
+  "difficulty": 12,
   "enjoyment": 8,
   "records": [
     {
@@ -261,6 +261,12 @@
       "position": 30,
       "change": 1,
       "reason": "Pulling was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 31,
+      "change": 1,
+      "reason": "I fixed the cccl was added above"
     }
   ]
 }
