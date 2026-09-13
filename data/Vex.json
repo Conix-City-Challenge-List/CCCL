@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/77IkDZI6xEI",
   "percentToQualify": 100,
   "song": "Impulse",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 0,
   "records": [
     {
@@ -331,6 +331,12 @@
       "position": 140,
       "change": 1,
       "reason": "Pulling was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 141,
+      "change": 1,
+      "reason": "infernal air was added above"
     }
   ]
 }
