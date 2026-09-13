@@ -10,7 +10,15 @@
   "song": "Sixalite - Disperfect",
   "difficulty": 14,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "Murshark",
+      "link": "https://medal.tv/games/geometry-dash/clips/nvWA6Zsq4e4Nr_Lbj?invite=cr-MSxBQVgsNzcwNjg5MDcw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 2
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-05",
