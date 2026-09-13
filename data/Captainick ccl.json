@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/1sD1kyhTND0?si=IMtNOvJzzEBMd3SN",
   "percentToQualify": 100,
   "song": "Iron God",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 7,
   "records": [
     {
@@ -292,6 +292,12 @@
       "position": 120,
       "change": -1,
       "reason": "Unamed 47 final part was removed from the list"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 121,
+      "change": 1,
+      "reason": "Bims Wave Trials was added above"
     }
   ]
 }

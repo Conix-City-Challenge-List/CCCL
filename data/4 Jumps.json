@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/vfYjG-zQC5U?si=wL7MVlybjPpGtpPN",
   "percentToQualify": 100,
   "song": "-killstealer-",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 2,
   "records": [
     {
@@ -112,6 +112,12 @@
       "position": 140,
       "change": -1,
       "reason": "Unamed 47 final part was removed from the list"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 141,
+      "change": 1,
+      "reason": "Bims Wave Trials was added above"
     }
   ]
 }

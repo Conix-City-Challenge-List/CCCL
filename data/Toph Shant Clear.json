@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/97xTOe11g2g",
   "percentToQualify": 100,
   "song": "+HEAVEN",
-  "difficulty": 14,
+  "difficulty": 13,
   "enjoyment": 9,
   "records": [
     {
@@ -273,6 +273,12 @@
       "position": 20,
       "change": 1,
       "reason": "Loneliness was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 21,
+      "change": 1,
+      "reason": "Bims Wave Trials was added above"
     }
   ]
 }

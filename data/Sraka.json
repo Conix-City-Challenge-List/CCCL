@@ -610,6 +610,13 @@
       "position": 150,
       "change": null,
       "reason": "Unamed 47 final part was removed from the list"
+    },
+    {
+      "date": "2026-09-13",
+      "position": null,
+      "change": null,
+      "reason": "Bims Wave Trials was added above",
+      "legacy": true
     }
   ]
 }
