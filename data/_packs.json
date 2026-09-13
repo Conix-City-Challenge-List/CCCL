@@ -123,5 +123,14 @@
       "Abyss Of Conix",
       "Artenix 13"
     ]
+  },
+  {
+    "name": "Tight Spaces",
+    "difficulty": 14,
+    "levels": [
+      "corycian cavern",
+      "claustophbia",
+      "Narrow Dark"
+    ]
   }
 ]
