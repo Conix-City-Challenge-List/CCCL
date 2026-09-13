@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/u3HQe2QGeew?si=CWEf3ITqAxoEzany",
   "percentToQualify": 100,
   "song": "It Passed You By",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 9.7,
   "records": [
     {
@@ -244,6 +244,12 @@
       "position": 80,
       "change": -1,
       "reason": "Evil Conix was removed from the list"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 81,
+      "change": 1,
+      "reason": "Loneliness was added above"
     }
   ]
 }

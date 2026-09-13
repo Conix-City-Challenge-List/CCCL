@@ -128,6 +128,12 @@
       "position": 137,
       "change": -1,
       "reason": "Evil Conix was removed from the list"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 138,
+      "change": 1,
+      "reason": "Loneliness was added above"
     }
   ]
 }

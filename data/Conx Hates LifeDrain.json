@@ -47,6 +47,12 @@
       "position": 15,
       "change": -1,
       "reason": "CST was removed from the list"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 16,
+      "change": 1,
+      "reason": "Loneliness was added above"
     }
   ]
 }

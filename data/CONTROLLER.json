@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/3UXWxOpwaxc",
   "percentToQualify": 100,
   "song": "~NK~ Figures",
-  "difficulty": 14,
+  "difficulty": 13,
   "enjoyment": 1,
   "records": [
     {
@@ -313,6 +313,12 @@
       "position": 20,
       "change": -1,
       "reason": "Evil Conix was removed from the list"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 21,
+      "change": 1,
+      "reason": "Loneliness was added above"
     }
   ]
 }
