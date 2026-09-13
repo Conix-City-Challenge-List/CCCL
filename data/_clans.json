@@ -273,5 +273,15 @@
     ],
     "viceLeaders": [],
     "createdAt": "2026-09-12T15:41:01.549Z"
+  },
+  {
+    "tag": "VST",
+    "name": "Vast",
+    "ownerUsername": "gguy",
+    "members": [
+      "gguy"
+    ],
+    "viceLeaders": [],
+    "createdAt": "2026-09-13T09:14:09.794Z"
   }
 ]
