@@ -124,5 +124,14 @@
       "claustophbia",
       "Narrow Dark"
     ]
+  },
+  {
+    "name": "Scapes Pack",
+    "difficulty": 12,
+    "levels": [
+      "Hardscapes",
+      "Buffscapes",
+      "shipscapes"
+    ]
   }
 ]
