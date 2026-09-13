@@ -10,7 +10,15 @@
   "song": "wander of thought",
   "difficulty": 13,
   "enjoyment": 6,
-  "records": [],
+  "records": [
+    {
+      "user": "ImSaturnN",
+      "link": "https://youtu.be/lgyLg204uY8",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 3
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-12",
