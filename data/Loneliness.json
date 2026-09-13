@@ -10,7 +10,15 @@
   "song": "Her Name Is Yubin Lady",
   "difficulty": 14,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "Murshark",
+      "link": "https://medal.tv/games/geometry-dash/clips/nwhonw0055jX5v3Jr?invite=cr-MSwzUkMsNzcwNjg5MDcw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-13",
