@@ -10,7 +10,15 @@
   "song": "Stalemate",
   "difficulty": 8,
   "enjoyment": 6.8,
-  "records": [],
+  "records": [
+    {
+      "user": "Murshark",
+      "link": "https://medal.tv/games/geometry-dash/clips/nwjtC6XZkxgKxmCIa?invite=cr-MSxXQUMsNzcwNjg5MDcw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 10
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-11",
