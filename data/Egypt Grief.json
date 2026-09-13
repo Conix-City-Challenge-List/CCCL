@@ -787,6 +787,13 @@
       "percent": 100,
       "hz": 200,
       "enjoyment": 6.5
+    },
+    {
+      "user": "FinnTheGreat9",
+      "link": "https://www.youtube.com/watch?v=cM2P_qVSHhk",
+      "percent": 100,
+      "hz": 960,
+      "enjoyment": 10
     }
   ],
   "positionHistory": [
