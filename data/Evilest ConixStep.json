@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/ea3JW1z4Cmc?si=x8_7IfJ1FckGsb7F",
   "percentToQualify": 100,
   "song": "Clubstep",
-  "difficulty": 15,
+  "difficulty": 14,
   "enjoyment": 10,
   "records": [
     {
@@ -44,6 +44,12 @@
       "position": 10,
       "change": 1,
       "reason": "Bims Wave Trials was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 11,
+      "change": 1,
+      "reason": "Pulling was added above"
     }
   ]
 }

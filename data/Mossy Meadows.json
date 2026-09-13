@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/4PY7i7IzIGo?si=mrSg9v29y8ZJ6PB1",
   "percentToQualify": 100,
   "song": "Sixalite - Disperfect",
-  "difficulty": 14,
+  "difficulty": 13,
   "enjoyment": 7,
   "records": [
     {
@@ -109,6 +109,12 @@
       "position": 20,
       "change": 1,
       "reason": "Bims Wave Trials was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 21,
+      "change": 1,
+      "reason": "Pulling was added above"
     }
   ]
 }

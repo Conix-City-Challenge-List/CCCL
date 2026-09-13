@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/fDox20f50IQ",
   "percentToQualify": 100,
   "song": "-Stalker-",
-  "difficulty": 12,
+  "difficulty": 11,
   "enjoyment": 0,
   "records": [
     {
@@ -224,6 +224,12 @@
       "position": 40,
       "change": 1,
       "reason": "Bims Wave Trials was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 41,
+      "change": 1,
+      "reason": "Pulling was added above"
     }
   ]
 }
