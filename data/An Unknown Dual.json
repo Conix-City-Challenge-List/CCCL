@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/ia2Zh8t54Ns",
   "percentToQualify": 100,
   "song": "Thunder",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 9,
   "records": [
     {
@@ -447,6 +447,12 @@
       "position": 80,
       "change": 1,
       "reason": "I fixed the cccl was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 81,
+      "change": 1,
+      "reason": "Monochromatic hell was added above"
     }
   ]
 }

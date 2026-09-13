@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/QyIMzYkvAC0",
   "percentToQualify": 100,
   "song": "Drake - Bria's Interlude",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 10,
   "records": [
     {
@@ -585,6 +585,12 @@
       "position": 130,
       "change": 1,
       "reason": "I fixed the cccl was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 131,
+      "change": 1,
+      "reason": "Monochromatic hell was added above"
     }
   ]
 }

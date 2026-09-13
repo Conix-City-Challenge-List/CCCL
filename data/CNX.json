@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/U4ZUiGg6Jjo",
   "percentToQualify": 100,
   "song": "-stalker-",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 10,
   "records": [
     {
@@ -511,6 +511,12 @@
       "position": 90,
       "change": 1,
       "reason": "I fixed the cccl was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 91,
+      "change": 1,
+      "reason": "Monochromatic hell was added above"
     }
   ]
 }

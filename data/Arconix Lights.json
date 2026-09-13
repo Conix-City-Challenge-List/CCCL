@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=rMot5zdAGsY",
   "percentToQualify": 100,
   "song": "Untitled Beat",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 10,
   "records": [
     {
@@ -165,6 +165,12 @@
       "position": 110,
       "change": 1,
       "reason": "I fixed the cccl was added above"
+    },
+    {
+      "date": "2026-09-13",
+      "position": 111,
+      "change": 1,
+      "reason": "Monochromatic hell was added above"
     }
   ]
 }
