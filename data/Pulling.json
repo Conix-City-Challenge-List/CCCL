@@ -10,7 +10,15 @@
   "song": "Gravity-vierre cloud",
   "difficulty": 15,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "thewhyguy",
+      "link": "https://youtu.be/qiJGEVc54ZQ",
+      "percent": 100,
+      "hz": 360,
+      "enjoyment": 8
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-13",
