@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=f3i5MJZw9oc",
   "percentToQualify": 100,
   "song": "Hexagon Force",
-  "difficulty": 9,
+  "difficulty": 10,
   "enjoyment": 2,
   "records": [
     {
@@ -139,6 +139,12 @@
       "position": 61,
       "change": -1,
       "reason": "Injured Angel was removed from the list"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 60,
+      "change": -1,
+      "reason": "Conix Fantasy was removed from the list"
     }
   ]
 }

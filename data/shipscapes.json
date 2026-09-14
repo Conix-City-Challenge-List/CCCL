@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/rWVOtxzGmIg",
   "percentToQualify": 100,
   "song": "creo - flow",
-  "difficulty": 6,
+  "difficulty": 7,
   "enjoyment": 4,
   "records": [
     {
@@ -309,6 +309,12 @@
       "position": 91,
       "change": -1,
       "reason": "Injured Angel was removed from the list"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 90,
+      "change": -1,
+      "reason": "Conix Fantasy was removed from the list"
     }
   ]
 }
