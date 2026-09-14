@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/-kJSJOaNhcs",
   "percentToQualify": 100,
   "song": "945695",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 10,
   "records": [
     {
@@ -582,6 +582,12 @@
       "position": 130,
       "change": 1,
       "reason": "Viverre Cloud was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 131,
+      "change": 1,
+      "reason": "lavender was added above"
     }
   ]
 }
