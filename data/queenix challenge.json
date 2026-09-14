@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/wZJ8ljOtbUw?is=GeVVF1F8q_gF_wXr",
   "percentToQualify": 100,
   "song": "Klaskii Romper - Kawaii Sprite",
-  "difficulty": 13,
+  "difficulty": 14,
   "enjoyment": 2,
   "records": [
     {
@@ -247,6 +247,12 @@
       "position": 21,
       "change": 1,
       "reason": "Buffscapes was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 20,
+      "change": -1,
+      "reason": "Moved"
     }
   ]
 }
