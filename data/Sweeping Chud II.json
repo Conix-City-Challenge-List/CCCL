@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/PDtyexxjNx4?si=b-q4-lIunw4dLgc_",
   "percentToQualify": 100,
   "song": "Xtrullor - Wonderpunch",
-  "difficulty": 13,
+  "difficulty": 12,
   "enjoyment": 7,
   "records": [
     {
@@ -262,6 +262,12 @@
       "position": 30,
       "change": 1,
       "reason": "Moved"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 31,
+      "change": 1,
+      "reason": "astralds tree was moved up past this challenge"
     }
   ]
 }
