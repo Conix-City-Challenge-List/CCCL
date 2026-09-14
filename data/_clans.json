@@ -280,5 +280,15 @@
     ],
     "viceLeaders": [],
     "createdAt": "2026-09-14T01:22:27.368Z"
+  },
+  {
+    "tag": "supe",
+    "name": "The super zincs",
+    "ownerUsername": "Manolas",
+    "members": [
+      "Manolas"
+    ],
+    "viceLeaders": [],
+    "createdAt": "2026-09-14T01:36:03.883Z"
   }
 ]
