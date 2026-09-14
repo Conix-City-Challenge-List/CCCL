@@ -10,7 +10,15 @@
   "song": "Nuke Powder",
   "difficulty": 14,
   "enjoyment": 7,
-  "records": [],
+  "records": [
+    {
+      "user": "Murshark",
+      "link": "https://medal.tv/games/geometry-dash/clips/nwr3UBviRuojb3n4u?invite=cr-MSxuOVAsNzcwNjg5MDcw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-07",
