@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/_oMgmHbPCO8?si=ik7Rll58770ikwqX",
   "percentToQualify": 100,
   "song": "cYsmix - Eden",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 5,
   "records": [
     {
@@ -522,6 +522,12 @@
       "position": 110,
       "change": 1,
       "reason": "Melancholy was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 111,
+      "change": 1,
+      "reason": "Viverre Cloud was added above"
     }
   ]
 }

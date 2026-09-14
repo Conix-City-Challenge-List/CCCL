@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/X7OXwkFnkYw?is=8GcPM7UdBp9qhvEa",
   "percentToQualify": 100,
   "song": "Klaskii Romper - Kawaii Sprite",
-  "difficulty": 13,
+  "difficulty": 12,
   "enjoyment": 3,
   "records": [
     {
@@ -346,6 +346,12 @@
       "position": 30,
       "change": 1,
       "reason": "Melancholy was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 31,
+      "change": 1,
+      "reason": "Viverre Cloud was added above"
     }
   ]
 }
