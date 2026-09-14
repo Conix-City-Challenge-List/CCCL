@@ -256,6 +256,12 @@
       "position": 29,
       "change": 1,
       "reason": "Monochromatic hell was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 30,
+      "change": 1,
+      "reason": "Moved"
     }
   ]
 }
