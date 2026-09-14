@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/j9WTo1ivDIs?si=UlYXJ3zkdUEPSg51",
   "percentToQualify": 100,
   "song": "Creo - Slow Down",
-  "difficulty": 13,
+  "difficulty": 14,
   "enjoyment": 9,
   "records": [
     {
@@ -297,6 +297,12 @@
       "position": 21,
       "change": 1,
       "reason": "Monochromatic hell was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 18,
+      "change": -3,
+      "reason": "Moved"
     }
   ]
 }

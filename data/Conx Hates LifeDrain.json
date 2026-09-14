@@ -85,6 +85,12 @@
       "position": 18,
       "change": -1,
       "reason": "queenix challenge was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 19,
+      "change": 1,
+      "reason": "Buffscapes was moved up past this challenge"
     }
   ]
 }
