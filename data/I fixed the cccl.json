@@ -24,6 +24,12 @@
       "position": 26,
       "change": 1,
       "reason": "Monochromatic hell was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 25,
+      "change": -1,
+      "reason": "CONTROLLER was moved down past this challenge"
     }
   ]
 }
