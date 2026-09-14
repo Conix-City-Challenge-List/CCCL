@@ -251,7 +251,9 @@
       "The Sigma Beyond",
       "150IQPlayer"
     ],
-    "viceLeaders": [],
+    "viceLeaders": [
+      "LifeDrain"
+    ],
     "createdAt": "2026-09-14T01:22:27.368Z"
   },
   {
