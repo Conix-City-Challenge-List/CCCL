@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/1yLTr9SDtRA?is=UvaNKiwhvSO7IMf2",
   "percentToQualify": 100,
   "song": "just a burning memory (cover)",
-  "difficulty": 15,
+  "difficulty": 14,
   "enjoyment": 7,
   "records": [
     {
@@ -49,6 +49,12 @@
       "position": 7,
       "change": 1,
       "reason": "Monochromatic hell was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 15,
+      "change": 8,
+      "reason": "Moved"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/lNqBxMbanNY?feature=shared",
   "percentToQualify": 100,
   "song": "Creo - Flow",
-  "difficulty": 14,
+  "difficulty": 15,
   "enjoyment": 8,
   "records": [
     {
@@ -87,6 +87,12 @@
       "position": 11,
       "change": 1,
       "reason": "Monochromatic hell was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 10,
+      "change": -1,
+      "reason": "claustophbia was moved down past this challenge"
     }
   ]
 }
