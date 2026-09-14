@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/wZJ8ljOtbUw?is=GeVVF1F8q_gF_wXr",
   "percentToQualify": 100,
   "song": "Klaskii Romper - Kawaii Sprite",
-  "difficulty": 14,
+  "difficulty": 13,
   "enjoyment": 2,
   "records": [
     {
@@ -253,6 +253,12 @@
       "position": 20,
       "change": -1,
       "reason": "Moved"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 21,
+      "change": 1,
+      "reason": "Unnamed 38 was added above"
     }
   ]
 }

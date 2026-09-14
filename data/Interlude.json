@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/QyIMzYkvAC0",
   "percentToQualify": 100,
   "song": "Drake - Bria's Interlude",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 10,
   "records": [
     {
@@ -616,6 +616,12 @@
       "position": 130,
       "change": -1,
       "reason": "Conix Fantasy was removed from the list"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 131,
+      "change": 1,
+      "reason": "Unnamed 38 was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/cDCvDQFjX54?is=Sxk1Tp269451lOQY",
   "percentToQualify": 100,
   "song": "-radiocutter- waterflame",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 6,
   "records": [
     {
@@ -529,6 +529,12 @@
       "position": 70,
       "change": -1,
       "reason": "Conix Fantasy was removed from the list"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 71,
+      "change": 1,
+      "reason": "Unnamed 38 was added above"
     }
   ]
 }

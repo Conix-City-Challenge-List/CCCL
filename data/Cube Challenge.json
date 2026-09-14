@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/YmtRbLmAeJg?si=j0InU8vPMBggkEWM",
   "percentToQualify": 100,
   "song": "Wander of Thought - F-777",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 5,
   "records": [
     {
@@ -465,6 +465,12 @@
       "position": 50,
       "change": -1,
       "reason": "Conix Fantasy was removed from the list"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 51,
+      "change": 1,
+      "reason": "Unnamed 38 was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=mwNFXqSoTSY",
   "percentToQualify": 100,
   "song": "{The Traveller}",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 2,
   "records": [],
   "positionHistory": [
@@ -119,6 +119,12 @@
       "position": 80,
       "change": -1,
       "reason": "Conix Fantasy was removed from the list"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 81,
+      "change": 1,
+      "reason": "Unnamed 38 was added above"
     }
   ]
 }

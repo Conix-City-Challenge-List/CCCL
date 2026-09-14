@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/yT-0xvxMMP0?is=M-RnbXtOy31yM42p",
   "percentToQualify": 100,
   "song": "Flawless Wings of Yatagarasu",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 7,
   "records": [
     {
@@ -172,6 +172,12 @@
       "position": 100,
       "change": -1,
       "reason": "Conix Fantasy was removed from the list"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 101,
+      "change": 1,
+      "reason": "Unnamed 38 was added above"
     }
   ]
 }

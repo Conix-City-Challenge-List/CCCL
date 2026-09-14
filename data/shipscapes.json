@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/rWVOtxzGmIg",
   "percentToQualify": 100,
   "song": "creo - flow",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 4,
   "records": [
     {
@@ -315,6 +315,12 @@
       "position": 90,
       "change": -1,
       "reason": "Conix Fantasy was removed from the list"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 91,
+      "change": 1,
+      "reason": "Unnamed 38 was added above"
     }
   ]
 }

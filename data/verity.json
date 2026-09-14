@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=ynh4LMTq1Do",
   "percentToQualify": 100,
   "song": "I N J U R Y",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 10,
   "records": [
     {
@@ -134,6 +134,12 @@
       "position": 120,
       "change": -1,
       "reason": "Conix Fantasy was removed from the list"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 121,
+      "change": 1,
+      "reason": "Unnamed 38 was added above"
     }
   ]
 }
