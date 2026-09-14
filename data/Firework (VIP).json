@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/yrDdGpNMBFE",
   "percentToQualify": 100,
   "song": "NK - Cla",
-  "difficulty": 1,
+  "difficulty": 4,
   "enjoyment": 9,
   "records": [
     {
@@ -184,6 +184,12 @@
       "position": 142,
       "change": 1,
       "reason": "Monochromatic hell was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 111,
+      "change": -31,
+      "reason": "Moved"
     }
   ]
 }
