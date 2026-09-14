@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/9NJ2eznhnpo?is=XzmMIgalraMQc1Ve",
   "percentToQualify": 100,
   "song": "Springroll - Robkta",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 0,
   "records": [
     {
@@ -325,6 +325,12 @@
       "position": 50,
       "change": 1,
       "reason": "Unnamed 38 was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 51,
+      "change": 1,
+      "reason": "Melancholy was added above"
     }
   ]
 }

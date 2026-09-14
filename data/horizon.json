@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/MJFACoFrWl0",
   "percentToQualify": 100,
   "song": "Vierre Cloud - Gravity",
-  "difficulty": 13,
+  "difficulty": 12,
   "enjoyment": 8,
   "records": [
     {
@@ -436,6 +436,12 @@
       "position": 30,
       "change": 1,
       "reason": "Unnamed 38 was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 31,
+      "change": 1,
+      "reason": "Melancholy was added above"
     }
   ]
 }
