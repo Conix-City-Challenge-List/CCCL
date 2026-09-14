@@ -277,5 +277,15 @@
     ],
     "viceLeaders": [],
     "createdAt": "2026-09-13T09:14:09.794Z"
+  },
+  {
+    "tag": "SHRK",
+    "name": "Shark",
+    "ownerUsername": "Murshark",
+    "members": [
+      "Murshark"
+    ],
+    "viceLeaders": [],
+    "createdAt": "2026-09-14T01:22:27.368Z"
   }
 ]
