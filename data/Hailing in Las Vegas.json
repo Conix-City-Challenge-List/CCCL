@@ -351,6 +351,12 @@
       "position": 40,
       "change": 1,
       "reason": "Monochromatic hell was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 39,
+      "change": -1,
+      "reason": "Injured Angel was removed from the list"
     }
   ]
 }

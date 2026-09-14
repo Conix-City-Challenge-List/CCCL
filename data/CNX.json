@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/U4ZUiGg6Jjo",
   "percentToQualify": 100,
   "song": "-stalker-",
-  "difficulty": 6,
+  "difficulty": 7,
   "enjoyment": 10,
   "records": [
     {
@@ -517,6 +517,12 @@
       "position": 91,
       "change": 1,
       "reason": "Monochromatic hell was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 90,
+      "change": -1,
+      "reason": "Injured Angel was removed from the list"
     }
   ]
 }

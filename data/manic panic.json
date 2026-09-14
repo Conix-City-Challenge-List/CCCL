@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/9NJ2eznhnpo?is=XzmMIgalraMQc1Ve",
   "percentToQualify": 100,
   "song": "Springroll - Robkta",
-  "difficulty": 10,
+  "difficulty": 11,
   "enjoyment": 0,
   "records": [
     {
@@ -307,6 +307,12 @@
       "position": 51,
       "change": 1,
       "reason": "Monochromatic hell was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 50,
+      "change": -1,
+      "reason": "Injured Angel was removed from the list"
     }
   ]
 }

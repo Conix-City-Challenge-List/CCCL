@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/1B1lFajafog",
   "percentToQualify": 100,
   "song": "ColBreakz - Gold Ring",
-  "difficulty": 2,
+  "difficulty": 3,
   "enjoyment": 8,
   "records": [
     {
@@ -941,6 +941,12 @@
       "position": 131,
       "change": 1,
       "reason": "Firework (VIP) was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 130,
+      "change": -1,
+      "reason": "Injured Angel was removed from the list"
     }
   ]
 }

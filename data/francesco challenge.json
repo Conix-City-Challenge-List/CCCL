@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/nZxLGZeNj2E?si=Cs-O0em8kHxx19V4",
   "percentToQualify": 100,
   "song": "770520",
-  "difficulty": 8,
+  "difficulty": 9,
   "enjoyment": 6,
   "records": [
     {
@@ -440,6 +440,12 @@
       "position": 71,
       "change": 1,
       "reason": "Monochromatic hell was added above"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 70,
+      "change": -1,
+      "reason": "Injured Angel was removed from the list"
     }
   ]
 }

@@ -794,6 +794,12 @@
       "position": 138,
       "change": 1,
       "reason": "Firework (VIP) was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-14",
+      "position": 137,
+      "change": -1,
+      "reason": "Injured Angel was removed from the list"
     }
   ]
 }
