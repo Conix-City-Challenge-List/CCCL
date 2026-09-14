@@ -10,7 +10,15 @@
   "song": "Cast darkness (FX Loop)",
   "difficulty": 8,
   "enjoyment": 9,
-  "records": [],
+  "records": [
+    {
+      "user": "Murshark",
+      "link": "https://medal.tv/games/geometry-dash/clips/nwquUPJhzovX-Ra4Y?invite=cr-MSx2R3gsNzcwNjg5MDcw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 9
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-05",
