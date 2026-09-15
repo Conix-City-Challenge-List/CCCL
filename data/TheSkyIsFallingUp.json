@@ -10,7 +10,15 @@
   "song": "Time Leaper by hinkik",
   "difficulty": 5,
   "enjoyment": 10,
-  "records": [],
+  "records": [
+    {
+      "user": "Murshark",
+      "link": "https://medal.tv/games/geometry-dash/clips/nwQXuDzo2tSnYB2-l?invite=cr-MSxkWmMsNzcwNjg5MDcw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 8
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-03",
