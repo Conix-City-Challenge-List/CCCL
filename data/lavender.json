@@ -10,7 +10,15 @@
   "song": "Rukkus - 211",
   "difficulty": 6,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "rivver.",
+      "link": "https://youtu.be/nd-D3WjHQUc?si=bwhTV5cQPbW_JD1C",
+      "percent": 100,
+      "hz": 720,
+      "enjoyment": 9.9
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-14",
