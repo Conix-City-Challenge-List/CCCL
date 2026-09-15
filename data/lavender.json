@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/jxzyY2R7wWs?is=DGe87gLlM3qx-gUF",
   "percentToQualify": 100,
   "song": "Rukkus - 211",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 8,
   "records": [
     {
@@ -25,6 +25,12 @@
       "position": 100,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-15",
+      "position": 101,
+      "change": 1,
+      "reason": "NULL POINT was added above"
     }
   ]
 }

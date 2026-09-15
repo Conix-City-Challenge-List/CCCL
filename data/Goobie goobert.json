@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=FCbwhGpELf0",
   "percentToQualify": 100,
   "song": "Eden - Cysmix",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 7,
   "records": [
     {
@@ -326,6 +326,12 @@
       "position": 50,
       "change": 1,
       "reason": "Viverre Cloud was added above"
+    },
+    {
+      "date": "2026-09-15",
+      "position": 51,
+      "change": 1,
+      "reason": "NULL POINT was added above"
     }
   ]
 }

@@ -1553,6 +1553,13 @@
       "position": 150,
       "change": 1,
       "reason": "lavender was added above"
+    },
+    {
+      "date": "2026-09-15",
+      "position": null,
+      "change": null,
+      "reason": "NULL POINT was added above",
+      "legacy": true
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=R08zL1PWohs&list=LL&index=2",
   "percentToQualify": 100,
   "song": "Stalker",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 7,
   "records": [
     {
@@ -260,6 +260,12 @@
       "position": 70,
       "change": 1,
       "reason": "Viverre Cloud was added above"
+    },
+    {
+      "date": "2026-09-15",
+      "position": 71,
+      "change": 1,
+      "reason": "NULL POINT was added above"
     }
   ]
 }
