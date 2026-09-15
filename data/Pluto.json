@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/9MN8piZXWa8",
   "percentToQualify": 100,
   "song": "Creo - Flow",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 4,
   "records": [
     {
@@ -620,6 +620,12 @@
       "position": 70,
       "change": 1,
       "reason": "NULL POINT was added above"
+    },
+    {
+      "date": "2026-09-15",
+      "position": 71,
+      "change": 1,
+      "reason": "injured devil was added above"
     }
   ]
 }

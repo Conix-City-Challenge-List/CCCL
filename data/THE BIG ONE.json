@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=TXt8XsbDKiU",
   "percentToQualify": 100,
   "song": "fog by spurme",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 6,
   "records": [
     {
@@ -585,6 +585,12 @@
       "position": 90,
       "change": 1,
       "reason": "NULL POINT was added above"
+    },
+    {
+      "date": "2026-09-15",
+      "position": 91,
+      "change": 1,
+      "reason": "injured devil was added above"
     }
   ]
 }

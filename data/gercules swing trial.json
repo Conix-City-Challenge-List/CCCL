@@ -553,6 +553,12 @@
       "position": 74,
       "change": 1,
       "reason": "NULL POINT was added above"
+    },
+    {
+      "date": "2026-09-15",
+      "position": 75,
+      "change": 1,
+      "reason": "injured devil was added above"
     }
   ]
 }

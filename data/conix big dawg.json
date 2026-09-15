@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=Z2rst-wKJDc",
   "percentToQualify": 100,
   "song": "Death Factory",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 2,
   "records": [
     {
@@ -854,6 +854,12 @@
       "position": 130,
       "change": 1,
       "reason": "NULL POINT was added above"
+    },
+    {
+      "date": "2026-09-15",
+      "position": 131,
+      "change": 1,
+      "reason": "injured devil was added above"
     }
   ]
 }

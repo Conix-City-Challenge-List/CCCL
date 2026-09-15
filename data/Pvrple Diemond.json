@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/37aWmfOdygU",
   "percentToQualify": 100,
   "song": "566770",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 6,
   "records": [
     {
@@ -370,6 +370,12 @@
       "position": 50,
       "change": 1,
       "reason": "NULL POINT was added above"
+    },
+    {
+      "date": "2026-09-15",
+      "position": 51,
+      "change": 1,
+      "reason": "injured devil was added above"
     }
   ]
 }

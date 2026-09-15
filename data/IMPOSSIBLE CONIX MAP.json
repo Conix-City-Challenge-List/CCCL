@@ -820,6 +820,13 @@
       "position": 150,
       "change": 1,
       "reason": "NULL POINT was added above"
+    },
+    {
+      "date": "2026-09-15",
+      "position": null,
+      "change": null,
+      "reason": "injured devil was added above",
+      "legacy": true
     }
   ]
 }
