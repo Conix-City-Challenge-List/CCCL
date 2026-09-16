@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/IlatTGUt7lI",
   "percentToQualify": 100,
   "song": "Rip and Tear",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 7,
   "records": [
     {
@@ -185,6 +185,12 @@
       "position": 110,
       "change": 1,
       "reason": "injured devil was added above"
+    },
+    {
+      "date": "2026-09-16",
+      "position": 111,
+      "change": 1,
+      "reason": "conixen circles was added above"
     }
   ]
 }

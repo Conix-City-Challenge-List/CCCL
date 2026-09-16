@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/R7uuldDFgiI?feature=shared",
   "percentToQualify": 100,
   "song": "Death Factory",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 8.4,
   "records": [
     {
@@ -636,6 +636,12 @@
       "position": 120,
       "change": 1,
       "reason": "injured devil was added above"
+    },
+    {
+      "date": "2026-09-16",
+      "position": 121,
+      "change": 1,
+      "reason": "conixen circles was added above"
     }
   ]
 }

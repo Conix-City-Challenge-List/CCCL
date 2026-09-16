@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=FPIQ_1_v4eo",
   "percentToQualify": 100,
   "song": "Break The Targets 2",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 8,
   "records": [
     {
@@ -207,6 +207,12 @@
       "position": 140,
       "change": 1,
       "reason": "injured devil was added above"
+    },
+    {
+      "date": "2026-09-16",
+      "position": 141,
+      "change": 1,
+      "reason": "conixen circles was added above"
     }
   ]
 }

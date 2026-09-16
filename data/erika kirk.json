@@ -630,6 +630,12 @@
       "position": 77,
       "change": 1,
       "reason": "Defeated Conix was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-16",
+      "position": 78,
+      "change": 1,
+      "reason": "conixen circles was added above"
     }
   ]
 }

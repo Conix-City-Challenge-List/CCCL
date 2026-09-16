@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/647ZzVFd1nk?is=ACQ_5uB-f_79lwXY",
   "percentToQualify": 100,
   "song": "-Stalker-",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 5,
   "records": [
     {
@@ -288,6 +288,12 @@
       "position": 80,
       "change": 1,
       "reason": "Defeated Conix was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-16",
+      "position": 81,
+      "change": 1,
+      "reason": "conixen circles was added above"
     }
   ]
 }

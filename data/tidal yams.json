@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/3iILZFATVzc",
   "percentToQualify": 100,
   "song": "shiawase vip - dion timmer",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 10,
   "records": [
     {
@@ -665,6 +665,12 @@
       "position": 90,
       "change": 1,
       "reason": "injured devil was added above"
+    },
+    {
+      "date": "2026-09-16",
+      "position": 91,
+      "change": 1,
+      "reason": "conixen circles was added above"
     }
   ]
 }
