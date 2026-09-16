@@ -10,7 +10,15 @@
   "song": "13 (Rukkus Remix)",
   "difficulty": 13,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "ZekeyZong",
+      "link": "https://www.youtube.com/watch?v=By6G_Z6uPPg",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-14",
