@@ -38,6 +38,13 @@
       "percent": 100,
       "hz": 360,
       "enjoyment": 1
+    },
+    {
+      "user": "Error",
+      "link": "https://youtu.be/u_9EZjoglCc",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
     }
   ],
   "positionHistory": [
