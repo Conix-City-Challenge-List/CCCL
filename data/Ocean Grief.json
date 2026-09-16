@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/eaVZse3_45g?si=skzrxrDtydIGNOce",
   "percentToQualify": 100,
   "song": "Stalemate",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 6.8,
   "records": [
     {
@@ -139,6 +139,12 @@
       "position": 80,
       "change": 1,
       "reason": "injured devil was added above"
+    },
+    {
+      "date": "2026-09-16",
+      "position": 81,
+      "change": 1,
+      "reason": "Defeated Conix was moved up past this challenge"
     }
   ]
 }

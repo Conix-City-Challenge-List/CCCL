@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/u3HQe2QGeew?si=CWEf3ITqAxoEzany",
   "percentToQualify": 100,
   "song": "It Passed You By",
-  "difficulty": 7,
+  "difficulty": 8,
   "enjoyment": 9.7,
   "records": [
     {
@@ -342,6 +342,12 @@
       "position": 88,
       "change": 1,
       "reason": "injured devil was added above"
+    },
+    {
+      "date": "2026-09-16",
+      "position": 74,
+      "change": -14,
+      "reason": "Moved"
     }
   ]
 }
