@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=YhFJuM1tovQ",
   "percentToQualify": 100,
   "song": "Dry Out",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 1,
   "records": [
     {
@@ -503,6 +503,12 @@
       "position": 120,
       "change": 1,
       "reason": "conixen circles was added above"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 121,
+      "change": 1,
+      "reason": "bocchimoc was moved up past this challenge"
     }
   ]
 }

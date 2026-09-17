@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/W6FLM9LmHMY?is=lw7u4p3x5F2SLd1K",
   "percentToQualify": 100,
   "song": "Pagoda - Xomu & Amidst",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 7,
   "records": [
     {
@@ -277,6 +277,12 @@
       "position": 80,
       "change": 1,
       "reason": "conixen circles was added above"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 81,
+      "change": 1,
+      "reason": "bocchimoc was moved up past this challenge"
     }
   ]
 }

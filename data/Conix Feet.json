@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=CcBH6gdfhd4",
   "percentToQualify": 100,
   "song": "cysmix - Eden",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 8,
   "records": [],
   "positionHistory": [
@@ -143,6 +143,12 @@
       "position": 90,
       "change": 1,
       "reason": "conixen circles was added above"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 91,
+      "change": 1,
+      "reason": "bocchimoc was moved up past this challenge"
     }
   ]
 }
