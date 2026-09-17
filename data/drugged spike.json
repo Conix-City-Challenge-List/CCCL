@@ -448,6 +448,12 @@
       "position": 68,
       "change": 1,
       "reason": "Tomato Farm was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 69,
+      "change": 1,
+      "reason": "Abyssal was moved up past this challenge"
     }
   ]
 }

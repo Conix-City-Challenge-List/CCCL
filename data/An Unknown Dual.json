@@ -526,6 +526,12 @@
       "position": 86,
       "change": -1,
       "reason": "Bvbonik was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 87,
+      "change": 1,
+      "reason": "Abyssal was moved up past this challenge"
     }
   ]
 }

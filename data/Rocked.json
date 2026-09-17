@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/OFfRVyp6czs",
   "percentToQualify": 100,
   "song": "Creo - Rock Thing",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 7,
   "records": [
     {
@@ -781,6 +781,12 @@
       "position": 100,
       "change": 1,
       "reason": "Hazy wave was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 101,
+      "change": 1,
+      "reason": "Abyssal was moved up past this challenge"
     }
   ]
 }
