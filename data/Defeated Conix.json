@@ -348,6 +348,12 @@
       "position": 74,
       "change": -14,
       "reason": "Moved"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 75,
+      "change": 1,
+      "reason": "bocchimoc was moved up past this challenge"
     }
   ]
 }
