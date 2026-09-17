@@ -73,6 +73,13 @@
       "percent": 100,
       "hz": 60,
       "enjoyment": 0
+    },
+    {
+      "user": "GOOB",
+      "link": "https://www.youtube.com/watch?v=sUrZEf4BX9E",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 7
     }
   ],
   "positionHistory": [
