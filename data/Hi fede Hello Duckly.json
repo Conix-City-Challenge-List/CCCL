@@ -788,6 +788,12 @@
       "position": 102,
       "change": 1,
       "reason": "Abyssal was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 103,
+      "change": 1,
+      "reason": "agaship was added above"
     }
   ]
 }

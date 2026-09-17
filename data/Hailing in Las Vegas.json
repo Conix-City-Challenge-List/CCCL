@@ -393,6 +393,12 @@
       "position": 41,
       "change": -1,
       "reason": "Sweeping Chud II was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 42,
+      "change": 1,
+      "reason": "agaship was added above"
     }
   ]
 }

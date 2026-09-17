@@ -298,6 +298,12 @@
       "position": 107,
       "change": 1,
       "reason": "Hazy wave was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 108,
+      "change": 1,
+      "reason": "agaship was added above"
     }
   ]
 }

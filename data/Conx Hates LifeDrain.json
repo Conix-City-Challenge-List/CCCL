@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/s_dqwLVwRto?si=QswhOVGgJmszoEUI",
   "percentToQualify": 100,
   "song": "Nuke Powder",
-  "difficulty": 14,
+  "difficulty": 13,
   "enjoyment": 7,
   "records": [
     {
@@ -97,6 +97,12 @@
       "position": 20,
       "change": 1,
       "reason": "Unnamed 38 was added above"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 21,
+      "change": 1,
+      "reason": "agaship was added above"
     }
   ]
 }

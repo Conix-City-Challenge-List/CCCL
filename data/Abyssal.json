@@ -761,6 +761,12 @@
       "position": 65,
       "change": -37,
       "reason": "Moved"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 66,
+      "change": 1,
+      "reason": "agaship was added above"
     }
   ]
 }

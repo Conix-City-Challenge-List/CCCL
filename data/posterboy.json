@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=XaMyOwNiLUI",
   "percentToQualify": 100,
   "song": "poster boy",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 9,
   "records": [
     {
@@ -668,6 +668,12 @@
       "position": 100,
       "change": 1,
       "reason": "Abyssal was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 101,
+      "change": 1,
+      "reason": "agaship was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/txO5ibIi6_A",
   "percentToQualify": 100,
   "song": "Omnipresent (AIM 2023)",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 4,
   "records": [
     {
@@ -395,6 +395,12 @@
       "position": 120,
       "change": 1,
       "reason": "bocchimoc was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 121,
+      "change": 1,
+      "reason": "agaship was added above"
     }
   ]
 }
