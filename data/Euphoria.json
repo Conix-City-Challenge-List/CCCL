@@ -45,6 +45,13 @@
       "percent": 100,
       "hz": 480,
       "enjoyment": 10
+    },
+    {
+      "user": "proxy",
+      "link": "https://youtu.be/hZofdsbhA60",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 7
     }
   ],
   "positionHistory": [
