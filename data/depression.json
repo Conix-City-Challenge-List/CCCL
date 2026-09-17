@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=ODG754x7LBY",
   "percentToQualify": 100,
   "song": "Heavenly Horrors",
-  "difficulty": 11,
+  "difficulty": 12,
   "enjoyment": 3,
   "records": [
     {
@@ -328,6 +328,12 @@
       "position": 41,
       "change": 1,
       "reason": "injured devil was added above"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 40,
+      "change": -1,
+      "reason": "Sweeping Chud II was moved down past this challenge"
     }
   ]
 }

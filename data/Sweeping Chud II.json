@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/PDtyexxjNx4?si=b-q4-lIunw4dLgc_",
   "percentToQualify": 100,
   "song": "Xtrullor - Wonderpunch",
-  "difficulty": 12,
+  "difficulty": 11,
   "enjoyment": 7,
   "records": [
     {
@@ -298,6 +298,12 @@
       "position": 36,
       "change": 1,
       "reason": "cade cunningham was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 42,
+      "change": 6,
+      "reason": "Moved"
     }
   ]
 }
