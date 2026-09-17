@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/fS5llVDcgRw",
   "percentToQualify": 100,
   "song": "Dry Out",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 7,
   "records": [
     {
@@ -405,6 +405,12 @@
       "position": 70,
       "change": 1,
       "reason": "injured devil was added above"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 71,
+      "change": 1,
+      "reason": "Tomato Farm was moved up past this challenge"
     }
   ]
 }
