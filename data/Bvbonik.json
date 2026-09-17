@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/647ZzVFd1nk?is=ACQ_5uB-f_79lwXY",
   "percentToQualify": 100,
   "song": "-Stalker-",
-  "difficulty": 7,
+  "difficulty": 4,
   "enjoyment": 5,
   "records": [
     {
@@ -300,6 +300,12 @@
       "position": 82,
       "change": 1,
       "reason": "bocchimoc was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 115,
+      "change": 33,
+      "reason": "Moved"
     }
   ]
 }

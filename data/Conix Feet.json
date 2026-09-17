@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=CcBH6gdfhd4",
   "percentToQualify": 100,
   "song": "cysmix - Eden",
-  "difficulty": 6,
+  "difficulty": 7,
   "enjoyment": 8,
   "records": [],
   "positionHistory": [
@@ -149,6 +149,12 @@
       "position": 91,
       "change": 1,
       "reason": "bocchimoc was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 90,
+      "change": -1,
+      "reason": "Bvbonik was moved down past this challenge"
     }
   ]
 }

@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/EX0HfMxde0w",
   "percentToQualify": 100,
   "song": "Helvetican - Bufu",
-  "difficulty": 5,
+  "difficulty": 6,
   "enjoyment": 6,
   "records": [
     {
@@ -770,6 +770,12 @@
       "position": 101,
       "change": 1,
       "reason": "bocchimoc was moved up past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 100,
+      "change": -1,
+      "reason": "Bvbonik was moved down past this challenge"
     }
   ]
 }
