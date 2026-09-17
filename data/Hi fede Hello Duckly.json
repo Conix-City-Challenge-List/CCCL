@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/EX0HfMxde0w",
   "percentToQualify": 100,
   "song": "Helvetican - Bufu",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 6,
   "records": [
     {
@@ -776,6 +776,12 @@
       "position": 100,
       "change": -1,
       "reason": "Bvbonik was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 101,
+      "change": 1,
+      "reason": "Hazy wave was moved up past this challenge"
     }
   ]
 }

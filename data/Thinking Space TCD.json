@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/58wNmbBlgAA",
   "percentToQualify": 100,
   "song": "Nuke Powder",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 8,
   "records": [
     {
@@ -552,6 +552,12 @@
       "position": 110,
       "change": -1,
       "reason": "Bvbonik was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-17",
+      "position": 111,
+      "change": 1,
+      "reason": "Hazy wave was moved up past this challenge"
     }
   ]
 }
