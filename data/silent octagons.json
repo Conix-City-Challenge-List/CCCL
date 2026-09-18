@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=f3i5MJZw9oc",
   "percentToQualify": 100,
   "song": "Hexagon Force",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 2,
   "records": [
     {
@@ -205,6 +205,12 @@
       "position": 70,
       "change": 1,
       "reason": "rori challenge was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 71,
+      "change": 1,
+      "reason": "Bloodship was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/W7H_dK4io-8?si=YxEJ4VuDjFXqV7iw",
   "percentToQualify": 100,
   "song": "Cast darkness (FX Loop)",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 9,
   "records": [
     {
@@ -313,6 +313,12 @@
       "position": 90,
       "change": 1,
       "reason": "rori challenge was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 91,
+      "change": 1,
+      "reason": "Bloodship was added above"
     }
   ]
 }

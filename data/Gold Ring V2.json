@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/1B1lFajafog",
   "percentToQualify": 100,
   "song": "ColBreakz - Gold Ring",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 8,
   "records": [
     {
@@ -1019,6 +1019,12 @@
       "position": 140,
       "change": 1,
       "reason": "rori challenge was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 141,
+      "change": 1,
+      "reason": "Bloodship was added above"
     }
   ]
 }

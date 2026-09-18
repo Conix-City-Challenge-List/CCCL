@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=bhJRHXAFzv4",
   "percentToQualify": 100,
   "song": "726003",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 6,
   "records": [
     {
@@ -359,6 +359,12 @@
       "position": 50,
       "change": 1,
       "reason": "anthermangoplease was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 51,
+      "change": 1,
+      "reason": "Bloodship was added above"
     }
   ]
 }

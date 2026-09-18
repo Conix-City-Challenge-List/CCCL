@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/_oMgmHbPCO8?si=ik7Rll58770ikwqX",
   "percentToQualify": 100,
   "song": "cYsmix - Eden",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 5,
   "records": [
     {
@@ -582,6 +582,12 @@
       "position": 120,
       "change": 1,
       "reason": "rori challenge was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 121,
+      "change": 1,
+      "reason": "Bloodship was added above"
     }
   ]
 }

@@ -1015,6 +1015,13 @@
       "position": 150,
       "change": 1,
       "reason": "rori challenge was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": null,
+      "change": null,
+      "reason": "Bloodship was added above",
+      "legacy": true
     }
   ]
 }

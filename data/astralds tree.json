@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=67F7DzjuXkQ",
   "percentToQualify": 100,
   "song": "10000104",
-  "difficulty": 13,
+  "difficulty": 12,
   "enjoyment": 1,
   "records": [
     {
@@ -292,6 +292,12 @@
       "position": 30,
       "change": 1,
       "reason": "agaship was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 31,
+      "change": 1,
+      "reason": "Bloodship was added above"
     }
   ]
 }

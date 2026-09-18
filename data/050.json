@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/wxXfxFyAFAk",
   "percentToQualify": 100,
   "song": "Arctic Monkey - 505",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 7,
   "records": [
     {
@@ -1032,6 +1032,12 @@
       "position": 130,
       "change": 1,
       "reason": "rori challenge was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 131,
+      "change": 1,
+      "reason": "Bloodship was added above"
     }
   ]
 }
