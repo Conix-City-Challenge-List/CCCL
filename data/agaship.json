@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/7ux8FwWsYNU?si=uKo4ChZ2llE31NAK",
   "percentToQualify": 100,
   "song": "Cuphead Remix- Floral Fury-The Living Tombstone",
-  "difficulty": 14,
+  "difficulty": 13,
   "enjoyment": 0,
   "records": [],
   "positionHistory": [
@@ -17,6 +17,12 @@
       "position": 18,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 25,
+      "change": 7,
+      "reason": "Moved"
     }
   ]
 }

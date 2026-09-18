@@ -274,6 +274,12 @@
       "position": 24,
       "change": 1,
       "reason": "Bloodship was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 23,
+      "change": -1,
+      "reason": "agaship was moved down past this challenge"
     }
   ]
 }

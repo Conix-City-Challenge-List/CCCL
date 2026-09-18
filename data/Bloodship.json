@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/4vynpnEXyug?si=Hr3amCPa-q-Txgja",
   "percentToQualify": 100,
   "song": "Clubstep",
-  "difficulty": 13,
+  "difficulty": 14,
   "enjoyment": 2,
   "records": [],
   "positionHistory": [
@@ -17,6 +17,12 @@
       "position": 21,
       "change": null,
       "reason": "Added to list"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 20,
+      "change": -1,
+      "reason": "agaship was moved down past this challenge"
     }
   ]
 }
