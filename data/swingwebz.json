@@ -10,7 +10,15 @@
   "song": "cerebral cobweb",
   "difficulty": 11,
   "enjoyment": 8,
-  "records": [],
+  "records": [
+    {
+      "user": "draki3poo",
+      "link": "https://medal.tv/games/geometry-dash/clips/nylje01hNse4oAvGQ?invite=cr-MSw2QkYsNzI0MDUyMDAx",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 0
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-10",
