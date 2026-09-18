@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/jxzyY2R7wWs?is=DGe87gLlM3qx-gUF",
   "percentToQualify": 100,
   "song": "Rukkus - 211",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 8,
   "records": [
     {
@@ -118,6 +118,12 @@
       "position": 110,
       "change": 1,
       "reason": "Conix is a pirate was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 111,
+      "change": 1,
+      "reason": "Estradel II unleash was added above"
     }
   ]
 }

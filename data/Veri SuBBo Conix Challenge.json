@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=R08zL1PWohs&list=LL&index=2",
   "percentToQualify": 100,
   "song": "Stalker",
-  "difficulty": 8,
+  "difficulty": 7,
   "enjoyment": 7,
   "records": [
     {
@@ -320,6 +320,12 @@
       "position": 80,
       "change": 1,
       "reason": "Bloodship was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 81,
+      "change": 1,
+      "reason": "Estradel II unleash was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/-kJSJOaNhcs",
   "percentToQualify": 100,
   "song": "945695",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 10,
   "records": [
     {
@@ -642,6 +642,12 @@
       "position": 140,
       "change": 1,
       "reason": "Conix is a pirate was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 141,
+      "change": 1,
+      "reason": "Estradel II unleash was added above"
     }
   ]
 }

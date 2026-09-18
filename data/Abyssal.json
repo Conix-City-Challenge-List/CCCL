@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/Vjqt5Ugq8j4",
   "percentToQualify": 100,
   "song": "Lunar Abyss",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 8,
   "records": [
     {
@@ -791,6 +791,12 @@
       "position": 70,
       "change": 1,
       "reason": "Bloodship was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 71,
+      "change": 1,
+      "reason": "Estradel II unleash was added above"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/U0_gV7BkGmk?is=HYTDQrjHOAqQ2b2-",
   "percentToQualify": 100,
   "song": "dimension - hyperdemented",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 2,
   "records": [
     {
@@ -1069,6 +1069,12 @@
       "position": 130,
       "change": 1,
       "reason": "Conix is a pirate was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 131,
+      "change": 1,
+      "reason": "Estradel II unleash was added above"
     }
   ]
 }
