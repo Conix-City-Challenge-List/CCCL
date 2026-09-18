@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/647ZzVFd1nk?is=ACQ_5uB-f_79lwXY",
   "percentToQualify": 100,
   "song": "-Stalker-",
-  "difficulty": 4,
+  "difficulty": 3,
   "enjoyment": 5,
   "records": [
     {
@@ -336,6 +336,12 @@
       "position": 120,
       "change": 1,
       "reason": "Bloodship was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 121,
+      "change": 1,
+      "reason": "Conix is a pirate was added above"
     }
   ]
 }

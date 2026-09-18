@@ -1381,6 +1381,13 @@
       "position": 150,
       "change": 1,
       "reason": "Bloodship was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": null,
+      "change": null,
+      "reason": "Conix is a pirate was added above",
+      "legacy": true
     }
   ]
 }

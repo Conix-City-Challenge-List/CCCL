@@ -1,0 +1,22 @@
+{
+  "id": 148786675,
+  "name": "Conix is a pirate",
+  "creators": [
+    "lucasvd"
+  ],
+  "verifier": "lucasvd",
+  "verification": "https://www.youtube.com/watch?v=yfDRyBpfr-o",
+  "percentToQualify": 100,
+  "song": "Hes a Pirate - F-777 remix",
+  "difficulty": 6,
+  "enjoyment": 10,
+  "records": [],
+  "positionHistory": [
+    {
+      "date": "2026-09-18",
+      "position": 99,
+      "change": null,
+      "reason": "Added to list"
+    }
+  ]
+}
