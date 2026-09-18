@@ -165,6 +165,12 @@
       "position": 24,
       "change": -1,
       "reason": "agaship was moved down past this challenge"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 25,
+      "change": 1,
+      "reason": "Melancholy was moved up past this challenge"
     }
   ]
 }

@@ -44,6 +44,12 @@
       "position": 26,
       "change": 1,
       "reason": "Bloodship was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 23,
+      "change": -3,
+      "reason": "Moved"
     }
   ]
 }
