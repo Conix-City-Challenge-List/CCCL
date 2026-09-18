@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/WAiQGgMsBW8?si=e2mkWdPND7XObUsH",
   "percentToQualify": 100,
   "song": "10000748",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 2,
   "records": [
     {
@@ -585,6 +585,12 @@
       "position": 90,
       "change": 1,
       "reason": "agaship was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 91,
+      "change": 1,
+      "reason": "conix challenge (1) was added above"
     }
   ]
 }
