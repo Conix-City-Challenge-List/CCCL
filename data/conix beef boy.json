@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/-sdU-GGCZEY",
   "percentToQualify": 100,
   "song": "Triple Helix",
-  "difficulty": 2,
+  "difficulty": 1,
   "enjoyment": 9,
   "records": [
     {
@@ -726,6 +726,12 @@
       "position": 140,
       "change": 1,
       "reason": "conix challenge (1) was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 141,
+      "change": 1,
+      "reason": "anthermangoplease was added above"
     }
   ]
 }

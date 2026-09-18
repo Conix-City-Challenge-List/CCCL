@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/6-sdGJh4xks?si=3F_k45qEysgu_3Jv",
   "percentToQualify": 100,
   "song": "No Church In The Wild - Jay-Z & Kanye West",
-  "difficulty": 11,
+  "difficulty": 10,
   "enjoyment": 9,
   "records": [
     {
@@ -345,6 +345,12 @@
       "position": 50,
       "change": 1,
       "reason": "agaship was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 51,
+      "change": 1,
+      "reason": "anthermangoplease was added above"
     }
   ]
 }

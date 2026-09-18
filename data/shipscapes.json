@@ -9,7 +9,7 @@
   "verification": "https://youtu.be/rWVOtxzGmIg",
   "percentToQualify": 100,
   "song": "creo - flow",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 4,
   "records": [
     {
@@ -401,6 +401,12 @@
       "position": 100,
       "change": 1,
       "reason": "conix challenge (1) was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 101,
+      "change": 1,
+      "reason": "anthermangoplease was added above"
     }
   ]
 }

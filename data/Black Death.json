@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/yT-0xvxMMP0?is=M-RnbXtOy31yM42p",
   "percentToQualify": 100,
   "song": "Flawless Wings of Yatagarasu",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 7,
   "records": [
     {
@@ -244,6 +244,12 @@
       "position": 110,
       "change": 1,
       "reason": "conix challenge (1) was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 111,
+      "change": 1,
+      "reason": "anthermangoplease was added above"
     }
   ]
 }
