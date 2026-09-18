@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=ynh4LMTq1Do",
   "percentToQualify": 100,
   "song": "I N J U R Y",
-  "difficulty": 3,
+  "difficulty": 2,
   "enjoyment": 10,
   "records": [
     {
@@ -201,6 +201,12 @@
       "position": 130,
       "change": 1,
       "reason": "anthermangoplease was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 131,
+      "change": 1,
+      "reason": "rori challenge was added above"
     }
   ]
 }

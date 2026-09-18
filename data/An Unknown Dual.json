@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/ia2Zh8t54Ns",
   "percentToQualify": 100,
   "song": "Thunder",
-  "difficulty": 7,
+  "difficulty": 6,
   "enjoyment": 9,
   "records": [
     {
@@ -550,6 +550,12 @@
       "position": 90,
       "change": 1,
       "reason": "anthermangoplease was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 91,
+      "change": 1,
+      "reason": "rori challenge was added above"
     }
   ]
 }

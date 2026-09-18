@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/U4ZUiGg6Jjo",
   "percentToQualify": 100,
   "song": "-stalker-",
-  "difficulty": 6,
+  "difficulty": 5,
   "enjoyment": 10,
   "records": [
     {
@@ -607,6 +607,12 @@
       "position": 100,
       "change": 1,
       "reason": "anthermangoplease was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 101,
+      "change": 1,
+      "reason": "rori challenge was added above"
     }
   ]
 }

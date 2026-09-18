@@ -8,7 +8,7 @@
   "verification": "https://youtu.be/wv2XtYrLrTc",
   "percentToQualify": 100,
   "song": "-Killstealer-",
-  "difficulty": 9,
+  "difficulty": 8,
   "enjoyment": 7,
   "records": [
     {
@@ -307,6 +307,12 @@
       "position": 70,
       "change": 1,
       "reason": "anthermangoplease was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 71,
+      "change": 1,
+      "reason": "rori challenge was added above"
     }
   ]
 }

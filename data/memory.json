@@ -8,7 +8,7 @@
   "verification": "https://www.youtube.com/watch?v=stuP6_ArCL8",
   "percentToQualify": 100,
   "song": "Momentum",
-  "difficulty": 5,
+  "difficulty": 4,
   "enjoyment": 8,
   "records": [
     {
@@ -316,6 +316,12 @@
       "position": 110,
       "change": 1,
       "reason": "anthermangoplease was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 111,
+      "change": 1,
+      "reason": "rori challenge was added above"
     }
   ]
 }
