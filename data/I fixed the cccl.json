@@ -72,6 +72,12 @@
       "position": 30,
       "change": 1,
       "reason": "Bloodship was added above"
+    },
+    {
+      "date": "2026-09-18",
+      "position": 29,
+      "change": -1,
+      "reason": "Viverre Cloud was moved down past this challenge"
     }
   ]
 }
