@@ -10,7 +10,15 @@
   "song": "Momentum - Geoplex",
   "difficulty": 12,
   "enjoyment": 10,
-  "records": [],
+  "records": [
+    {
+      "user": "Murshark",
+      "link": "https://medal.tv/games/geometry-dash/clips/ny2FjZoCPZtXhWMla?invite=cr-MSxNaXAsNzcwNjg5MDcw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-14",
