@@ -10,7 +10,15 @@
   "song": "Cuphead Remix- Floral Fury-The Living Tombstone",
   "difficulty": 13,
   "enjoyment": 0,
-  "records": [],
+  "records": [
+    {
+      "user": "Murshark",
+      "link": "https://medal.tv/games/geometry-dash/clips/ny2dLcblpqnhriFmW?invite=cr-MSxkR2YsNzcwNjg5MDcw",
+      "percent": 100,
+      "hz": 240,
+      "enjoyment": 6
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-17",
