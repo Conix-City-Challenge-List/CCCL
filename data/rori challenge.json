@@ -10,7 +10,15 @@
   "song": "Dance of the Violins",
   "difficulty": 9,
   "enjoyment": 9,
-  "records": [],
+  "records": [
+    {
+      "user": "keke",
+      "link": "https://medal.tv/games/geometry-dash/clips/nyoUCSQLEi2jcgdze?invite=cr-MSxxcEQsNTEyMTA0NDk3",
+      "percent": 100,
+      "hz": 480,
+      "enjoyment": 10
+    }
+  ],
   "positionHistory": [
     {
       "date": "2026-09-18",
